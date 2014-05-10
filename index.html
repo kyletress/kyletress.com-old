@@ -1,0 +1,22 @@
+{% capture content %}
+<div class="row introduction">
+  <div class="col-md-3">
+    <h1><mark>{{posts.first.title}}</mark></h1>
+    <div class="entry-content">{{ posts.first | strip_html }}<a href="{{posts.first.url}}">&infin;</a></div>
+    <h2>Newsletter</h2>
+    {% include 'includes/newsletter' %}
+  </div><!--end column-->
+
+  {% if posts.first.assets.first %}
+  <div class="col-md-3">
+    <figure>
+      <img src="{{posts.first.assets.first.url}}" class="img-bordered">
+      <figcaption>{{posts.first.assets.first.meta.caption}}</figcaption>
+    </figure>
+  </div>
+  {% endif %}
+
+</div><!--end row-->
+{% endcapture %}
+
+{% include 'layouts/default' %}

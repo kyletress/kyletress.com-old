@@ -1,0 +1,19 @@
+{% capture content %}
+<header class="entry-header">
+  <h1>{{ title }}</h1>
+  {% if meta.subtitle %}
+  <p><em>{{ meta.subtitle }}</em> by {% for tag in taxonomy.author %}{{tag}}{% endfor %}</p>
+  {% endif %}
+</header>
+
+<h2>Notes</h2>
+{% for note in parent.pages['notes'].taxonomy['book'][slug].posts %}
+<section>
+  {{ note.body }}
+  <small>{{ note.meta.location }} <a href="{{ note.url}}">&infin;</a></small>
+</section>
+{% endfor %}
+
+{% endcapture %}
+
+{% include 'layouts/default' %}

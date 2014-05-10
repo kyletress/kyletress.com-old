@@ -1,0 +1,39 @@
+{% capture content %}
+{% if pages %}
+  <nav role="subnavigation">
+    {% for subpage in pages %}
+      <a href="{{subpage.url}}">{{subpage.title}}</a>
+    {% endfor %}
+  </nav>
+{% endif %}
+	<div class="row">
+    <div class="col-md-4 essay-content">
+      <article class="essay">
+        <header class="entry-header">
+          <h1>{{ title }}</h1>
+        </header>
+        <div class="entry-content">
+          {{ body }}
+        </div>
+        <footer class="entry-footer">
+          {% if type == "post" %}
+            {% for tagset in taxonomy %}
+              <strong>{{tagset.key}}</strong>
+              <ul>
+                {% for tag in tagset %}
+                  <li><a href="{{tag.url}}">{{tag.value}}</a></li>
+                {% endfor %}
+              </ul>
+          {% endfor %}
+          {% else %}
+            {% comment %} Loop through any posts and show an excerpt {% endcomment %}
+              {% include 'includes/posts' %}
+          {% endif %}
+        </footer>
+      </article>
+      {% if parent %}
+        <p><a href="{{parent.url}}">&larr; Back to {{parent.title}}</a></p>
+      {% endif %}
+    </div>
+{% endcapture %}
+{% include 'layouts/default' %}
