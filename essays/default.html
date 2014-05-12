@@ -1,0 +1,33 @@
+{% capture content %}
+
+{% if pages %}
+<nav role="subnavigation">
+  {% for subpage in pages %}
+  <a href="{{subpage.url}}">{{subpage.title}}</a>
+  {% endfor %}
+</nav>
+{% endif %}
+
+<main>
+  <article class="article">
+    <header class="content-header">
+      <h1>{{ title }}</h1>
+      <time datetime="{{date}}">{{ date | date: '%B %d, %Y' }}</time>
+    </header>
+    <div class="content-body">
+      {{ body }}
+    </div>
+    <footer class="content-footer">
+      tags and taxonomies
+      {% if parent %}
+      <p><a href="{{parent.url}}">&larr; Back to {{parent.title}}</a></p>
+      {% endif %}
+    </footer>
+  </article>
+</main>
+
+{% include 'includes/newsletter' %}
+
+{% endcapture %}
+
+{% include 'layouts/default' %}

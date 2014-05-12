@@ -15,17 +15,12 @@ body{
   font-family:"ff-meta-serif-web-pro", serif;
   color:#444;
   line-height:1.6;
+  border-top:10px solid #f1f1f1;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color:#222;
-}
-
-h2.announcement {
-  font-family: "Source sans pro", sans-serif;
-  letter-spacing:1px;
-  font-size:1.6rem;
-  text-transform:uppercase;
+  font-weight: normal;
 }
 
 a{
@@ -39,7 +34,7 @@ a:hover{
   text-decoration:underline;
 }
 
-.entry-content > p:first-child:first-line{
+.content-body > p:first-child:first-line{
   font-family: "ff-meta-serif-sc-web-pro";
 }
 
@@ -81,20 +76,28 @@ mark{
 }
 
 .container{
-  max-width:140rem;
-  margin:0 auto;
+  width:90%;
+  max-width:90rem;
+  margin: 0 auto;
+}
+
+main{
+  margin: 4rem 0;
 }
 
 header[role="banner"] {
-  padding:2rem;
+  padding:2rem 0;
   text-align:center;
   font-size:1.6rem;
-  border-bottom:1px solid #eee;
   margin-bottom:2rem;
 }
 
 header[role="banner"] p {
   margin:0;
+}
+
+.newsletter{
+  text-align:center;
 }
 
 .img-bordered{
@@ -114,51 +117,64 @@ input {
 .button {
   text-align:center;
   display:inline-block;
-  background:#dff0d8;
-  color:white;
-  border:none;
+  background:#fff;
+  color:#cee1c7;
+  border:2px solid #dff0d8;
   font-family:"Source Sans Pro";
   text-transform:uppercase;
   letter-spacing:1px;
   font-weight:600;
   font-size:1.4rem;
-  padding:.8rem 1rem;
+  padding:.6rem 1rem;
 }
 
 .headshot img:hover{
   background:#f3f3f3;
 }
 
-nav[role="navigation"] ul {
+nav[role="navigation"] ul,
+nav[role="subnavigation"] ul {
   list-style:none;
   padding:0;
   margin:0;
   font-style:italic;
 }
 
-nav[role="navigation"] li {
+nav[role="navigation"] li,
+nav[role="subnavigation"] li {
   display: inline-block;
   margin-right:7px;
 }
 
-nav[role="navigation"] li:last-child {
+nav[role="navigation"] li:last-child,
+nav[role="subnavigation"] li:last-child {
   padding-right:0;
 }
 
-header.entry-header{
+header.content-header{
+  text-align:center;
+  margin-bottom:4rem;
 }
 
-header.entry-header h1{
-  line-height:4rem;
+header.content-header h1{
+  margin-bottom: 0;
 }
 
-header.entry-header h2{
+header.content-header time {
+  color:#999;
+  text-transform: uppercase;
+}
+
+header.content-header h2{
   margin-top: 0;
   margin-bottom:1rem;
   color: rgba(0,0,0,.5);
   color:#A73D37;
   font-style:italic;
   font-weight:400;
+}
+
+.article {
 }
 
 .introduction{

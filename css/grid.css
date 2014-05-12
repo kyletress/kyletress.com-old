@@ -6,7 +6,7 @@
   border:1px solid rgba(86,61,124,.2);
 }
 
-[class^=col-]{flex-basis:100%;padding:0 2rem;}
+[class^=col-]{flex-basis:100%;padding:0;}
 
 .row{
   display: -webkit-flex;
@@ -359,4 +359,8 @@
   -webkit-order: 1;
   -ms-flex-order: 1;
   order: 1;
+}
+
+.align-center{
+  text-align:center;
 }

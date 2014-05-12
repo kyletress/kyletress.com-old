@@ -12,34 +12,33 @@
 </head>
 
 <body class="{% if parent %}{{ parent.title }}{% else %}{{ slug }}{% endif %}">
-  <header role="banner">
+    <header role="banner">
+      <div class="container">
+        <div class="headshot">
+          <img src="/assets/headshot.jpg" alt="Headshot of Kyle Tress" class="img-bordered" width="101" />
+        </div>
+        <div>
+          <p><em>Meditations</em>, the website of Kyle Tress &mdash; Olympic athlete, writer, and software developer.</p>
+          <nav role="navigation">
+            <ul>
+              {% for page in site.pages %}
+              <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
     <div class="container">
-      <div class="headshot">
-        <img src="/assets/headshot.jpg" alt="Headshot of Kyle Tress" class="img-bordered" width="101" />
-      </div>
-      <div>
-        <p>Hi I'm <strong>Kyle Tress</strong>, an Olympic skeleton athlete, writer, and software developer.</p>
-        <nav role="navigation">
-        <ul>
-          {% for page in site.pages %}
-          <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </nav>
-      </div>
-    </div>
-  </header>
-<div class="container">
-  {{ content }}
 
-<footer role="site-footer">
-  {% include 'includes/social-links' %}
-  <p>Since 2002. <em>Mens sana in corpore sano</em>.</p>
-  <div class="rings"><img src="/assets/rings.svg" width="50"></div>
-</footer>
-</div><!--end container-->
+    {{ content }}
 
-{% include 'includes/analytics' %}
-
+    <footer role="site-footer">
+      {% include 'includes/social-links' %}
+      <p>Since 2002. <em>Mens sana in corpore sano</em>.</p>
+      <div class="rings"><img src="/assets/rings-grey.svg" width="75"></div>
+    </footer>
+  </div><!--end container-->
+  {% include 'includes/analytics' %}
 </body>
 </html>
