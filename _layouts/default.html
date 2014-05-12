@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>{{ site.title }} | {% if home? %}Meditations{% else %}{{title}}{% endif %}</title>
+  <title>{{ site.title }} - {{ current.title }}</title>
   <meta name="description" content="{{site.meta.description}}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/css/normalize.css">
@@ -18,7 +18,7 @@
           <img src="/assets/headshot.jpg" alt="Headshot of Kyle Tress" class="img-bordered" width="101" />
         </div>
         <div>
-          <p><em>Meditations</em>, the website of Kyle Tress &mdash; Olympic athlete, writer, and software developer.</p>
+          <p>{{site.meta.tagline}}</p>
           <nav role="navigation">
             <ul>
               {% for page in site.pages %}

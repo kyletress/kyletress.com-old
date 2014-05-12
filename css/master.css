@@ -176,10 +176,7 @@ header.content-header time {
 header.content-header h2{
   margin-top: 0;
   margin-bottom:1rem;
-  color: rgba(0,0,0,.5);
-  color:#A73D37;
-  font-style:italic;
-  font-weight:400;
+  color:#999;
 }
 
 .article {

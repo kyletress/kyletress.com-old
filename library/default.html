@@ -1,8 +1,8 @@
 {% capture content %}
-<header class="entry-header">
+<header class="content-header">
   <h1>{{ title }}</h1>
   {% if meta.subtitle %}
-  <p><em>{{ meta.subtitle }}</em> by {% for tag in taxonomy.author %}{{tag}}{% endfor %}</p>
+  <h2><em>{{ meta.subtitle }}</em> by {% for tag in taxonomy.author %}{{tag}}{% endfor %}</h2>
   {% endif %}
 </header>
 
