@@ -9,7 +9,7 @@
 {% endif %}
 
 <main>
-  <article class="article">
+  <article class="essay">
     <header class="content-header">
       <h1>{{ title }}</h1>
       <time datetime="{{date}}">{{ date | date: '%B %d, %Y' }}</time>
@@ -20,7 +20,14 @@
       {{ body }}
     </div>
     <footer class="content-footer">
-      tags and taxonomies
+      {% if taxonomy.tags.size > 0 %}
+        <strong>Tags: </strong>
+        {% for tag in taxonomy.tags %}
+          <a href="{{tag.url}}">#{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+      {% else %}
+        No tags
+      {% endif %}
       {% if parent %}
       <p><a href="{{parent.url}}">&larr; Back to {{parent.title}}</a></p>
       {% endif %}

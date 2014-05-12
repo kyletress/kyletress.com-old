@@ -34,7 +34,7 @@ a:hover{
   text-decoration:underline;
 }
 
-.content-body > p:first-child:first-line{
+.essay .content-body > p:first-child:first-line{
   font-family: "ff-meta-serif-sc-web-pro";
 }
 
