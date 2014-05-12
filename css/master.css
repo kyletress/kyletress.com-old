@@ -151,6 +151,15 @@ nav[role="subnavigation"] li:last-child {
   padding-right:0;
 }
 
+nav[role="navigation"] li.active a {
+  color:#222;
+  cursor:normal;
+}
+
+nav[role="navigation"] li.active a:hover {
+  text-decoration:none;
+}
+
 header.content-header{
   text-align:center;
   margin-bottom:4rem;
