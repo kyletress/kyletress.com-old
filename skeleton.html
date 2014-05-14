@@ -1,0 +1,19 @@
+{% capture content %}
+<h1>{{title}}</h1>
+
+{{body}}
+
+{% for subpage in pages %}
+<section>
+  <h1>{{subpage.title}}</h1>
+  <ul>
+  {% for post in subpage.posts %}
+  <li><a href="{{post.url}}">{{post.title}}</a></li>
+  {% endfor %}
+  </ul>
+</section>
+{% endfor %}
+
+{% endcapture %}
+
+{% include 'layouts/default'%}
