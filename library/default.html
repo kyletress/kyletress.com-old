@@ -1,18 +1,35 @@
 {% capture content %}
 <header class="content-header">
-  <h1>{{ title }}</h1>
-  {% if meta.subtitle %}
-  <h2><em>{{ meta.subtitle }}</em> by {% for tag in taxonomy.author %}{{tag}}{% endfor %}</h2>
-  {% endif %}
+  <div>
+    <h1>{{ title }}</h1>
+    {% if meta.subtitle %}
+    <p><em>{{ meta.subtitle }}</em></p>
+    {% endif %}
+    <p>{% for tag in taxonomy.author %}{{tag}} {% endfor %}</p>
+    <p><a href="#">See it on amazon.com</a>
+  </div>
+  <figure>
+    <img src="{{assets.first}}" alt="{{assets.first.caption}}" width="{{site.meta.book-cover-width}}" class="img-bordered">
+  </figure>
 </header>
 
+{% if body != empty %}
+<section class="book-summary">
+<h2>Summary</h2>
+{{ body }}
+</section>
+{%endif%}
+
+<section class="book-notes">
 <h2>Notes</h2>
 {% for note in parent.pages['notes'].taxonomy['book'][slug].posts %}
 <section>
   {{ note.body }}
-  <small>{{ note.meta.location }} <a href="{{ note.url}}">&infin;</a></small>
+  <a href="{{ note.url}}">{{ note.meta.location }}</a> &mdash;
+  {% for tag in note.taxonomy.tags%}<a href="{{tag.url}}">#{{tag}} </a>{%endfor%}
 </section>
 {% endfor %}
+</section>
 
 {% endcapture %}
 

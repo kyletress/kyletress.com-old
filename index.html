@@ -1,22 +1,40 @@
 {% capture content %}
 
-<div class="row introduction">
+<h2 class="announcement"><mark>{{ posts.first.date | date: '%B %d, %Y' }}</mark></h2>
+{{posts.first}}
+<a href="{{ posts.first.url }}">All site updates &raquo;</a>
+
+<div class="row">
   <div class="col-md-3">
-    <h1>{{posts.first.title}}</h1>
-    <div class="entry-content">{{ posts.first | strip_html }}<a href="{{posts.first.url}}">&infin;</a></div>
-    {% include 'includes/newsletter' %}
+    <h2>Essays</h2>
+    <ul>
+      {% for post in site.pages.essays.posts %}
+      <li><a href="{{post.url}}">{{post.title}}</a></li>
+      {%endfor%}
+    </ul>
   </div><!--end column-->
 
   {% if posts.first.assets.first %}
-  <div class="col-md-3 align-center">
-    <figure>
-      <img src="{{posts.first.assets.first.url}}" class="img-bordered">
-      <figcaption>{{posts.first.assets.first.meta.caption}}</figcaption>
-    </figure>
+  <div class="col-md-3">
+  <h2>Reading</h2>
+  <ul>
+    {% for post in site.pages.library.posts %}
+    <li><a href="{{post.url}}">{{post.title}}</a></li>
+    {%endfor%}
+  </ul>
+  <h2>Projects</h2>
+  <ul>
+    {% for post in site.pages.portfolio.posts %}
+    <li><a href="{{post.url}}">{{post.title}}</a></li>
+    {%endfor%}
+  </ul>
   </div>
   {% endif %}
 
 </div><!--end row-->
+
+{% include 'includes/newsletter' %}
+
 {% endcapture %}
 
 {% include 'layouts/default' %}

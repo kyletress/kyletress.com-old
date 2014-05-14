@@ -179,6 +179,10 @@ header.content-header h2{
   color:#999;
 }
 
+.Library header.content-header p{
+  margin:0;
+}
+
 .article {
 }
 
@@ -191,6 +195,7 @@ footer[role="site-footer"] {
   font-size:1.4rem;
   color:#666;
   text-align:center;
+  padding:4rem 0;
 }
 
 footer[role="site-footer"] p{
@@ -235,6 +240,40 @@ a.link-instagram{color:#517FA4;}
   footer[role="site-footer"] {
     text-align:left;
   }
+
+  .Library header.content-header{
+    display:flex;
+    text-align:left;
+  }
+
+  .Library header.content-header div{
+    order:2;
+  }
+
+  .Library header.content-header figure{
+    margin-right:2rem;
+  }
+
+  .book-notes{
+    font-size:1.4rem;
+    color:#888;
+  }
+
+  .book-notes a{
+    color:#333;
+  }
+
+  .book-notes > section{
+    border-bottom:1px solid #eee;
+    margin-bottom:4rem;
+    padding-bottom:4rem;
+  }
+
+  .newsletter {
+    text-align:left;
+  }
+
+
 }
 
 /* =============================================================
