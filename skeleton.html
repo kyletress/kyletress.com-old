@@ -3,16 +3,35 @@
 
 {{body}}
 
-{% for subpage in pages %}
-<section>
-  <h1>{{subpage.title}}</h1>
+<div class="row">
+  <div class="col-md-3">
+    <h2>Articles and Essays</h2>
+    {% include 'includes/posts'%}
+    <h2>FAQs</h2>
+    <ul>
+      {% for post in pages.faqs.posts %}
+      <li><a href="{{post.url}}">{{post.title}}</a></li>
+      {%endfor%}
+    </ul>
+  </div><!--end column-->
+
+  <div class="col-md-3">
+  <h2>My Results</h2>
   <ul>
-  {% for post in subpage.posts %}
-  <li><a href="{{post.url}}">{{post.title}}</a></li>
-  {% endfor %}
+    {% for page in pages.results.pages %}
+    <li><a href="{{page.url}}">{{page.title}}</a></li>
+    {%endfor%}
   </ul>
-</section>
-{% endfor %}
+  <h2>Projects</h2>
+  <ul>
+    {% for post in site.pages.portfolio.posts %}
+    <li><a href="{{post.url}}">{{post.title}}</a></li>
+    {%endfor%}
+  </ul>
+  </div>
+
+</div><!--end row-->
+
 
 {% endcapture %}
 
