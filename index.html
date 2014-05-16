@@ -1,8 +1,8 @@
 {% capture content %}
 
-<h2 class="announcement"><mark>{{ posts.first.date | date: '%B %d, %Y' }}</mark></h2>
+<h2 class="announcement"><mark>{{ posts.first.title }}</mark></h2>
 {{posts.first}}
-<a href="{{ posts.first.url }}">All site updates &raquo;</a>
+<a href="{{ posts.first.url }}">All status updates &raquo;</a>
 
 <div class="row">
   <div class="col-md-3">
