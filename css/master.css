@@ -10,9 +10,15 @@ html{
 }
 
 body{
+<<<<<<< Updated upstream
   font-size:18px;
   font-size:1.8rem;
   font-family:"ff-meta-serif-web-pro", serif;
+=======
+  font-size:20px;
+  font-size:2rem;
+  font-family:"freight-text-pro", "ff-meta-serif-web-pro", serif;
+>>>>>>> Stashed changes
   color:#444;
   line-height:1.6;
   /* border-top:10px solid #f1f1f1; */
@@ -25,6 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a{
   color:#A73D37;
+  color:#275C7B;
   transition: color .5s ease;
   text-decoration:none;
 }
@@ -86,14 +93,24 @@ main{
 }
 
 header[role="banner"] {
-  padding:4rem 0;
+  background:#f4f4f4;
+  padding:1.2rem 0;
   text-align:center;
-  font-size:1.6rem;
+  font-size:1.4rem;
   margin-bottom:2rem;
+  text-transform:lowercase;
 }
 
-header[role="banner"] p {
+header[role="banner"] h1 {
+  color:#ccc;
+  font-size:1.4rem;
+  padding:0;
   margin:0;
+}
+
+header[role="banner"] h1 a{
+  color:#275C7B;
+  font-weight:bold;
 }
 
 .newsletter{
@@ -137,7 +154,6 @@ nav[role="subnavigation"] ul {
   list-style:none;
   padding:0;
   margin:0;
-  font-style:italic;
 }
 
 nav[role="navigation"] li,
@@ -213,6 +229,10 @@ a.link-github{color:#333333;}
 a.link-youtube{color:#CD332D;}
 a.link-treehouse{color:#80A34C;}
 a.link-instagram{color:#517FA4;}
+.emphasis{
+  text-transform:uppercase;
+  letter-spacing:2px;
+}
 
 @media (min-width: 992px) {
 
@@ -221,16 +241,22 @@ a.link-instagram{color:#517FA4;}
     font-size:1.6rem;
   }
 
-  header[role="banner"] .container {
+  header[role="banner"] {
     display:-webkit-flex;
     display:flex;
-    text-align:left;
     -webkit-align-items:center;
     align-items:center;
+    padding:1rem 2rem;
   }
 
-  header[role="banner"] img {
-    display:block;
+  header[role="banner"] h1 {
+    flex:1;
+    text-align:left;
+  }
+
+  header[role="banner"] nav {
+    flex:1;
+    text-align:right;
   }
 
   .headshot {
