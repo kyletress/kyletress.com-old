@@ -12,7 +12,7 @@ html{
 body{
   font-size:20px;
   font-size:2rem;
-  font-family:"ff-meta-serif-web-pro", serif;
+  font-family:"freight-text-pro", "ff-meta-serif-web-pro", serif;
   color:#444;
   line-height:1.6;
   /* border-top:10px solid #f1f1f1; */
@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a{
-  color:#A73D37;
+  color:#275C7B;
   transition: color .5s ease;
   text-decoration:none;
 }
@@ -86,14 +86,26 @@ main{
 }
 
 header[role="banner"] {
-  padding:4rem 0;
+  background:#f4f4f4;
+  padding:1rem 2rem;
   text-align:center;
-  font-size:1.6rem;
   margin-bottom:2rem;
+  font-weight:500;
+  font-size:1.6rem;
 }
 
-header[role="banner"] p {
-  margin:0;
+header[role="banner"] h1 {
+  font-size:1.6rem;
+  font-weight:500;
+}
+
+header[role="banner"] h1 a{
+  font-weight:600;
+}
+
+.masthead img{
+  width:150px;
+  height:150px;
 }
 
 .newsletter{
@@ -103,6 +115,10 @@ header[role="banner"] p {
 .img-bordered{
   padding:5px;
   border:1px solid #eee;
+}
+
+.img-rounded{
+  border-radius:50%;
 }
 
 input {
@@ -137,7 +153,6 @@ nav[role="subnavigation"] ul {
   list-style:none;
   padding:0;
   margin:0;
-  font-style:italic;
 }
 
 nav[role="navigation"] li,
@@ -186,7 +201,7 @@ header.content-header h2{
 .article {
 }
 
-.introduction{
+.masthead{
   padding:4rem 0;
   border-bottom:1px dotted #eaeaea;
 }
@@ -200,6 +215,11 @@ footer[role="site-footer"] {
 
 footer[role="site-footer"] p{
   margin:0;
+}
+
+p.tagline{
+  letter-spacing:2px;
+  text-transform:uppercase;
 }
 
 .rings{
@@ -216,29 +236,31 @@ a.link-instagram{color:#517FA4;}
 
 @media (min-width: 992px) {
 
-  body {
-    font-size:16px;
-    font-size:1.6rem;
-  }
 
-  header[role="banner"] .container {
+  header[role="banner"] {
     display:-webkit-flex;
     display:flex;
-    text-align:left;
     -webkit-align-items:center;
     align-items:center;
   }
 
-  header[role="banner"] img {
-    display:block;
+  header[role="banner"] h1 {
+    flex:1;
+    text-align:left;
   }
 
-  .headshot {
-    margin-right:1rem;
+  header[role="banner"] nav {
+    flex:1;
+    text-align:right;
+  }
+
+
+  .masthead{
+    
   }
 
   footer[role="site-footer"] {
-    text-align:left;
+    text-align:center;
   }
 
   .Library header.content-header{
@@ -274,37 +296,4 @@ a.link-instagram{color:#517FA4;}
   }
 
 
-}
-
-/* =============================================================
-
-	Labels v1.0
-	Lightweight CSS labels by Chris Ferdinandi.
-	http://gomakethings.com
-
-	Free to use under the MIT License.
-	http://gomakethings.com/mit/
-
- * ============================================================= */
-.label {
-  font-size: 1.2rem;
-  font-family: "Source Sans Pro";
-  color: white;
-  background-color: #0088cc;
-  font-weight: bold;
-  padding: .2rem;
-  border-radius: 2px;
-  text-transform:lowercase;
-}
-
-.label-success {
-  background-color: #377f31;
-}
-
-.label-danger {
-  background-color: #880e14;
-}
-
-.label-warning {
-  background-color: #dba909;
 }

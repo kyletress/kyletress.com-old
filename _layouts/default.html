@@ -13,32 +13,27 @@
 </head>
 
 <body class="{% if parent %}{{ parent.title }}{% else %}{{ slug }}{% endif %}">
-    <header role="banner">
-      <div class="container">
-        <div class="headshot">
-          <img src="/assets/headshot.jpg" alt="Headshot of Kyle Tress" class="img-bordered" width="101" />
-        </div>
-        <div>
-          <p>{{site.meta.tagline}}</p>
-          <nav role="navigation">
-            <ul>
-              {% for page in site.pages %}
-              <li {% if page.url == current.url %}class="active"{%endif%}>
-                <a href="{{ page.url }}">{{ page.title }}</a>
-              </li>
-              {% endfor %}
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
-    <div class="container">
+  <header role="banner">
+  <h1><a href="/">Kyle Tress</a> is an Olympic athlete, writer, and software developer.</h1>
+    <nav role="navigation">
+      <ul>
+        <li><a href="/about">about</a></li>
+        <li><a href="/essays">essays</a></li>
+        <li><a href="/skeleton">skeleton</a></li>
+        <li><a href="/library">reading</a></li>
+        <li><a href="/videos">videos</a></li>
+        <li><a href="/portfolio">work</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
 
     {{ content }}
 
     <footer role="site-footer">
       {% include 'includes/social-links' %}
-      <p>Since 2002. <em>Mens sana in corpore sano</em>.</p>
+      <p class="tagline">Mens sana in corpore sano</p>
       <div class="rings"><img src="/assets/rings-grey.svg" width="65"></div>
     </footer>
   </div><!--end container-->
