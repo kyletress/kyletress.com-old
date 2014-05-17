@@ -149,6 +149,7 @@ input {
 
 .masthead {
   text-align:center;
+  font-weight:700;
 }
 
 nav[role="navigation"] ul,
