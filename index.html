@@ -1,6 +1,11 @@
 {% capture content %}
+
 <section class="masthead">
-  <img src="/assets/headshot.jpg" alt="Headshot of Kyle Tress" class="img-bordered img-rounded">
+  {% if assets.first.meta.type == 'featured' %}
+  <img src="{{assets.first.url}}" alt="assets.first.meta.caption" class="img-bordered">
+  {% else %}
+  <img src="/assets/headshot.jpg" alt="Headshot of Kyle Tress" class="img-bordered img-rounded" width="150">
+  {% endif %}
   {{ body }}
 </section>
 

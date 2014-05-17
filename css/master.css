@@ -106,11 +106,6 @@ header[role="banner"] h1 a{
   color:white;
 }
 
-.masthead img{
-  width:150px;
-  height:150px;
-}
-
 .newsletter{
   text-align:center;
 }
@@ -302,6 +297,4 @@ a.link-instagram{color:#517FA4;}
   .newsletter {
     text-align:left;
   }
-
-
 }
