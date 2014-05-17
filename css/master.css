@@ -14,6 +14,7 @@ body{
   font-family:"freight-text-pro", "ff-meta-serif-web-pro", serif;
   color:#444;
   line-height:1.6;
+  border-top:5px solid #80A34C;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -22,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a{
-  color:#275C7B;
+  color:#80A34C;
   transition: color .5s ease;
   text-decoration:none;
 }
@@ -84,26 +85,20 @@ main{
 }
 
 header[role="banner"] {
-  background:#275C7B;
-  padding:1rem 2rem;
+  padding:2rem;
   text-align:center;
   font-size:1.6rem;
-  margin-bottom:2rem;
   text-transform:lowercase;
 }
 
 header[role="banner"] h1 {
-  color:#bbb;
-  color:rgba(255,255,255,.30);
-  font-size:1.6rem;
-  font-weight:500;
+  font-size:2.4rem;
   margin:0;
 }
 
 header[role="banner"] h1 a{
-  color:#275C7B;
-  font-weight:600;
-  color:white;
+  color:#000;
+  font-weight:700;
 }
 
 .newsletter{
@@ -144,7 +139,6 @@ input {
 
 .masthead {
   text-align:center;
-  font-weight:700;
 }
 
 nav[role="navigation"] ul,
@@ -166,7 +160,6 @@ nav[role="subnavigation"] li:last-child {
 }
 
 nav[role="navigation"] li a {
-  color:#fff;
 }
 
 nav[role="navigation"] li.active a:hover {
@@ -240,23 +233,14 @@ a.link-instagram{color:#517FA4;}
 
 
   header[role="banner"] {
-    display:-webkit-flex;
-    display:flex;
-    -webkit-align-items:center;
-    align-items:center;
-    padding:1rem 2rem;
+    padding:2rem;
   }
 
   header[role="banner"] h1 {
-    -webkit-flex:1;
-    flex:1;
-    text-align:left;
+
   }
 
   header[role="banner"] nav {
-    -webkit-flex:1;
-    flex:1;
-    text-align:right;
   }
 
 

@@ -10,7 +10,6 @@
   <link rel="stylesheet" href="/css/grid.css">
   <link rel="stylesheet" href="/css/master.css">
   {% include 'includes/typekit' %}
-  {% include 'includes/custom-color' %}
 </head>
 
 <body class="{% if parent %}{{ parent.title }}{% else %}{{ slug }}{% endif %}">
@@ -18,7 +17,8 @@
     <h1><a href="/">Kyle Tress</a> is an Olympic athlete, writer, and software developer.</h1>
     <nav role="navigation">
       <ul>
-        <li><a href="/about">about</a></li>
+        <li><a href="/">home</a></li>
+        <li><a href="/info">info</a></li>
         <li><a href="/essays">essays</a></li>
         <li><a href="/skeleton">skeleton</a></li>
         <li><a href="/library">reading</a></li>
