@@ -84,7 +84,7 @@ main{
 }
 
 header[role="banner"] {
-  background:#f4f4f4;
+  background:#275C7B;
   padding:1rem 2rem;
   text-align:center;
   font-size:1.6rem;
@@ -94,6 +94,7 @@ header[role="banner"] {
 
 header[role="banner"] h1 {
   color:#bbb;
+  color:rgba(255,255,255,.30);
   font-size:1.6rem;
   font-weight:500;
   margin:0;
@@ -102,6 +103,7 @@ header[role="banner"] h1 {
 header[role="banner"] h1 a{
   color:#275C7B;
   font-weight:600;
+  color:white;
 }
 
 .masthead img{
@@ -167,9 +169,8 @@ nav[role="subnavigation"] li:last-child {
   padding-right:0;
 }
 
-nav[role="navigation"] li.active a {
-  color:#222;
-  cursor:normal;
+nav[role="navigation"] li a {
+  color:#fff;
 }
 
 nav[role="navigation"] li.active a:hover {
