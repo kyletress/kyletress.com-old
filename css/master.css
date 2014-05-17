@@ -11,7 +11,7 @@ html{
 
 body{
   font-size:20px;
-  font-size:2rem;
+  font-size:1.8rem;
   font-family:"freight-text-pro", "ff-meta-serif-web-pro", serif;
   color:#444;
   line-height:1.6;
@@ -97,6 +97,7 @@ header[role="banner"] {
 header[role="banner"] h1 {
   font-size:1.6rem;
   font-weight:500;
+  margin:0;
 }
 
 header[role="banner"] h1 a{
@@ -144,8 +145,8 @@ input {
   padding:.6rem 1rem;
 }
 
-.headshot img:hover{
-  background:#f3f3f3;
+.masthead {
+  text-align:center;
 }
 
 nav[role="navigation"] ul,
@@ -256,7 +257,7 @@ a.link-instagram{color:#517FA4;}
 
 
   .masthead{
-    
+
   }
 
   footer[role="site-footer"] {
