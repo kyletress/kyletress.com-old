@@ -1,0 +1,50 @@
+html{
+  font-size:62.5%;
+}
+
+body{
+  font: {
+    size:1.8rem;
+    family: $font-serif;
+  }
+  color:$color-text;
+  line-height:1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color:#222;
+  font-weight: normal;
+}
+
+a {
+  color:$color-primary;
+  transition: color .5s ease;
+  text-decoration:none;
+
+  &:hover {
+    color:#000;
+    text-decoration: underline;
+  }
+}
+
+blockquote{
+  font-style:italic;
+  color: lighten($color-text, 30%);
+  border-left:2px solid #eee;
+  margin-left:0;
+  padding-left:2rem;
+}
+
+figure{
+  margin:2rem 0;
+}
+
+figcaption{
+  font-size:14px;
+  color:#999;
+  text-align:center;
+}
+
+mark{
+  background:rgba(248,231,28,.20);
+}

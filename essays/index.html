@@ -1,7 +1,10 @@
 {% capture content %}
-<h1>{{title}}</h1>
-<em>{{ body }}</em>
-{% include 'includes/posts' %}
+<div class="grid">
+  <h1>{{title}}</h1>
+  <em>{{ body }}</em>
+  {% include 'includes/posts' %}
+</div>
+
 {% endcapture %}
 
 {% include 'layouts/default' %}
