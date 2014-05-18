@@ -1,0 +1,41 @@
+{% capture content %}
+
+<div class="grid grid-bordered">
+  <div class="col-1-2">
+    {{body}}
+  </div>
+  <div class="col-1-4">
+    <h2>Contact</h2>
+    <dl class="dl">
+      <dt>Email:</dt>
+      <dd>kyle@kyletress.com</dd>
+      <dt>Twitter:</dt>
+      <dd><a href="/">@kyletress</a></dd>
+      <dt>And:</dt>
+      <dd><a href="#">Wikipedia</a>, <a href="#" class="link-facebook">Facebook</a>
+      <a href="#" class="link-youtube">YouTube</a>, <a href="#" class="link-github">GitHub</a>, <a href="#" class="link-treehouse">Treehouse</a>
+    </dd>
+    </dl>
+    <h2>Videos</h2>
+    <p>In 2013 I began filming one second every days. These videos should give you a good idea of what I like</p>
+      <h3>2014</h3>
+      <iframe width="640" height="360" src="//www.youtube.com/embed/Ayz5vfTSBwA" frameborder="0" allowfullscreen></iframe>
+      <h3>2013</h3>
+      <iframe width="640" height="360" src="//www.youtube.com/embed/Ayz5vfTSBwA" frameborder="0" allowfullscreen></iframe>
+
+</div>
+  <div class="col-1-4">
+    {% include 'includes/newsletter' %}
+    <h2>FAQs</h2>
+    <dl class="dl">
+    {% for post in pages.faqs.posts %}
+    <dt>{{post.title}}</dt>
+    <dd>{{post.body}}</dd>
+    {% endfor %}
+    </dl>
+  </div>
+</div>
+
+{% endcapture %}
+
+{% include 'layouts/default' %}

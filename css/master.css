@@ -75,8 +75,7 @@ mark{
 }
 
 .container{
-  width:90%;
-  max-width:90rem;
+  width:96%;
   margin: 0 auto;
 }
 
@@ -89,6 +88,7 @@ header[role="banner"] {
   text-align:center;
   font-size:1.6rem;
   text-transform:lowercase;
+  border-bottom:3px solid #f9f9f9;
 }
 
 header[role="banner"] h1 {
@@ -192,6 +192,20 @@ header.content-header h2{
 .article {
 }
 
+.dl{
+  font-size:1.6rem;
+}
+
+.dl dt{
+  font-weight:600;
+  color:#222;
+}
+
+.dl dd{
+  color:#999;
+  margin-left:0;
+}
+
 .masthead{
   padding:4rem 0;
   border-bottom:1px dotted #eaeaea;
@@ -233,7 +247,8 @@ a.link-instagram{color:#517FA4;}
 
 
   header[role="banner"] {
-    padding:2rem;
+    padding:4rem;
+    text-align:left;
   }
 
   header[role="banner"] h1 {
