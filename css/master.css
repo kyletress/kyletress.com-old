@@ -208,7 +208,7 @@ header.content-header h2{
 
 .masthead{
   padding:4rem 0;
-  border-bottom:1px dotted #eaeaea;
+  border-bottom:3px solid #f9f9f9;
 }
 
 footer[role="site-footer"] {
@@ -249,10 +249,14 @@ a.link-instagram{color:#517FA4;}
   header[role="banner"] {
     padding:4rem;
     text-align:left;
+    display:-webkit-flex;
+    display:flex;
+    -webkit-align-items:center;
+    align-items:center;
   }
 
-  header[role="banner"] h1 {
-
+  header[role="banner"] .headshot {
+    margin-right:1rem;
   }
 
   header[role="banner"] nav {
