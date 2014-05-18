@@ -639,6 +639,7 @@ header.content-header {
   padding: 4rem 0;
   border-bottom: 1px dotted #eaeaea; }
 
+
 footer[role="site-footer"] {
   font-size: 1.4rem;
   color: #666;
@@ -655,6 +656,7 @@ p.tagline {
   padding: 1rem 0;
   text-align: center; }
 
+<<<<<<< HEAD
 a.link-twitter {
   color: #55acee; }
 
@@ -663,6 +665,20 @@ a.link-facebook {
 
 a.link-github {
   color: #333333; }
+
+  header[role="banner"] {
+    padding:4rem;
+    text-align:left;
+    display:-webkit-flex;
+    display:flex;
+    -webkit-align-items:center;
+    align-items:center;
+  }
+
+  header[role="banner"] .headshot {
+    margin-right:1rem;
+  }
+>>>>>>> 123ab2c551e5b765c91ba55e0702c1e85fc65c68
 
 a.link-youtube {
   color: #CD332D; }
