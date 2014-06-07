@@ -3,6 +3,23 @@
         "components/grid",
         "components/typography";
 
+@mixin inline-navigation($margin) {
+  ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+
+    li {
+      display:inline-block;
+      margin-right:$margin;
+
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+  }
+}
+
 * {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -62,28 +79,20 @@ main{
   border-radius:50%;
 }
 
-nav[role="navigation"], nav[role="subnavigation"] {
-  ul {
-    list-style:none;
-    padding: 0;
-    margin: 0;
-    font-size:1.4rem;
+nav[role="navigation"] {
+  @include inline-navigation(1.6rem);
+  font-size:1.4rem;
+  a {
+    color:#444;
 
-    li {
-      display: inline-block;
-      margin-right: 1.6rem;
-
-      &:last-child {
-        padding-right: 0;
-      }
-    }
-    .branding{
+    &.branding {
       font-weight:bold;
     }
-    a{
-      color:#444;
-    }
   }
+}
+
+nav[role="social-links"] {
+  @include inline-navigation(1rem);
 }
 
 .Library header.content-header p{
@@ -140,7 +149,7 @@ a.link-instagram{color:#517FA4;}
 
   .masthead {
     text-align:left;
-    display:flex;
+    @include flexbox;
     align-items:center;
 
     .headshot {

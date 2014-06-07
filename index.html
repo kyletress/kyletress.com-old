@@ -9,19 +9,24 @@
   </div>
 </div>
 
+
+
 {% if assets.first.meta.type == 'featured' %}
 <figure class="mast">
   <img src="{{assets.first.url}}" alt="assets.first.meta.caption" class="img-bordered">
   <figcaption>{{assets.first.meta.caption}}</figcaption>
 </figure>
-{% endif %}
-
+{% else %}
 {% for post in posts | limit: 1 %}
 <section>
   <h1>{{ post.title }}</h1>
   {{ post.body }}
 </section>
 {% endfor %}
+
+{% endif %}
+
+
 
 <a href="#">All my updates &rarr;</a>
 
