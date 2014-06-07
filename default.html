@@ -1,13 +1,12 @@
 {% capture content %}
 
-<main class="main-content">
+<main class="content">
   <article class="article">
     <header class="content-header">
       <h1>{{ title }}</h1>
       {% if pages %}
         <nav role="subnavigation">
           <ul>
-            <li><a href="{{url}}">{{title}}</a></li>
             {% for subpage in pages %}
             <li><a href="{{subpage.url}}">{{subpage.title}}</a></li>
             {% endfor %}
@@ -37,7 +36,6 @@
       {% endif %}
     </footer>
   </article>
-  {% include 'includes/newsletter' %}
 </main>
 
 {% endcapture %}

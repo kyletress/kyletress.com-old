@@ -16,28 +16,22 @@
 <body class="{% if parent %}{{ parent.title }}{% else %}{{ slug }}{% endif %}">
 <div class="container">
   <header role="banner">
-    <div>
-      <img src="/assets/headshot.jpg" class="headshot img-bordered" alt="" width="100">
-    </div>
-    <div>
-      <h1>I’m <a href="/">Kyle Tress</a>, an Olympic athlete, writer, and software developer.</h1>
-      <nav role="navigation">
-        <ul>
-          <li><a href="/">home</a></li>
-          <li><a href="/info">info</a></li>
-          <li><a href="/essays">essays</a></li>
-          <li><a href="/skeleton">skeleton</a></li>
-          <li><a href="/library">reading</a></li>
-          <li><a href="/videos">videos</a></li>
-          <li><a href="/portfolio">work</a></li>
-        </ul>
-      </nav>
-    </div>
+    <nav role="navigation">
+      <ul>
+        <li class="branding"><a href="/">kyletress.com</a></li>
+        <li><a href="/info">info</a></li>
+        <li><a href="/essays">essays</a></li>
+        <li><a href="/skeleton">skeleton</a></li>
+        <li><a href="/library">reading</a></li>
+        <li><a href="/videos">videos</a></li>
+        <li><a href="/portfolio">work</a></li>
+      </ul>
+    </nav>
   </header>
   {{ content }}
   <footer role="site-footer">
   {% include 'includes/social-links' %}
-    <p class="tagline">{{site.meta.copyright}}</p>
+    <p class="tagline">{{site.meta.quote}}</p>
       <div class="rings"><img src="/assets/rings.svg" width="65"></div>
   </footer>
 </div><!--end container-->
