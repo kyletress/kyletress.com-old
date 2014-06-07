@@ -6,17 +6,21 @@
   <meta name="description" content="{{site.meta.description}}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="/favicon.ico" type="image/ico">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/grid.css">
+  <link rel="stylesheet" href="/css/prism.css">
   <link rel="stylesheet" href="/css/master.css">
   {% include 'includes/typekit' %}
 </head>
 
 <body class="{% if parent %}{{ parent.title }}{% else %}{{ slug }}{% endif %}">
+<div class="container">
   <header role="banner">
     <div>
       <img src="/assets/headshot.jpg" class="headshot img-bordered" alt="" width="100">
     </div>
     <div>
-      <h1><a href="/">Kyle Tress</a> is an Olympic athlete, writer, and software developer.</h1>
+      <h1>I’m <a href="/">Kyle Tress</a>, an Olympic athlete, writer, and software developer.</h1>
       <nav role="navigation">
         <ul>
           <li><a href="/">home</a></li>
@@ -30,18 +34,15 @@
       </nav>
     </div>
   </header>
-
-  <div class="container">
-    {{ content }}
-
-    <footer role="site-footer">
-      {% include 'includes/social-links' %}
-
-      <p class="tagline">{{site.meta.copyright}}</p>
+  {{ content }}
+  <footer role="site-footer">
+  {% include 'includes/social-links' %}
+    <p class="tagline">{{site.meta.copyright}}</p>
       <div class="rings"><img src="/assets/rings.svg" width="65"></div>
-    </footer>
-  </div><!--end container-->
+  </footer>
+</div><!--end container-->
   {% include 'includes/analytics' %}
+  <script src="/js/prism.js"></script>
   <script src="/js/fluidvids.min.js"></script>
    <script>
     fluidvids.init({
