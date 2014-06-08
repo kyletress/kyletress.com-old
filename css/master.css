@@ -518,7 +518,7 @@ header[role="banner"] {
   max-width: 70rem;
   margin: 0 auto; }
 
-.essay .content-body > p:first-child:first-line, .tagline {
+.essay .content-body > p:first-child:first-line, .copyright {
   font-family: "ff-meta-serif-sc-web-pro"; }
 
 img {
@@ -595,6 +595,10 @@ footer[role="site-footer"] {
   padding: 4rem 0; }
   footer[role="site-footer"] p {
     margin: 0; }
+
+p.tagline {
+  color: #999;
+  margin: .5rem 0; }
 
 .rings {
   padding: 1rem 0;

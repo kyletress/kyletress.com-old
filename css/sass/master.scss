@@ -38,7 +38,7 @@ header[role="banner"] {
   margin: 0 auto;
 }
 
-.essay .content-body > p:first-child:first-line, .tagline{
+.essay .content-body > p:first-child:first-line, .copyright {
   font-family: "ff-meta-serif-sc-web-pro";
 }
 
@@ -126,6 +126,8 @@ footer[role="site-footer"] {
 }
 
 p.tagline{
+  color:#999;
+  margin:.5rem 0;
 }
 
 .rings{
