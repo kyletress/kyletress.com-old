@@ -1,11 +1,9 @@
 /* Simple flexbox grid system */
 
-@mixin flexbox {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
+.container{
+  width:80%;
+  max-width:70rem;
+  margin: 0 auto;
 }
 
 @mixin col-width($width) {
@@ -29,7 +27,6 @@
 }
 
 [class*='col-'] {
-  padding:0 2rem;
 }
 [class*='col-']:last-of-type {
 }

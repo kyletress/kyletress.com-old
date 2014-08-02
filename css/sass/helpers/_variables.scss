@@ -1,0 +1,36 @@
+// Basic Colors
+$color-blue: #275C7B;
+$color-red: #A73D37;
+$color-white: #ffffff;
+$color-black: #222;
+$color-gray: #eee;
+
+// Olympic Colors
+$olympic-blue: #0885C2;
+$olympic-red: #ED334E;
+$olympic-yellow: #FBB132;
+$olympic-green: #1C8B3C;
+
+// Theme Colors
+$color-background: #fafafa;
+$color-text: #444;
+$color-headings: $color-black;
+$color-primary: $color-blue;
+
+// Alert Colors
+$color-success: #377f31; // Green
+$color-danger: #880e14; // Red
+$color-warning: #dba909; // Yellow
+
+// Fonts
+$font-serif: "ff-meta-serif-web-pro", Georgia, serif;
+$font-sans: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+
+// Breakpoints
+$bp-mobile: 480px;
+$bp-tablet: 768px;
+$bp-screen: 990px;
+$bp-desktop: 1200px;
+  
+// Spacing
+$spacing: 20px;

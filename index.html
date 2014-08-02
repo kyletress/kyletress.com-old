@@ -1,35 +1,34 @@
 {% capture content %}
 
-<div class="masthead">
-  <div>
-    <img src="/assets/headshot.jpg" class="headshot img-bordered" alt="" width="125">
-  </div>
-  <div>
-    <h1>Hi I'm Kyle, I'm an Olympic athlete in the sport of skeleton</h1>
-    <p>When I'm not racing headfirst down a mile of ice at 90 miles per hour, I enjoy writing books and coding for the web and iOS.</p>
-  </div>
-</div>
+{% if meta.alert %}
+  <div class="alert">{{ meta.alert | markdown }}</div>
+{% endif %}
 
-{{ body }}
+<div class="intro">
+  <img src="/assets/headshot.jpg" class="headshot img-photo" width="125" alt="Headshot of Kyle Tress">
+  <div>{{body}}</div>
+</div>
 
 {% if assets.first.meta.type == 'featured' %}
 <figure class="mast">
   <img src="{{assets.first.url}}" alt="assets.first.meta.caption" class="img-bordered">
   <figcaption>{{assets.first.meta.caption}}</figcaption>
 </figure>
-{% else %}
-{% for post in posts | limit: 1 %}
-<section>
-  <h1>{{ post.title }}</h1>
-  {{ post.body }}
-</section>
-{% endfor %}
-
 {% endif %}
 
+{% include 'includes/tweets' %}
 
 
-<a href="#">All my updates &rarr;</a>
+{% for post in site.pages.blog.posts | limit: 1 %}
+<article class="essay">
+  <header class="content-header">
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  </header>
+  <div class="content-body">
+    {{ post.body }}
+  </div>
+</article>
+{% endfor %}
 
 {% endcapture %}
 

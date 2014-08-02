@@ -1,0 +1,11 @@
+.hero {
+	background-color: lighten( $color-gray, 7% );
+	margin-bottom: $spacing;
+	padding: 2.4rem;
+	border: 1px solid $color-gray;
+	border-radius: 1px;
+}
+
+.hero-condensed {
+	padding: 1.5rem;
+}

@@ -1,0 +1,6 @@
+.alert {
+  color: darken($color-primary, 15%);
+  background-color: mix(white, $color-primary, 80%);
+  padding: 0 8px;
+  border: 1px solid mix(white, $color-primary, 70%);
+}

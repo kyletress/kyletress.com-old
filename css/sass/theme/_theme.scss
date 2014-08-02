@@ -1,0 +1,37 @@
+.headshot{
+  min-width:125px;
+  height:125px;
+  margin-right:2rem;
+  @include border-radius(10px);
+}
+
+.intro{
+  @include flexbox;
+  align-items:center;
+  padding: 4rem 0;
+  
+  h2 {
+    margin: 0;
+    padding:0;
+  }
+  p {
+    padding:0;
+    margin:0;
+  }
+}
+
+.rings {
+  padding:1rem 0;
+  text-align:center;
+}
+
+.essay {
+}
+
+.essay .content-body > p:first-child:first-line, .copyright {
+  font-family: "ff-meta-serif-sc-web-pro";
+}
+
+.sponsor {
+  text-align:center;
+}

@@ -1,0 +1,19 @@
+.navigation {
+  @include inline-navigation(1.6rem);
+  width: 80%;
+  max-width: 70rem;
+  margin: 0 auto;
+  font-size:1.4rem;
+    a {
+      color:#fff;
+      color: rgba(255,255,255,.30);
+        &.branding {
+          font-weight:bold;
+          color:#fff;
+        }
+    }
+}
+
+nav[role="social-links"] {
+  @include inline-navigation(1rem);
+}

@@ -1,0 +1,20 @@
+.img-bordered,
+.img-photo,
+.img-rounded {
+  border: 1px solid $color-gray;
+  padding:4px;
+  background: $color-white;
+  &:hover {
+    background: darken($color-white, 5%);
+  }  
+}
+
+// Gives the photo a little depth
+.img-photo{
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+// Rounds square images
+.img-rounded{
+  @include border-radius(50%);
+}

@@ -1,0 +1,21 @@
+// BUTTONS
+
+.btn {
+  display: inline-block;
+  background-color: $color-primary;
+  padding: 8px 11px;
+}
+
+.btn,
+.btn:hover,
+a .btn:hover,
+.btn.active {
+  color: $color-white;
+}
+
+.btn:hover,
+a .btn:hover,
+.btn.active {
+  background-color: darken($color-primary, 15%);
+  text-decoration:none;
+}

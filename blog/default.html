@@ -1,13 +1,5 @@
 {% capture content %}
 
-{% if pages %}
-<nav role="subnavigation">
-  {% for subpage in pages %}
-  <a href="{{subpage.url}}">{{subpage.title}}</a>
-  {% endfor %}
-</nav>
-{% endif %}
-
 <main>
   <article class="essay">
     <header class="content-header">
@@ -30,6 +22,9 @@
       {% endif %}
     </footer>
   </article>
+  <div class="sponsor hero">
+    Many thanks to {{ site.meta.sponsor | markdown | remove: '<p>' | remove: '</p>' }} for sponsoring my writing and training this week. Interesting in sponsorship? <a href="http://www.kyletress.com/sponsorship">Read this</a>!
+  </div>
 </main>
 
 {% endcapture %}
