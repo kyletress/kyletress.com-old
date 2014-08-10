@@ -1,0 +1,15 @@
+{% capture content %}
+<h1>{{title}}</h1>
+
+{{body}}
+
+<h3>Results</h3>
+<ul>
+  {% for result in pages.results.posts %}
+  <li><a href="{{ result.url }}">{{ result.title }}</a></li>
+  {% endfor %}
+</ul>
+
+{% endcapture %}
+
+{% include 'layouts/default' %}

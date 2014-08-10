@@ -13,7 +13,9 @@
 <body class="{% if parent %}{{ parent.title }}{% else %}{{ slug }}{% endif %}">
   {% include 'includes/header' %}
   <div class="container">
-    {{ content }}
+    <main class="content">
+      {{ content }}
+    </main>
     {% include 'includes/newsletter' %}
     {% include 'includes/footer' %}
   </div><!--end container-->

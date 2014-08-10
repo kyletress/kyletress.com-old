@@ -1,0 +1,12 @@
+{% capture content %}
+<main>
+  <h3>Archive of What's happening this week</h3>
+  <ul>
+    {% for post in posts %}
+    <li>{{ post.body }}</li>
+    {% endfor %}
+  </ul>
+</main>
+{% endcapture %}
+
+{% include 'layouts/default' %}

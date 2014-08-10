@@ -1,8 +1,5 @@
-* {
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  text-rendering: optimizeLegibility;
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
 
 html{
@@ -10,19 +7,24 @@ html{
 }
 
 body{
-  padding-top: 80px;
-  background: $color-background;
+  background: $color-white;
   -webkit-font-smoothing:subpixel-antialiased;
   font: {
-    size:1.6rem;
+    @include font-size(16px);
     family: $font-serif;
   }
   color:$color-text;
   line-height:1.6;
 }
 
+.container{
+  width:$container-margin;
+  max-width:$container-width;
+  margin: 0 auto;
+}
+
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
+  color:$color-headings;
 }
 
 a {
@@ -31,7 +33,7 @@ a {
   text-decoration:none;
 
   &:hover {
-    color:#000;
+    color: darken($color-primary, 25%);
     text-decoration: underline;
   }
 }
@@ -39,7 +41,7 @@ a {
 blockquote{
   font-style:italic;
   color: lighten($color-text, 30%);
-  border-left:2px solid #eee;
+  border-left:2px solid $color-gray;
   margin-left:0;
   padding-left:2rem;
 }
@@ -49,8 +51,8 @@ figure{
 }
 
 figcaption{
-  font-size:14px;
-  color:#999;
+  @include font-size(14px);
+  color:darken($color-gray, 25%);
   text-align:center;
 }
 
@@ -60,4 +62,5 @@ mark{
 
 img{
   max-width:100%;
+  height: auto;
 }

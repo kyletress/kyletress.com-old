@@ -1,16 +1,22 @@
 // Social Colors
-$color-twitter: #55acee;
-$color-facebook: #3B5998;
-$color-youtube: #CD332D;
-$color-instagram: #517FA4;
-$color-treehouse: #80A34C;
-$color-github: #3a3838;
-$color-linkedin: #0073b2;
-$color-tumblr: #35465c;
 
-a.link-twitter{color: $color-twitter;}
-a.link-facebook{color: $color-facebook;}
-a.link-github{color: $color-github;}
-a.link-youtube{color: $color-youtube;}
-a.link-treehouse{color: $color-treehouse;}
-a.link-instagram{color: $color-instagram;}
+$profiles: (
+  twitter: #55acee,
+  facebook: #3B5998,
+  youtube: #CD332D,
+  instagram: #517FA4,
+  treehouse: #80A34C,
+  github: #3a3838,
+  linkedin: #0073b2,
+  tumblr: #35465c,
+  amazon: #FF9900
+);
+
+@each $profile, $color in $profiles {
+    a.link-#{$profile} {
+      color: $color;
+      &:hover{
+        color: darken($color, 25%);
+      }
+    }
+}

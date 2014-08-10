@@ -1,8 +1,34 @@
+body {
+  padding-top: 6.9rem;
+}
+
 header[role="banner"] {
-  padding:2rem 0;
-  background:rgba($color-primary, .97);
-  position:fixed;
+  @include rem(padding-bottom, 2.5);
+  background:rgba($color-white, .95);
   width:100%;
+  position:fixed;
   top:0;
   text-align:center;
+  clear:left;
+  border-bottom: 1px solid $color-gray;
+}
+
+.olympic-bars {
+  list-style:none;
+  margin:0;
+  padding:0;
+  padding-bottom:3rem;
+}
+
+.olympic-bars-bar {
+  float:left;
+  width:20%;
+  @include rem(height, .5rem);
+  background:blue;
+}
+
+@each $child, $color in (1: $olympic-blue, 2: $olympic-yellow, 3: $olympic-black, 4: $olympic-green, 5: $olympic-red) {
+  .olympic-bars-bar:nth-child(#{$child}) {
+    background: $color;
+  }
 }

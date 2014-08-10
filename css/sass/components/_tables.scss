@@ -5,12 +5,18 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
   font-family: $font-sans;
+  @include rem(font-size, 1.4);
 }
 
 th, 
 td {
   text-align:left;
   padding: 8px;
+}
+
+.table-condensed th,
+.table-condensed td {
+  padding: 3px;
 }
 
 th {
@@ -25,5 +31,5 @@ td {
 }
 
 tbody tr:nth-child(even) {
-  background-color: lighten($color-gray, 7%);
+  background-color: white;
 }

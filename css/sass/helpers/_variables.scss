@@ -1,30 +1,39 @@
 // Basic Colors
 $color-blue: #275C7B;
 $color-red: #A73D37;
-$color-white: #ffffff;
-$color-black: #222;
+$color-white: #fafafa;
+$color-black: #1a1a1a;
 $color-gray: #eee;
+$color-pink: #EA80B0;
+
+$color-bronze: #CD7F32;
+$color-silver: #C0C0C0;
+$color-gold: #D4AF37;
 
 // Olympic Colors
 $olympic-blue: #0885C2;
 $olympic-red: #ED334E;
 $olympic-yellow: #FBB132;
 $olympic-green: #1C8B3C;
+$olympic-black: $color-black;
 
 // Theme Colors
-$color-background: #fafafa;
 $color-text: #444;
 $color-headings: $color-black;
-$color-primary: $color-blue;
+$color-primary: $olympic-red;
 
 // Alert Colors
-$color-success: #377f31; // Green
+$color-success: #5cb85c; // Green
 $color-danger: #880e14; // Red
 $color-warning: #dba909; // Yellow
 
 // Fonts
 $font-serif: "ff-meta-serif-web-pro", Georgia, serif;
 $font-sans: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+
+// Container Sizing
+$container-margin: 80%;
+$container-width: 70rem;
 
 // Breakpoints
 $bp-mobile: 480px;

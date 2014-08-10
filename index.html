@@ -1,35 +1,44 @@
 {% capture content %}
-
-{% if meta.alert %}
-  <div class="alert">{{ meta.alert | markdown }}</div>
-{% endif %}
-
-<div class="intro">
-  <img src="/assets/headshot.jpg" class="headshot img-photo" width="125" alt="Headshot of Kyle Tress">
-  <div>{{body}}</div>
+<main>
+<div class="introduction">
+  <img src="{{assets.first.url}}" class="img-bordered headshot" width="300">
+  <div>{{ body }}</div>
 </div>
-
-{% if assets.first.meta.type == 'featured' %}
-<figure class="mast">
-  <img src="{{assets.first.url}}" alt="assets.first.meta.caption" class="img-bordered">
-  <figcaption>{{assets.first.meta.caption}}</figcaption>
-</figure>
+  {% if site.meta.alert %}
+  <div class="alert">{{ site.meta.alert | markdown }} </div>
 {% endif %}
-
-{% include 'includes/tweets' %}
-
-
-{% for post in site.pages.blog.posts | limit: 1 %}
-<article class="essay">
-  <header class="content-header">
-    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-  </header>
-  <div class="content-body">
-    {{ post.body }}
-  </div>
-</article>
-{% endfor %}
-
+  <h3>What's happening this week</h3>
+  <ul>
+    {% for post in posts %}
+    <li>{{ post.body }}</li>
+    {% endfor %}
+  </ul>
+  <h3>Best of kyletress.com</h3>
+  <ul>
+    <li><a href="/skeleton/faqs">Frequently asked questions about skeleton</a> <mark>Updated {{ site.pages.skeleton.pages.faqs.posts.first.published_at | date: '%B %-d, %Y' }}</mark></li>
+    <li><a href="/blog/how-to-build-a-personal-website">How to build a personal website</a> <span>Reading Time: 10 min</span></li>
+  </ul>
+    <h3>Recent posts <small>(<a href="/blog">see all</a>)</small></h3>
+  <ul>
+    {% for post in site.pages.blog.posts | limit: 5 %}
+    <li><a href="{{post.url}}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  <h3>What I'm reading <small>(<a href="/reading">see all</a>)</small></h3>
+  <ul>
+    {% for post in site.pages.reading.posts | limit: 5 %}
+    <li><a href="{{post.url}}">{{ post.title }}</a> by {% for tag in post.taxonomy.author %}{{tag}}{%endfor%}</li>
+    {% endfor %}
+  </ul>
+  <h3>My projects</h3>
+  <ul>
+    {% for post in site.pages.projects.posts | limit: 5 %}
+    <li><a href="{{post.url}}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  <h3>Recent Tweets</h3>
+  {% include 'includes/tweets' %}
+</main>
 {% endcapture %}
 
 {% include 'layouts/default' %}

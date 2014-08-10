@@ -2,8 +2,9 @@
 
 .btn {
   display: inline-block;
-  background-color: $color-primary;
+  background-color: $color-success;
   padding: 8px 11px;
+  @include border-radius(3px);
 }
 
 .btn,
@@ -16,6 +17,6 @@ a .btn:hover,
 .btn:hover,
 a .btn:hover,
 .btn.active {
-  background-color: darken($color-primary, 15%);
+  background-color: darken($color-success, 15%);
   text-decoration:none;
 }

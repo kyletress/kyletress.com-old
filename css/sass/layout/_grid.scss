@@ -1,11 +1,5 @@
 /* Simple flexbox grid system */
 
-.container{
-  width:80%;
-  max-width:70rem;
-  margin: 0 auto;
-}
-
 @mixin col-width($width) {
   -webkit-flex-basis: $width;
   -moz-flex-basis: $width;

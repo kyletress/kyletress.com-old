@@ -1,5 +1,4 @@
 {% capture content %}
-
 <main class="content">
   <article class="article">
     <header class="content-header">
@@ -36,6 +35,13 @@
       {% endif %}
     </footer>
   </article>
+  <div class="alert">
+  {% if site.meta.sponsor %}
+    {{ site.meta.sponsor | markdown }} 
+  {% else %}
+    <p>This week is available for sponsorship. Please visit my <a href="/sponsorship">sponsorship page</a> for more information.</p>
+  {% endif %}
+  </div><!--end alert-->
 </main>
 
 {% endcapture %}

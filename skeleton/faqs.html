@@ -1,0 +1,27 @@
+{% capture content %}
+<main>
+  <h1>{{ title }}</h1>
+  <time><mark>Updated {{ posts.first.published_at | date: "%B %-d, %Y" }}</mark></time>
+  {{ body }}
+  {% for tag in taxonomy['tags'] %}
+    <h3>{{tag}}</h3>
+    <ul>
+    {% assign sorted_posts = tag.posts.all | sort:'date' %}
+    {% for post in sorted_posts %}
+      <li><a href="#{{post.slug}}">{{post.title}}</a></li>
+    {% endfor %}
+    </ul>
+{% endfor %}
+
+  <dl class="faqs">
+  {% for post in posts %}
+    <dt><a name="{{post.slug}}" class="anchor"></a>{{post.title}} <a href="#">&#8593;</a></dt>
+    <dd>{{post.body}}</dd>
+  {% endfor %}
+  </dl>
+  
+  
+</main>
+{% endcapture %}
+{% include 'layouts/default' %}
+

@@ -1,6 +1,13 @@
 {% capture content %}
+  <div class="alert">
+  {% if site.meta.sponsor %}
+    {{ site.meta.sponsor | markdown }} 
+  {% else %}
+    <p>This week is available for sponsorship. Please visit my <a href="/sponsorship">sponsorship page</a> for more information.</p>
+  {% endif %}
+  </div><!--end alert-->
 <h1>{{title}}</h1>
-<em>{{ body }}</em>
+{{ body }}
 {% include 'includes/posts' %}
 {% endcapture %}
 

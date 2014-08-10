@@ -1,6 +1,11 @@
 .alert {
-  color: darken($color-primary, 15%);
-  background-color: mix(white, $color-primary, 80%);
-  padding: 0 8px;
-  border: 1px solid mix(white, $color-primary, 70%);
+  font-size:1.4rem;
+  text-align: center;
+  background-color: #fff;
+  padding: 0 2rem;
+  border: 1px solid $color-gray;
+  a {
+    color: darken($color-gray, 35%);
+    text-decoration: underline;
+  }
 }
