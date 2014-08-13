@@ -1,12 +1,12 @@
 ---
-time: 1407937556
+time: 1407947233
 inventory:
   /home/index.html:
-    md5: 874baa7998763065073fb4ae5cd610a1
-    time: 1407937534
+    md5: ae340d4ddaec1f29893617a85a2b9ec9
+    time: 1407947208
   /index.html:
-    md5: 874baa7998763065073fb4ae5cd610a1
-    time: 1407937534
+    md5: ae340d4ddaec1f29893617a85a2b9ec9
+    time: 1407947208
   /home/madness/index.html:
     md5: aafbefeb5a860ebb9f42a5287ed7379a
     time: 1407937534
@@ -710,8 +710,8 @@ inventory:
     md5: 6ec868b69255e627a32d1f7f6431f684
     time: 1407937555
   /feed.xml:
-    md5: e64c6718e1605c85b1ecd0cb9e5d5103
-    time: 1407937555
+    md5: d49c6733a8f373857f06aa7cfd1f2c23
+    time: 1407947229
   /assets/the-good-book.jpg:
     md5: c3a41308f020b16f46808c4fa5adde6f
     time: 1407895645
@@ -753,9 +753,6 @@ inventory:
     time: 1407895647
   /assets/image-1.jpg:
     md5: 96d37f3473f4d8950010e68c84b6cc73
-    time: 1407895648
-  /assets/201402140802289301370-p5.jpg:
-    md5: b35cb0a7afa41e760d1ce5e9b7bd9d28
     time: 1407895648
   /assets/superintelligence.jpg:
     md5: 52cd645e335a13da82a8344e9bd2399d
@@ -802,9 +799,15 @@ inventory:
   /css/master.css:
     md5: aa9c1b9f1fa68ba2411758f6972c1146
     time: 1407900162
+  /assets/Obama.jpg:
+    md5: b4bcd87edfbd6d44a2eb3ac671319cc4
+    time: 1407947230
   /assets/kyletress_sochi_getty1-1.jpg:
     md5: 6c93a902a689f9c4ab7cfff843f31c91
     time: 1407895653
+  /assets/201402140802289301370-p5.jpg:
+    md5: b35cb0a7afa41e760d1ce5e9b7bd9d28
+    time: 1407895648
   /assets/tress-olympics.jpg:
     md5: 0685ccb3a30c19ffc8813d3bb9f6bfe7
     time: 1407895654
