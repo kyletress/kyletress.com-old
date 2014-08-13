@@ -324,7 +324,7 @@ table {
   margin-bottom: 20px;
   border-collapse: collapse;
   border-spacing: 0;
-  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  font-family: "source-sans-pro", "Helvetica Neue", Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem; }
 
@@ -532,7 +532,7 @@ figcaption {
 .newsletter {
   font-size: 14px;
   font-size: 1.4rem;
-  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  font-family: "source-sans-pro", "Helvetica Neue", Arial, sans-serif;
   text-align: center; }
   .newsletter form {
     padding-top: 1rem; }
