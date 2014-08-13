@@ -1,12 +1,15 @@
 ---
-time: 1407902612
+time: 1407937556
 inventory:
   /home/index.html:
-    md5: d78831e0c570abbd9cc7c3a6c911aea0
-    time: 1407901071
+    md5: 874baa7998763065073fb4ae5cd610a1
+    time: 1407937534
   /index.html:
-    md5: d78831e0c570abbd9cc7c3a6c911aea0
-    time: 1407901071
+    md5: 874baa7998763065073fb4ae5cd610a1
+    time: 1407937534
+  /home/madness/index.html:
+    md5: aafbefeb5a860ebb9f42a5287ed7379a
+    time: 1407937534
   /home/calico/index.html:
     md5: 3868587cc8801b23507c0e71d234d136
     time: 1407899772
@@ -14,11 +17,14 @@ inventory:
     md5: fe1928d68e5b247066a0e6e707730e67
     time: 1407899772
   /home/archive/index.html:
-    md5: 24f883393e3a05f7e625940e7bd5bd43
-    time: 1407899772
+    md5: 87f4c3ea7fc9cb4ae682c88b5610cd67
+    time: 1407937534
   /home/tags/index.html:
     md5: fbd86b4322459dd2014e52f5d49527df
     time: 1407899772
+  /home/tags/robin-williams/index.html:
+    md5: 2aa71a2eb3a5cd88f792e1d42d41382a
+    time: 1407937534
   /home/tags/artificial-intelligence/index.html:
     md5: be4029d8262185aab20d9e3a8857f762
     time: 1407899772
@@ -701,11 +707,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   /sitemap.xml:
-    md5: 710b162aea913b60629092f83ff545fb
-    time: 1407902611
+    md5: 6ec868b69255e627a32d1f7f6431f684
+    time: 1407937555
   /feed.xml:
-    md5: 4907cb1899e63bb1180336c7f2385faf
-    time: 1407902612
+    md5: e64c6718e1605c85b1ecd0cb9e5d5103
+    time: 1407937555
   /assets/the-good-book.jpg:
     md5: c3a41308f020b16f46808c4fa5adde6f
     time: 1407895645
