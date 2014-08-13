@@ -1,15 +1,15 @@
 ---
-time: 1407947233
+time: 1407964360
 inventory:
   /home/index.html:
-    md5: ae340d4ddaec1f29893617a85a2b9ec9
-    time: 1407947208
+    md5: 12a803582fce33ab6fb680a73e21ce15
+    time: 1407964334
   /index.html:
-    md5: ae340d4ddaec1f29893617a85a2b9ec9
-    time: 1407947208
+    md5: 12a803582fce33ab6fb680a73e21ce15
+    time: 1407964334
   /home/madness/index.html:
-    md5: aafbefeb5a860ebb9f42a5287ed7379a
-    time: 1407937534
+    md5: 21d77e9ee89cde2ebf2f79eec219fcd6
+    time: 1407964334
   /home/calico/index.html:
     md5: 3868587cc8801b23507c0e71d234d136
     time: 1407899772
@@ -707,11 +707,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   /sitemap.xml:
-    md5: 6ec868b69255e627a32d1f7f6431f684
-    time: 1407937555
+    md5: 56e4ba26678b85afcf007e133c385281
+    time: 1407964359
   /feed.xml:
-    md5: d49c6733a8f373857f06aa7cfd1f2c23
-    time: 1407947229
+    md5: 3cd208ff42af0ed848c9c7cba7d0f0d9
+    time: 1407964359
   /assets/the-good-book.jpg:
     md5: c3a41308f020b16f46808c4fa5adde6f
     time: 1407895645
