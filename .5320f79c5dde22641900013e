@@ -1,5 +1,5 @@
 ---
-time: 1407901094
+time: 1407902612
 inventory:
   /home/index.html:
     md5: d78831e0c570abbd9cc7c3a6c911aea0
@@ -35,8 +35,8 @@ inventory:
     md5: 3c56141d4c30e0a8ada011c8b2602182
     time: 1407899772
   /skeleton/index.html:
-    md5: af76431186369926f191d5ff0c5378ce
-    time: 1407899773
+    md5: e5ed11728919b53e4a78e77414c408f7
+    time: 1407902590
   /skeleton/combine/index.html:
     md5: 734d87eeaaa0e4347cf372f6cd8e92f7
     time: 1407899773
@@ -278,8 +278,8 @@ inventory:
     md5: 04b3670121148159c158d86673f5b77a
     time: 1407899780
   /support/index.html:
-    md5: 3c92be00b1fd8bcaa8c9ee7fe38bc8e5
-    time: 1407899780
+    md5: 57d38c757eef56a7145919b4b9e929c8
+    time: 1407902598
   /newsletter/index.html:
     md5: c6c231737c32e2a842d0e6bb660ae367
     time: 1407899780
@@ -701,11 +701,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   /sitemap.xml:
-    md5: be092f69dde72c92c23573c2c91ec650
-    time: 1407901094
+    md5: 710b162aea913b60629092f83ff545fb
+    time: 1407902611
   /feed.xml:
-    md5: d7efd8b0dc652670ac97ae662de61c19
-    time: 1407901094
+    md5: 4907cb1899e63bb1180336c7f2385faf
+    time: 1407902612
   /assets/the-good-book.jpg:
     md5: c3a41308f020b16f46808c4fa5adde6f
     time: 1407895645
