@@ -1,12 +1,12 @@
 ---
-time: 1407964360
+time: 1407978676
 inventory:
   /home/index.html:
-    md5: 12a803582fce33ab6fb680a73e21ce15
-    time: 1407964334
+    md5: b524148a782c7e2290530e7af1cdd3fc
+    time: 1407978653
   /index.html:
-    md5: 12a803582fce33ab6fb680a73e21ce15
-    time: 1407964334
+    md5: b524148a782c7e2290530e7af1cdd3fc
+    time: 1407978653
   /home/madness/index.html:
     md5: 21d77e9ee89cde2ebf2f79eec219fcd6
     time: 1407964334
@@ -521,8 +521,8 @@ inventory:
     md5: 1288c42ac267576c9960b3cdc891352e
     time: 1407899787
   /skeleton/sochi/index.html:
-    md5: 91911ea6d342d8e4f0b6bb32f194c0dd
-    time: 1407899787
+    md5: 7e6dfdcc3c012aee4ecccfb93ff13835
+    time: 1407978669
   /skeleton/press/index.html:
     md5: fdd8e1729f3a01c5376584fd84ec8985
     time: 1407899787
@@ -710,8 +710,8 @@ inventory:
     md5: 56e4ba26678b85afcf007e133c385281
     time: 1407964359
   /feed.xml:
-    md5: 3cd208ff42af0ed848c9c7cba7d0f0d9
-    time: 1407964359
+    md5: 74e08c3acf598f97c7189b589d027c75
+    time: 1407978674
   /assets/the-good-book.jpg:
     md5: c3a41308f020b16f46808c4fa5adde6f
     time: 1407895645
@@ -799,9 +799,9 @@ inventory:
   /css/master.css:
     md5: aa9c1b9f1fa68ba2411758f6972c1146
     time: 1407900162
-  /assets/Obama.jpg:
-    md5: b4bcd87edfbd6d44a2eb3ac671319cc4
-    time: 1407947230
+  /assets/obama.jpg:
+    md5: 356b26b472fa8542245057375904f478
+    time: 1407978675
   /assets/kyletress_sochi_getty1-1.jpg:
     md5: 6c93a902a689f9c4ab7cfff843f31c91
     time: 1407895653
