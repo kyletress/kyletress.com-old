@@ -1,12 +1,12 @@
 ---
-time: 1408214062
+time: 1408235141
 inventory:
   /home/index.html:
-    md5: 36ed607adb7a2c5bcf9aff099cb2bd7a
-    time: 1408196981
+    md5: dfd436909becb2e71c008f2d441d3cee
+    time: 1408235120
   /index.html:
-    md5: 36ed607adb7a2c5bcf9aff099cb2bd7a
-    time: 1408196981
+    md5: dfd436909becb2e71c008f2d441d3cee
+    time: 1408235120
   /home/humans-need-not-apply/index.html:
     md5: 2173246a7f5bd93a457fe765eecddcc2
     time: 1408196981
@@ -44,8 +44,8 @@ inventory:
     md5: 3c56141d4c30e0a8ada011c8b2602182
     time: 1407899772
   /skeleton/index.html:
-    md5: 37e4db97a21319eb37ef1a01ba9e4e95
-    time: 1408214046
+    md5: b039536bc6c683785af99d22da101927
+    time: 1408235122
   /skeleton/combine/index.html:
     md5: 734d87eeaaa0e4347cf372f6cd8e92f7
     time: 1407899773
@@ -710,11 +710,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   /sitemap.xml:
-    md5: 3566e2755527bc4a49f8aab8f80f2625
-    time: 1408214061
+    md5: dfa6960f6f4b740c599878bd85fc786e
+    time: 1408235140
   /feed.xml:
-    md5: 9ff6fe01d52cbfdafc6606f35ffb507c
-    time: 1408214061
+    md5: 3fe2d401096787769104c9fe44d2ec37
+    time: 1408235140
   /assets/the-good-book.jpg:
     md5: c3a41308f020b16f46808c4fa5adde6f
     time: 1407895645
@@ -802,9 +802,6 @@ inventory:
   /css/master.css:
     md5: aa9c1b9f1fa68ba2411758f6972c1146
     time: 1407900162
-  /assets/obama.jpg:
-    md5: 356b26b472fa8542245057375904f478
-    time: 1407978675
   /assets/kyletress_sochi_getty1-1.jpg:
     md5: 6c93a902a689f9c4ab7cfff843f31c91
     time: 1407895653
