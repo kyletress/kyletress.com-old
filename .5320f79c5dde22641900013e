@@ -1,5 +1,5 @@
 ---
-time: 1408236669
+time: 1408244608
 inventory:
   /home/index.html:
     md5: dfd436909becb2e71c008f2d441d3cee
@@ -293,8 +293,8 @@ inventory:
     md5: c6c231737c32e2a842d0e6bb660ae367
     time: 1407899780
   /credits/index.html:
-    md5: f2bc8b55cc5ccaca0dca86d3e25abbb7
-    time: 1407899780
+    md5: f2b090e05cf76459b57968d465c2a568
+    time: 1408244598
   /about/faqs/index.html:
     md5: 04f2473fa7ad0cb1a98ca6e755eb03e7
     time: 1407899780
@@ -713,8 +713,8 @@ inventory:
     md5: dfa6960f6f4b740c599878bd85fc786e
     time: 1408235140
   /feed.xml:
-    md5: f3e8f7bdd227f35fcfc208ae2f7655d0
-    time: 1408236668
+    md5: ed9e9ed627381d43ad2a87c7b7efb944
+    time: 1408244608
   /assets/the-good-book.jpg:
     md5: c3a41308f020b16f46808c4fa5adde6f
     time: 1407895645
@@ -814,9 +814,3 @@ inventory:
   /assets/201401250907328425828-p5.jpg:
     md5: a518fa450ed415b413986ae31fea95ec
     time: 1407895655
-  /assets/1377403_10201942468710989_1674629342_n.jpg:
-    md5: db7e13b695a89bc51d687cb302146fef
-    time: 1407895655
-  /assets/photo.JPG:
-    md5: e53aa281e0c9cc910fc6a4dde864c3f9
-    time: 1407895656
