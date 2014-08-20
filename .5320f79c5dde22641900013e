@@ -1,12 +1,15 @@
 ---
-time: 1408400669
+time: 1408499024
 inventory:
   /home/index.html:
-    md5: 9c9af651f3982c8deaa3b0cbd5798260
-    time: 1408400647
+    md5: ce8b055b3cf43f378a885f923ca9255d
+    time: 1408499000
   /index.html:
-    md5: 9c9af651f3982c8deaa3b0cbd5798260
-    time: 1408400647
+    md5: ce8b055b3cf43f378a885f923ca9255d
+    time: 1408499000
+  /home/are-we-living-in-a-computer-simulation/index.html:
+    md5: 71cb2633fb5095a543578121f5e2a703
+    time: 1408499000
   /home/golden-age-of-brain-research/index.html:
     md5: 9032bb7d8d3064fd541a3cb25da16664
     time: 1408253891
@@ -23,11 +26,17 @@ inventory:
     md5: fe1928d68e5b247066a0e6e707730e67
     time: 1407899772
   /home/archive/index.html:
-    md5: 8a11aecd9d377162ee9e966eb49e1265
-    time: 1408253891
+    md5: 07ba88b317fe6733239f37e7fe1fcfa0
+    time: 1408499000
   /home/tags/index.html:
     md5: fbd86b4322459dd2014e52f5d49527df
     time: 1407899772
+  /home/tags/simulation-argument/index.html:
+    md5: dcc85cbb2a50fb1bc2067f8f19d58861
+    time: 1408499001
+  /home/tags/nick-bostrom/index.html:
+    md5: fa8bf5389ed13ca4328b3cd86dec25f7
+    time: 1408499001
   /home/tags/neuroscience/index.html:
     md5: 2da4fb26c6c0a39893deefae6755a7a8
     time: 1408253891
@@ -716,11 +725,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   /sitemap.xml:
-    md5: 7e647e0cdd30df7bf81e9ef4733e27a6
-    time: 1408253912
+    md5: d507aff19c514a17e99f1c496e6993eb
+    time: 1408499023
   /feed.xml:
-    md5: 5890b081861f7876206bc50202ea8c61
-    time: 1408400668
+    md5: 258fc078a0a2752de8aa7a3c00500318
+    time: 1408499023
   /assets/the-good-book.jpg:
     md5: c3a41308f020b16f46808c4fa5adde6f
     time: 1407895645
