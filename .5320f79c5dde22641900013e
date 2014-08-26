@@ -1,12 +1,15 @@
 ---
-time: 1408908184
+time: 1409090448
 inventory:
   /home/index.html:
-    md5: 536d8d3bc0887f26ccdfaf1dd487d3fa
-    time: 1408499152
+    md5: 7f738ffa728a9c95bd35e8cc397fbe24
+    time: 1409090420
   /index.html:
-    md5: 536d8d3bc0887f26ccdfaf1dd487d3fa
-    time: 1408499152
+    md5: 7f738ffa728a9c95bd35e8cc397fbe24
+    time: 1409090420
+  /home/reddit-sliding/index.html:
+    md5: f529f7e2d7d19216faeed934c7723e83
+    time: 1409090421
   /home/are-we-living-in-a-computer-simulation/index.html:
     md5: b9353fec376e0c122ea956e9c1ae4208
     time: 1408499152
@@ -26,11 +29,17 @@ inventory:
     md5: fe1928d68e5b247066a0e6e707730e67
     time: 1407899772
   /home/archive/index.html:
-    md5: 07ba88b317fe6733239f37e7fe1fcfa0
-    time: 1408499000
+    md5: 6ddf2864215be48bf9d2c72cc3dd84cc
+    time: 1409090422
   /home/tags/index.html:
     md5: fbd86b4322459dd2014e52f5d49527df
     time: 1407899772
+  /home/tags/reddit/index.html:
+    md5: 9f896f0275b8fc0bd96f5ad755587317
+    time: 1409090422
+  /home/tags/skeleton/index.html:
+    md5: 3402b8b71145b26f47f0ebe460b1132a
+    time: 1409090422
   /home/tags/simulation-argument/index.html:
     md5: dcc85cbb2a50fb1bc2067f8f19d58861
     time: 1408499001
@@ -725,11 +734,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   /sitemap.xml:
-    md5: df10a5b3065cdf38f670a67a2253768f
-    time: 1408908183
+    md5: f54d5a350d2428f481593b63c4df8ce6
+    time: 1409090447
   /feed.xml:
-    md5: ad4357cc032a20faaa131134a47ee4e8
-    time: 1408908183
+    md5: b677331015e83c12ce58240b16e6aee4
+    time: 1409090447
   /assets/the-good-book.jpg:
     md5: c3a41308f020b16f46808c4fa5adde6f
     time: 1407895645
