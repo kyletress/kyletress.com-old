@@ -1,12 +1,15 @@
 ---
-time: 1409090535
+time: 1409189643
 inventory:
   /home/index.html:
-    md5: 7f738ffa728a9c95bd35e8cc397fbe24
-    time: 1409090420
+    md5: 5257ea805e5e3ced9d2cfae4c667fe04
+    time: 1409189618
   /index.html:
-    md5: 7f738ffa728a9c95bd35e8cc397fbe24
-    time: 1409090420
+    md5: 5257ea805e5e3ced9d2cfae4c667fe04
+    time: 1409189618
+  /home/how-to-eat-sushi/index.html:
+    md5: 2b954f32b6ddda4e387962997a3df20f
+    time: 1409189618
   /home/reddit-sliding/index.html:
     md5: f529f7e2d7d19216faeed934c7723e83
     time: 1409090421
@@ -29,11 +32,17 @@ inventory:
     md5: fe1928d68e5b247066a0e6e707730e67
     time: 1407899772
   /home/archive/index.html:
-    md5: 6ddf2864215be48bf9d2c72cc3dd84cc
-    time: 1409090422
+    md5: b9438b5276eadfb8d6db295570550321
+    time: 1409189619
   /home/tags/index.html:
     md5: fbd86b4322459dd2014e52f5d49527df
     time: 1407899772
+  /home/tags/sushi/index.html:
+    md5: 8ae3fa96f099a06bbec378966ac879a2
+    time: 1409189619
+  /home/tags/video/index.html:
+    md5: 9848aa19dd3c6b1570de4e07f022d787
+    time: 1409189619
   /home/tags/reddit/index.html:
     md5: 9f896f0275b8fc0bd96f5ad755587317
     time: 1409090422
@@ -734,11 +743,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   /sitemap.xml:
-    md5: 57df763a411e309fa95b86f49e765ac2
-    time: 1409090534
+    md5: 14659f2d389ad1031731961502cfba73
+    time: 1409189641
   /feed.xml:
-    md5: f2c2fbf7a9209eb4c1ba6437365db114
-    time: 1409090534
+    md5: a2bbe0264bbef5a42eaba506e19deaf9
+    time: 1409189642
   /assets/the-good-book.jpg:
     md5: c3a41308f020b16f46808c4fa5adde6f
     time: 1407895645
