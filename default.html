@@ -1,38 +1,8 @@
 {% capture content %}
-  <article class="article">
-    <header class="content-header">
-      <h1>{{ title }}</h1>
-      {% if pages %}
-        <nav role="subnavigation">
-          <ul>
-            {% for subpage in pages %}
-            <li><a href="{{subpage.url}}">{{subpage.title}}</a></li>
-            {% endfor %}
-          </ul>
-        </nav>
-      {% endif %}
-    </header>
-    <div class="content-body">
-      {{ body }}
-    </div>
-    <footer class="content-footer">
-      {% if parent %}
-      <p><a href="{{parent.url}}">&larr; Back to {{parent.title}}</a></p>
-      {% endif %}
-      {% if type == "post" %}
-        {% for tagset in taxonomy %}
-          <strong>{{tagset.key}}</strong>
-          <ul>
-            {% for tag in tagset %}
-              <li><a href="{{tag.url}}">{{tag.value}}</a></li>
-            {% endfor %}
-          </ul>
-      {% endfor %}
-      {% else %}
-        {% comment %} Loop through any posts and show an excerpt {% endcomment %}
-          {% include 'includes/posts' %}
-      {% endif %}
-    </footer>
-  </article>
+<h1>{{ title }}</h1>
+{{ body }}     
+{% if parent %}
+  <a href="{{parent.url}}">&larr; Back to {{parent.title}}</a>
+{% endif %}
 {% endcapture %}
 {% include 'layouts/default' %}

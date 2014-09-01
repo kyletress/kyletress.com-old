@@ -1,7 +1,11 @@
 {% capture content %}
 <h1>{{title}}</h1>
 {{ body }}
-{% include 'includes/posts' %}
+<ul>
+{% for post in posts %}
+  <li><a href="{{post.url}}">{{post.title}}</a></li>
+{% endfor %}
+</ul>
 {% endcapture %}
 
 {% include 'layouts/default' %}

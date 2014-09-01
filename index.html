@@ -13,7 +13,7 @@
 
 <h3>Recent stuff</h3>
 <dl class="dl">
-  {% for post in posts | offset: 1 | limit: 5 %}
+  {% for post in posts | offset: 1 | limit: 3 %}
   <dt>{{ post.excerpt }}</dt>
   <dd class="meta"><a href="{{post.url}}">&infin;</a> {{ post.date | date: "%A %B %-d, %Y" }}</dd>
   {% endfor %}
