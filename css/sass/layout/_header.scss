@@ -1,5 +1,6 @@
 body {
   padding-top: 5.8rem;
+  
 }
 
 header[role="banner"] {
@@ -13,22 +14,21 @@ header[role="banner"] {
   border-bottom: 1px solid $color-borders;
 }
 
-.olympic-bars {
-  list-style:none;
-  margin:0;
-  padding:0;
-  padding-bottom:2rem;
-}
-
-.olympic-bars-bar {
-  float:left;
-  width:20%;
-  @include rem(height, .5rem);
-  background:blue;
-}
-
-@each $child, $color in (1: $olympic-blue, 2: $olympic-yellow, 3: $olympic-black, 4: $olympic-green, 5: $olympic-red) {
-  .olympic-bars-bar:nth-child(#{$child}) {
-    background: $color;
-  }
+.olympic-header {
+  height:.5rem;
+  width:100%;
+  margin-bottom:1.5rem;
+  background-image:
+  linear-gradient(
+    to right, 
+    $olympic-blue,
+    $olympic-blue 20%,
+    $olympic-yellow 20%,
+    $olympic-yellow 40%,
+    $olympic-black 40%,
+    $olympic-black 60%,
+    $olympic-green 60%,
+    $olympic-green 80%,
+    $olympic-red 80%
+  );
 }
