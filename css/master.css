@@ -576,8 +576,16 @@ a.link-amazon {
   padding: .5rem; }
 
 .media {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: -webkit-flex;
-  -webkit-align-items: center; }
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center; }
 
 .media__item {
   padding-right: 1rem; }

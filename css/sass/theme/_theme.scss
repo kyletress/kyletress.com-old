@@ -1,6 +1,10 @@
 .media{
-  display:-webkit-flex;
+  @include flexbox;
   -webkit-align-items:center;
+  -moz-align-items:center;
+  -ms-align-items:center;
+  -o-align-items:center;
+  align-items:center;
 }
 
 .media__item{
