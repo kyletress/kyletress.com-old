@@ -2,24 +2,32 @@
 <h1>{{title}}</h1>
 {{ body }}
 
-<table class="table table-condensed">
-  <tr>
-    <th>Book</th>
-    <th>Author</th>
-    <th>Rating</th>
-    <th>Buy Now</th>
-  </tr>
-  {% for book in posts %}
-  <tr>
-    <td><a href="{{book.url}}">{{book.title}}</a></td>
-    <td>{% for tag in book.taxonomy.author %}{{tag}}{% unless forloop.last %}, {% endunless %} {% endfor %}</td>
-    <td>{{book.meta.rating}}/5</td>
-    <td><a href="{{book.meta.link}}" class="link-amazon">amazon</a></td>
-  </tr>
-  {%endfor%}
-</table>
-    
+{% comment %} sort books by year, then month {% endcomment %}
 
+{% for book in posts %}
+  {% assign year = book.date | date: "%Y" %}  
+  {% if year != prev_year %}
+    {% if prev_year %}
+      </section><!-- end year {{year}} -->
+    {% endif %}
+    <section class="book-year-{{year}}">
+      <h2>{{ year }}</h2>
+      {% assign prev_month = "" %}
+  {% endif %}
+  {% assign month = book.date | date: "%B" %}
+    {% if month != prev_month %} 
+      {% if prev_month %}
+        </dl>
+      {% endif %}
+      <h3>{{ month }}</h3>
+      <dl class="faqs">
+    {% endif %}
+        <dt><a href="{{book.url}}">{{ book.title }}</a></dt>
+        <dd>{{ book.body }}</dd>
+        {% assign prev_month = month %}       
+   {% assign prev_year = year %}
+{% endfor %}<!-- end the loop -->
+</section>
 
 {% endcapture %}
 

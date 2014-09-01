@@ -1,15 +1,10 @@
 .navigation {
   @include inline-navigation(1.6rem);
   margin: 0 auto;
-  font-size:1.4rem;
-    a {
-      color:$color-black;
-        &.branding {
-          font-weight:bold;
-        }
+  a {
+    color:$color-text;
+    &.branding {
+      font-weight:bold;
     }
-}
-
-nav[role="social-links"] {
-  @include inline-navigation(1rem);
+  }
 }

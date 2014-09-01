@@ -1,37 +1,31 @@
-// Basic Colors
-$color-blue: #275C7B;
-$color-red: #A73D37;
-$color-white: #fafafa;
-$color-black: #1a1a1a;
-$color-gray: #eee;
-$color-pink: #EA80B0;
-
-$color-bronze: #CD7F32;
-$color-silver: #C0C0C0;
-$color-gold: #D4AF37;
-
-// Olympic Colors
+// Color Palette
+$alabaster: #fafafa;
+$calypso:#31728D;
+$dove-gray:#6D6C6C;
+$gallery: #efefef;
+$mineshaft: #222222;
+$tundora: #4A4244;
+$cod-gray:#0B0B0B;
+$white: #ffffff;
 $olympic-blue: #0885C2;
 $olympic-red: #ED334E;
 $olympic-yellow: #FBB132;
 $olympic-green: #1C8B3C;
-$olympic-black: $color-black;
+$olympic-black: #1a1a1a;
 
 // Theme Colors
-$color-text: #444;
-$color-headings: $color-black;
-$color-primary: $olympic-red;
-
-// Alert Colors
-$color-success: #5cb85c; // Green
-$color-danger: #880e14; // Red
-$color-warning: #dba909; // Yellow
+$color-text: $tundora;
+$color-headings: $mineshaft;
+$color-primary:$calypso; // used for links, buttons, solid headers if used
+$color-background:$alabaster;
+$color-borders: $gallery;
+$color-muted: $dove-gray;
 
 // Fonts
 $font-serif: "ff-meta-serif-web-pro", Georgia, serif;
 $font-sans: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
 
-// Container Sizing
+// Container
 $container-margin: 80%;
 $container-width: 70rem;
 

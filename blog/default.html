@@ -1,6 +1,4 @@
 {% capture content %}
-
-<main>
   <article class="essay">
     <header class="content-header">
       <h1>{{ title }}</h1>
@@ -22,15 +20,6 @@
       {% endif %}
     </footer>
   </article>
-  <div class="alert">
-  {% if site.meta.sponsor %}
-    {{ site.meta.sponsor | markdown }} 
-  {% else %}
-    <p>This week is available for sponsorship. Please visit my <a href="/sponsorship">sponsorship page</a> for more information.</p>
-  {% endif %}
-  </div><!--end alert-->
-</main>
-
 {% endcapture %}
 
 {% include 'layouts/default' %}

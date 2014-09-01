@@ -2,7 +2,7 @@
 
 .btn {
   display: inline-block;
-  background-color: $color-success;
+  background-color: $color-primary;
   padding: 8px 11px;
   @include border-radius(3px);
 }
@@ -11,12 +11,12 @@
 .btn:hover,
 a .btn:hover,
 .btn.active {
-  color: $color-white;
+  color: $color-background;
 }
 
 .btn:hover,
 a .btn:hover,
 .btn.active {
-  background-color: darken($color-success, 15%);
+  background-color: darken($color-primary, 15%);
   text-decoration:none;
 }

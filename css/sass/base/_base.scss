@@ -7,10 +7,10 @@ html{
 }
 
 body{
-  background: $color-white;
+  background: $color-background;
   -webkit-font-smoothing:subpixel-antialiased;
   font: {
-    @include font-size(16px);
+    @include font-size(14px);
     family: $font-serif;
   }
   color:$color-text;
@@ -41,7 +41,7 @@ a {
 blockquote{
   font-style:italic;
   color: lighten($color-text, 30%);
-  border-left:2px solid $color-gray;
+  border-left:2px solid $color-borders;
   margin-left:0;
   padding-left:2rem;
 }
@@ -52,7 +52,7 @@ figure{
 
 figcaption{
   @include font-size(14px);
-  color:darken($color-gray, 25%);
+  color:$color-muted;
   text-align:center;
 }
 
@@ -63,4 +63,20 @@ mark{
 img{
   max-width:100%;
   height: auto;
+}
+
+.dl {
+  margin-left:1rem;
+  p {
+    margin-bottom:0;
+  }
+  dd {
+    padding:0;
+    margin:0;
+    &.meta {
+      font-size:1.2rem;
+      font-style:italic;
+      color:$dove-gray;
+    }
+  }
 }

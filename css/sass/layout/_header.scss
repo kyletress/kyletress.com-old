@@ -1,23 +1,23 @@
 body {
-  padding-top: 6.9rem;
+  padding-top: 5.8rem;
 }
 
 header[role="banner"] {
-  @include rem(padding-bottom, 2.5);
-  background:rgba($color-white, .95);
+  @include rem(padding-bottom, 1.5);
+  background:rgba($color-background, .95);
   width:100%;
   position:fixed;
   top:0;
   text-align:center;
   clear:left;
-  border-bottom: 1px solid $color-gray;
+  border-bottom: 1px solid $color-borders;
 }
 
 .olympic-bars {
   list-style:none;
   margin:0;
   padding:0;
-  padding-bottom:3rem;
+  padding-bottom:2rem;
 }
 
 .olympic-bars-bar {

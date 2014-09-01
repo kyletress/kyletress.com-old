@@ -1,17 +1,17 @@
 {% capture content %}
-<header class="content-header">
-  <div>
-    <h1>{{ title }}</h1>
-    {% if meta.subtitle %}
-    <p><em>{{ meta.subtitle }}</em></p>
-    {% endif %}
-    <p>{% for tag in taxonomy.author %}{{tag}} {% endfor %}</p>
-    <p><a href="#">See it on amazon.com</a>
+<div class="media">
+  <div class="media__item">
+    <img src="{{assets.first}}" alt="{{assets.first.caption}}" class="img-bordered" width="125">
   </div>
-  <figure>
-    <img src="{{assets.first}}" alt="{{assets.first.caption}}" width="{{site.meta.book-cover-width}}" class="img-bordered">
-  </figure>
-</header>
+  <div class="media__body">
+    <h2>{{ title }}</h2>
+    {% if meta.subtitle %}
+    {{ meta.subtitle | markdown }}
+    {% endif %}
+    by {% for tag in taxonomy.author %}{{tag}}{% unless forloop.last %}, {% endunless %} {% endfor %}
+    <p><a href="#" class="link-amazon">Buy it on amazon.com</a>
+  </div>
+</div>
 
 {% if body != empty %}
 <section class="book-summary">

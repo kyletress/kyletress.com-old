@@ -1,44 +1,23 @@
 {% capture content %}
-<main>
-<div class="introduction">
-  <img src="{{assets.first.url}}" class="img-bordered headshot" width="300">
-  <div>{{ body }}</div>
-</div>
-  {% if site.meta.alert %}
-  <div class="alert">{{ site.meta.alert | markdown }} </div>
-{% endif %}
-  <h3>What's happening this week</h3>
-  <ul>
-    {% for post in posts %}
-    <li>{{ post.body }}</li>
-    {% endfor %}
-  </ul>
-  <h3>Best of kyletress.com</h3>
-  <ul>
-    <li><a href="/skeleton/faqs">Frequently asked questions about skeleton</a> <mark>Updated {{ site.pages.skeleton.pages.faqs.posts.first.published_at | date: '%B %-d, %Y' }}</mark></li>
-    <li><a href="/blog/how-to-build-a-personal-website">How to build a personal website</a> <span>Reading Time: 10 min</span></li>
-  </ul>
-    <h3>Recent posts <small>(<a href="/blog">see all</a>)</small></h3>
-  <ul>
-    {% for post in site.pages.blog.posts | limit: 5 %}
-    <li><a href="{{post.url}}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-  <h3>What I'm reading <small>(<a href="/reading">see all</a>)</small></h3>
-  <ul>
-    {% for post in site.pages.reading.posts | limit: 5 %}
-    <li><a href="{{post.url}}">{{ post.title }}</a> by {% for tag in post.taxonomy.author %}{{tag}}{%endfor%}</li>
-    {% endfor %}
-  </ul>
-  <h3>My projects</h3>
-  <ul>
-    {% for post in site.pages.projects.posts | limit: 5 %}
-    <li><a href="{{post.url}}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-  <h3>Recent Tweets</h3>
-  {% include 'includes/tweets' %}
-</main>
+<div class="media introduction">
+  <div class="media__item"><img src="/assets/headshot-small.jpg" class="img img-rounded"></div>
+  <div class="media__body">{{ body }}</div>
+</div><!-- end media -->
+
+<article>
+  {% for post in posts | limit: 1 %}
+    <h3>{{ post.date | date: "%A %B %-d, %Y" }}</h3>
+    {{ post.body }}
+  {% endfor %}
+</article>
+
+<h3>Recent stuff</h3>
+<dl class="dl">
+  {% for post in posts | offset: 1 | limit: 5 %}
+  <dt>{{ post.excerpt }}</dt>
+  <dd class="meta"><a href="{{post.url}}">&infin;</a> {{ post.date | date: "%A %B %-d, %Y" }}</dd>
+  {% endfor %}
+</dl>
 {% endcapture %}
 
 {% include 'layouts/default' %}

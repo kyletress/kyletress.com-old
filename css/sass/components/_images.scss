@@ -1,12 +1,7 @@
-.img-bordered,
-.img-photo,
-.img-rounded {
-  border: 1px solid $color-gray;
+.img {
+  border: 1px solid $color-borders;
   padding:4px;
-  background: $color-white;
-  &:hover {
-    background: darken($color-white, 5%);
-  }  
+  background: $white; 
 }
 
 // Gives the photo a little depth

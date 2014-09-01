@@ -3,9 +3,9 @@
   text-align: center;
   background-color: #fff;
   padding: 0 2rem;
-  border: 1px solid $color-gray;
+  border: 1px solid $color-borders;
   a {
-    color: darken($color-gray, 35%);
+    color: darken($color-borders, 35%);
     text-decoration: underline;
   }
 }
