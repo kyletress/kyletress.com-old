@@ -379,33 +379,11 @@ header[role="banner"] {
   clear: left;
   border-bottom: 1px solid #efefef; }
 
-.olympic-bars {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  padding-bottom: 2rem; }
-
-.olympic-bars-bar {
-  float: left;
-  width: 20%;
-  height: 5px;
-  height: 0.5rem;
-  background: blue; }
-
-.olympic-bars-bar:nth-child(1) {
-  background: #0885c2; }
-
-.olympic-bars-bar:nth-child(2) {
-  background: #fbb132; }
-
-.olympic-bars-bar:nth-child(3) {
-  background: #1a1a1a; }
-
-.olympic-bars-bar:nth-child(4) {
-  background: #1c8b3c; }
-
-.olympic-bars-bar:nth-child(5) {
-  background: #ed334e; }
+.olympic-header {
+  height: .5rem;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  background-image: linear-gradient(to right, #0885c2, #0885c2 20%, #fbb132 20%, #fbb132 40%, #1a1a1a 40%, #1a1a1a 60%, #1c8b3c 60%, #1c8b3c 80%, #ed334e 80%); }
 
 .navigation {
   margin: 0 auto; }
