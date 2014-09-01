@@ -3,31 +3,43 @@
 
   <url>
     <loc>http://kyletress.com/</loc>
-    <lastmod>2014-08-16T20:08:40+00:00</lastmod>
+    <lastmod>2014-08-31T18:37:21+00:00</lastmod>
     <priority>1.0</priority>
   </url>
   
   <url>
+    <loc>http://kyletress.com/home/strength</loc>
+    <lastmod>2014-09-01T03:02:16+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/home/photo-with-president-obama</loc>
+    <lastmod>2014-08-31T22:26:22+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://kyletress.com/home/how-to-eat-sushi</loc>
-    <lastmod>2014-08-28T01:33:33+00:00</lastmod>
+    <lastmod>2014-08-30T03:13:34+00:00</lastmod>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://kyletress.com/home/reddit-sliding</loc>
-    <lastmod>2014-08-26T22:00:01+00:00</lastmod>
+    <lastmod>2014-08-31T22:55:24+00:00</lastmod>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://kyletress.com/home/are-we-living-in-a-computer-simulation</loc>
-    <lastmod>2014-08-20T01:45:48+00:00</lastmod>
+    <lastmod>2014-08-30T02:47:21+00:00</lastmod>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://kyletress.com/home/golden-age-of-brain-research</loc>
-    <lastmod>2014-08-17T05:37:48+00:00</lastmod>
+    <lastmod>2014-08-30T02:52:53+00:00</lastmod>
     <priority>0.5</priority>
   </url>
   
@@ -51,14 +63,14 @@
   
   <url>
     <loc>http://kyletress.com/home/ibm-truenorth</loc>
-    <lastmod>2014-08-08T17:03:30+00:00</lastmod>
+    <lastmod>2014-08-30T03:06:05+00:00</lastmod>
     <priority>0.5</priority>
   </url>
   
 
   <url>
     <loc>http://kyletress.com/about</loc>
-    <lastmod>2014-08-12T21:00:06+00:00</lastmod>
+    <lastmod>2014-09-01T03:02:58+00:00</lastmod>
     <priority>1.0</priority>
   </url>
   
@@ -241,6 +253,81 @@
   <url>
     <loc>http://kyletress.com/blog/tragedy-in-vancouver</loc>
     <lastmod>2014-07-24T16:45:39+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+
+  <url>
+    <loc>http://kyletress.com/reading</loc>
+    <lastmod>2014-08-31T23:17:22+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/reading/superintelligence</loc>
+    <lastmod>2014-09-01T03:14:42+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/reading/philosophy-for-life-and-other-dangerous-situations</loc>
+    <lastmod>2014-09-01T03:20:51+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/reading/the-obstacle-is-the-way</loc>
+    <lastmod>2014-09-01T03:23:26+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/reading/meditations</loc>
+    <lastmod>2014-09-01T03:27:44+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+
+  <url>
+    <loc>http://kyletress.com/photos</loc>
+    <lastmod>2014-08-31T23:07:01+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/photos/obama</loc>
+    <lastmod>2014-08-31T22:09:05+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+
+  <url>
+    <loc>http://kyletress.com/favorites</loc>
+    <lastmod>2014-08-31T22:09:30+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/favorites/hannibal</loc>
+    <lastmod>2014-08-10T03:20:07+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/favorites/mario-kart-8</loc>
+    <lastmod>2014-06-14T20:11:39+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/favorites/super-mario-3d-world</loc>
+    <lastmod>2014-05-10T21:06:04+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/favorites/hbos-john-adams</loc>
+    <lastmod>2014-05-10T21:06:19+00:00</lastmod>
     <priority>0.5</priority>
   </url>
   
