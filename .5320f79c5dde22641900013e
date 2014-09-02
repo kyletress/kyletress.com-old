@@ -1,12 +1,15 @@
 ---
-time: 1409593069
+time: 1409685905
 inventory:
   /home/index.html:
-    md5: e6c512fcead96e77fda1aade8f1126f8
-    time: 1409593005
+    md5: 7e448d9a94cb77975486c625a63d5bca
+    time: 1409685886
   /index.html:
-    md5: e6c512fcead96e77fda1aade8f1126f8
-    time: 1409593005
+    md5: 7e448d9a94cb77975486c625a63d5bca
+    time: 1409685886
+  /home/superintelligence/index.html:
+    md5: 2fbc41f102ede782980e830997347169
+    time: 1409685886
   /home/strength/index.html:
     md5: 75b71870cff9eaebcfd880877dd2bc19
     time: 1409593005
@@ -43,6 +46,9 @@ inventory:
   /home/tags/index.html:
     md5: 0fe5d94cbc4666726dd260d5bc9ba76d
     time: 1409593006
+  /home/tags/artificial-intelligence/index.html:
+    md5: a1fa9e0dcbf58728b72b1e4107504258
+    time: 1409593007
   /home/tags/training/index.html:
     md5: 8c011516c7c30f9a54f476b92a53c97f
     time: 1409593006
@@ -82,9 +88,6 @@ inventory:
   /home/tags/robin-williams/index.html:
     md5: 411cfa72f6477c644caffbb4cdb90f48
     time: 1409593007
-  /home/tags/artificial-intelligence/index.html:
-    md5: a1fa9e0dcbf58728b72b1e4107504258
-    time: 1409593007
   /home/tags/brain/index.html:
     md5: ec214a3b744e27eea400d2a6ca1dd7ed
     time: 1409593007
@@ -93,6 +96,9 @@ inventory:
     time: 1409593007
   /home/category/index.html:
     md5: 283ae296439502a8dce252dec16da964
+    time: 1409593007
+  /home/category/futures-studies/index.html:
+    md5: eef4fd052345fea9b7c4a113722fae3c
     time: 1409593007
   /home/category/training/index.html:
     md5: 3273661eb970c5f07dbaaef0a074772d
@@ -105,9 +111,6 @@ inventory:
     time: 1409593007
   /home/category/skeleton/index.html:
     md5: 5c8b537413dc4c87e41ce5fbdc1b56ce
-    time: 1409593007
-  /home/category/futures-studies/index.html:
-    md5: eef4fd052345fea9b7c4a113722fae3c
     time: 1409593007
   /home/category/books/index.html:
     md5: ad42f2e64edae09b0d297458f7dd7686
@@ -866,11 +869,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   /sitemap.xml:
-    md5: 6e8998b801cfe611711d5a9cf16ea36c
-    time: 1409542333
+    md5: d07f77b0d1e87a254ec1b1ac58838be7
+    time: 1409685904
   /feed.xml:
-    md5: b900f79796ae3be5fb635c8d73d5bf37
-    time: 1409593023
+    md5: 7ca759301dc328781a277555f04baeb4
+    time: 1409685904
   /assets/meditations.jpg:
     md5: d12c054173cc245da16047de978f57ee
     time: 1407895645
