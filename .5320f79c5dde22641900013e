@@ -1,15 +1,15 @@
 ---
-time: 1409685905
+time: 1409685959
 inventory:
   /home/index.html:
-    md5: 7e448d9a94cb77975486c625a63d5bca
-    time: 1409685886
+    md5: 8cd843871eed7873ad65324f7896492a
+    time: 1409685940
   /index.html:
-    md5: 7e448d9a94cb77975486c625a63d5bca
-    time: 1409685886
+    md5: 8cd843871eed7873ad65324f7896492a
+    time: 1409685940
   /home/superintelligence/index.html:
-    md5: 2fbc41f102ede782980e830997347169
-    time: 1409685886
+    md5: 77629a8923686520c2de3260734a88f3
+    time: 1409685940
   /home/strength/index.html:
     md5: 75b71870cff9eaebcfd880877dd2bc19
     time: 1409593005
@@ -869,11 +869,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   /sitemap.xml:
-    md5: d07f77b0d1e87a254ec1b1ac58838be7
-    time: 1409685904
+    md5: c843120d32240b0c10eaff59ebafdd9a
+    time: 1409685958
   /feed.xml:
-    md5: 7ca759301dc328781a277555f04baeb4
-    time: 1409685904
+    md5: a4201066ba7867053a48456b9658aad9
+    time: 1409685959
   /assets/meditations.jpg:
     md5: d12c054173cc245da16047de978f57ee
     time: 1407895645
