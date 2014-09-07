@@ -1,12 +1,15 @@
 ---
-time: 1409685959
+time: 1410059524
 inventory:
   /home/index.html:
-    md5: 8cd843871eed7873ad65324f7896492a
-    time: 1409685940
+    md5: 7dfc41e82c9f0ed0d7b09c99d01c45ed
+    time: 1410059503
   /index.html:
-    md5: 8cd843871eed7873ad65324f7896492a
-    time: 1409685940
+    md5: 7dfc41e82c9f0ed0d7b09c99d01c45ed
+    time: 1410059503
+  /home/bill-murray/index.html:
+    md5: 668f65ba37d19e98173441c77866af18
+    time: 1410059503
   /home/superintelligence/index.html:
     md5: 77629a8923686520c2de3260734a88f3
     time: 1409685940
@@ -371,8 +374,11 @@ inventory:
     md5: e071b49e97e20863f10ede352313cbd8
     time: 1409593012
   /photos/index.html:
-    md5: d02d83646d2d879159353a28fa0a5faa
-    time: 1409593012
+    md5: ef168878e459dec8efcf149701cb3801
+    time: 1410059511
+  /photos/2014-olympic-skeleton-team/index.html:
+    md5: 8f71e06703b5b62a62b713575b0940ae
+    time: 1410059511
   /photos/obama/index.html:
     md5: 4e92943211af136fbd733cef6a3ff2af
     time: 1409593012
@@ -382,6 +388,9 @@ inventory:
   /photos/tags/index.html:
     md5: e2da1687b66dc5483eb7fcdb6ab8c325
     time: 1409593012
+  /photos/tags/olympics/index.html:
+    md5: a7e4bdf8ffff2727f440eb6916c6170c
+    time: 1409593013
   /photos/tags/white-house/index.html:
     md5: d68dc38c01f3df905c33f0f4c9818e34
     time: 1409593012
@@ -390,9 +399,6 @@ inventory:
     time: 1409593013
   /photos/tags/barack-obama/index.html:
     md5: bed736b0df8d73dad981857694f25cc2
-    time: 1409593013
-  /photos/tags/olympics/index.html:
-    md5: a7e4bdf8ffff2727f440eb6916c6170c
     time: 1409593013
   /videos/index.html:
     md5: 9838eb9c08f4c5af56728e136f7529ee
@@ -869,11 +875,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   /sitemap.xml:
-    md5: c843120d32240b0c10eaff59ebafdd9a
-    time: 1409685958
+    md5: 8499f438f2c8995b42a1f85d54b4f163
+    time: 1410059522
   /feed.xml:
-    md5: a4201066ba7867053a48456b9658aad9
-    time: 1409685959
+    md5: 7ca86c9fc50e1c403369c3650ddc3063
+    time: 1410059522
   /assets/meditations.jpg:
     md5: d12c054173cc245da16047de978f57ee
     time: 1407895645
@@ -937,6 +943,9 @@ inventory:
   /css/master.css:
     md5: 9d4deb9acaca9e8cfb3b1f7ff15c64c1
     time: 1409593023
+  /assets/2014-01-30-olympic-skeleton-team-photo-small-size.jpg:
+    md5: 9048e382b0b0d61b193e17ddbcf3d258
+    time: 1410059523
   /assets/KyleStMoritz.jpg:
     md5: 8392b92800f82038054e7e8e637336fd
     time: 1407895647
