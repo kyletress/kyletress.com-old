@@ -1,12 +1,15 @@
 ---
-time: 1410059524
+time: 1410635821
 inventory:
   /home/index.html:
-    md5: 7dfc41e82c9f0ed0d7b09c99d01c45ed
-    time: 1410059503
+    md5: 139359b21fefe93870e550a2a5af72b7
+    time: 1410635803
   /index.html:
-    md5: 7dfc41e82c9f0ed0d7b09c99d01c45ed
-    time: 1410059503
+    md5: 139359b21fefe93870e550a2a5af72b7
+    time: 1410635803
+  /home/minimalism/index.html:
+    md5: 573174e0231e107cce13e9c8d89c75a6
+    time: 1410635803
   /home/bill-murray/index.html:
     md5: 668f65ba37d19e98173441c77866af18
     time: 1410059503
@@ -49,6 +52,9 @@ inventory:
   /home/tags/index.html:
     md5: 0fe5d94cbc4666726dd260d5bc9ba76d
     time: 1409593006
+  /home/tags/minimalism/index.html:
+    md5: 1a85311a6a67b787c889d24bb1d8fea1
+    time: 1410635804
   /home/tags/artificial-intelligence/index.html:
     md5: a1fa9e0dcbf58728b72b1e4107504258
     time: 1409593007
@@ -875,11 +881,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   /sitemap.xml:
-    md5: 8499f438f2c8995b42a1f85d54b4f163
-    time: 1410059522
+    md5: 5c53bed2918147221485ac6028cf4b15
+    time: 1410635820
   /feed.xml:
-    md5: 7ca86c9fc50e1c403369c3650ddc3063
-    time: 1410059522
+    md5: ed52d462e21089d316b35fb2b4fbe644
+    time: 1410635820
   /assets/meditations.jpg:
     md5: d12c054173cc245da16047de978f57ee
     time: 1407895645
