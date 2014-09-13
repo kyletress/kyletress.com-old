@@ -200,8 +200,8 @@ html {
 body {
   background: #fafafa;
   -webkit-font-smoothing: subpixel-antialiased;
-  font-size: 14px;
-  font-size: 1.4rem;
+  font-size: 16px;
+  font-size: 1.6rem;
   font-family: "ff-meta-serif-web-pro", Georgia, serif;
   color: #4a4244;
   line-height: 1.6; }
