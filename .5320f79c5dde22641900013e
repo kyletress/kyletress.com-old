@@ -1,12 +1,12 @@
 ---
-time: 1410646675
+time: 1411160268
 inventory:
   /home/index.html:
-    md5: 139359b21fefe93870e550a2a5af72b7
-    time: 1410635803
+    md5: 5873c64f6dac6e1ae1927f4e434eb4bc
+    time: 1411160248
   /index.html:
-    md5: 139359b21fefe93870e550a2a5af72b7
-    time: 1410635803
+    md5: 5873c64f6dac6e1ae1927f4e434eb4bc
+    time: 1411160248
   /home/minimalism/index.html:
     md5: 573174e0231e107cce13e9c8d89c75a6
     time: 1410635803
@@ -884,8 +884,8 @@ inventory:
     md5: 5c53bed2918147221485ac6028cf4b15
     time: 1410635820
   /feed.xml:
-    md5: ed52d462e21089d316b35fb2b4fbe644
-    time: 1410635820
+    md5: 0b1bdc86c2f26d0f74decfdd690fd46c
+    time: 1411160268
   /assets/meditations.jpg:
     md5: d12c054173cc245da16047de978f57ee
     time: 1407895645
@@ -950,8 +950,8 @@ inventory:
     md5: 9048e382b0b0d61b193e17ddbcf3d258
     time: 1410059523
   /css/master.css:
-    md5: dfd0dacb65b41bd630722d02f094fc55
-    time: 1410646675
+    md5: 20c829dc9ee33bccdbceebc99188f6bf
+    time: 1411160268
   /assets/KyleStMoritz.jpg:
     md5: 8392b92800f82038054e7e8e637336fd
     time: 1407895647
