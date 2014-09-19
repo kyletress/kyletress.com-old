@@ -380,7 +380,7 @@ header[role="banner"] {
   border-bottom: 1px solid #efefef; }
 
 .olympic-header {
-  height: .5rem;
+  height: .3rem;
   width: 100%;
   margin-bottom: 1.5rem;
   background-image: linear-gradient(to right, #0885c2, #0885c2 20%, #fbb132 20%, #fbb132 40%, #1a1a1a 40%, #1a1a1a 60%, #1c8b3c 60%, #1c8b3c 80%, #ed334e 80%); }

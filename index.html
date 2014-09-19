@@ -3,14 +3,6 @@
   <div class="media__item"><img src="/assets/headshot-small.jpg" class="img img-rounded"></div>
   <div class="media__body">{{ body }}</div>
 </div><!-- end media -->
-
-<article>
-  {% for post in posts | limit: 1 %}
-    <h3>{{ post.date | date: "%A %B %-d, %Y" }}</h3>
-    {{ post.body }}
-  {% endfor %}
-</article>
-
 {% endcapture %}
 
 {% include 'layouts/default' %}
