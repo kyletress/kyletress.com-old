@@ -1,6 +1,5 @@
 body {
   padding-top: 5.8rem;
-  
 }
 
 header[role="banner"] {
@@ -12,6 +11,9 @@ header[role="banner"] {
   text-align:center;
   clear:left;
   border-bottom: 1px solid $color-borders;
+  @media (min-width: 620px) {
+    text-align:left;
+  }
 }
 
 .olympic-header {

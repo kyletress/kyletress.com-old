@@ -18,6 +18,11 @@
 
 .introduction {
   padding:3rem 0;
+  .media__body {
+    font-style:italic;
+    font-size: 1.4rem;
+    color: $color-muted;
+  }
 }
 
 .rings {
@@ -49,4 +54,8 @@ a.anchor{
   position: relative; 
   top: -80px; 
   visibility: hidden;
+}
+
+.footnotes {
+  font-size:1.2rem;
 }

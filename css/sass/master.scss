@@ -27,14 +27,3 @@
 
 // THEME FILES
 @import "theme/theme";
-
-@media (min-width: 620px) {
-
-  header[role="banner"] {
-    text-align:left;
-  }
-
-  footer[role="site-footer"] {
-    text-align:center;
-  }
-}
