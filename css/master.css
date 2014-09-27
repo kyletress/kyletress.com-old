@@ -566,10 +566,7 @@ a.link-amazon {
   padding: .5rem; }
 
 .reading-list ul {
-  font-size: 1.2rem;
-  list-style: none;
-  padding-left: 0;
-  margin-left: 0; }
+  font-size: 1.2rem; }
 
 .media {
   display: -webkit-box;
