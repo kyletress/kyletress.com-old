@@ -1,32 +1,13 @@
 {% capture content %}
-<h1>{{title}}</h1>
-{{ body }}
+{{body}}
 
-{% comment %} sort books by year, then month {% endcomment %}
-
-{% for book in posts %}
-  {% assign year = book.date | date: "%Y" %}  
-  {% if year != prev_year %}
-    {% if prev_year %}
-      </section><!-- end year {{year}} -->
-    {% endif %}
-    <section class="book-year-{{year}}">
-      <h2>{{ year }}</h2>
-      {% assign prev_month = "" %}
-  {% endif %}
-  {% assign month = book.date | date: "%B" %}
-    {% if month != prev_month %} 
-      {% if prev_month %}
-        </dl>
-      {% endif %}
-      <h3>{{ month }}</h3>
-      <dl class="faqs">
-    {% endif %}
-        <dt><a href="{{book.url}}">{{ book.title }}</a></dt>
-        <dd>{{ book.body }}</dd>
-        {% assign prev_month = month %}       
-   {% assign prev_year = year %}
-{% endfor %}<!-- end the loop -->
+<section class="reading-list">
+    <h4>What I've been reading</h4>
+    <ul>
+    {% for book in posts %}
+      <li><a href="{{book.url}}">{{ book.title }}</a>
+    {% endfor %}
+    </ul>  
 </section>
 
 {% endcapture %}
