@@ -245,6 +245,11 @@ img {
   max-width: 100%;
   height: auto; }
 
+hr {
+  border: 0;
+  height: 1px;
+  background: #eee; }
+
 .dl {
   margin-left: 1rem; }
   .dl p {
@@ -378,6 +383,9 @@ header[role="banner"] {
   text-align: center;
   clear: left;
   border-bottom: 1px solid #efefef; }
+  @media (min-width: 620px) {
+    header[role="banner"] {
+      text-align: left; } }
 
 .olympic-header {
   height: .3rem;
@@ -386,6 +394,7 @@ header[role="banner"] {
   background-image: linear-gradient(to right, #0885c2, #0885c2 20%, #fbb132 20%, #fbb132 40%, #1a1a1a 40%, #1a1a1a 60%, #1c8b3c 60%, #1c8b3c 80%, #ed334e 80%); }
 
 .navigation {
+  font-size: 1.4rem;
   margin: 0 auto; }
   .navigation ul {
     list-style: none;
@@ -404,8 +413,11 @@ header[role="banner"] {
 footer[role="site-footer"] {
   font-size: 1.2rem;
   color: #656464;
-  text-align: center;
-  padding: 4rem 0; }
+  padding: 4rem 0;
+  text-align: center; }
+  @media (min-width: 620px) {
+    footer[role="site-footer"] {
+      text-align: left; } }
   footer[role="site-footer"] p {
     margin: 0; }
 
@@ -553,6 +565,9 @@ a.link-amazon {
 .hero-condensed {
   padding: .5rem; }
 
+.reading-list ul {
+  font-size: 1.2rem; }
+
 .media {
   display: -webkit-box;
   display: -moz-box;
@@ -574,6 +589,10 @@ a.link-amazon {
 
 .introduction {
   padding: 3rem 0; }
+  .introduction .media__body {
+    font-style: italic;
+    font-size: 1.4rem;
+    color: #6d6c6c; }
 
 .rings {
   padding: 1rem 0;
@@ -597,9 +616,5 @@ a.anchor {
   top: -80px;
   visibility: hidden; }
 
-@media (min-width: 620px) {
-  header[role="banner"] {
-    text-align: left; }
-
-  footer[role="site-footer"] {
-    text-align: center; } }
+.footnotes {
+  font-size: 1.2rem; }
