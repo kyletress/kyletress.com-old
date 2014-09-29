@@ -1,5 +1,5 @@
 ---
-time: 1411862089
+time: 1411950339
 inventory:
   /home/index.html:
     md5: c3da32c771049c4bab7d9e50931a8705
@@ -314,8 +314,11 @@ inventory:
     md5: 7493512e3d8bbc9aa16efd20b91ce37b
     time: 1411862027
   /reading/index.html:
-    md5: 28993c9e39d827752e1d4ba56913bd2d
-    time: 1411862027
+    md5: 73e01a328e9208e06e4570e01dae4bc2
+    time: 1411950323
+  /reading/the-art-of-learning/index.html:
+    md5: 73040ff32d71809594eac690875b0b84
+    time: 1411950323
   /reading/superintelligence/index.html:
     md5: 8272c9b0d7a57333f61498284c4d3b70
     time: 1411862028
@@ -334,6 +337,12 @@ inventory:
   /reading/tags/index.html:
     md5: a925656175d57bb6bf8fd3d01f7e8d2f
     time: 1411862028
+  /reading/tags/learning/index.html:
+    md5: e7d4ab4e8086befb8e216fc3d97b865d
+    time: 1411950324
+  /reading/tags/chess/index.html:
+    md5: 93fdaca2ac72f5ed22ce2c024f9da353
+    time: 1411950324
   /reading/tags/artificial-intelligence/index.html:
     md5: 2f0d59ea779a398bfe59efe9b8efe9e5
     time: 1411862028
@@ -352,6 +361,9 @@ inventory:
   /reading/author/index.html:
     md5: 56ce770e1342e80d4cede39fc24de6dc
     time: 1411862028
+  /reading/author/josh-waitzkin/index.html:
+    md5: 2ffd6d289f8f5872e4344719f6fbf849
+    time: 1411950324
   /reading/author/nick-bostrom/index.html:
     md5: 7269b6cd711244f2189456d6316c97e1
     time: 1411862028
@@ -529,6 +541,24 @@ inventory:
   /reading/notes/index.html:
     md5: 72519b5a23f3b14a4bfe9ea70911024e
     time: 1411862032
+  /reading/notes/the-art-of-learning-page-192/index.html:
+    md5: 29cd8e807353df0919e710032172fa2d
+    time: 1411950328
+  /reading/notes/the-art-of-learning-page-187/index.html:
+    md5: 0e8825797b34e131d80e363307b52dae
+    time: 1411950328
+  /reading/notes/the-art-of-learning-page-179/index.html:
+    md5: fe9414982743319f7fb24b7380f4a3f1
+    time: 1411950328
+  /reading/notes/the-art-of-learning-page-172/index.html:
+    md5: c0c22f4e1f4553737ce916aabc7f99b4
+    time: 1411950328
+  /reading/notes/the-art-of-learning-page-137/index.html:
+    md5: 177cab86c2d0e80bc6d1e563e723e690
+    time: 1411950328
+  /reading/notes/the-art-of-learning-page-123/index.html:
+    md5: 3ab7bec43e95bf71c17f00cb19ed723b
+    time: 1411950328
   /reading/notes/the-obstacle-is-the-way-page-73/index.html:
     md5: 6a8554e582e393d46c8a42de7be29b12
     time: 1411862032
@@ -571,6 +601,21 @@ inventory:
   /reading/notes/tags/index.html:
     md5: 797d2e549050eba22aafd9d66e460991
     time: 1411862033
+  /reading/notes/tags/competiton/index.html:
+    md5: e66fe80d565a3133c917958e89378e6d
+    time: 1411950329
+  /reading/notes/tags/performance/index.html:
+    md5: 28a168ee5c4b4fea6a956dfdf8057788
+    time: 1411950329
+  /reading/notes/tags/competition/index.html:
+    md5: 3b3b458752066aa03b89d3f2c926f63f
+    time: 1411950329
+  /reading/notes/tags/learning/index.html:
+    md5: e7d4ab4e8086befb8e216fc3d97b865d
+    time: 1411950329
+  /reading/notes/tags/mastery/index.html:
+    md5: 041d256853faed3684ff7acdd32138d4
+    time: 1411950329
   /reading/notes/tags/work/index.html:
     md5: ddd80d2b5b8b205ded69b98719140aef
     time: 1411862033
@@ -628,6 +673,9 @@ inventory:
   /reading/notes/book/index.html:
     md5: b51ef62e4fe4fa7ce2e7ce13ded8e84d
     time: 1411862033
+  /reading/notes/book/the-art-of-learning/index.html:
+    md5: 482dc4ffcdd14e6795f45364abb0e7ca
+    time: 1411950330
   /reading/notes/book/the-obstacle-is-the-way/index.html:
     md5: ba9559d39c9eef3a896d1c1ff463ed4f
     time: 1411862033
@@ -722,8 +770,11 @@ inventory:
     md5: 0e9fc98de7fa331de456f9b54713ac73
     time: 1411862035
   /skeleton/faqs/index.html:
-    md5: f4511a425ff3a2ce40050f333255009a
-    time: 1411862036
+    md5: 60b3dd4492c1455f0298172fc8920d0d
+    time: 1411950332
+  /skeleton/faqs/how-should-i-prepare-for-skeleton-school/index.html:
+    md5: ac2ec31d264e665cbb2834c0c21b4c66
+    time: 1411950332
   /skeleton/faqs/what-are-your-combine-scores/index.html:
     md5: 0914b11a5445b8147c6df0ebf95a87a3
     time: 1411862036
@@ -844,6 +895,9 @@ inventory:
   /skeleton/faqs/tags/index.html:
     md5: 69887864912671a28745122c459d696c
     time: 1411862038
+  /skeleton/faqs/tags/the-basics/index.html:
+    md5: a2e592192476dbe218de946793cc849b
+    time: 1411862038
   /skeleton/faqs/tags/training/index.html:
     md5: 21e034d0248a593ddee9c189b2281369
     time: 1411862038
@@ -855,9 +909,6 @@ inventory:
     time: 1411862038
   /skeleton/faqs/tags/tracks/index.html:
     md5: c7f470cef3445f208d3233dcb7f69c14
-    time: 1411862038
-  /skeleton/faqs/tags/the-basics/index.html:
-    md5: a2e592192476dbe218de946793cc849b
     time: 1411862038
   /skeleton/faqs/tags/the-olympics/index.html:
     md5: 45aa149bff9f94d3ec98fdac3ec1baa7
@@ -881,11 +932,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   /sitemap.xml:
-    md5: 280238b40a3145f8ec0684c966f4553e
-    time: 1411862039
+    md5: 49896ad4460c7ab917d95e868c4e3189
+    time: 1411950335
   /feed.xml:
-    md5: bc80c5e0925b7b7d448887651172edda
-    time: 1411862039
+    md5: 201a6a5df6f19b38c25c44425b523fec
+    time: 1411950335
   /assets/meditations.jpg:
     md5: d12c054173cc245da16047de978f57ee
     time: 1407895645
