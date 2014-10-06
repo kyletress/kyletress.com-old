@@ -1,5 +1,5 @@
 ---
-time: 1412126551
+time: 1412575369
 inventory:
   /home/index.html:
     md5: c53f20e2c23d3d43d7c375effc03f487
@@ -314,8 +314,11 @@ inventory:
     md5: 7493512e3d8bbc9aa16efd20b91ce37b
     time: 1411862027
   /reading/index.html:
-    md5: 73e01a328e9208e06e4570e01dae4bc2
-    time: 1411950323
+    md5: f37f71907f69b039a2e5db63a34ddb40
+    time: 1412575357
+  /reading/a-guide-to-the-good-life/index.html:
+    md5: 979052555d27e461fa34f530a813c084
+    time: 1412575357
   /reading/the-art-of-learning/index.html:
     md5: 73040ff32d71809594eac690875b0b84
     time: 1411950323
@@ -337,6 +340,12 @@ inventory:
   /reading/tags/index.html:
     md5: a925656175d57bb6bf8fd3d01f7e8d2f
     time: 1411862028
+  /reading/tags/stoicism/index.html:
+    md5: 9c1ce7f14a1eb8dcb458a29d95989d13
+    time: 1411862028
+  /reading/tags/philosophy/index.html:
+    md5: 8eb942b46dad394787926a25459e29f4
+    time: 1411862028
   /reading/tags/learning/index.html:
     md5: e7d4ab4e8086befb8e216fc3d97b865d
     time: 1411950324
@@ -352,15 +361,12 @@ inventory:
   /reading/tags/futurology/index.html:
     md5: e15286efb03508a1809a4282682eb90b
     time: 1411862028
-  /reading/tags/philosophy/index.html:
-    md5: 8eb942b46dad394787926a25459e29f4
-    time: 1411862028
-  /reading/tags/stoicism/index.html:
-    md5: 9c1ce7f14a1eb8dcb458a29d95989d13
-    time: 1411862028
   /reading/author/index.html:
     md5: 56ce770e1342e80d4cede39fc24de6dc
     time: 1411862028
+  /reading/author/william-b-irvine/index.html:
+    md5: 6788fde9b227ca859229f7614cc8c4a7
+    time: 1412575358
   /reading/author/josh-waitzkin/index.html:
     md5: 2ffd6d289f8f5872e4344719f6fbf849
     time: 1411950324
@@ -541,6 +547,9 @@ inventory:
   /reading/notes/index.html:
     md5: 72519b5a23f3b14a4bfe9ea70911024e
     time: 1411862032
+  /reading/notes/a-guide-to-the-good-life-page-161/index.html:
+    md5: c6751c123d5b68add63bef1b8e0735f3
+    time: 1412575361
   /reading/notes/the-art-of-learning-page-192/index.html:
     md5: 29cd8e807353df0919e710032172fa2d
     time: 1411950328
@@ -601,6 +610,18 @@ inventory:
   /reading/notes/tags/index.html:
     md5: 797d2e549050eba22aafd9d66e460991
     time: 1411862033
+  /reading/notes/tags/help/index.html:
+    md5: 6a30851ef068080c64b3a76a5b661871
+    time: 1412575362
+  /reading/notes/tags/anger/index.html:
+    md5: dddd39037ea5fa99da027e485c18510c
+    time: 1412575362
+  /reading/notes/tags/seneca/index.html:
+    md5: 1ddb737d61cad2cc77ae84db0b74a64b
+    time: 1412575362
+  /reading/notes/tags/stoicism/index.html:
+    md5: 9c1ce7f14a1eb8dcb458a29d95989d13
+    time: 1411862033
   /reading/notes/tags/competiton/index.html:
     md5: e66fe80d565a3133c917958e89378e6d
     time: 1411950329
@@ -643,9 +664,6 @@ inventory:
   /reading/notes/tags/meditations/index.html:
     md5: fd3b4508cef552d44037a43c498b3e38
     time: 1411862033
-  /reading/notes/tags/stoicism/index.html:
-    md5: 9c1ce7f14a1eb8dcb458a29d95989d13
-    time: 1411862033
   /reading/notes/tags/marcus-aurelius/index.html:
     md5: 13ebc79f23164eab72e70a83b543925b
     time: 1411862033
@@ -673,6 +691,9 @@ inventory:
   /reading/notes/book/index.html:
     md5: b51ef62e4fe4fa7ce2e7ce13ded8e84d
     time: 1411862033
+  /reading/notes/book/a-guide-to-the-good-life/index.html:
+    md5: 205d8ac7ecd1358cff2a31dfe751f51e
+    time: 1412575363
   /reading/notes/book/the-art-of-learning/index.html:
     md5: 482dc4ffcdd14e6795f45364abb0e7ca
     time: 1411950330
@@ -932,11 +953,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   /sitemap.xml:
-    md5: 49896ad4460c7ab917d95e868c4e3189
-    time: 1411950335
+    md5: 6a17d9e982a85435b9820516deef6197
+    time: 1412575367
   /feed.xml:
-    md5: f38d3896060baa6bd7c7f8f225247704
-    time: 1412126550
+    md5: 9dcc4623c4f86b9f710d026d1017090e
+    time: 1412575367
   /assets/meditations.jpg:
     md5: d12c054173cc245da16047de978f57ee
     time: 1407895645
