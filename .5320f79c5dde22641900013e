@@ -1,5 +1,5 @@
 ---
-time: 1412575369
+time: 1412615556
 inventory:
   /home/index.html:
     md5: c53f20e2c23d3d43d7c375effc03f487
@@ -317,8 +317,8 @@ inventory:
     md5: f37f71907f69b039a2e5db63a34ddb40
     time: 1412575357
   /reading/a-guide-to-the-good-life/index.html:
-    md5: 979052555d27e461fa34f530a813c084
-    time: 1412575357
+    md5: 95d8a34458a417f25f43b717a4af8af2
+    time: 1412615541
   /reading/the-art-of-learning/index.html:
     md5: 73040ff32d71809594eac690875b0b84
     time: 1411950323
@@ -547,6 +547,9 @@ inventory:
   /reading/notes/index.html:
     md5: 72519b5a23f3b14a4bfe9ea70911024e
     time: 1411862032
+  /reading/notes/a-guide-to-the-good-life-page-203/index.html:
+    md5: ebf7a00e6990c045e8cf7ea422f1f5d0
+    time: 1412615546
   /reading/notes/a-guide-to-the-good-life-page-161/index.html:
     md5: c6751c123d5b68add63bef1b8e0735f3
     time: 1412575361
@@ -610,6 +613,12 @@ inventory:
   /reading/notes/tags/index.html:
     md5: 797d2e549050eba22aafd9d66e460991
     time: 1411862033
+  /reading/notes/tags/tolerance/index.html:
+    md5: e5f12ccb566b4e61c2f96b3c053a3ba9
+    time: 1412615548
+  /reading/notes/tags/pride/index.html:
+    md5: 10decc72716d15599b6ea979cce32793
+    time: 1412615548
   /reading/notes/tags/help/index.html:
     md5: 6a30851ef068080c64b3a76a5b661871
     time: 1412575362
@@ -956,8 +965,8 @@ inventory:
     md5: 6a17d9e982a85435b9820516deef6197
     time: 1412575367
   /feed.xml:
-    md5: 9dcc4623c4f86b9f710d026d1017090e
-    time: 1412575367
+    md5: 14d86b09a007aaaf2da30c19d64c9f62
+    time: 1412615556
   /assets/meditations.jpg:
     md5: d12c054173cc245da16047de978f57ee
     time: 1407895645
