@@ -1,5 +1,5 @@
 ---
-time: 1412615556
+time: 1412750035
 inventory:
   /home/index.html:
     md5: c53f20e2c23d3d43d7c375effc03f487
@@ -317,8 +317,8 @@ inventory:
     md5: f37f71907f69b039a2e5db63a34ddb40
     time: 1412575357
   /reading/a-guide-to-the-good-life/index.html:
-    md5: 95d8a34458a417f25f43b717a4af8af2
-    time: 1412615541
+    md5: aaa24da4282fd9ebd0a28ba90cfe2eea
+    time: 1412750021
   /reading/the-art-of-learning/index.html:
     md5: 73040ff32d71809594eac690875b0b84
     time: 1411950323
@@ -547,6 +547,12 @@ inventory:
   /reading/notes/index.html:
     md5: 72519b5a23f3b14a4bfe9ea70911024e
     time: 1411862032
+  /reading/notes/a-guide-to-the-good-life-page-256/index.html:
+    md5: a2a19e8d791520e4bc766d67851b6dc3
+    time: 1412750026
+  /reading/notes/a-guide-to-the-good-life-page-261/index.html:
+    md5: d35e1b9ec123a74141c63706df9e7aff
+    time: 1412750026
   /reading/notes/a-guide-to-the-good-life-page-203/index.html:
     md5: ebf7a00e6990c045e8cf7ea422f1f5d0
     time: 1412615546
@@ -613,6 +619,18 @@ inventory:
   /reading/notes/tags/index.html:
     md5: 797d2e549050eba22aafd9d66e460991
     time: 1411862033
+  /reading/notes/tags/stoicism/index.html:
+    md5: 9c1ce7f14a1eb8dcb458a29d95989d13
+    time: 1411862033
+  /reading/notes/tags/anger/index.html:
+    md5: dddd39037ea5fa99da027e485c18510c
+    time: 1412575362
+  /reading/notes/tags/butterlfies/index.html:
+    md5: 1e319117e6e534736e53cca8cfa58132
+    time: 1412750028
+  /reading/notes/tags/competition/index.html:
+    md5: 3b3b458752066aa03b89d3f2c926f63f
+    time: 1411950329
   /reading/notes/tags/tolerance/index.html:
     md5: e5f12ccb566b4e61c2f96b3c053a3ba9
     time: 1412615548
@@ -622,23 +640,14 @@ inventory:
   /reading/notes/tags/help/index.html:
     md5: 6a30851ef068080c64b3a76a5b661871
     time: 1412575362
-  /reading/notes/tags/anger/index.html:
-    md5: dddd39037ea5fa99da027e485c18510c
-    time: 1412575362
   /reading/notes/tags/seneca/index.html:
     md5: 1ddb737d61cad2cc77ae84db0b74a64b
     time: 1412575362
-  /reading/notes/tags/stoicism/index.html:
-    md5: 9c1ce7f14a1eb8dcb458a29d95989d13
-    time: 1411862033
   /reading/notes/tags/competiton/index.html:
     md5: e66fe80d565a3133c917958e89378e6d
     time: 1411950329
   /reading/notes/tags/performance/index.html:
     md5: 28a168ee5c4b4fea6a956dfdf8057788
-    time: 1411950329
-  /reading/notes/tags/competition/index.html:
-    md5: 3b3b458752066aa03b89d3f2c926f63f
     time: 1411950329
   /reading/notes/tags/learning/index.html:
     md5: e7d4ab4e8086befb8e216fc3d97b865d
@@ -965,8 +974,8 @@ inventory:
     md5: 6a17d9e982a85435b9820516deef6197
     time: 1412575367
   /feed.xml:
-    md5: 14d86b09a007aaaf2da30c19d64c9f62
-    time: 1412615556
+    md5: 3135cf7593f1043c055a6fbaa35501f5
+    time: 1412750034
   /assets/meditations.jpg:
     md5: d12c054173cc245da16047de978f57ee
     time: 1407895645
