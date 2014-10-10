@@ -1,5 +1,5 @@
 ---
-time: 1412750035
+time: 1412916129
 inventory:
   /home/index.html:
     md5: c53f20e2c23d3d43d7c375effc03f487
@@ -314,8 +314,11 @@ inventory:
     md5: 7493512e3d8bbc9aa16efd20b91ce37b
     time: 1411862027
   /reading/index.html:
-    md5: f37f71907f69b039a2e5db63a34ddb40
-    time: 1412575357
+    md5: c3739a4395258ffabe9ec3727a9f5b0d
+    time: 1412916114
+  /reading/a-short-history-of-nearly-everything/index.html:
+    md5: bde21147679262b20ad9991b6e1af0d8
+    time: 1412916114
   /reading/a-guide-to-the-good-life/index.html:
     md5: aaa24da4282fd9ebd0a28ba90cfe2eea
     time: 1412750021
@@ -340,6 +343,9 @@ inventory:
   /reading/tags/index.html:
     md5: a925656175d57bb6bf8fd3d01f7e8d2f
     time: 1411862028
+  /reading/tags/science/index.html:
+    md5: 7d6b5953f71cc77062f1089ba91c8aec
+    time: 1412916115
   /reading/tags/stoicism/index.html:
     md5: 9c1ce7f14a1eb8dcb458a29d95989d13
     time: 1411862028
@@ -364,6 +370,9 @@ inventory:
   /reading/author/index.html:
     md5: 56ce770e1342e80d4cede39fc24de6dc
     time: 1411862028
+  /reading/author/bill-bryson/index.html:
+    md5: 66d0d776e0ed542eec2674ee51c4fcba
+    time: 1412916116
   /reading/author/william-b-irvine/index.html:
     md5: 6788fde9b227ca859229f7614cc8c4a7
     time: 1412575358
@@ -547,6 +556,9 @@ inventory:
   /reading/notes/index.html:
     md5: 72519b5a23f3b14a4bfe9ea70911024e
     time: 1411862032
+  /reading/notes/a-short-history-of-nearly-everything-page-10/index.html:
+    md5: 6eddbfcfb7f79cbc52a1d0a7c837363d
+    time: 1412916119
   /reading/notes/a-guide-to-the-good-life-page-256/index.html:
     md5: a2a19e8d791520e4bc766d67851b6dc3
     time: 1412750026
@@ -619,6 +631,15 @@ inventory:
   /reading/notes/tags/index.html:
     md5: 797d2e549050eba22aafd9d66e460991
     time: 1411862033
+  /reading/notes/tags/universe/index.html:
+    md5: 7b2ebae388b16b876b7990d316997584
+    time: 1411862033
+  /reading/notes/tags/science/index.html:
+    md5: 7d6b5953f71cc77062f1089ba91c8aec
+    time: 1411862033
+  /reading/notes/tags/beginnings/index.html:
+    md5: 870834b137081154b541ca46ef65a002
+    time: 1412916120
   /reading/notes/tags/stoicism/index.html:
     md5: 9c1ce7f14a1eb8dcb458a29d95989d13
     time: 1411862033
@@ -667,9 +688,6 @@ inventory:
   /reading/notes/tags/training/index.html:
     md5: 7e63f70649e4914963fc185870decd36
     time: 1411862033
-  /reading/notes/tags/science/index.html:
-    md5: 7d6b5953f71cc77062f1089ba91c8aec
-    time: 1411862033
   /reading/notes/tags/failure/index.html:
     md5: 614eaa0a4b4a6e17859541211461b7be
     time: 1411862033
@@ -703,12 +721,12 @@ inventory:
   /reading/notes/tags/religion/index.html:
     md5: c5b8d430dbb56607267c5c0ca10b6bba
     time: 1411862033
-  /reading/notes/tags/universe/index.html:
-    md5: 7b2ebae388b16b876b7990d316997584
-    time: 1411862033
   /reading/notes/book/index.html:
     md5: b51ef62e4fe4fa7ce2e7ce13ded8e84d
     time: 1411862033
+  /reading/notes/book/a-short-history-of-nearly-everything/index.html:
+    md5: 2267fe8719bb016f17cc6650b1ae0862
+    time: 1412916122
   /reading/notes/book/a-guide-to-the-good-life/index.html:
     md5: 205d8ac7ecd1358cff2a31dfe751f51e
     time: 1412575363
@@ -971,11 +989,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   /sitemap.xml:
-    md5: 6a17d9e982a85435b9820516deef6197
-    time: 1412575367
+    md5: acc0f429988ba9f52773a5338cda6b57
+    time: 1412916128
   /feed.xml:
-    md5: 3135cf7593f1043c055a6fbaa35501f5
-    time: 1412750034
+    md5: 113ae216087a35ce53a41a3379e4b899
+    time: 1412916128
   /assets/meditations.jpg:
     md5: d12c054173cc245da16047de978f57ee
     time: 1407895645
