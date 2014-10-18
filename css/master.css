@@ -198,11 +198,11 @@ html {
   font-size: 62.5%; }
 
 body {
-  background: #fafafa;
+  background: white;
   -webkit-font-smoothing: subpixel-antialiased;
-  font-size: 16px;
-  font-size: 1.6rem;
-  font-family: "ff-meta-serif-web-pro", Georgia, serif;
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
   color: #4a4244;
   line-height: 1.6; }
 
@@ -214,6 +214,9 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: #222222; }
 
+h1 {
+  font-weight: 300; }
+
 a {
   color: #31728d;
   transition: color .5s ease;
@@ -224,8 +227,10 @@ a {
 
 blockquote {
   font-style: italic;
+  font-weight: 300;
+  font-size: 1.6rem;
   color: #998c8f;
-  border-left: 2px solid #efefef;
+  border-left: 3px solid #fc383b;
   margin-left: 0;
   padding-left: 2rem; }
 
@@ -374,15 +379,17 @@ body {
   padding-top: 5.8rem; }
 
 header[role="banner"] {
-  padding-bottom: 15px;
-  padding-bottom: 1.5rem;
+  padding-bottom: 10px;
+  padding-bottom: 1rem;
   background: rgba(250, 250, 250, 0.95);
+  background: rgba(34, 34, 34, 0.95);
+  color: #ccc;
   width: 100%;
   position: fixed;
   top: 0;
   text-align: center;
   clear: left;
-  border-bottom: 1px solid #efefef; }
+  /*border-bottom: 1px solid $color-borders;*/ }
   @media (min-width: 620px) {
     header[role="banner"] {
       text-align: left; } }
@@ -392,6 +399,12 @@ header[role="banner"] {
   width: 100%;
   margin-bottom: 1.5rem;
   background-image: linear-gradient(to right, #0885c2, #0885c2 20%, #fbb132 20%, #fbb132 40%, #1a1a1a 40%, #1a1a1a 60%, #1c8b3c 60%, #1c8b3c 80%, #ed334e 80%); }
+
+.apple-header {
+  height: .3rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  background-image: linear-gradient(to right, #4bcb50, #ffc500 16.67%, #f58900 33.33%, #fc383b 50%, #b740ad 66.67%, #00afeb 83.34%); }
 
 .navigation {
   font-size: 1.4rem;
@@ -406,7 +419,7 @@ header[role="banner"] {
       .navigation ul li:last-child {
         padding-right: 0; }
   .navigation a {
-    color: #4a4244; }
+    color: white; }
     .navigation a.branding {
       font-weight: bold; }
 
@@ -431,7 +444,7 @@ table {
   margin-bottom: 20px;
   border-collapse: collapse;
   border-spacing: 0;
-  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem; }
 
@@ -568,6 +581,23 @@ a.link-amazon {
 .reading-list ul {
   font-size: 1.2rem; }
 
+.book-notes {
+  font-style: italic; }
+  .book-notes .book-note {
+    border-bottom: 1px solid #eee;
+    padding: 1rem 0; }
+
+.note-meta {
+  font-style: normal;
+  font-weight: 400;
+  color: #4a4244;
+  font-size: 1.2rem; }
+
+.content-header span {
+  color: #6d6c6c;
+  text-transform: none;
+  font-style: italic; }
+
 .media {
   display: -webkit-box;
   display: -moz-box;
@@ -590,16 +620,26 @@ a.link-amazon {
 .introduction {
   padding: 3rem 0; }
   .introduction .media__body {
-    font-style: italic;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+    font-weight: 300;
     color: #6d6c6c; }
 
 .rings {
   padding: 1rem 0;
   text-align: center; }
 
-.essay .content-body > p:first-child:first-line {
-  font-family: "ff-meta-serif-sc-web-pro"; }
+.content-header {
+  margin: 1.8rem 0 1.8rem 0; }
+  .content-header h1 {
+    margin: 0; }
+  .content-header p {
+    color: #fc383b;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0; }
+  .content-header a {
+    color: #222222; }
 
 main {
   padding: 2rem 0; }
