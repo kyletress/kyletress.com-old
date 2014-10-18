@@ -386,4 +386,41 @@
   </url>
   
 
+  <url>
+    <loc>http://kyletress.com/code</loc>
+    <lastmod>2014-10-18T04:51:08+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/code/sledsheet-1</loc>
+    <lastmod>2014-06-14T22:59:40+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/code/moodboard</loc>
+    <lastmod>2014-06-14T22:59:40+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/code/kyle-tress</loc>
+    <lastmod>2014-06-14T22:59:40+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/code/nature-of-speed</loc>
+    <lastmod>2014-06-14T22:59:40+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/code/fantasy-sliding</loc>
+    <lastmod>2014-06-14T22:59:40+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+
 </urlset>
