@@ -1,18 +1,9 @@
 {% capture content %}
-<p><a href="/reading">&larr; Back to reading</a></p>
-<div class="media">
-  <div class="media__item">
-    <img src="{{assets.first}}" alt="{{assets.first.caption}}" class="img-bordered" width="125">
-  </div>
-  <div class="media__body">
-    <h2>{{ title }}</h2>
-    {% if meta.subtitle %}
-    {{ meta.subtitle | markdown }}
-    {% endif %}
-    by {% for tag in taxonomy.author %}{{tag}}{% unless forloop.last %}, {% endunless %} {% endfor %}
-    <p><a href="#" class="link-amazon">Buy it on amazon.com</a>
-  </div>
-</div>
+
+<header class="content-header">
+<h1>{{ title }}</h1>
+  <p>{% if meta.subtitle %}{{ meta.subtitle }}{%endif%} <span>by {% for tag in taxonomy.author %}{{tag}}{% unless forloop.last %}, {% endunless %} {% endfor %}</span></p>
+</header>
 
 {% if body != empty %}
 <section class="book-summary">
@@ -22,12 +13,14 @@
 {%endif%}
 
 <section class="book-notes">
-<h2>Notes</h2>
+<h3>Notes</h3>
 {% for note in parent.pages['notes'].taxonomy['book'][slug].posts %}
-<section>
+<section class="book-note">
   {{ note.body }}
-  <a href="{{ note.url}}">{{ note.meta.location }}</a> &mdash;
-  {% for tag in note.taxonomy.tags%}<a href="{{tag.url}}">#{{tag}} </a>{%endfor%}
+  <div class="note-meta">
+  {{ note.meta.location }} &mdash;
+  {% for tag in note.taxonomy.tags%}<a href="{{tag.url}}">{{tag}}{% unless forloop.last %}, {% endunless %} </a>{%endfor%}
+  </div>
 </section>
 {% endfor %}
 </section>

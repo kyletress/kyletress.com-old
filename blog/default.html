@@ -2,8 +2,8 @@
   <article class="essay">
     <header class="content-header">
       <h1>{{ title }}</h1>
-      {% if meta.updated? %} <mark>Updated {{meta.updated? | strip_html }}</mark>
-      {%endif%}
+      {% if meta.subtitle %}<p>{{ meta.subtitle }}</p>{%endif%}
+      {% if meta.updated? %} <mark>Updated {{meta.updated? | strip_html }}</mark>{%endif%}
     </header>
     <div class="content-body">
       {{ body }}

@@ -7,11 +7,11 @@ html{
 }
 
 body{
-  background: $color-background;
+  background: $white;
   -webkit-font-smoothing:subpixel-antialiased;
   font: {
-    @include font-size(16px);
-    family: $font-serif;
+    @include font-size(14px);
+    family: $font-sans;
   }
   color:$color-text;
   line-height:1.6;
@@ -27,6 +27,10 @@ h1, h2, h3, h4, h5, h6 {
   color:$color-headings;
 }
 
+h1 {
+  font-weight:300;
+}
+
 a {
   color:$color-primary;
   transition: color .5s ease;
@@ -40,8 +44,10 @@ a {
 
 blockquote{
   font-style:italic;
+  font-weight:300;
+  font-size:1.6rem;
   color: lighten($color-text, 30%);
-  border-left:2px solid $color-borders;
+  border-left:3px solid $apple-red;
   margin-left:0;
   padding-left:2rem;
 }

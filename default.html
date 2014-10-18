@@ -1,8 +1,15 @@
 {% capture content %}
+<header class="content-header">
 <h1>{{ title }}</h1>
+{% if meta.subtitle %}<p>{{ meta.subtitle }}</p>{%endif%}
+</header>
+
 {{ body }}     
+
 {% if parent %}
   <a href="{{parent.url}}">&larr; Back to {{parent.title}}</a>
 {% endif %}
+
 {% endcapture %}
+
 {% include 'layouts/default' %}

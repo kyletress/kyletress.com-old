@@ -3,3 +3,24 @@
     font-size:1.2rem;
   }
 }
+
+.book-notes {
+  font-style:italic;
+  .book-note{
+    border-bottom:1px solid #eee;
+    padding:1rem 0;
+  }
+}
+
+.note-meta{
+  font-style:normal;
+  font-weight:400;
+  color:$color-text;
+  font-size:1.2rem;
+}
+
+.content-header span {
+  color:$dove-gray;
+  text-transform:none;
+  font-style:italic;
+}

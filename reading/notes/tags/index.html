@@ -1,0 +1,16 @@
+{% capture content %}
+<header class="content-header">
+<h1>The Commonplace Book of Kyle Tress</h1>
+{% if meta.subtitle %}<p>{{ meta.subtitle }}</p>{%endif%}
+</header>
+
+<p>Readings and notes on the following subjects:</p>
+{% assign sorted_tags = tags | sort:'value' %}
+<ul>
+    {% for tag in sorted_tags %}
+    <li><a href="{{tag.url}}">{{tag.value}}</a></li>
+    {% endfor %}
+</ul>
+{% endcapture %}
+
+{% include 'layouts/default' %}

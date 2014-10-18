@@ -1,11 +1,17 @@
 {% capture content %}
 <div class="media introduction">
   <div class="media__item"><img src="/assets/headshot-small.jpg" class="img img-rounded"></div>
-  <div class="media__body">{{ body }}</div>
+  <div class="media__body"><p>Hi I’m Kyle. I’m an Olympic athlete in the sport of skeleton, an occasional writer, and an iOS and web developer. Questions? Email me.</p></div>
 </div><!-- end media -->
 
 <article>
-  <p>Skeleton season is almost here! New athlete? Check out my <a href="/skeleton/faqs">frequently asked questions</a></p>
+  {% for post in site.pages.blog.posts | limit: 1 %}
+  <header class="content-header">
+    <h1><a href="{{post.url}}">{{post.title}}</a></h1>
+    {% if post.meta.subtitle %}<p>{{ post.meta.subtitle }}</p>{%endif%}
+  </header>
+    {{post.body}}
+  {% endfor %}
 </article>
 
 {% endcapture %}
