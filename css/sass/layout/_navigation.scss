@@ -2,8 +2,9 @@
   @include inline-navigation(1.6rem);
   font-size:1.4rem;
   margin: 0 auto;
+  color: $color-text;
   a {
-    color: $white;
+    color: $color-headings;
     &.branding {
       font-weight:bold;
     }

@@ -2,20 +2,23 @@ body {
   padding-top: 5.8rem;
 }
 
-header[role="banner"] {
+.header {
   @include rem(padding-bottom, 1);
-  background:rgba($color-background, .95);
-  background:rgba($mineshaft, .95);
-  color:#ccc;
-  width:100%;
+   width:100%;
   position:fixed;
   top:0;
   text-align:center;
   clear:left;
-  /*border-bottom: 1px solid $color-borders;*/
+  background:rgba($color-background, .95);
+  border-bottom: 1px solid $color-borders;
   @media (min-width: 620px) {
     text-align:left;
   }
+}
+
+.header-inverse {
+  background:rgba($mineshaft, .95);
+  color:#ccc;
 }
 
 .olympic-header {
