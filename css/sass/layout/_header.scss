@@ -1,24 +1,15 @@
-body {
-  padding-top: 5.8rem;
-}
-
 .header {
-  @include rem(padding-bottom, 1);
-   width:100%;
-  position:fixed;
-  top:0;
+  width:100%;
+  margin: 2rem 0;
   text-align:center;
-  clear:left;
-  background:rgba($color-background, .95);
-  border-bottom: 1px solid $color-borders;
-  @media (min-width: 620px) {
-    text-align:left;
-  }
+  font-family: "proxima-nova", sans-serif;
+  text-transform: uppercase;
 }
 
-.header-inverse {
-  background:rgba($mineshaft, .95);
-  color:#ccc;
+.brand {
+  color: black;
+  font-size:1.8rem;
+  font-weight:600;
 }
 
 .olympic-header {

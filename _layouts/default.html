@@ -8,15 +8,26 @@
   <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700,300italic,400italic' rel='stylesheet' type='text/css'>
   <link rel="icon" href="/favicon.ico" type="image/ico">
   <link rel="stylesheet" href="/css/master.css">
+  <script src="//use.typekit.net/oia2txu.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
 </head>
 
 <body class="{% if parent %}{{ parent.title }}{% else %}{{ slug }}{% endif %}">
   {% include 'includes/header' %}
-  <div class="container">
-    <main class="content">
-      {{ content }}
+  <main class="content">
+    {% for asset in assets %}
+      {% if asset.meta.type == "header" %}
+        <header class="image_header background_cover" style="background-image: url('{{asset.url}}');">
+        </header>
+      {% endif %}
+    {% endfor %}
+    <div class="section wrap">
+      <h1>{{post.title | capitalize }}</h1>
+    </div>
+    <div class="section wrap">
+      {{content}}
+    </div>
     </main>
     {% include 'includes/footer' %}
-  </div><!--end container-->
-</body>
+  </body>
 </html>

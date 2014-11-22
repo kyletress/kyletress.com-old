@@ -10,8 +10,8 @@ body{
   background: $white;
   -webkit-font-smoothing:subpixel-antialiased;
   font: {
-    @include font-size(14px);
-    family: $font-sans;
+    @include font-size(24px);
+    family: $font-serif;
   }
   color:$color-text;
   line-height:1.6;
@@ -21,6 +21,15 @@ body{
   width:$container-margin;
   max-width:$container-width;
   margin: 0 auto;
+}
+
+.section {
+  margin: 2rem auto;
+}
+
+.wrap {
+  max-width: 1000px;
+  width: 70%;
 }
 
 h1, h2, h3, h4, h5, h6 {

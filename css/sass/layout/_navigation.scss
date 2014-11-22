@@ -5,8 +5,8 @@
   color: $color-text;
   a {
     color: $color-headings;
-    &.branding {
-      font-weight:bold;
+    &.selected {
+      color:$apple-red;
     }
   }
 }
