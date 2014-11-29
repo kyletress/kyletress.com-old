@@ -1,12 +1,15 @@
 .navigation {
   @include inline-navigation(1.6rem);
-  font-size:1.4rem;
   margin: 0 auto;
+  max-width:700px;
   color: $color-text;
   a {
-    color: $color-headings;
+    color: #9b9b9b;
     &.selected {
-      color:$apple-red;
+    }
+    &.brand {
+      color: white;
+      font-weight:600;
     }
   }
 }

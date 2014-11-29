@@ -7,11 +7,11 @@ html{
 }
 
 body{
-  background: $white;
+  background: $alabaster;
   -webkit-font-smoothing:subpixel-antialiased;
   font: {
-    @include font-size(24px);
-    family: $font-serif;
+    @include font-size(14px);
+    family: $font-sans;
   }
   color:$color-text;
   line-height:1.6;
@@ -24,12 +24,12 @@ body{
 }
 
 .section {
-  margin: 2rem auto;
+  margin: 0 auto;
 }
 
 .wrap {
-  max-width: 1000px;
-  width: 70%;
+  max-width: 700px;
+  width: 80%;
 }
 
 h1, h2, h3, h4, h5, h6 {

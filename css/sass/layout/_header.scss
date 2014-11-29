@@ -1,39 +1,23 @@
 .header {
+  background: #2a2a2a;
+  border-bottom:1px solid #efefef;
   width:100%;
-  margin: 2rem 0;
+  padding: 1.5rem 0;
   text-align:center;
-  font-family: "proxima-nova", sans-serif;
+  @media screen and (min-width: $bp-tablet) {
+    text-align:left;
+  }
   text-transform: uppercase;
+  font: {
+    family: $font-sans;
+    weight:400;
+    size:1.2rem;
+  }
 }
 
-.brand {
-  color: black;
-  font-size:1.8rem;
-  font-weight:600;
-}
-
-.olympic-header {
-  height:.3rem;
-  width:100%;
-  margin-bottom:1.5rem;
-  background-image:
-  linear-gradient(
-    to right, 
-    $olympic-blue,
-    $olympic-blue 20%,
-    $olympic-yellow 20%,
-    $olympic-yellow 40%,
-    $olympic-black 40%,
-    $olympic-black 60%,
-    $olympic-green 60%,
-    $olympic-green 80%,
-    $olympic-red 80%
-  );
-}
 .apple-header {
   height:.3rem;
   width:100%;
-  margin-bottom:1rem;
   background-image:
   linear-gradient(
     to right, 
