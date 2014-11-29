@@ -3,86 +3,8 @@
 
   <url>
     <loc>http://kyletress.com/</loc>
-    <lastmod>2014-09-27T23:53:30+00:00</lastmod>
+    <lastmod>2014-11-29T02:19:22+00:00</lastmod>
     <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/home/minimalism</loc>
-    <lastmod>2014-09-13T19:16:31+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/home/bill-murray</loc>
-    <lastmod>2014-09-07T03:09:48+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/home/superintelligence</loc>
-    <lastmod>2014-09-02T19:25:37+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/home/strength</loc>
-    <lastmod>2014-09-01T03:02:16+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/home/photo-with-president-obama</loc>
-    <lastmod>2014-08-31T22:26:22+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/home/how-to-eat-sushi</loc>
-    <lastmod>2014-08-30T03:13:34+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/home/reddit-sliding</loc>
-    <lastmod>2014-08-31T22:55:24+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/home/are-we-living-in-a-computer-simulation</loc>
-    <lastmod>2014-08-30T02:47:21+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/home/golden-age-of-brain-research</loc>
-    <lastmod>2014-08-30T02:52:53+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/home/humans-need-not-apply</loc>
-    <lastmod>2014-08-16T13:49:20+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/home/madness</loc>
-    <lastmod>2014-08-13T21:11:16+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/home/calico</loc>
-    <lastmod>2014-08-08T17:12:03+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/home/ibm-truenorth</loc>
-    <lastmod>2014-08-30T03:06:05+00:00</lastmod>
-    <priority>0.5</priority>
   </url>
   
 
@@ -277,8 +199,20 @@
 
   <url>
     <loc>http://kyletress.com/reading</loc>
-    <lastmod>2014-09-27T23:33:07+00:00</lastmod>
+    <lastmod>2014-11-18T17:20:09+00:00</lastmod>
     <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/reading/10-percent-happier</loc>
+    <lastmod>2014-11-02T16:06:26+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/reading/the-life-changing-magic-of-tidying-up</loc>
+    <lastmod>2014-10-25T19:37:16+00:00</lastmod>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -387,37 +321,43 @@
   
 
   <url>
-    <loc>http://kyletress.com/code</loc>
-    <lastmod>2014-10-18T04:51:08+00:00</lastmod>
+    <loc>http://kyletress.com/work</loc>
+    <lastmod>2014-11-11T23:29:52+00:00</lastmod>
     <priority>1.0</priority>
   </url>
   
   <url>
-    <loc>http://kyletress.com/code/sledsheet</loc>
-    <lastmod>2014-10-18T04:52:04+00:00</lastmod>
+    <loc>http://kyletress.com/work/leaf</loc>
+    <lastmod>2014-11-12T00:26:57+00:00</lastmod>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://kyletress.com/code/moodboard</loc>
-    <lastmod>2014-06-14T22:59:40+00:00</lastmod>
+    <loc>http://kyletress.com/work/sledsheet</loc>
+    <lastmod>2014-11-11T23:33:19+00:00</lastmod>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://kyletress.com/code/kyle-tress</loc>
-    <lastmod>2014-06-14T22:59:40+00:00</lastmod>
+    <loc>http://kyletress.com/work/moodboard</loc>
+    <lastmod>2014-11-11T23:33:58+00:00</lastmod>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://kyletress.com/code/nature-of-speed</loc>
-    <lastmod>2014-06-14T22:59:40+00:00</lastmod>
+    <loc>http://kyletress.com/work/kyle-tress</loc>
+    <lastmod>2014-11-11T23:34:33+00:00</lastmod>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://kyletress.com/code/fantasy-sliding</loc>
+    <loc>http://kyletress.com/work/nature-of-speed</loc>
+    <lastmod>2014-11-11T23:36:50+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/work/fantasy-sliding</loc>
     <lastmod>2014-06-14T22:59:40+00:00</lastmod>
     <priority>0.5</priority>
   </url>

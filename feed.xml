@@ -3,7 +3,85 @@
   <channel>
     <title>Kyle Tress</title>
     <link>http://kyletress.com</link>
-    <pubDate>Fri, 24 Oct 2014 22:41:30 +0000</pubDate>
+    <pubDate>Sat, 29 Nov 2014 02:22:23 +0000</pubDate>
+    
+    <item>
+      <title>Team Selections #4</title>
+      <link>http://kyletress.com/skeleton/results/2014-2015/team-selections-4</link>
+      <pubDate>Tue, 18 Nov 2014 12:35:00 -0500</pubDate>
+      <author>Kyle Tress</author>
+      <guid>http://kyletress.com/skeleton/results/2014-2015/team-selections-4</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Team Selections #3</title>
+      <link>http://kyletress.com/skeleton/results/2014-2015/team-selections-3</link>
+      <pubDate>Tue, 18 Nov 2014 12:35:00 -0500</pubDate>
+      <author>Kyle Tress</author>
+      <guid>http://kyletress.com/skeleton/results/2014-2015/team-selections-3</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Team Selections #2</title>
+      <link>http://kyletress.com/skeleton/results/2014-2015/team-selections-2</link>
+      <pubDate>Tue, 18 Nov 2014 12:35:00 -0500</pubDate>
+      <author>Kyle Tress</author>
+      <guid>http://kyletress.com/skeleton/results/2014-2015/team-selections-2</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Team Selections #1</title>
+      <link>http://kyletress.com/skeleton/results/2014-2015/team-selections-1</link>
+      <pubDate>Tue, 18 Nov 2014 12:32:00 -0500</pubDate>
+      <author>Kyle Tress</author>
+      <guid>http://kyletress.com/skeleton/results/2014-2015/team-selections-1</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leaf</title>
+      <link>http://kyletress.com/work/leaf</link>
+      <pubDate>Tue, 11 Nov 2014 18:37:00 -0500</pubDate>
+      <author>Kyle Tress</author>
+      <guid>http://kyletress.com/work/leaf</guid>
+      <description>&lt;p&gt;I have been using &lt;a href=&quot;http://www.siteleaf.com&quot;&gt;Siteleaf&lt;/a&gt; to power my personal website for several months. It&amp;rsquo;s an amazing service, but I have one complaint &amp;ndash; they don&amp;rsquo;t have an iOS app. They &lt;em&gt;do&lt;/em&gt; have a &lt;a href=&quot;https://github.com/siteleaf/siteleaf-api&quot;&gt;terrific API&lt;/a&gt;, so I decided to learn iOS development by building an app to interact with it. Like many of my projects, this is an example of &lt;em&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Eating_your_own_dog_food&quot;&gt;dogfooding&lt;/a&gt;&lt;/em&gt;; building something I need and want to use myself.  &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/iPhone%206%20Black%204.7%20Inch%20Form%20Factor.png&quot; alt=&quot;iPhone 6 Black 4.7 Inch Form Factor&quot;&gt; &lt;/p&gt;
+
+&lt;p&gt;The app makes use of all the available API endpoints. Basic Authentication is needed to validate each request, and I store the user&amp;rsquo;s credentials in the Keychain.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>10% Happier</title>
+      <link>http://kyletress.com/reading/10-percent-happier</link>
+      <pubDate>Sun, 02 Nov 2014 11:05:00 -0500</pubDate>
+      <author>Kyle Tress</author>
+      <guid>http://kyletress.com/reading/10-percent-happier</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The life changing magic of tidying up page 14</title>
+      <link>http://kyletress.com/reading/notes/the-life-changing-magic-of-tidying-up-page</link>
+      <pubDate>Sat, 25 Oct 2014 15:38:00 -0400</pubDate>
+      <author>Kyle Tress</author>
+      <guid>http://kyletress.com/reading/notes/the-life-changing-magic-of-tidying-up-page</guid>
+      <description>&lt;p&gt;If you put your house in order in one fell swoop, you will have tidied up in one fell swoop. (In Japanese, the term is ikki ni , or “in one go.”)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Life-Changing Magic of Tidying Up</title>
+      <link>http://kyletress.com/reading/the-life-changing-magic-of-tidying-up</link>
+      <pubDate>Sat, 25 Oct 2014 15:35:00 -0400</pubDate>
+      <author>Kyle Tress</author>
+      <guid>http://kyletress.com/reading/the-life-changing-magic-of-tidying-up</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>How to Live - page 1</title>
@@ -120,89 +198,6 @@
       <author>Kyle Tress</author>
       <guid>http://kyletress.com/reading/notes/the-art-of-learning-page-192</guid>
       <description>&lt;p&gt;I hated the fact that I had traveled all the way to Taiwan and had not even given myself a chance to compete. Some serious adjustments were called for.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The Art of Learning - page 187</title>
-      <link>http://kyletress.com/reading/notes/the-art-of-learning-page-187</link>
-      <pubDate>Sun, 28 Sep 2014 00:16:00 -0400</pubDate>
-      <author>Kyle Tress</author>
-      <guid>http://kyletress.com/reading/notes/the-art-of-learning-page-187</guid>
-      <description>&lt;p&gt;The real power of incremental growth comes to bear when we truly are like water, steadily carving stone. We just keep on flowing when everything is on the line.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The Art of Learning - page 179</title>
-      <link>http://kyletress.com/reading/notes/the-art-of-learning-page-179</link>
-      <pubDate>Sun, 28 Sep 2014 00:15:00 -0400</pubDate>
-      <author>Kyle Tress</author>
-      <guid>http://kyletress.com/reading/notes/the-art-of-learning-page-179</guid>
-      <description>&lt;p&gt;Players who are able to relax in brief moments of inactivity are almost always the ones who end up coming through when the game is on the line.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The Art of Learning - page 172</title>
-      <link>http://kyletress.com/reading/notes/the-art-of-learning-page-172</link>
-      <pubDate>Sun, 28 Sep 2014 00:13:00 -0400</pubDate>
-      <author>Kyle Tress</author>
-      <guid>http://kyletress.com/reading/notes/the-art-of-learning-page-172</guid>
-      <description>&lt;p&gt;IN competition, the dynamic is often painfully transparent. If one player is serenely present while the other is being ripped apart by internal issues, the outcome is already clear. &lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The Art of Learning - page 137</title>
-      <link>http://kyletress.com/reading/notes/the-art-of-learning-page-137</link>
-      <pubDate>Sun, 28 Sep 2014 00:09:00 -0400</pubDate>
-      <author>Kyle Tress</author>
-      <guid>http://kyletress.com/reading/notes/the-art-of-learning-page-137</guid>
-      <description>&lt;p&gt;For much of this book I have described my vision of the road to mastery &amp;mdash; you start with the fundamentals, get a solid foundation fueled by understanding the principles of your discipline, then you expand and refine your repetoire, guided by your individual predispositions, while keeping in touch, however abstractly, with what you feel to be the essential core of the art. &lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The Art of Learning - page 123</title>
-      <link>http://kyletress.com/reading/notes/the-art-of-learning-page-123</link>
-      <pubDate>Sun, 28 Sep 2014 00:07:00 -0400</pubDate>
-      <author>Kyle Tress</author>
-      <guid>http://kyletress.com/reading/notes/the-art-of-learning-page-123</guid>
-      <description>&lt;p&gt;The fact is that when there is intense comptiton, those who succeed have slightly more honed skills than the rest. It is rarely a mysterious technique that drives us to the top, but rather a profound mastery of what may well be a basic skill set.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The Art of Learning</title>
-      <link>http://kyletress.com/reading/the-art-of-learning</link>
-      <pubDate>Sun, 28 Sep 2014 00:06:00 -0400</pubDate>
-      <author>Kyle Tress</author>
-      <guid>http://kyletress.com/reading/the-art-of-learning</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Minimalism</title>
-      <link>http://kyletress.com/home/minimalism</link>
-      <pubDate>Sat, 13 Sep 2014 15:14:00 -0400</pubDate>
-      <author>Kyle Tress</author>
-      <guid>http://kyletress.com/home/minimalism</guid>
-      <description>&lt;p&gt;Minimalism isn&amp;rsquo;t about owning less stuff. It&amp;rsquo;s about owning the right amount of the right stuff. &lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Bill Murray</title>
-      <link>http://kyletress.com/home/bill-murray</link>
-      <pubDate>Sat, 06 Sep 2014 23:08:00 -0400</pubDate>
-      <author>Kyle Tress</author>
-      <guid>http://kyletress.com/home/bill-murray</guid>
-      <description>&lt;p&gt;Bill Murray, on his penchant for showing up unannounced at odd places: &lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;I think the only reason I&amp;rsquo;ve had the career life that I&amp;rsquo;ve had is that someone told me some secrets early on about living. You can do the very best you can when you&amp;rsquo;re very, very relaxed, no matter what it is or what your job is, the more relaxed you are the better you are. That&amp;rsquo;s sort of why I got into acting. I realized the more fun I had, the better I did it. And I thought, that&amp;rsquo;s a job I could be proud of. It&amp;rsquo;s changed my life learning that, and it&amp;rsquo;s made me better at what I do.&lt;/p&gt;
-&lt;/blockquote&gt;
 </description>
     </item>
     
