@@ -1,5 +1,5 @@
 ---
-time: 1417227801
+time: 1417313320
 inventory:
   /home/index.html:
     md5: 11f1e30b9a2ac24ca29fe5d1b4182ac0
@@ -197,8 +197,11 @@ inventory:
     md5: 16f5dfa400b5553dee5ee8a6ad847bb8
     time: 1417227726
   /reading/index.html:
-    md5: 78f4eb2388f85dc702f7b33fbdeae990
-    time: 1417227726
+    md5: ee43ae691795c055b681c992568ff0df
+    time: 1417313304
+  /reading/letters-from-a-stoic/index.html:
+    md5: 5bcebe0a90b063155d71df255aa8cd62
+    time: 1417313304
   /reading/10-percent-happier/index.html:
     md5: e23f33d26afc7637e347f078af34a448
     time: 1417227726
@@ -241,6 +244,9 @@ inventory:
   /reading/tags/philosophy/index.html:
     md5: 06d114379d96aef80cf9711a768fb964
     time: 1417227727
+  /reading/tags/stoicism/index.html:
+    md5: 7e3a843d94cf633dc19d10457bc6a858
+    time: 1417227727
   /reading/tags/memoir/index.html:
     md5: 003a603a9efa55783d4214b5db05b54d
     time: 1417227727
@@ -258,9 +264,6 @@ inventory:
     time: 1417227727
   /reading/tags/minimalism/index.html:
     md5: 7f6cc1aaecfd4581ff295d489e6fc761
-    time: 1417227727
-  /reading/tags/stoicism/index.html:
-    md5: 7e3a843d94cf633dc19d10457bc6a858
     time: 1417227727
   /reading/tags/science/index.html:
     md5: c87f8bf9ff60f4ee52cda667f92f807d
@@ -283,6 +286,9 @@ inventory:
   /reading/author/index.html:
     md5: 84688184365d0384e581e32a0c6d9bd0
     time: 1417227728
+  /reading/author/seneca/index.html:
+    md5: 35ede83a86e1ebf2c1229b12138ca31a
+    time: 1417313306
   /reading/author/dan-harris/index.html:
     md5: 804d9f0908bf7b218f5d7f1605a9ea32
     time: 1417227728
@@ -1100,17 +1106,17 @@ inventory:
     md5: 20369d5484bd7d81b512644c2c09bc5f
     time: 1417227743
   /tools/setup/index.html:
-    md5: f573f6c850dd90c1819e7a3f2117e690
-    time: 1417227743
+    md5: 159713120f09529e1c93404bc486c224
+    time: 1417313318
   /CNAME:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   /sitemap.xml:
-    md5: 306d33ff1ca35bfb0e515ac200298ee4
-    time: 1417227743
+    md5: e82050d14e5aab6ac763c4715cc7b0bf
+    time: 1417313318
   /feed.xml:
-    md5: 0fd088c58b9d4b74280a13324f22753d
-    time: 1417227744
+    md5: 3ddba10c384c1108923fd12f2ad837cf
+    time: 1417313319
   /assets/meditations.jpg:
     md5: d12c054173cc245da16047de978f57ee
     time: 1407895645
@@ -1181,8 +1187,8 @@ inventory:
     md5: 9d4b4dde4fa0edfdf5f5c8310d060a20
     time: 1417227744
   /css/master.css:
-    md5: 78d7cbd9e5f86c962503bb30f5fc4ed9
-    time: 1417227744
+    md5: 8d0bfba1b3037ae8c4e4c46fd37a5e1d
+    time: 1417313319
   /assets/KyleStMoritz.jpg:
     md5: 8392b92800f82038054e7e8e637336fd
     time: 1407895647
