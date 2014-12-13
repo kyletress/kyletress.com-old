@@ -1,12 +1,12 @@
 ---
-time: 1418513409
+time: 1418514539
 inventory:
   /home/index.html:
-    md5: e58cbb7b9e057c27660627a9df990ddd
-    time: 1418513385
+    md5: f7c71485e8e9a37b94045beedd680f3b
+    time: 1418514524
   /index.html:
-    md5: e58cbb7b9e057c27660627a9df990ddd
-    time: 1418513385
+    md5: f7c71485e8e9a37b94045beedd680f3b
+    time: 1418514524
   /about/index.html:
     md5: 411ba6466ca26e2590fd0e90cb52d6a8
     time: 1417227723
@@ -35,8 +35,8 @@ inventory:
     md5: 9a236ec66ac2cb6530cac050021755b0
     time: 1418513385
   /blog/lake-placid-world-cup/index.html:
-    md5: 711f9e354b35b8d7b75a237a11fa6db9
-    time: 1418513385
+    md5: 79ef9accedcc6617ac3901aaa1a7f2eb
+    time: 1418514524
   /blog/olympic-ring-etiquette/index.html:
     md5: 2d732f7c58d7b0cb5087cecba34b6d0a
     time: 1417227724
@@ -1118,11 +1118,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   /sitemap.xml:
-    md5: 2fed7b79395ab221b4e53b1643efd7d8
-    time: 1418513402
+    md5: dd98508dadbcf41e82092fade79129d4
+    time: 1418514538
   /feed.xml:
-    md5: 3cf6e0fb747235ff39d7f77abffa18d8
-    time: 1418513403
+    md5: ee26133936d4124634f629d031873654
+    time: 1418514538
   /assets/meditations.jpg:
     md5: d12c054173cc245da16047de978f57ee
     time: 1407895645
