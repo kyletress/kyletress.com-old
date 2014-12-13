@@ -1,5 +1,5 @@
 ---
-time: 1418514539
+time: 1418514647
 inventory:
   /home/index.html:
     md5: f7c71485e8e9a37b94045beedd680f3b
@@ -1072,6 +1072,9 @@ inventory:
   /skeleton/results/2014-2015/index.html:
     md5: c44263e77646280b3090a6c89f303856
     time: 1417227742
+  /skeleton/results/2014-2015/lake-placid-world-cup/index.html:
+    md5: 19c0cac80ba87424300ff72ac6f71895
+    time: 1418514645
   /skeleton/results/2014-2015/team-selections-4/index.html:
     md5: d7134795b51cfd815073494f3b55b28f
     time: 1417227742
@@ -1090,6 +1093,9 @@ inventory:
   /skeleton/results/2014-2015/tags/index.html:
     md5: e9c9c7776d31efe12248df9ac1891ee8
     time: 1417227743
+  /skeleton/results/2014-2015/tags/world-cup/index.html:
+    md5: 4bd44ef29076f481d5e441d971b5dc69
+    time: 1418514646
   /skeleton/results/2014-2015/tags/team-selections/index.html:
     md5: 17b56a43a28c3625413eda3ddff10626
     time: 1417227743
@@ -1099,11 +1105,11 @@ inventory:
   /skeleton/results/2014-2015/track/index.html:
     md5: e482f3ee3189ab316ad9b3bee4690642
     time: 1417227743
-  /skeleton/results/2014-2015/track/park-city/index.html:
-    md5: e0f8fbb0007b30f6651e3c5484880d37
-    time: 1417227743
   /skeleton/results/2014-2015/track/lake-placid/index.html:
     md5: 15d71fd1f6f83e52a547a5fddf48a141
+    time: 1417227743
+  /skeleton/results/2014-2015/track/park-city/index.html:
+    md5: e0f8fbb0007b30f6651e3c5484880d37
     time: 1417227743
   /videos/2014/index.html:
     md5: 0c8560803fd6817acb38ee4b54e8a0f0
@@ -1121,8 +1127,8 @@ inventory:
     md5: dd98508dadbcf41e82092fade79129d4
     time: 1418514538
   /feed.xml:
-    md5: ee26133936d4124634f629d031873654
-    time: 1418514538
+    md5: 621edcbf66acdb162c73ed4b957be318
+    time: 1418514646
   /assets/meditations.jpg:
     md5: d12c054173cc245da16047de978f57ee
     time: 1407895645
