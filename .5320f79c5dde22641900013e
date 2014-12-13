@@ -1,12 +1,12 @@
 ---
-time: 1417313320
+time: 1418513409
 inventory:
   /home/index.html:
-    md5: 11f1e30b9a2ac24ca29fe5d1b4182ac0
-    time: 1417227723
+    md5: e58cbb7b9e057c27660627a9df990ddd
+    time: 1418513385
   /index.html:
-    md5: 11f1e30b9a2ac24ca29fe5d1b4182ac0
-    time: 1417227723
+    md5: e58cbb7b9e057c27660627a9df990ddd
+    time: 1418513385
   /about/index.html:
     md5: 411ba6466ca26e2590fd0e90cb52d6a8
     time: 1417227723
@@ -32,8 +32,11 @@ inventory:
     md5: d834f9c246754163389d8e5734376e7f
     time: 1417227723
   /blog/index.html:
-    md5: 62420711f3fb43ab0cd6d942b19d674d
-    time: 1417227723
+    md5: 9a236ec66ac2cb6530cac050021755b0
+    time: 1418513385
+  /blog/lake-placid-world-cup/index.html:
+    md5: 711f9e354b35b8d7b75a237a11fa6db9
+    time: 1418513385
   /blog/olympic-ring-etiquette/index.html:
     md5: 2d732f7c58d7b0cb5087cecba34b6d0a
     time: 1417227724
@@ -115,6 +118,12 @@ inventory:
   /blog/tags/index.html:
     md5: c23ac05d43597c8d11a4268bbfc34711
     time: 1417227725
+  /blog/tags/lake-placid/index.html:
+    md5: 35aac2e5cfc02d0ccd94c44a40914217
+    time: 1418513387
+  /blog/tags/world-cup/index.html:
+    md5: 16c72529a325d7636faac8fcd433c095
+    time: 1417227725
   /blog/tags/olympics/index.html:
     md5: 9193347df3a740e9f3055678371ae3d2
     time: 1417227725
@@ -144,9 +153,6 @@ inventory:
     time: 1417227725
   /blog/tags/lambertville/index.html:
     md5: 78b58019cbf03f4c6ed22dcdb1a58290
-    time: 1417227725
-  /blog/tags/world-cup/index.html:
-    md5: 16c72529a325d7636faac8fcd433c095
     time: 1417227725
   /blog/tags/game-of-thrones/index.html:
     md5: 558831db517f13a58aabeea53504b2c9
@@ -1112,11 +1118,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   /sitemap.xml:
-    md5: e82050d14e5aab6ac763c4715cc7b0bf
-    time: 1417313318
+    md5: 2fed7b79395ab221b4e53b1643efd7d8
+    time: 1418513402
   /feed.xml:
-    md5: 3ddba10c384c1108923fd12f2ad837cf
-    time: 1417313319
+    md5: 3cf6e0fb747235ff39d7f77abffa18d8
+    time: 1418513403
   /assets/meditations.jpg:
     md5: d12c054173cc245da16047de978f57ee
     time: 1407895645
