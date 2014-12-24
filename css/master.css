@@ -1,8 +1,11 @@
-/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
+  /* 1 */
   -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%; }
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
 
 body {
   margin: 0; }
@@ -16,6 +19,7 @@ footer,
 header,
 hgroup,
 main,
+menu,
 nav,
 section,
 summary {
@@ -26,7 +30,9 @@ canvas,
 progress,
 video {
   display: inline-block;
-  vertical-align: baseline; }
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
 
 audio:not([controls]) {
   display: none;
@@ -37,7 +43,7 @@ template {
   display: none; }
 
 a {
-  background: transparent; }
+  background-color: transparent; }
 
 a:active,
 a:hover {
@@ -208,7 +214,7 @@ body {
 
 .container {
   width: 80%;
-  max-width: 70rem;
+  max-width: 960px;
   margin: 0 auto; }
 
 .section {
@@ -392,7 +398,7 @@ hr {
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 400;
   font-size: 1.2rem; }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 750px) {
     .header {
       text-align: left; } }
 
@@ -576,26 +582,6 @@ a.link-amazon {
 
 .hero-condensed {
   padding: .5rem; }
-
-.reading-list ul {
-  font-size: 1.2rem; }
-
-.book-notes {
-  font-style: italic; }
-  .book-notes .book-note {
-    border-bottom: 1px solid #eee;
-    padding: 1rem 0; }
-
-.note-meta {
-  font-style: normal;
-  font-weight: 400;
-  color: #585c54;
-  font-size: 1.2rem; }
-
-.content-header span {
-  color: #6d6c6c;
-  text-transform: none;
-  font-style: italic; }
 
 .media {
   display: -webkit-box;

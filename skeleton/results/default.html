@@ -1,0 +1,23 @@
+{% capture content %}
+<header class="content-header">
+<h1>{{ title }} Results</h1>
+</header>
+
+{{ body }}  
+
+<table>
+{% for post in posts %}
+  <tr>
+    <td>{{ post.title }}</td>
+    <td>{{ post.meta.result }}</td>
+  </tr>
+{% endfor %}
+</table>
+
+{% if parent %}
+  <a href="{{parent.url}}">&larr; Back to {{parent.title}}</a>
+{% endif %}
+
+{% endcapture %}
+
+{% include 'layouts/default' %}

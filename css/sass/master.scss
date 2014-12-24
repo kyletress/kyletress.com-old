@@ -1,10 +1,10 @@
 // UTILITIES
-@import "helpers/variables";
+@import "config";
 @import "helpers/functions";
 @import "helpers/mixins";
 
 // BASE
-@import "base/reset";
+@import "vendor/normalize";
 @import "base/base";
 
 // LAYOUT
@@ -21,9 +21,6 @@
 @import "components/images";
 @import "components/alerts";
 @import "components/heros";
-
-// PAGES
-@import "pages/reading";
 
 // THEME FILES
 @import "theme/theme";
