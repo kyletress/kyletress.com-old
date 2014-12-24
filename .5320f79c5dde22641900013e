@@ -1,12 +1,12 @@
 ---
-time: 1419394418
+time: 1419394534
 inventory:
   /home/index.html:
-    md5: cacfd9dca37fb62ce250b0cff9a5f501
-    time: 1419394267
+    md5: 5fcbab235973c390605b8f3ac1751746
+    time: 1419394517
   /index.html:
-    md5: cacfd9dca37fb62ce250b0cff9a5f501
-    time: 1419394267
+    md5: 5fcbab235973c390605b8f3ac1751746
+    time: 1419394517
   /about/index.html:
     md5: 411ba6466ca26e2590fd0e90cb52d6a8
     time: 1417227723
@@ -1064,11 +1064,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   /sitemap.xml:
-    md5: d2b82bd0b498deceea9bcca19cb1c399
-    time: 1419394282
+    md5: daa20af819a7de64cb527e52e65e22d7
+    time: 1419394533
   /feed.xml:
-    md5: 53c5d651e17be7678089eb3c525f4cd5
-    time: 1419394283
+    md5: a3e4e275e813eac7f2add7f552a6606f
+    time: 1419394534
   /assets/meditations.jpg:
     md5: d12c054173cc245da16047de978f57ee
     time: 1407895645
