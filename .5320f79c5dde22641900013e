@@ -1,5 +1,5 @@
 ---
-time: 1418514647
+time: 1419391682
 inventory:
   /home/index.html:
     md5: f7c71485e8e9a37b94045beedd680f3b
@@ -850,75 +850,6 @@ inventory:
   /skeleton/results/index.html:
     md5: 331da275a37f4ec55e178fde9c0f1a66
     time: 1417227738
-  /skeleton/results/calgary-world-cup-2013/index.html:
-    md5: 50e875bbef4809f7fc0dfb183a2a7d30
-    time: 1417227739
-  /skeleton/results/united-states-national-championships-2014/index.html:
-    md5: 7a5b2a94120ddf74a5aa91040c3b330e
-    time: 1417227739
-  /skeleton/results/igls-world-cup-2013-14/index.html:
-    md5: 9cf40c4ce5104776ee807bac8c12c36b
-    time: 1417227739
-  /skeleton/results/sochi-winter-olympic-games/index.html:
-    md5: 8f3fec5f15b9afce2e37fa3f7309380a
-    time: 1417227739
-  /skeleton/results/archive/index.html:
-    md5: 57958f2a439b971b281bc95d1a595edf
-    time: 1417227739
-  /skeleton/results/tags/index.html:
-    md5: f83d1de9698f77cb8eaef8f0e02408a8
-    time: 1417227739
-  /skeleton/results/tags/calgary/index.html:
-    md5: c6440603e199efdcaade92e3719bbf81
-    time: 1417227739
-  /skeleton/results/tags/world-cup/index.html:
-    md5: 43a5d276cfe4c84a433fb1a225dddc5a
-    time: 1417227739
-  /skeleton/results/tags/national-championships/index.html:
-    md5: ca4dc5e90c6d9657cd3f0745391896ff
-    time: 1417227739
-  /skeleton/results/tags/lake-placid/index.html:
-    md5: b2bfce0e674d7971e9deebfd2780539a
-    time: 1417227739
-  /skeleton/results/tags/igls/index.html:
-    md5: 25f6fc548de36a5c15d63cc6d2977fca
-    time: 1417227739
-  /skeleton/results/tags/sochi/index.html:
-    md5: 0610b1d7eb3619422d61c578b93810e7
-    time: 1417227739
-  /skeleton/results/tags/olympics/index.html:
-    md5: edc6ae58386462f8073319737f14306a
-    time: 1417227739
-  /skeleton/results/season/index.html:
-    md5: c260d7624372ce5dd80f1bb582c3e85e
-    time: 1417227739
-  /skeleton/results/season/2013-2014/index.html:
-    md5: 95876d0bbb8f0c15414b94196651ada4
-    time: 1417227739
-  /skeleton/press/index.html:
-    md5: 3b35bcb972e8f94393881e0877a17e70
-    time: 1417227739
-  /skeleton/press/aol-video-on-skeleton/index.html:
-    md5: bbb45561324ed02b079588fc36bce973
-    time: 1417227739
-  /skeleton/press/sochi-2014-olympics-kyle-tress/index.html:
-    md5: 81b5088345c543fb17649e5d53ae319a
-    time: 1417227739
-  /skeleton/press/i-am-olympic-skeleton-athlete-kyle-tress-ama/index.html:
-    md5: 00e42d180027be9e3c546cc30af802d5
-    time: 1417227739
-  /skeleton/press/meet-olympic-skeleton-athlete-kyle-tress/index.html:
-    md5: 8ad05275679dc35c763e30da9e84c5fe
-    time: 1417227739
-  /skeleton/press/olympians-use-imagery-as-mental-training/index.html:
-    md5: a8ae5eb4d5bec5ba0c6c81ecf6bb82fe
-    time: 1417227739
-  /skeleton/press/archive/index.html:
-    md5: 6feff968f837ade09f3ee650e8831538
-    time: 1417227739
-  /skeleton/press/tags/index.html:
-    md5: 12f7f0e72e7bb54aeb0d7c05cf83224f
-    time: 1417227740
   /skeleton/faqs/index.html:
     md5: 74e9e77046ebf4c40d6520eb3d6ad6a8
     time: 1417227740
@@ -1072,6 +1003,9 @@ inventory:
   /skeleton/results/2014-2015/index.html:
     md5: c44263e77646280b3090a6c89f303856
     time: 1417227742
+  /skeleton/results/2014-2015/calgary-world-cup/index.html:
+    md5: 402398fa2d50ef68f1d5d41647a0df0f
+    time: 1419391679
   /skeleton/results/2014-2015/lake-placid-world-cup/index.html:
     md5: 19c0cac80ba87424300ff72ac6f71895
     time: 1418514645
@@ -1105,12 +1039,42 @@ inventory:
   /skeleton/results/2014-2015/track/index.html:
     md5: e482f3ee3189ab316ad9b3bee4690642
     time: 1417227743
+  /skeleton/results/2014-2015/track/calgary/index.html:
+    md5: ef33bee3b3ce435fabd57858defbd643
+    time: 1419391679
   /skeleton/results/2014-2015/track/lake-placid/index.html:
     md5: 15d71fd1f6f83e52a547a5fddf48a141
     time: 1417227743
   /skeleton/results/2014-2015/track/park-city/index.html:
     md5: e0f8fbb0007b30f6651e3c5484880d37
     time: 1417227743
+  /skeleton/results/2013-2014/index.html:
+    md5: ac88f8715670841910313fe01b4135e8
+    time: 1419391679
+  /skeleton/results/2013-2014/calgary-world-cup/index.html:
+    md5: 045f1fd237b0495daf57278233c38473
+    time: 1419391679
+  /skeleton/results/2013-2014/igls-world-cup/index.html:
+    md5: a042a8650c8a5e690bd9c004e702d0a2
+    time: 1419391679
+  /skeleton/results/2013-2014/archive/index.html:
+    md5: 031b4896d4b3b4376621dea5de1dc5dd
+    time: 1419391679
+  /skeleton/results/2013-2014/tags/index.html:
+    md5: 0ce8c65b37563c6c35ebc3ec0069cf5c
+    time: 1419391679
+  /skeleton/results/2013-2014/tags/world-cup/index.html:
+    md5: 3fdd11de7f74acd966c997809e72af0b
+    time: 1419391679
+  /skeleton/results/2013-2014/track/index.html:
+    md5: 88a5ffa6ef316e8d4996e279a7e7fc92
+    time: 1419391679
+  /skeleton/results/2013-2014/track/calgary/index.html:
+    md5: f76e726101d7e395c49d67920d420d36
+    time: 1419391679
+  /skeleton/results/2013-2014/track/igls/index.html:
+    md5: 1eaed9ea847e602ba3007d05a2d172e6
+    time: 1419391679
   /videos/2014/index.html:
     md5: 0c8560803fd6817acb38ee4b54e8a0f0
     time: 1417227743
@@ -1127,8 +1091,8 @@ inventory:
     md5: dd98508dadbcf41e82092fade79129d4
     time: 1418514538
   /feed.xml:
-    md5: 621edcbf66acdb162c73ed4b957be318
-    time: 1418514646
+    md5: 620f0a73c9cde36747af3c3873ae99ad
+    time: 1419391680
   /assets/meditations.jpg:
     md5: d12c054173cc245da16047de978f57ee
     time: 1407895645
