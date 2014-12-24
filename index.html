@@ -6,15 +6,7 @@
   </div>
 </div><!-- end media -->
 
-<article>
-  {% for post in site.pages.blog.posts | limit: 1 %}
-  <header class="content-header">
-    <h1><a href="{{post.url}}">{{post.title}}</a></h1>
-    {% if post.meta.subtitle %}<p>{{ post.meta.subtitle }}</p>{%endif%}
-  </header>
-    {{post.body}}
-  {% endfor %}
-</article>
+{{ body }}
 
 {% endcapture %}
 
