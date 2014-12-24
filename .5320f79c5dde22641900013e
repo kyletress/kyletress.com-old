@@ -1,12 +1,12 @@
 ---
-time: 1419393538
+time: 1419394284
 inventory:
   /home/index.html:
-    md5: a8ef29dddd6fb38bc728048688e5b3e1
-    time: 1419393516
+    md5: cacfd9dca37fb62ce250b0cff9a5f501
+    time: 1419394267
   /index.html:
-    md5: a8ef29dddd6fb38bc728048688e5b3e1
-    time: 1419393516
+    md5: cacfd9dca37fb62ce250b0cff9a5f501
+    time: 1419394267
   /about/index.html:
     md5: 411ba6466ca26e2590fd0e90cb52d6a8
     time: 1417227723
@@ -14,11 +14,8 @@ inventory:
     md5: 9e0ce83e81845f0437775add5e08e670
     time: 1417227723
   /blog/index.html:
-    md5: 9a236ec66ac2cb6530cac050021755b0
-    time: 1418513385
-  /blog/lake-placid-world-cup/index.html:
-    md5: 79ef9accedcc6617ac3901aaa1a7f2eb
-    time: 1418514524
+    md5: 62420711f3fb43ab0cd6d942b19d674d
+    time: 1419394267
   /blog/olympic-ring-etiquette/index.html:
     md5: 2d732f7c58d7b0cb5087cecba34b6d0a
     time: 1417227724
@@ -100,12 +97,6 @@ inventory:
   /blog/tags/index.html:
     md5: c23ac05d43597c8d11a4268bbfc34711
     time: 1417227725
-  /blog/tags/lake-placid/index.html:
-    md5: 35aac2e5cfc02d0ccd94c44a40914217
-    time: 1418513387
-  /blog/tags/world-cup/index.html:
-    md5: 16c72529a325d7636faac8fcd433c095
-    time: 1417227725
   /blog/tags/olympics/index.html:
     md5: 9193347df3a740e9f3055678371ae3d2
     time: 1417227725
@@ -135,6 +126,9 @@ inventory:
     time: 1417227725
   /blog/tags/lambertville/index.html:
     md5: 78b58019cbf03f4c6ed22dcdb1a58290
+    time: 1417227725
+  /blog/tags/world-cup/index.html:
+    md5: 16c72529a325d7636faac8fcd433c095
     time: 1417227725
   /blog/tags/game-of-thrones/index.html:
     md5: 558831db517f13a58aabeea53504b2c9
@@ -989,8 +983,8 @@ inventory:
     md5: 2260357c222563e44cef6ca48d30550f
     time: 1419393532
   /skeleton/results/2014-2015/lake-placid-world-cup/index.html:
-    md5: c292fe0652f663d3d69dceb21a6d363a
-    time: 1419393532
+    md5: 5a973c894f68e795af13c057abf470cb
+    time: 1419394281
   /skeleton/results/2014-2015/team-selections-4/index.html:
     md5: 001464ee3be31f073c8352dc39386922
     time: 1419393532
@@ -1070,11 +1064,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   /sitemap.xml:
-    md5: 12622dfaa6df61ed20d4b532c87a145e
-    time: 1419393534
+    md5: d2b82bd0b498deceea9bcca19cb1c399
+    time: 1419394282
   /feed.xml:
-    md5: 4f085c070c8f3f9fdc7af6109d43a693
-    time: 1419393534
+    md5: 53c5d651e17be7678089eb3c525f4cd5
+    time: 1419394283
   /assets/meditations.jpg:
     md5: d12c054173cc245da16047de978f57ee
     time: 1407895645
@@ -1139,8 +1133,8 @@ inventory:
     md5: 9d4b4dde4fa0edfdf5f5c8310d060a20
     time: 1417227744
   /css/master.css:
-    md5: c1eb16b035f9baa6ccbb16a4e62fcea7
-    time: 1419393534
+    md5: 8f91563be3988320e1b192228fc4e898
+    time: 1419394283
   /assets/KyleStMoritz.jpg:
     md5: 8392b92800f82038054e7e8e637336fd
     time: 1407895647
