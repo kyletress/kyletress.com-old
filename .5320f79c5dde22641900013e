@@ -1,5 +1,5 @@
 ---
-time: 1419394534
+time: 1419640426
 inventory:
   /home/index.html:
     md5: 5fcbab235973c390605b8f3ac1751746
@@ -179,8 +179,11 @@ inventory:
     md5: 16f5dfa400b5553dee5ee8a6ad847bb8
     time: 1417227726
   /reading/index.html:
-    md5: ee43ae691795c055b681c992568ff0df
-    time: 1417313304
+    md5: 7e7f7e456152eda83c31a0496fe2308e
+    time: 1419640409
+  /reading/michael-jackson-inc/index.html:
+    md5: 32753891e894824da1a8edc578d33c58
+    time: 1419640409
   /reading/letters-from-a-stoic/index.html:
     md5: 5bcebe0a90b063155d71df255aa8cd62
     time: 1417313304
@@ -223,6 +226,15 @@ inventory:
   /reading/tags/index.html:
     md5: af1f838b66296a1386886ca19ffc4429
     time: 1417227727
+  /reading/tags/business/index.html:
+    md5: 479dabfe4797f3b129d9524d9c10a757
+    time: 1419640410
+  /reading/tags/music/index.html:
+    md5: f2c0e7da826364fde8d55b9775069c16
+    time: 1419640410
+  /reading/tags/biography/index.html:
+    md5: 3c599696a413236b3b77f54a664a1ab0
+    time: 1419640410
   /reading/tags/philosophy/index.html:
     md5: 06d114379d96aef80cf9711a768fb964
     time: 1417227727
@@ -268,6 +280,9 @@ inventory:
   /reading/author/index.html:
     md5: 84688184365d0384e581e32a0c6d9bd0
     time: 1417227728
+  /reading/author/zach-omalley-greenburg/index.html:
+    md5: d8c981f4511d2fd354b8481c45fca2b4
+    time: 1419640411
   /reading/author/seneca/index.html:
     md5: 35ede83a86e1ebf2c1229b12138ca31a
     time: 1417313306
@@ -628,6 +643,9 @@ inventory:
   /reading/notes/index.html:
     md5: b620a7f36968a88650e260ba2210a914
     time: 1417227734
+  /reading/notes/michael-jackson-inc-page/index.html:
+    md5: 6e33d57cf4f12411d175e182ff683755
+    time: 1419640416
   /reading/notes/the-life-changing-magic-of-tidying-up-page/index.html:
     md5: 56d3e58911acbbe4882a01a03cd24b8f
     time: 1417227734
@@ -698,8 +716,17 @@ inventory:
     md5: 7a2b7296146f2c92bb9b2bc789e3bb34
     time: 1417227735
   /reading/notes/tags/index.html:
-    md5: 646bb4a2b0105c3a5ec6416397f1e2e7
-    time: 1417227736
+    md5: 616dc2ff14e433170c64baec75a3e73f
+    time: 1419640417
+  /reading/notes/tags/secrets/index.html:
+    md5: 5dbb0d1d05a2323e4172480e9aa1eebb
+    time: 1419640417
+  /reading/notes/tags/projects/index.html:
+    md5: 5ae2e184f69ec991721081bc67ccca35
+    time: 1419640417
+  /reading/notes/tags/work/index.html:
+    md5: 735c56e3343493ea551a414f50014693
+    time: 1419640417
   /reading/notes/tags/japan/index.html:
     md5: 373c0459425f66b4e75192d209a19a5a
     time: 1417227736
@@ -754,9 +781,6 @@ inventory:
   /reading/notes/tags/mastery/index.html:
     md5: dcbdbf78093878737b40bead114d8bbf
     time: 1417227737
-  /reading/notes/tags/work/index.html:
-    md5: 4d5301c5b0ff8e374b41f9d425406890
-    time: 1417227737
   /reading/notes/tags/dedication/index.html:
     md5: edc2247213dfaad5636b8af74048905f
     time: 1417227738
@@ -796,6 +820,9 @@ inventory:
   /reading/notes/book/index.html:
     md5: fc0dda38828574f29b07c143567585e8
     time: 1417227738
+  /reading/notes/book/michael-jackson-inc/index.html:
+    md5: 6703b6aa87d6bb4b605614ee962ab485
+    time: 1419640419
   /reading/notes/book/the-life-changing-magic-of-tidying-up/index.html:
     md5: 8124805281db653bcd86e28b9b728831
     time: 1417227738
@@ -983,8 +1010,8 @@ inventory:
     md5: 2260357c222563e44cef6ca48d30550f
     time: 1419393532
   /skeleton/results/2014-2015/lake-placid-world-cup/index.html:
-    md5: 5a973c894f68e795af13c057abf470cb
-    time: 1419394281
+    md5: 252e50787f635ec26b1b462268013f48
+    time: 1419640422
   /skeleton/results/2014-2015/team-selections-4/index.html:
     md5: 001464ee3be31f073c8352dc39386922
     time: 1419393532
@@ -1064,11 +1091,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   /sitemap.xml:
-    md5: daa20af819a7de64cb527e52e65e22d7
-    time: 1419394533
+    md5: ef2dedad70c4cdfc5bf8beb25fa679c6
+    time: 1419640423
   /feed.xml:
-    md5: a3e4e275e813eac7f2add7f552a6606f
-    time: 1419394534
+    md5: fa3f85e52de6f8122af9ef226a6616a2
+    time: 1419640423
   /assets/meditations.jpg:
     md5: d12c054173cc245da16047de978f57ee
     time: 1407895645
