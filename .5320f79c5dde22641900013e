@@ -1,5 +1,5 @@
 ---
-time: 1419822247
+time: 1419822327
 inventory:
   /home/index.html:
     md5: 8d9fd69cf08197fd39e4da4f5b8903ff
@@ -1004,8 +1004,11 @@ inventory:
     md5: 0f632eb39c5880e2107fd84baab1e3a9
     time: 1419821669
   /skeleton/results/2014-2015/index.html:
-    md5: ecda2ddc9966fe2e12567e71ce30619c
-    time: 1419821669
+    md5: 6d803d4e6ab2c89453d1a0f063ac7504
+    time: 1419822324
+  /skeleton/results/2014-2015/altenberg-world-cup/index.html:
+    md5: cb196f4b047216269131b26be033ea87
+    time: 1419822324
   /skeleton/results/2014-2015/calgary-world-cup/index.html:
     md5: e325c6ba772e3625ade14afe39953f60
     time: 1419821669
@@ -1025,14 +1028,14 @@ inventory:
     md5: 2e7b0d8acda07075553f28e071cde561
     time: 1419821669
   /skeleton/results/2014-2015/archive/index.html:
-    md5: 5c5708104fe114fafa74e0ac2aaeb68b
-    time: 1419821669
+    md5: c75a6d25d09e9804ff1a0db0508be4dc
+    time: 1419822324
   /skeleton/results/2014-2015/tags/index.html:
     md5: 73a3647717da053a877780289324ca2c
     time: 1419821669
   /skeleton/results/2014-2015/tags/world-cup/index.html:
-    md5: 2c91ba340ca55f622d65f9f6588a0175
-    time: 1419821669
+    md5: 84deeca02c39c8344d8fc18194589dca
+    time: 1419822324
   /skeleton/results/2014-2015/tags/team-selections/index.html:
     md5: ebd77a8c813c58f19ad2daedcea0138b
     time: 1419821669
@@ -1042,6 +1045,9 @@ inventory:
   /skeleton/results/2014-2015/track/index.html:
     md5: 527c273608b6ed662fc0ead376b4efe8
     time: 1419821669
+  /skeleton/results/2014-2015/track/altenberg/index.html:
+    md5: cb2928155a0ffe766f596e78f4d0d7d4
+    time: 1419822324
   /skeleton/results/2014-2015/track/calgary/index.html:
     md5: e897d8047505a894a33a9ec656ee0b7d
     time: 1419821669
@@ -1094,8 +1100,8 @@ inventory:
     md5: 6980267e94e626412f4591373a650e3d
     time: 1419822246
   /feed.xml:
-    md5: 6ba54f35d52b2b6d64e64255330877f1
-    time: 1419822246
+    md5: 05c91a5d687cb94c24831333e1bd0a98
+    time: 1419822326
   /assets/meditations.jpg:
     md5: d12c054173cc245da16047de978f57ee
     time: 1407895645
