@@ -204,10 +204,10 @@ html {
   font-size: 62.5%; }
 
 body {
-  background: #fafafa;
+  background: #ffffff;
   -webkit-font-smoothing: subpixel-antialiased;
   font-size: 16px;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-family: "ff-meta-serif-web-pro", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   color: #585c54;
   line-height: 1.6; }
@@ -224,7 +224,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #222222; }
 
 h1 {
-  font-weight: 300; }
+  font-weight: 600; }
 
 a {
   color: #31728d;
@@ -385,44 +385,37 @@ hr {
 
 /* [class^=col-]{flex-basis:100%;padding:0;} */
 .header {
-  background: #2a2a2a;
-  border-bottom: 1px solid #efefef;
-  width: 100%;
+  background:#f5f4f2;
   padding: 1.5rem 0;
+  border-bottom: 1px solid #eaeaea;
   text-align: center;
-  font-family: "ff-meta-serif-web-pro", "Open Sans", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 700;
-  font-size: 1.3rem; }
+  font-size: 1.6rem; }
   @media screen and (min-width: 750px) {
     .header {
       text-align: left; } }
 
-.apple-header {
-  height: .2rem;
-  width: 100%;
-  background-image: linear-gradient(to right, #4bcb50, #ffc500 16.67%, #f58900 33.33%, #fc383b 50%, #b740ad 66.67%, #00afeb 83.34%); }
-
 .navigation {
   margin: 0 auto;
-  max-width: 700px;
-  color: #585c54; }
+  max-width: 700px; }
   .navigation ul {
     list-style: none;
     margin: 0;
     padding: 0; }
     .navigation ul li {
       display: inline-block;
+      text-transform: uppercase;
+      letter-spacing:1px;
+      font-size:1.3rem;
       margin-right: 1.6rem; }
       .navigation ul li:last-child {
         padding-right: 0; }
   .navigation a {
-    color: #9b9b9b; }
+    color: #2a2a2a; }
     .navigation a.brand {
-      color: white;
       font-weight: 700; }
 
 footer[role="site-footer"] {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: #656464;
   padding: 4rem 0;
   text-align: center;
@@ -600,8 +593,8 @@ a.link-amazon {
 .introduction {
   padding: 1rem 0 3rem 0; }
   .introduction .media__body {
-    font-size: 1.4rem;
-    font-weight: 300;
+    font-size: 1.6rem;
+    font-weight: 400;
     color: #6d6c6c; }
 
 .content-header {

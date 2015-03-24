@@ -13,7 +13,6 @@
 <body class="{% if parent %}{{ parent.title }}{% else %}{{ slug }}{% endif %}">
   {% include 'includes/header' %}
   <main class="container">
-    <h1>{{post.title | capitalize }}</h1>
     {{content}}
   </main>
   {% include 'includes/footer' %}
