@@ -19,27 +19,35 @@
 .introduction {
   padding:1rem 0 3rem 0;
   .media__body {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 300;
     color: $color-muted;
   }
 }
 
+.post-preview{
+  margin-bottom:8rem;
+}
+
 .content-header {
-  margin: 1.8rem 0 1.8rem 0;
-  h1 {
+  text-align:center;
+  margin: 3rem 0;
+  h1, h2 {
     margin:0;
   }
-  p {
-    color: $apple-red;
-    text-transform:uppercase;
-    font-size:1.2rem;
-    font-weight:500;
+  p.meta {
+    color: $color-muted;
     margin:0;
+    a{
+      color: $color-muted;
+    }
   }
-  a{
-    color: $color-headings;
+  .category:before,
+  .reading-time:before {
+    content: "\00a0\2022\00a0";
+    color: inherit;
   }
+
 }
 
 main {
@@ -54,14 +62,6 @@ main {
     margin-left:0;
     margin-bottom: 4rem;
   }
-}
-
-// Fix hash anchors from disappearing behind fixed header
-a.anchor{
-  display: block; 
-  position: relative; 
-  top: -80px; 
-  visibility: hidden;
 }
 
 .footnotes {

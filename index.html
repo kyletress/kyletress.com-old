@@ -2,9 +2,16 @@
 <div class="media introduction">
   <div class="media__item"><img src="/assets/headshot-small.jpg" width="125" class="img-rounded"></div>
   <div class="media__body">
-    <p>Hi I'm Kyle. I'm an Olympic athlete in the sport of skeleton. When I'm not racing headfirst down a mountain of ice at 90 miles per hour, I like to write, code, and read good books.</p>
+    <p>{{meta.introduction}}</p>
   </div>
 </div><!-- end media -->
+
+<h3>Latest</h3>
+<ul>
+{% for post in site.posts | limit: {{meta.post_count.value}} %}
+  <li>{{post.date | date: "%b %d"}} &ndash; <a href="{{post.url}}">{{post.title}}</a></li>
+{% endfor %}
+</ul>
 
 {{ body }}
 

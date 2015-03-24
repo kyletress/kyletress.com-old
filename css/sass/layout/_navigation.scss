@@ -3,12 +3,14 @@
   margin: 0 auto;
   max-width:700px;
   color: $color-text;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  font-size:1.3rem;
   a {
-    color: #9b9b9b;
+    color: $color-headings;
     &.selected {
     }
     &.brand {
-      color: white;
       font-weight:700;
     }
   }

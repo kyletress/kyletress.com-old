@@ -10,11 +10,11 @@ body{
   background: $color-background;
   -webkit-font-smoothing:subpixel-antialiased;
   font: {
-    @include font-size(16px);
-    family: $font-sans;
+    @include font-size(18px);
+    family: $font-serif;
   }
   color:$color-text;
-  line-height:1.6;
+  line-height:1.7;
 }
 
 .container{
@@ -51,7 +51,6 @@ blockquote{
   font-weight:300;
   font-size:1.6rem;
   color: lighten($color-text, 30%);
-  border-left:3px solid $apple-red;
   margin-left:0;
   padding-left:2rem;
 }
@@ -79,6 +78,28 @@ hr {
   border: 0;
   height: 1px;
   background:#eee;
+}
+
+/* line 68, ../sass/_text.sass */
+pre {
+  background-color: rgba(231, 232, 231, 0.5);
+  padding: 2.4rem;
+  -webkit-white-space: pre-wrap;
+  -ms-white-space: pre-wrap;
+  -moz-white-space: pre-wrap;
+  -o-white-space: pre-wrap;
+  white-space: pre-wrap;
+  border-radius: 3px;
+}
+/* line 73, ../sass/_text.sass */
+pre code {
+  color: #585c54;
+}
+
+/* line 76, ../sass/_text.sass */
+code {
+  font-family: $font-sans;
+  color: #f31308;
 }
 
 .dl {

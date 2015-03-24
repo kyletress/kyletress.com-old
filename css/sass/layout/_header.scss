@@ -1,30 +1,9 @@
 .header {
-  background: #2a2a2a;
   border-bottom:1px solid #efefef;
   width:100%;
-  padding: 1.5rem 0;
+  padding: 2rem 0;
   text-align:center;
   @media screen and (min-width: $bp-tablet) {
     text-align:left;
   }
-  font: {
-    family: $font-sans;
-    weight:700;
-    size:1.3rem;
-  }
-}
-
-.apple-header {
-  height:.2rem;
-  width:100%;
-  background-image:
-  linear-gradient(
-    to right, 
-    $apple-green,
-    $apple-yellow 16.67%,
-    $apple-orange 33.33%,
-    $apple-red 50%,
-    $apple-purple 66.67%,
-    $apple-blue 83.34%
-  );
 }

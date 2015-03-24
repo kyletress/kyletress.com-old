@@ -7,7 +7,7 @@
 <p>Readings and notes on the following subjects:</p>
 {% assign sorted_tags = tags | sort:'value' %}
   {% for tag in sorted_tags %}
-    <a href="{{tag.url}}">{{tag.value}}</a>,
+    <a href="{{tag.url}}">{{tag.value}}</a>{% unless forloop.last %}, {% endunless %}
   {% endfor %}
 {% endcapture %}
 
