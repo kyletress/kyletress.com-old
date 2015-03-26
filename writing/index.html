@@ -4,26 +4,17 @@
 <h1>{{title}}</h1>
 {{ body }}
 
+<ul>
 {% for post in posts %}
+<li>
 <article class="post-preview">
-  <header class="content-header">
-    <h1><a href="{{post.url}}">{{post.title}}</a></h1>
-    <p class="meta">
-      <time class="entry-date" datetime=""><a href="{{post.url}}">{{ post.date | date: "%B %d, %Y"}}</a></time>
-      <span class="category">
-        {% for tag in post.taxonomy.tags %}
-        <a href="{{ tag.url }}">{{ tag.value }}</a>
-        {% endfor %}
-      </span>
-      <span class="reading-time">{{ post.reading_time }}</span>
-    </p>
+  <header>
+    <h3><a href="{{post.url}}">{{post.title}}</a></h3>
   </header>
-   {% unless type == 'archive' %}
-     {{post.body | strip_html | truncatewords: 100}}
-    <p><a href="{{post.url}}">Continue Reading &rarr;</a>
-   {% endunless %}
  </article>
+ </li>
 {% endfor %}
+</ul>
 
 {% endcapture %}
 

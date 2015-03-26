@@ -1,17 +1,21 @@
 .navigation {
-  @include inline-navigation(1.6rem);
+  @include inline-navigation(1.4rem);
+  width:$container-width;
+  max-width:$container-max-width;
   margin: 0 auto;
-  max-width:700px;
   color: $color-text;
-  text-transform:uppercase;
-  letter-spacing:1px;
   font-size:1.3rem;
-  a {
-    color: $color-headings;
-    &.selected {
-    }
-    &.brand {
-      font-weight:700;
+  li{
+    text-transform:uppercase;
+    letter-spacing:1px;
+    a {
+      color: $color-headings;
+      &.selected {
+      }
+      &.brand {
+        font-weight:700;
+      }
     }
   }
+
 }

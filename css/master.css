@@ -213,7 +213,7 @@ body {
   line-height: 1.7; }
 
 .container {
-  width: 80%;
+  width: 90%;
   max-width: 700px;
   margin: 0 auto; }
 
@@ -298,18 +298,22 @@ code {
 .header {
   border-bottom: 1px solid #efefef;
   width: 100%;
-  padding: 2rem 0;
+  padding: 2.5rem 0;
   text-align: center; }
   @media screen and (min-width: 750px) {
     .header {
       text-align: left; } }
+  .header p {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    color: #6D6C6C; }
 
 .navigation {
-  margin: 0 auto;
+  width: 90%;
   max-width: 700px;
+  margin: 0 auto;
   color: #585c54;
-  text-transform: uppercase;
-  letter-spacing: 1px;
   font-size: 1.3rem; }
   .navigation ul {
     list-style: none;
@@ -317,16 +321,19 @@ code {
     padding: 0; }
     .navigation ul li {
       display: inline-block;
-      margin-right: 1.6rem; }
+      margin-right: 1.4rem; }
       .navigation ul li:last-child {
         padding-right: 0; }
-  .navigation a {
-    color: #222222; }
-    .navigation a.brand {
-      font-weight: 700; }
+  .navigation li {
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+    .navigation li a {
+      color: #222222; }
+      .navigation li a.brand {
+        font-weight: 700; }
 
 footer[role="site-footer"] {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: #656464;
   padding: 4rem 0;
   text-align: center;
@@ -449,7 +456,7 @@ a.link-amazon {
 
 .img {
   border: 1px solid #efefef;
-  padding: 4px;
+  padding: 9px;
   background: white; }
 
 .img-photo {
@@ -536,6 +543,6 @@ main {
   margin-bottom: 4rem; }
 
 .footnotes {
-  font-size: 1.2rem; }
+  font-size: 1.4rem; }
 
 /*# sourceMappingURL=master.css.map */

@@ -12,7 +12,7 @@
           {{ date | date: "%Y" }}
         </time>
         <span class="category">
-          {% for tag in taxonomy.tags %}
+          {% for tag in taxonomy.category %}
           <a href="{{ tag.url }}">{{ tag.value }}</a>
           {% endfor %}
         </span>

@@ -1,17 +1,10 @@
 {% capture content %}
 <div class="media introduction">
-  <div class="media__item"><img src="/assets/headshot-small.jpg" width="125" class="img-rounded"></div>
+  <div class="media__item"><img src="{{assets.first.url}}" width="125" class="img-rounded"></div>
   <div class="media__body">
     <p>{{meta.introduction}}</p>
   </div>
 </div><!-- end media -->
-
-<h3>Latest</h3>
-<ul>
-{% for post in site.posts | limit: {{meta.post_count.value}} %}
-  <li>{{post.date | date: "%b %d"}} &ndash; <a href="{{post.url}}">{{post.title}}</a></li>
-{% endfor %}
-</ul>
 
 {{ body }}
 

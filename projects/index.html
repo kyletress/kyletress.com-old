@@ -1,0 +1,16 @@
+{% capture content %}
+<h1>{{title}}</h1>
+{{ body }}
+
+{% for post in posts %}
+<dl class="project">
+    <dt><a href="{{post.url}}">{{post.title}}</a></dt>
+     <dd>{{post.meta.description}}</dd>
+     <dd><small>Tech: {% for tag in post.taxonomy.technology %}{{tag}}{% endfor %}</small></dd>
+     <dd><a href="{{post.meta.repo}}">GitHub Link</a></dd>
+ </dl>
+{% endfor %}
+
+{% endcapture %}
+
+{% include 'layouts/default' %}
