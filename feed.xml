@@ -3,7 +3,7 @@
   <channel>
     <title>Kyle Tress</title>
     <link>http://kyletress.com</link>
-    <pubDate>Fri, 27 Mar 2015 18:09:22 +0000</pubDate>
+    <pubDate>Fri, 27 Mar 2015 18:13:47 +0000</pubDate>
     
     <item>
       <title>Becoming Steve Jobs</title>
@@ -12,42 +12,6 @@
       <author>Kyle Tress</author>
       <guid>http://kyletress.com/reading/notes/becoming-steve-jobs</guid>
       <description>&lt;p&gt;Steve couldn&amp;rsquo;t distinguish between the extraneous in the critical. As CEO of a fledgling company, that was his key responsibility. At NeXT, he utterly failed to do this.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The Presidential Reading List</title>
-      <link>http://kyletress.com/writing/the-presidential-reading-list</link>
-      <pubDate>Wed, 25 Mar 2015 19:29:00 -0400</pubDate>
-      <author>Kyle Tress</author>
-      <guid>http://kyletress.com/writing/the-presidential-reading-list</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been fascinated by the Presidency of the United States for many years. I can probably trace it back to my childhood, as I grew up in an area that&amp;rsquo;s rich in American history. Just a mile or so from my house, On Christmas Eve 1775, George Washington crossed the Delaware River and engaged the Hessian soldiers in the &lt;a href=&quot;http://en.wikipedia.org/wiki/Battle_of_Trenton&quot;&gt;Battle of Trenton&lt;/a&gt;. The battle was a turning point for the war &lt;em&gt;and&lt;/em&gt; the man. Morale had been low and the weather severe. The Continental Army had suffered many defeats at the hands of the British and the revolution was starting to crumble. But Washington was stoic. He devised a brash plan and under the cover of darkness, crossed the icy Delaware for a suprise attack. That small victory singlehandedly turned the tide of the Revolution, and the myth of George Washington began.&lt;/p&gt;
-
-&lt;p&gt;Today we are intimately familiar with his myth, from the cherry tree to his wooden teeth. But what about the &lt;em&gt;real&lt;/em&gt; man behind the anecdotes? Who was he? How did he become the Father of our Nation? The challenge faced by any biographer of Washington is wading through the mythology to find the truth lurking beneath.  &lt;/p&gt;
-
-&lt;p&gt;Washington doesn&amp;rsquo;t stand alone. &lt;/p&gt;
-
-&lt;p&gt;Trenton is fascinating, but it has nothing on Philadelphia. The original Capitol of the United States is brimming with presidential history, and is the place where the idea of the Presidency came to fruition. &lt;/p&gt;
-
-&lt;figure&gt;
-&lt;img src=&quot;/assets/washington-crossing.jpg&quot;&gt;
-&lt;figcaption&gt;&lt;em&gt;Washington Crossing the Delaware&lt;/em&gt;, 1851.  Emanuel Gottlieb Leutze&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;These places are fascinating in their own right, but what about the men themselves? I knew very little about most, and almost nothing about others. This is pretty common. What can you tell me about John Tyler&lt;sup id=&quot;fnref1&quot;&gt;&lt;a href=&quot;#fn1&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;? Benjamin Harrison? Outside of a useless 5th grade assignment where I had to memorize their order (but nothing about them), I didn&amp;rsquo;t start to learn about their lives until later in life. Even so, my research has been haphazard. So I&amp;rsquo;m starting a new reading project. I&amp;rsquo;ll be reading biographies of the U.S. Presidents, in order, starting with &lt;a href=&quot;&quot;&gt;Washington: A Life&lt;/a&gt; by Ron Chernow.&lt;/p&gt;
-
-&lt;p&gt;I don&amp;rsquo;t intend for this to be a sprint but a lifelong project. I want to think deeply about the people who have guided our country through difficult times, and the circumstances which put them in that position. I hope to learn something about the nature of power, politics, and history &amp;ndash; and when I do, I&amp;rsquo;ll post it here. I do solemnly swear. &lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-
-&lt;li id=&quot;fn1&quot;&gt;
-&lt;p&gt;Here&amp;rsquo;s a fact about John Tyler that will blow your mind. He was born in 1790, and &lt;a href=&quot;http://nymag.com/daily/intelligencer/2012/01/president-tyler-grandson-alive.html&quot;&gt;he has two living grandchildren&lt;/a&gt;.&amp;nbsp;&lt;a href=&quot;#fnref1&quot; rev=&quot;footnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;/ol&gt;
-&lt;/div&gt;
 </description>
     </item>
     
@@ -177,20 +141,6 @@
     </item>
     
     <item>
-      <title>Leaf</title>
-      <link>http://kyletress.com/projects/leaf</link>
-      <pubDate>Tue, 11 Nov 2014 18:37:00 -0500</pubDate>
-      <author>Kyle Tress</author>
-      <guid>http://kyletress.com/projects/leaf</guid>
-      <description>&lt;p&gt;I have been using &lt;a href=&quot;http://www.siteleaf.com&quot;&gt;Siteleaf&lt;/a&gt; to power my personal website for several months. It&amp;rsquo;s an amazing service, but I have one complaint &amp;ndash; they don&amp;rsquo;t have an iOS app. They &lt;em&gt;do&lt;/em&gt; have a &lt;a href=&quot;https://github.com/siteleaf/siteleaf-api&quot;&gt;terrific API&lt;/a&gt;, so I decided to learn iOS development by building an app to interact with it. Like many of my projects, this is an example of &lt;em&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Eating_your_own_dog_food&quot;&gt;dogfooding&lt;/a&gt;&lt;/em&gt;; building something I need and want to use myself.  &lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/iPhone%206%20Black%204.7%20Inch%20Form%20Factor.png&quot; alt=&quot;iPhone 6 Black 4.7 Inch Form Factor&quot;&gt; &lt;/p&gt;
-
-&lt;p&gt;The app makes use of all the available API endpoints. Basic Authentication is needed to validate each request, and I store the user&amp;rsquo;s credentials in the Keychain.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>10% Happier</title>
       <link>http://kyletress.com/reading/10-percent-happier</link>
       <pubDate>Sun, 02 Nov 2014 11:05:00 -0500</pubDate>
@@ -235,6 +185,25 @@
       <author>Kyle Tress</author>
       <guid>http://kyletress.com/reading/how-to-live</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Discourses</title>
+      <link>http://kyletress.com/reading/discourses</link>
+      <pubDate>Fri, 17 Oct 2014 23:00:00 -0400</pubDate>
+      <author>Kyle Tress</author>
+      <guid>http://kyletress.com/reading/discourses</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Short History of Nearly Everything - page 10</title>
+      <link>http://kyletress.com/reading/notes/a-short-history-of-nearly-everything-page-10</link>
+      <pubDate>Fri, 10 Oct 2014 00:39:00 -0400</pubDate>
+      <author>Kyle Tress</author>
+      <guid>http://kyletress.com/reading/notes/a-short-history-of-nearly-everything-page-10</guid>
+      <description>&lt;p&gt;And so, from nothing, our universe begins.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
