@@ -3,14 +3,14 @@
 
   <url>
     <loc>http://kyletress.com/</loc>
-    <lastmod>2014-12-29T03:03:44+00:00</lastmod>
+    <lastmod>2015-03-25T20:08:53+00:00</lastmod>
     <priority>1.0</priority>
   </url>
   
 
   <url>
     <loc>http://kyletress.com/about</loc>
-    <lastmod>2014-09-01T03:02:58+00:00</lastmod>
+    <lastmod>2015-03-25T01:44:42+00:00</lastmod>
     <priority>1.0</priority>
   </url>
   
@@ -23,160 +23,15 @@
   
 
   <url>
-    <loc>http://kyletress.com/blog</loc>
-    <lastmod>2014-08-12T20:31:33+00:00</lastmod>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/blog/olympic-ring-etiquette</loc>
-    <lastmod>2014-08-13T01:33:53+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/blog/team-usa-at-the-white-house</loc>
-    <lastmod>2014-08-13T01:33:16+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/blog/the-difference-is-in-the-details</loc>
-    <lastmod>2014-07-24T16:45:39+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/blog/1-second-everyday-winter-olympics</loc>
-    <lastmod>2014-10-18T00:27:16+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/blog/the-journey-home</loc>
-    <lastmod>2014-08-13T01:08:24+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/blog/media-day</loc>
-    <lastmod>2014-08-13T01:10:41+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/blog/the-us-olympic-team</loc>
-    <lastmod>2014-08-13T01:14:46+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/blog/the-banner</loc>
-    <lastmod>2014-08-13T01:12:31+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/blog/the-world-cup-season-is-over</loc>
-    <lastmod>2014-08-13T01:16:04+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/blog/advice-for-reading-a-song-of-ice-and-fire</loc>
-    <lastmod>2014-10-18T00:25:16+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/blog/the-combine</loc>
-    <lastmod>2014-08-13T01:24:19+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/blog/personal-websites</loc>
-    <lastmod>2014-10-18T00:16:21+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/blog/2012-summer-reading-list</loc>
-    <lastmod>2014-07-24T16:45:39+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/blog/simplify</loc>
-    <lastmod>2014-07-24T16:45:39+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/blog/building-a-skeleton-athlete</loc>
-    <lastmod>2014-07-24T16:45:39+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/blog/do-the-work</loc>
-    <lastmod>2014-07-24T16:45:39+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/blog/30</loc>
-    <lastmod>2014-07-24T16:45:39+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/blog/be-a-quiet-professional</loc>
-    <lastmod>2014-07-24T16:45:39+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/blog/how-to-train-for-skeleton-in-the-summer</loc>
-    <lastmod>2014-07-24T16:45:39+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/blog/things-i-love-about-skeleton</loc>
-    <lastmod>2014-07-24T16:45:39+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/blog/how-much-does-a-skeleton-sled-cost</loc>
-    <lastmod>2014-07-24T16:45:39+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/blog/how-to-get-started-in-skeleton</loc>
-    <lastmod>2014-07-24T16:45:39+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/blog/should-nbc-show-nodars-crash</loc>
-    <lastmod>2014-07-24T16:45:39+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/blog/tragedy-in-vancouver</loc>
-    <lastmod>2014-07-24T16:45:39+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-
-  <url>
     <loc>http://kyletress.com/reading</loc>
-    <lastmod>2015-01-14T21:41:20+00:00</lastmod>
+    <lastmod>2015-03-26T00:41:44+00:00</lastmod>
     <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/reading/becoming-steve-jobs</loc>
+    <lastmod>2015-03-25T18:15:43+00:00</lastmod>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -259,94 +114,84 @@
   
 
   <url>
-    <loc>http://kyletress.com/photos</loc>
-    <lastmod>2014-08-31T23:07:01+00:00</lastmod>
+    <loc>http://kyletress.com/setup</loc>
+    <lastmod>2015-03-23T22:55:32+00:00</lastmod>
     <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/photos/2014-olympic-skeleton-team</loc>
-    <lastmod>2014-09-05T23:58:30+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/photos/obama</loc>
-    <lastmod>2014-08-31T22:09:05+00:00</lastmod>
-    <priority>0.5</priority>
   </url>
   
 
   <url>
-    <loc>http://kyletress.com/favorites</loc>
-    <lastmod>2014-08-31T22:09:30+00:00</lastmod>
+    <loc>http://kyletress.com/projects</loc>
+    <lastmod>2015-03-25T00:35:27+00:00</lastmod>
     <priority>1.0</priority>
   </url>
   
   <url>
-    <loc>http://kyletress.com/favorites/hannibal</loc>
-    <lastmod>2014-08-10T03:20:07+00:00</lastmod>
+    <loc>http://kyletress.com/projects/leaf</loc>
+    <lastmod>2015-03-25T00:26:37+00:00</lastmod>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://kyletress.com/favorites/mario-kart-8</loc>
-    <lastmod>2014-06-14T20:11:39+00:00</lastmod>
+    <loc>http://kyletress.com/projects/fanfare</loc>
+    <lastmod>2015-03-25T00:12:28+00:00</lastmod>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://kyletress.com/favorites/super-mario-3d-world</loc>
-    <lastmod>2014-05-10T21:06:04+00:00</lastmod>
+    <loc>http://kyletress.com/projects/sledsheet</loc>
+    <lastmod>2015-03-25T00:11:36+00:00</lastmod>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://kyletress.com/favorites/hbos-john-adams</loc>
-    <lastmod>2014-05-10T21:06:19+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-
-  <url>
-    <loc>http://kyletress.com/work</loc>
-    <lastmod>2014-11-11T23:29:52+00:00</lastmod>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/work/leaf</loc>
-    <lastmod>2014-11-12T00:26:57+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/work/sledsheet</loc>
-    <lastmod>2014-11-11T23:33:19+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://kyletress.com/work/moodboard</loc>
+    <loc>http://kyletress.com/projects/moodboard</loc>
     <lastmod>2014-11-11T23:33:58+00:00</lastmod>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://kyletress.com/work/kyle-tress</loc>
-    <lastmod>2014-11-11T23:34:33+00:00</lastmod>
+    <loc>http://kyletress.com/projects/kyletress</loc>
+    <lastmod>2015-03-25T00:44:40+00:00</lastmod>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://kyletress.com/work/nature-of-speed</loc>
+    <loc>http://kyletress.com/projects/nature-of-speed</loc>
     <lastmod>2014-11-11T23:36:50+00:00</lastmod>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://kyletress.com/work/fantasy-sliding</loc>
+    <loc>http://kyletress.com/projects/fantasy-sliding</loc>
     <lastmod>2014-06-14T22:59:40+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+
+  <url>
+    <loc>http://kyletress.com/support</loc>
+    <lastmod>2015-03-25T02:14:30+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+  
+
+  <url>
+    <loc>http://kyletress.com/now</loc>
+    <lastmod>2015-03-25T20:44:38+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+  
+
+  <url>
+    <loc>http://kyletress.com/writing</loc>
+    <lastmod>2015-03-25T23:29:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/writing/the-presidential-reading-list</loc>
+    <lastmod>2015-03-25T23:30:25+00:00</lastmod>
     <priority>0.5</priority>
   </url>
   
