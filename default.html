@@ -1,12 +1,18 @@
 {% capture content %}
 <header>
-<h1>{{ title }}</h1>
+  <h1>{{ title }}</h1>
 </header>
 
 {{ body }}
 
+{% if posts %}
+  {% include 'includes/post_list' %}
+{% endif %}
+
 {% if parent %}
-  <a href="{{parent.url}}">&larr; Back to {{parent.title}}</a>
+  <p><a href="{{parent.url}}">&larr; Return to {{parent.title}}</a></p>
+{% else %}
+  <p><a href="/">&larr; Return home</a></p>
 {% endif %}
 
 {% endcapture %}

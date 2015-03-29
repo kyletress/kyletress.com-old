@@ -1,5 +1,5 @@
 .navigation {
-  @include inline-navigation(1.4rem);
+  @include inline-navigation(1rem);
   width:$container-width;
   max-width:$container-max-width;
   margin: 0 auto;
@@ -10,6 +10,9 @@
     letter-spacing:1px;
     a {
       color: $color-headings;
+      &:hover{
+        color:#000;
+      }
       &.selected {
       }
       &.brand {
@@ -18,4 +21,26 @@
     }
   }
 
+}
+
+nav[role="social-links"] {
+  @include inline-navigation(.5rem);
+  a {
+    padding:5px 15px;
+    &:hover{
+      color:white;
+      border-radius:5px;
+      text-decoration:none;
+    }
+  }
+  a[href*="http://www.youtube.com"]:hover {
+    background:$color-youtube;}
+  a[href*="http://www.instagram.com"]:hover {
+    background-color: $color-instagram; }
+  a[href*="http://www.goodreads.com"]:hover {
+    background-color: $color-goodreads; }
+  a[href*="http://www.twitter.com"]:hover {
+    background-color: $color-twitter; }
+  a[href*="http://www.github.com"]:hover {
+    background-color: $color-github; }
 }

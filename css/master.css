@@ -206,11 +206,14 @@ html {
 body {
   background: #fff;
   -webkit-font-smoothing: subpixel-antialiased;
-  font-size: 18px;
-  font-size: 1.8rem;
+  font-size: 16px;
+  font-size: 1.6rem;
   font-family: "ff-meta-serif-web-pro", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   color: #585c54;
   line-height: 1.7; }
+  @media screen and (min-width: 750px) {
+    body {
+      font-size: 1.8rem; } }
 
 .container {
   width: 90%;
@@ -246,8 +249,7 @@ figure {
   margin: 2rem 0; }
 
 figcaption {
-  size: 14px;
-  size: 1.4rem;
+  font-size: 1.4rem;
   color: #6D6C6C;
   text-align: center; }
 
@@ -281,7 +283,12 @@ pre code {
 /* line 76, ../sass/_text.sass */
 code {
   font-family: "source-code-pro", "Courier New", monospace;
-  color: #f31308; }
+  color: #f31308;
+  padding: 3px 3px 1px 3px;
+  display: inline-block;
+  line-height: 1;
+  background: #f6f6f6;
+  border: 1px solid #ddd; }
 
 .dl {
   margin-left: 1rem; }
@@ -295,19 +302,19 @@ code {
       font-style: italic;
       color: #6D6C6C; }
 
-.header {
+header[role="banner"] {
   border-bottom: 1px solid #efefef;
-  width: 100%;
-  padding: 2.5rem 0;
-  text-align: center; }
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #6D6C6C; }
+  header[role="banner"] p {
+    margin: 0; }
+  header[role="banner"] a {
+    font-weight: bold; }
   @media screen and (min-width: 750px) {
-    .header {
-      text-align: left; } }
-  .header p {
-    font-size: 1.5rem;
-    margin-top: 0;
-    margin-bottom: .5rem;
-    color: #6D6C6C; }
+    header[role="banner"] {
+      display: flex; } }
 
 .navigation {
   width: 90%;
@@ -321,7 +328,7 @@ code {
     padding: 0; }
     .navigation ul li {
       display: inline-block;
-      margin-right: 1.4rem; }
+      margin-right: 1rem; }
       .navigation ul li:last-child {
         padding-right: 0; }
   .navigation li {
@@ -329,8 +336,36 @@ code {
     letter-spacing: 1px; }
     .navigation li a {
       color: #222222; }
+      .navigation li a:hover {
+        color: #000; }
       .navigation li a.brand {
         font-weight: 700; }
+
+nav[role="social-links"] ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  nav[role="social-links"] ul li {
+    display: inline-block;
+    margin-right: 0.5rem; }
+    nav[role="social-links"] ul li:last-child {
+      padding-right: 0; }
+nav[role="social-links"] a {
+  padding: 5px 15px; }
+  nav[role="social-links"] a:hover {
+    color: white;
+    border-radius: 5px;
+    text-decoration: none; }
+nav[role="social-links"] a[href*="http://www.youtube.com"]:hover {
+  background: #b31217; }
+nav[role="social-links"] a[href*="http://www.instagram.com"]:hover {
+  background-color: #3f729b; }
+nav[role="social-links"] a[href*="http://www.goodreads.com"]:hover {
+  background-color: #553b08; }
+nav[role="social-links"] a[href*="http://www.twitter.com"]:hover {
+  background-color: #55acee; }
+nav[role="social-links"] a[href*="http://www.github.com"]:hover {
+  background-color: #4183c4; }
 
 footer[role="site-footer"] {
   font-size: 1.4rem;
@@ -489,6 +524,33 @@ a.link-amazon {
 .hero-condensed {
   padding: .5rem; }
 
+.reading-list ul {
+  font-size: 1.4rem;
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+.multi {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2; }
+  .multi h3 {
+    -webkit-column-span: all;
+    -moz-column-span: all;
+    column-span: all; }
+
+.book-notes {
+  font-style: italic; }
+  .book-notes .book-note {
+    border-bottom: 1px solid #eee;
+    padding: 1rem 0; }
+
+.note-meta {
+  font-style: normal;
+  font-weight: 400;
+  color: #585c54;
+  font-size: 1.2rem; }
+
 .media {
   display: -webkit-box;
   display: -moz-box;
@@ -507,13 +569,6 @@ a.link-amazon {
 .media__body {
   flex: 1;
   -webkit-flex: 1; }
-
-.introduction {
-  padding: 1rem 0 3rem 0; }
-  .introduction .media__body {
-    font-size: 1.6rem;
-    font-weight: 300;
-    color: #6D6C6C; }
 
 .post-preview {
   margin-bottom: 8rem; }
@@ -544,5 +599,43 @@ main {
 
 .footnotes {
   font-size: 1.4rem; }
+
+.headshot {
+  float: left;
+  margin-right: 2rem; }
+
+#mailchimp {
+  background: #efefef;
+  padding: 2.5rem 2rem;
+  border: 1px solid #d5d5d5; }
+  #mailchimp p {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #878585; }
+
+.mailchimp {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center; }
+  .mailchimp label {
+    margin-right: 1rem;
+    color: #6D6C6C;
+    font-size: 1.6rem; }
+  .mailchimp input[type="email"] {
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    margin-right: 1rem;
+    padding: .5rem; }
+  .mailchimp .button {
+    background: #31728d;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.4rem;
+    font-family: "source-code-pro", "Courier New", monospace;
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: .3rem; }
 
 /*# sourceMappingURL=master.css.map */

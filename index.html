@@ -1,12 +1,17 @@
 {% capture content %}
-<div class="media introduction">
-  <div class="media__item"><img src="{{assets.first.url}}" width="125" class="img-rounded"></div>
-  <div class="media__body">
-    <p>{{meta.introduction}}</p>
-  </div>
-</div><!-- end media -->
 
 {{ body }}
+
+<h3>Last 5 essays</h3>
+<ul>
+{% for post in site.pages.essays.posts | limit:5 %}
+  <li><a href="{{post.url}}">{{post.title}}</a></li>
+{% endfor %}
+</ul>
+
+<h4>Recommended Reading</h4>
+
+{% include 'includes/newsletter' %}
 
 {% endcapture %}
 

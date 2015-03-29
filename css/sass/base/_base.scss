@@ -10,11 +10,14 @@ body{
   background: $color-background;
   -webkit-font-smoothing:subpixel-antialiased;
   font: {
-    @include font-size(18px);
+    @include font-size(16px);
     family: $font-serif;
   }
   color:$color-text;
   line-height:1.7;
+  @media screen and (min-width: $bp-tablet) {
+    font-size:1.8rem;
+  }
 }
 
 .container{
@@ -60,7 +63,7 @@ figure{
 }
 
 figcaption{
-  @include font-size(14px);
+  font-size:1.4rem;
   color:$color-muted;
   text-align:center;
 }
@@ -100,6 +103,11 @@ pre code {
 code {
   font-family: $font-sans;
   color: #f31308;
+  padding: 3px 3px 1px 3px;
+  display: inline-block;
+  line-height: 1;
+  background: #f6f6f6;
+  border: 1px solid #ddd;
 }
 
 .dl {
