@@ -1,7 +1,7 @@
 {% capture content %}
 
-<header class="content-header">
-<h1>{{ title }}</h1>
+<header>
+  <h1>{{ title }}</h1>
   <p>{% if meta.subtitle %}{{ meta.subtitle }}{%endif%} <span>by {% for tag in taxonomy.author %}{{tag}}{% unless forloop.last %}, {% endunless %} {% endfor %}</span></p>
 </header>
 

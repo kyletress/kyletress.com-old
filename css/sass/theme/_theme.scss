@@ -17,11 +17,7 @@
 }
 
 .introduction {
-  padding:1rem 0 3rem 0;
   .media__body {
-    font-size: 1.6rem;
-    font-weight: 300;
-    color: $color-muted;
   }
 }
 
@@ -66,4 +62,50 @@ main {
 
 .footnotes {
   font-size:1.4rem;
+}
+
+.headshot{
+  float:left;
+  margin-right:2rem;
+}
+
+
+#mailchimp{
+  background:$color-borders;
+  padding:2.5rem 2rem;
+  border: 1px solid darken($color-borders, 10%);
+  p{
+    margin-top:0;
+    font-size:1.5rem;
+    color:lighten($color-muted, 10%);
+  }
+}
+
+.mailchimp{
+  display:-webkit-flex;
+  display:flex;
+  -webkit-align-items:center;
+  align-items:center;
+  label{
+    margin-right:1rem;
+    color:$color-muted;
+    font-size:1.6rem;
+  }
+  input[type="email"] {
+    -webkit-flex-grow: 1;
+    flex-grow:1;
+    margin-right:1rem;
+    padding: .5rem;
+  }
+  .button{
+    background:$color-links;
+    color:white;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    font-size:1.4rem;
+    font-family:$font-sans;
+    border:none;
+    padding:.5rem 1rem;
+    border-radius:.3rem;
+  }
 }
