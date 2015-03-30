@@ -3,10 +3,9 @@ $color-background: #fff;
 $color-text: #585c54;
 $color-headings: #222222;
 $color-links: #1D78BD;
-$color-borders: #efefef;
-$color-muted: #6D6C6C;
-$color-white: #fff;
-
+$color-borders: #ededed;
+$color-muted: #999999;
+// Social Colors
 $color-youtube: #b31217;
 $color-instagram: #3f729b;
 $color-github: #4183c4;
@@ -15,11 +14,14 @@ $color-goodreads: #553b08;
 
 // Fonts
 $font-sans: "source-code-pro", "Courier New", monospace;
-$font-serif: "ff-meta-serif-web-pro", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+$font-serif: "jaf-facitweb","ff-meta-serif-web-pro", "Open Sans", "Helvetica Neue", Arial, sans-serif;
 
 // Container
 $container-width: 90%;
 $container-max-width: 700px;
+
+// Font Sizing
+$base-font-size: 1.6rem;
 
 // Breakpoints
 $bp-mobile: 400px;

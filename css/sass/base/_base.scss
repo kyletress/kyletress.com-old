@@ -7,17 +7,16 @@ html{
 }
 
 body{
-  padding-top:7rem;
   background: $color-background;
   -webkit-font-smoothing:subpixel-antialiased;
   font: {
-    @include font-size(16px);
+    @include font-size(14px);
     family: $font-serif;
   }
   color:$color-text;
   line-height:1.7;
   @media screen and (min-width: $bp-tablet) {
-    font-size:1.8rem;
+    font-size:$base-font-size;
   }
 }
 
@@ -36,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-weight:300;
+  //font-weight:300;
 }
 
 a {
@@ -66,7 +65,9 @@ figure{
 figcaption{
   font-size:1.4rem;
   color:$color-muted;
-  text-align:center;
+  text-align:left;
+  font-weight:normal;
+  font-style:italic;
 }
 
 mark{

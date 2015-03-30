@@ -1,9 +1,6 @@
 header[role="banner"]{
   background: rgba(255,255,255,.97);
-  position:fixed;
   width:100%;
-  top:0;
-  z-index:1000;
   border-bottom: 1px solid $color-borders;
   padding: 1.5rem 0;
   text-align:center;
@@ -12,7 +9,24 @@ header[role="banner"]{
   p{ margin:0;}
   a{font-weight:bold;}
   @media screen and (min-width: $bp-tablet) {
-    // text-align:left;
-    display:flex;
+    text-align:left;
+  }
+  .banner-inner{
+    -webkit-animation-duration:.3s;
+    animation-duration:.3s;
+    width:90%;
+    margin:0 auto;
+    max-width:700px;
+  }
+  img {
+    -webkit-order:2;
+    order:2;
+    padding:2px;
+    background:white;
+    border:1px solid lighten($color-muted, 25%);
+  }
+  .banner-content{
+    -webkit-flex:1;
+    flex:1;
   }
 }

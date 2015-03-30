@@ -1,5 +1,12 @@
 {% capture content %}
 
+
+<figure>
+  <img src="{{assets.first.url}}" alt="" width="350">
+  <figcaption>
+  {{assets.first.meta.caption}}
+  </figcaption>
+</figure>
 {{ body }}
 
 <h3>Last 5 essays</h3>
@@ -10,7 +17,7 @@
 </ul>
 
 <h4>Recommended Reading</h4>
-
+<p>Looking for some great book recommendations? Once a month I send a low-volume email to friends with 3-5 books. Join below.</p>
 {% include 'includes/newsletter' %}
 
 {% endcapture %}
