@@ -1,6 +1,11 @@
 header[role="banner"]{
+  background: rgba(255,255,255,.97);
+  position:fixed;
+  width:100%;
+  top:0;
+  z-index:1000;
   border-bottom: 1px solid $color-borders;
-  padding: 2rem 0;
+  padding: 1.5rem 0;
   text-align:center;
   font-size:1.4rem;
   color:$color-muted;

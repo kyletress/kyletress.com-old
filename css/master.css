@@ -204,6 +204,7 @@ html {
   font-size: 62.5%; }
 
 body {
+  padding-top: 7rem;
   background: #fff;
   -webkit-font-smoothing: subpixel-antialiased;
   font-size: 16px;
@@ -303,8 +304,13 @@ code {
       color: #6D6C6C; }
 
 header[role="banner"] {
+  background: rgba(255, 255, 255, 0.97);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
   border-bottom: 1px solid #efefef;
-  padding: 2rem 0;
+  padding: 1.5rem 0;
   text-align: center;
   font-size: 1.4rem;
   color: #6D6C6C; }
@@ -569,9 +575,6 @@ a.link-amazon {
   flex: 1;
   -webkit-flex: 1; }
 
-.post-preview {
-  margin-bottom: 8rem; }
-
 .content-header {
   text-align: center;
   margin: 3rem 0; }
@@ -586,9 +589,6 @@ a.link-amazon {
   .content-header .reading-time:before {
     content: "\00a0\2022\00a0";
     color: inherit; }
-
-main {
-  padding: 2rem 0; }
 
 .faqs dt {
   font-weight: bold; }
