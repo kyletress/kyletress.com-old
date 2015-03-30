@@ -11,12 +11,8 @@
     a {
       color: $color-headings;
       &:hover{
-        color:#000;
-      }
-      &.selected {
-      }
-      &.brand {
-        font-weight:700;
+        color:$color-links;
+        text-decoration:none;
       }
     }
   }

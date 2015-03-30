@@ -230,11 +230,11 @@ h1 {
   font-weight: 300; }
 
 a {
-  color: #31728d;
+  color: #1D78BD;
   transition: color .5s ease;
   text-decoration: none; }
   a:hover {
-    color: #10252e;
+    color: #0c324e;
     text-decoration: underline; }
 
 blockquote {
@@ -337,9 +337,8 @@ header[role="banner"] {
     .navigation li a {
       color: #222222; }
       .navigation li a:hover {
-        color: #000; }
-      .navigation li a.brand {
-        font-weight: 700; }
+        color: #1D78BD;
+        text-decoration: none; }
 
 nav[role="social-links"] ul {
   list-style: none;
@@ -424,7 +423,7 @@ tbody tr:nth-child(even) {
 
 .btn {
   display: inline-block;
-  background-color: #31728d;
+  background-color: #1D78BD;
   padding: 8px 11px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -441,7 +440,7 @@ a .btn:hover,
 .btn:hover,
 a .btn:hover,
 .btn.active {
-  background-color: #1d4454;
+  background-color: #134e7b;
   text-decoration: none; }
 
 a.link-twitter {
@@ -628,7 +627,7 @@ main {
     margin-right: 1rem;
     padding: .5rem; }
   .mailchimp .button {
-    background: #31728d;
+    background: #1D78BD;
     color: white;
     text-transform: uppercase;
     letter-spacing: 1px;
