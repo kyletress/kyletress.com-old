@@ -98,13 +98,13 @@ pre {
 }
 /* line 73, ../sass/_text.sass */
 pre code {
-  color: #585c54;
+  color: $color-muted;
 }
 
 /* line 76, ../sass/_text.sass */
 code {
   font-family: $font-sans;
-  color: #f31308;
+  color: $color-code;
   padding: 3px 3px 1px 3px;
   display: inline-block;
   line-height: 1;

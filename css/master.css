@@ -2393,12 +2393,12 @@ pre {
 
 /* line 73, ../sass/_text.sass */
 pre code {
-  color: #585c54; }
+  color: #999999; }
 
 /* line 76, ../sass/_text.sass */
 code {
   font-family: "source-code-pro", "Courier New", monospace;
-  color: #f31308;
+  color: #c7254e;
   padding: 3px 3px 1px 3px;
   display: inline-block;
   line-height: 1;
