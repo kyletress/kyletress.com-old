@@ -14,7 +14,7 @@ body{
     family: $font-serif;
   }
   color:$color-text;
-  line-height:1.7;
+  line-height:1.6;
   @media screen and (min-width: $bp-tablet) {
     font-size:$base-font-size;
   }
@@ -47,6 +47,11 @@ a {
     color: darken($color-links, 25%);
     text-decoration: underline;
   }
+}
+
+p.lead {
+  font-size:2.1rem;
+  font-weight:300;
 }
 
 blockquote{
@@ -103,13 +108,19 @@ pre code {
 
 /* line 76, ../sass/_text.sass */
 code {
-  font-family: $font-sans;
+  //font-family: $font-sans;
+  //color: $color-code;
+  //padding: 3px 3px 1px 3px;
+  //display: inline-block;
+  //line-height: 1;
+  //background: #f6f6f6;
+  //border: 1px solid #ddd;
+  padding: 2px 4px;
+  font-size: 1.4rem;
   color: $color-code;
-  padding: 3px 3px 1px 3px;
-  display: inline-block;
-  line-height: 1;
-  background: #f6f6f6;
-  border: 1px solid #ddd;
+  white-space: nowrap;
+  background-color: #f9f2f4;
+  border-radius: 4px;
 }
 
 .dl {

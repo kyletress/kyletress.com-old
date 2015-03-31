@@ -2324,9 +2324,9 @@ body {
   -webkit-font-smoothing: subpixel-antialiased;
   font-size: 14px;
   font-size: 1.4rem;
-  font-family: "jaf-facitweb", "ff-meta-serif-web-pro", "Open Sans", "Helvetica Neue", Arial, sans-serif;
-  color: #585c54;
-  line-height: 1.7; }
+  font-family: "Merriweather", "jaf-facitweb", "ff-meta-serif-web-pro", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  color: #333;
+  line-height: 1.6; }
   @media screen and (min-width: 750px) {
     body {
       font-size: 1.6rem; } }
@@ -2343,18 +2343,22 @@ h1, h2, h3, h4, h5, h6 {
   color: #222222; }
 
 a {
-  color: #1D78BD;
+  color: #428bca;
   transition: color .5s ease;
   text-decoration: none; }
   a:hover {
-    color: #0c324e;
+    color: #1f496e;
     text-decoration: underline; }
+
+p.lead {
+  font-size: 2.1rem;
+  font-weight: 300; }
 
 blockquote {
   font-style: italic;
   font-weight: 300;
   font-size: 1.6rem;
-  color: #a4a9a0;
+  color: gray;
   margin-left: 0;
   padding-left: 2rem; }
 
@@ -2397,13 +2401,12 @@ pre code {
 
 /* line 76, ../sass/_text.sass */
 code {
-  font-family: "source-code-pro", "Courier New", monospace;
+  padding: 2px 4px;
+  font-size: 1.4rem;
   color: #c7254e;
-  padding: 3px 3px 1px 3px;
-  display: inline-block;
-  line-height: 1;
-  background: #f6f6f6;
-  border: 1px solid #ddd; }
+  white-space: nowrap;
+  background-color: #f9f2f4;
+  border-radius: 4px; }
 
 .dl {
   margin-left: 1rem; }
@@ -2421,10 +2424,24 @@ header[role="banner"] {
   background: rgba(255, 255, 255, 0.97);
   width: 100%;
   border-bottom: 1px solid #ededed;
-  padding: 1.5rem 0;
+  padding: 1rem 0;
   text-align: center;
   font-size: 1.4rem;
   color: #999999; }
+  header[role="banner"] h1 {
+    font-size: 1.5rem;
+    -webkit-flex: 1;
+    flex: 1;
+    font-weight: bold; }
+    header[role="banner"] h1 a {
+      color: #222222; }
+      header[role="banner"] h1 a:hover {
+        color: #428bca;
+        text-decoration: none; }
+    header[role="banner"] h1 span {
+      color: #999999;
+      font-size: 1.2rem;
+      font-weight: normal; }
   header[role="banner"] p {
     margin: 0; }
   header[role="banner"] a {
@@ -2433,23 +2450,24 @@ header[role="banner"] {
     header[role="banner"] {
       text-align: left; } }
   header[role="banner"] .banner-inner {
-    -webkit-animation-duration: .3s;
-    animation-duration: .3s;
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
     width: 90%;
     margin: 0 auto;
     max-width: 700px; }
   header[role="banner"] img {
-    -webkit-order: 2;
-    order: 2;
     padding: 2px;
     background: white;
-    border: 1px solid #d9d9d9; }
+    border: 1px solid #ededed;
+    margin-right: 1rem; }
+    header[role="banner"] img:hover {
+      background: #ededed; }
   header[role="banner"] .banner-content {
     -webkit-flex: 1;
     flex: 1; }
 
 .navigation {
-  color: #585c54;
+  color: #333;
   font-size: 1.3rem; }
   .navigation ul {
     list-style: none;
@@ -2457,18 +2475,18 @@ header[role="banner"] {
     padding: 0; }
     .navigation ul li {
       display: inline-block;
-      margin-right: 1rem; }
+      margin-right: 0.2rem; }
       .navigation ul li:last-child {
         padding-right: 0; }
-  .navigation li {
-    text-transform: uppercase;
-    letter-spacing: 1px; }
-    .navigation li a {
-      color: #222222;
-      font-weight: 400; }
-      .navigation li a:hover {
-        color: #1D78BD;
-        text-decoration: none; }
+  .navigation li a {
+    color: #222222;
+    font-weight: 700;
+    padding: 5px 8px; }
+    .navigation li a:hover {
+      color: #428bca;
+      text-decoration: none;
+      background: #ededed;
+      border-radius: 3px; }
 
 nav[role="social-links"] ul {
   list-style: none;
@@ -2553,7 +2571,7 @@ tbody tr:nth-child(even) {
 
 .btn {
   display: inline-block;
-  background-color: #1D78BD;
+  background-color: #428bca;
   padding: 8px 11px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -2570,7 +2588,7 @@ a .btn:hover,
 .btn:hover,
 a .btn:hover,
 .btn.active {
-  background-color: #134e7b;
+  background-color: #2a6496;
   text-decoration: none; }
 
 a.link-twitter {
@@ -2677,7 +2695,7 @@ a.link-amazon {
 .note-meta {
   font-style: normal;
   font-weight: 400;
-  color: #585c54;
+  color: #333;
   font-size: 1.2rem; }
 
 .media {
@@ -2751,7 +2769,7 @@ a.link-amazon {
     margin-right: 1rem;
     padding: .5rem; }
   .mailchimp .button {
-    background: #1D78BD;
+    background: #428bca;
     color: white;
     text-transform: uppercase;
     letter-spacing: 1px;
