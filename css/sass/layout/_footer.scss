@@ -4,7 +4,7 @@ footer[role="site-footer"] {
   font-size:$base-font-size * .8;
   color:$color-muted;
   text-align:center;
-  @media screen and (min-width: $bp-phablet) {
+  @media screen and (min-width: $bp-tablet) {
     div {
       @include flexbox;
       -webkit-align-items:center;

@@ -2420,7 +2420,8 @@ header[role="banner"] {
   width: 100%;
   border-bottom: 1px solid #ededed;
   padding: 1rem 0;
-  text-align: center; }
+  text-align: center;
+  font-size: 1.5rem; }
   header[role="banner"] .container {
     -webkit-animation-duration: .3s;
     animation-duration: .3s; }
@@ -2436,7 +2437,11 @@ header[role="banner"] {
       color: #999999;
       font-size: 1.4rem;
       font-weight: normal; }
-  @media screen and (min-width: 600px) {
+  header[role="banner"] p {
+    margin: 0; }
+    header[role="banner"] p a {
+      font-weight: 700; }
+  @media screen and (min-width: 750px) {
     header[role="banner"] {
       padding: 1.5rem 0;
       text-align: left; }
@@ -2445,7 +2450,7 @@ header[role="banner"] {
         display: flex;
         -webkit-align-items: center;
         align-items: center; }
-        header[role="banner"] .container h1 {
+        header[role="banner"] .container h1, header[role="banner"] .container p {
           -webkit-flex: 1;
           flex: 1; } }
 
@@ -2500,7 +2505,7 @@ footer[role="site-footer"] {
   font-size: 1.44rem;
   color: #999999;
   text-align: center; }
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 750px) {
     footer[role="site-footer"] div {
       display: -webkit-box;
       display: -moz-box;
@@ -2660,7 +2665,7 @@ a.link-amazon {
   padding: .5rem; }
 
 .reading-list ul {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   padding: 0;
   margin: 0;
   list-style: none; }
@@ -2685,7 +2690,7 @@ a.link-amazon {
   font-style: normal;
   font-weight: 400;
   color: #333;
-  font-size: 1.2rem; }
+  font-size: 1.4rem; }
 
 @media screen and (min-width: 600px) {
   .introduction {
@@ -2695,13 +2700,27 @@ a.link-amazon {
     display: -webkit-flex;
     display: flex; }
     .introduction figure {
-      width: 40%;
+      width: 50%;
       padding-right: 1rem; }
     .introduction div {
       padding-left: 1rem;
-      width: 60%;
+      width: 50%;
       -webkit-flex: 1;
       flex: 1; } }
+
+.recent-posts article {
+  width: 100%; }
+@media screen and (min-width: 600px) {
+  .recent-posts {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between; }
+    .recent-posts article {
+      width: 49%; } }
 
 .essay {
   max-width: 700px;

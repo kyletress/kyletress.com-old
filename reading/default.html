@@ -1,19 +1,13 @@
 {% capture content %}
 
-<header>
+<header class="content-header">
   <h1>{{ title }}</h1>
-  <p>{% if meta.subtitle %}{{ meta.subtitle }}{%endif%} <span>by {% for tag in taxonomy.author %}{{tag}}{% unless forloop.last %}, {% endunless %} {% endfor %}</span></p>
+  <p class"meta">{% if meta.subtitle %}{{ meta.subtitle }}{%endif%} <span>by {% for tag in taxonomy.author %}{{tag}}{% unless forloop.last %}, {% endunless %} {% endfor %}</span></p>
 </header>
 
-{% if body != empty %}
-<section class="book-summary">
-<h2>Summary</h2>
 {{ body }}
-</section>
-{%endif%}
 
 <section class="book-notes">
-<h3>Notes</h3>
 {% for note in parent.pages['notes'].taxonomy['book'][slug].posts %}
 <section class="book-note">
   {{ note.body }}
