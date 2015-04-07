@@ -1,31 +1,31 @@
-.media{
-  @include flexbox;
-  -webkit-align-items:center;
-  -moz-align-items:center;
-  -ms-align-items:center;
-  -o-align-items:center;
-  align-items:center;
-}
-
-.media__item{
-  padding-right:1rem;
-}
-
-.media__body{
-  flex:1;
-  -webkit-flex:1;
-}
-
 .introduction {
-  .media__body {
+  @media screen and (min-width: $bp-phablet) {
+    @include flexbox;
+    figure {
+      width:40%;
+      padding-right:1rem;
+    }
+    div {
+      padding-left:1rem;
+      width:60%;
+      -webkit-flex:1;
+      flex:1;
+    }
   }
+}
+
+.essay {
+  max-width:700px;
+  margin:0 auto;
 }
 
 .content-header {
   text-align:center;
-  margin: 3rem 0;
   h1, h2 {
     margin:0;
+    a {
+      color:$color-headings;
+    }
   }
   p.meta {
     color: $color-muted;
@@ -43,6 +43,7 @@
 }
 
 main {
+  padding:2rem 0;
 }
 
 .faqs {
@@ -59,56 +60,51 @@ main {
   font-size:1.4rem;
 }
 
-.headshot{
-  float:left;
-  margin-right:2rem;
-}
-
-
-#mailchimp{
-  background:$color-borders;
-  padding:2.5rem 2rem;
-  border: 1px solid darken($color-borders, 10%);
-  p{
-    margin-top:0;
-    font-size:1.5rem;
-    color:lighten($color-muted, 10%);
-  }
-}
-
-.mailchimp{
-  display:-webkit-flex;
-  display:flex;
+.mailchimp {
+  @include flexbox;
   -webkit-align-items:center;
   align-items:center;
-  label{
-    margin-right:1rem;
-    color:$color-muted;
-    font-size:1.6rem;
-  }
+  margin-left:0;
   input[type="email"] {
     -webkit-flex-grow: 1;
     flex-grow:1;
-    margin-right:1rem;
+    margin-right:0;
     padding: .5rem;
+    border:1px solid $color-borders;
+    border-right:none;
   }
   .button{
-    background:$color-links;
-    color:white;
+    background: lighten($color-borders, 5%);
     text-transform:uppercase;
-    letter-spacing:1px;
     font-size:1.4rem;
     font-family:$font-sans;
-    border:none;
-    padding:.5rem 1rem;
-    border-radius:.3rem;
+    border:1px solid $color-borders;
+    padding:.7rem 1.5rem;
+    &:hover{
+      background-color:$color-links;
+      color:white;
+    }
   }
 }
 
-.flex{
-  display: -webkit-flex;
-  display:flex;
-  -webkit-align-items:center;
-  align-items:center;
+.project-list{
+  @media screen and (min-width: $bp-phablet) {
+    @include flexbox;
+    -webkit-flex-wrap: wrap;
+    flex-wrap:wrap;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+  }
+}
 
+.project{
+  background:$color-borders;
+  width:100%;
+  padding:1rem;
+  @media screen and (min-width: $bp-phablet) {
+    width: 49%;
+  }
+  @media screen and (min-width: $bp-desktop) {
+    width: 32%;
+  }
 }

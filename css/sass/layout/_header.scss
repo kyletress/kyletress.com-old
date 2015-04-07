@@ -1,16 +1,16 @@
 header[role="banner"]{
-  background: rgba(255,255,255,.97);
+  background: rgba($color-background, .97);
   width:100%;
   border-bottom: 1px solid $color-borders;
   padding: 1rem 0;
   text-align:center;
-  font-size:1.4rem;
-  color:$color-muted;
+  .container{
+    -webkit-animation-duration:.3s;
+    animation-duration:.3s;
+  }
   h1 {
-    font-size:1.5rem;
-    -webkit-flex:1;
-    flex:1;
-    font-weight:bold;
+    font-size:1.6rem;
+    margin:0;
     a {
       color:$color-headings;
       &:hover {
@@ -20,33 +20,22 @@ header[role="banner"]{
     }
     span {
       color:$color-muted;
-      font-size:1.2rem;
+      font-size:1.4rem;
       font-weight:normal;
     }
   }
-  p{ margin:0;}
-  a{font-weight:bold;}
-  @media screen and (min-width: $bp-tablet) {
+  @media screen and (min-width: $bp-phablet) {
+    padding:1.5rem 0;
     text-align:left;
-  }
-  .banner-inner{
-    -webkit-animation-duration:.5s;
-    animation-duration:.5s;
-    width:90%;
-    margin:0 auto;
-    max-width:700px;
-  }
-  img {
-    padding:2px;
-    background:white;
-    border:1px solid $color-borders;
-    margin-right:1rem;
-    &:hover {
-      background:$color-borders;
+    .container{
+      display:-webkit-flex;
+      display:flex;
+      -webkit-align-items:center;
+      align-items:center;
+      h1{
+        -webkit-flex:1;
+        flex:1;
+      }
     }
-  }
-  .banner-content{
-    -webkit-flex:1;
-    flex:1;
   }
 }

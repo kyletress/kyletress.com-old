@@ -1,5 +1,7 @@
 *, *:before, *:after {
-  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html{
@@ -10,7 +12,7 @@ body{
   background: $color-background;
   -webkit-font-smoothing:subpixel-antialiased;
   font: {
-    @include font-size(14px);
+    size: $base-font-size * .9;
     family: $font-serif;
   }
   color:$color-text;
@@ -26,25 +28,17 @@ body{
   margin: 0 auto;
 }
 
-.section {
-  margin: 0 auto;
-}
-
 h1, h2, h3, h4, h5, h6 {
   color:$color-headings;
 }
 
-h1 {
-  //font-weight:300;
-}
-
 a {
   color:$color-links;
-  transition: color .5s ease;
+  transition: color .3s ease;
   text-decoration:none;
 
   &:hover {
-    color: darken($color-links, 25%);
+    color: darken($color-links, 15%);
     text-decoration: underline;
   }
 }
@@ -54,11 +48,11 @@ p.lead {
   font-weight:300;
 }
 
-blockquote{
+blockquote {
   font-style:italic;
-  font-weight:300;
-  font-size:1.6rem;
+  font-size:$base-font-size * .9;
   color: lighten($color-text, 30%);
+  border-left: 1px solid $color-borders;
   margin-left:0;
   padding-left:2rem;
 }
@@ -68,11 +62,9 @@ figure{
 }
 
 figcaption{
-  font-size:1.4rem;
+  font-size:$base-font-size * .8;
   color:$color-muted;
   text-align:left;
-  font-weight:normal;
-  font-style:italic;
 }
 
 mark{
@@ -90,9 +82,9 @@ hr {
   background:#eee;
 }
 
-/* line 68, ../sass/_text.sass */
 pre {
-  background-color: rgba(231, 232, 231, 0.5);
+  font-weight: 500;
+  background-color: lighten($color-borders, 5%);
   padding: 2.4rem;
   -webkit-white-space: pre-wrap;
   -ms-white-space: pre-wrap;
@@ -100,27 +92,23 @@ pre {
   -o-white-space: pre-wrap;
   white-space: pre-wrap;
   border-radius: 3px;
+  code{
+    background-color:inherit;
+    font-weight: 500;
+  }
 }
 /* line 73, ../sass/_text.sass */
 pre code {
   color: $color-muted;
 }
 
-/* line 76, ../sass/_text.sass */
 code {
-  //font-family: $font-sans;
-  //color: $color-code;
-  //padding: 3px 3px 1px 3px;
-  //display: inline-block;
-  //line-height: 1;
-  //background: #f6f6f6;
-  //border: 1px solid #ddd;
+  font-family: $font-sans;
   padding: 2px 4px;
   font-size: 1.4rem;
   color: $color-code;
-  white-space: nowrap;
+  //white-space: nowrap;
   background-color: #f9f2f4;
-  border-radius: 4px;
 }
 
 .dl {

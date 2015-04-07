@@ -1,11 +1,12 @@
 // Color Palette
-$color-background: #fff;
+$color-background: #ffffff;
 $color-text: #333;
 $color-headings: #222222;
 $color-links: #428bca;
 $color-borders: #ededed;
 $color-muted: #999999;
 $color-code: #c7254e;
+
 // Social Colors
 $color-youtube: #b31217;
 $color-instagram: #3f729b;
@@ -15,21 +16,18 @@ $color-goodreads: #553b08;
 
 // Fonts
 $font-sans: "source-code-pro", "Courier New", monospace;
-$font-serif: "Merriweather","jaf-facitweb","ff-meta-serif-web-pro", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+$font-serif: "freight-text-pro", Georgia, serif;
 
 // Container
 $container-width: 90%;
-$container-max-width: 700px;
+$container-max-width: 800px;
 
 // Font Sizing
-$base-font-size: 1.6rem;
+$base-font-size: 1.8rem;
 
 // Breakpoints
 $bp-mobile: 400px;
-$bp-phablet: 550px;
+$bp-phablet: 600px;
 $bp-tablet: 750px;
 $bp-desktop: 1000px;
 $bp-hd: 1200px;
-
-// Spacing
-$spacing: 20px;

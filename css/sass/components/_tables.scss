@@ -1,14 +1,14 @@
 table {
   width: 100%;
   max-width: 100%;
-  margin-bottom: $spacing;
+  margin-bottom: 2rem;
   border-collapse: collapse;
   border-spacing: 0;
   font-family: $font-sans;
   @include rem(font-size, 1.4);
 }
 
-th, 
+th,
 td {
   text-align:left;
   padding: 8px;

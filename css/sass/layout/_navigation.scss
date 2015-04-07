@@ -1,16 +1,15 @@
 .navigation {
   @include inline-navigation(.2rem);
-  color: $color-text;
-  font-size:1.3rem;
+  font-size:1.5rem;
   li{
     a {
       color: $color-headings;
-      font-weight:700;
-      padding:5px 8px;
+      font-weight:600;
+      padding:3px 5px;
       &:hover{
         color:$color-links;
         text-decoration:none;
-        background:$color-borders;
+        background:lighten($color-borders, 5%);
         border-radius:3px;
       }
     }
@@ -21,21 +20,19 @@
 nav[role="social-links"] {
   @include inline-navigation(.5rem);
   a {
-    padding:5px 15px;
+    color: $color-muted;
     &:hover{
-      color:white;
-      border-radius:5px;
       text-decoration:none;
     }
   }
   a[href*="http://www.youtube.com"]:hover {
-    background:$color-youtube;}
+    color:$color-youtube;}
   a[href*="http://www.instagram.com"]:hover {
-    background-color: $color-instagram; }
+    color: $color-instagram; }
   a[href*="http://www.goodreads.com"]:hover {
-    background-color: $color-goodreads; }
+    color: $color-goodreads; }
   a[href*="http://www.twitter.com"]:hover {
-    background-color: $color-twitter; }
+    color: $color-twitter; }
   a[href*="http://www.github.com"]:hover {
-    background-color: $color-github; }
+    color: $color-github; }
 }

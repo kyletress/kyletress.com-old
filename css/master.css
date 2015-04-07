@@ -2320,23 +2320,19 @@ html {
   font-size: 62.5%; }
 
 body {
-  background: #fff;
+  background: #ffffff;
   -webkit-font-smoothing: subpixel-antialiased;
-  font-size: 14px;
-  font-size: 1.4rem;
-  font-family: "Merriweather", "jaf-facitweb", "ff-meta-serif-web-pro", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.62rem;
+  font-family: "freight-text-pro", Georgia, serif;
   color: #333;
   line-height: 1.6; }
   @media screen and (min-width: 750px) {
     body {
-      font-size: 1.6rem; } }
+      font-size: 1.8rem; } }
 
 .container {
   width: 90%;
-  max-width: 700px;
-  margin: 0 auto; }
-
-.section {
+  max-width: 800px;
   margin: 0 auto; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -2344,10 +2340,10 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   color: #428bca;
-  transition: color .5s ease;
+  transition: color .3s ease;
   text-decoration: none; }
   a:hover {
-    color: #1f496e;
+    color: #2a6496;
     text-decoration: underline; }
 
 p.lead {
@@ -2356,9 +2352,9 @@ p.lead {
 
 blockquote {
   font-style: italic;
-  font-weight: 300;
-  font-size: 1.6rem;
+  font-size: 1.62rem;
   color: gray;
+  border-left: 1px solid #ededed;
   margin-left: 0;
   padding-left: 2rem; }
 
@@ -2366,11 +2362,9 @@ figure {
   margin: 2rem 0; }
 
 figcaption {
-  font-size: 1.4rem;
+  font-size: 1.44rem;
   color: #999999;
-  text-align: left;
-  font-weight: normal;
-  font-style: italic; }
+  text-align: left; }
 
 mark {
   background: rgba(248, 231, 28, 0.2); }
@@ -2384,9 +2378,9 @@ hr {
   height: 1px;
   background: #eee; }
 
-/* line 68, ../sass/_text.sass */
 pre {
-  background-color: rgba(231, 232, 231, 0.5);
+  font-weight: 500;
+  background-color: #fafafa;
   padding: 2.4rem;
   -webkit-white-space: pre-wrap;
   -ms-white-space: pre-wrap;
@@ -2394,19 +2388,20 @@ pre {
   -o-white-space: pre-wrap;
   white-space: pre-wrap;
   border-radius: 3px; }
+  pre code {
+    background-color: inherit;
+    font-weight: 500; }
 
 /* line 73, ../sass/_text.sass */
 pre code {
   color: #999999; }
 
-/* line 76, ../sass/_text.sass */
 code {
+  font-family: "source-code-pro", "Courier New", monospace;
   padding: 2px 4px;
   font-size: 1.4rem;
   color: #c7254e;
-  white-space: nowrap;
-  background-color: #f9f2f4;
-  border-radius: 4px; }
+  background-color: #f9f2f4; }
 
 .dl {
   margin-left: 1rem; }
@@ -2425,14 +2420,13 @@ header[role="banner"] {
   width: 100%;
   border-bottom: 1px solid #ededed;
   padding: 1rem 0;
-  text-align: center;
-  font-size: 1.4rem;
-  color: #999999; }
+  text-align: center; }
+  header[role="banner"] .container {
+    -webkit-animation-duration: .3s;
+    animation-duration: .3s; }
   header[role="banner"] h1 {
-    font-size: 1.5rem;
-    -webkit-flex: 1;
-    flex: 1;
-    font-weight: bold; }
+    font-size: 1.6rem;
+    margin: 0; }
     header[role="banner"] h1 a {
       color: #222222; }
       header[role="banner"] h1 a:hover {
@@ -2440,35 +2434,23 @@ header[role="banner"] {
         text-decoration: none; }
     header[role="banner"] h1 span {
       color: #999999;
-      font-size: 1.2rem;
+      font-size: 1.4rem;
       font-weight: normal; }
-  header[role="banner"] p {
-    margin: 0; }
-  header[role="banner"] a {
-    font-weight: bold; }
-  @media screen and (min-width: 750px) {
+  @media screen and (min-width: 600px) {
     header[role="banner"] {
-      text-align: left; } }
-  header[role="banner"] .banner-inner {
-    -webkit-animation-duration: .5s;
-    animation-duration: .5s;
-    width: 90%;
-    margin: 0 auto;
-    max-width: 700px; }
-  header[role="banner"] img {
-    padding: 2px;
-    background: white;
-    border: 1px solid #ededed;
-    margin-right: 1rem; }
-    header[role="banner"] img:hover {
-      background: #ededed; }
-  header[role="banner"] .banner-content {
-    -webkit-flex: 1;
-    flex: 1; }
+      padding: 1.5rem 0;
+      text-align: left; }
+      header[role="banner"] .container {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center; }
+        header[role="banner"] .container h1 {
+          -webkit-flex: 1;
+          flex: 1; } }
 
 .navigation {
-  color: #333;
-  font-size: 1.3rem; }
+  font-size: 1.5rem; }
   .navigation ul {
     list-style: none;
     margin: 0;
@@ -2480,12 +2462,12 @@ header[role="banner"] {
         padding-right: 0; }
   .navigation li a {
     color: #222222;
-    font-weight: 700;
-    padding: 5px 8px; }
+    font-weight: 600;
+    padding: 3px 5px; }
     .navigation li a:hover {
       color: #428bca;
       text-decoration: none;
-      background: #ededed;
+      background: #fafafa;
       border-radius: 3px; }
 
 nav[role="social-links"] ul {
@@ -2498,43 +2480,49 @@ nav[role="social-links"] ul {
     nav[role="social-links"] ul li:last-child {
       padding-right: 0; }
 nav[role="social-links"] a {
-  padding: 5px 15px; }
+  color: #999999; }
   nav[role="social-links"] a:hover {
-    color: white;
-    border-radius: 5px;
     text-decoration: none; }
 nav[role="social-links"] a[href*="http://www.youtube.com"]:hover {
-  background: #b31217; }
+  color: #b31217; }
 nav[role="social-links"] a[href*="http://www.instagram.com"]:hover {
-  background-color: #3f729b; }
+  color: #3f729b; }
 nav[role="social-links"] a[href*="http://www.goodreads.com"]:hover {
-  background-color: #553b08; }
+  color: #553b08; }
 nav[role="social-links"] a[href*="http://www.twitter.com"]:hover {
-  background-color: #55acee; }
+  color: #55acee; }
 nav[role="social-links"] a[href*="http://www.github.com"]:hover {
-  background-color: #4183c4; }
+  color: #4183c4; }
 
 footer[role="site-footer"] {
-  font-size: 1.4rem;
-  color: #656464;
-  padding: 4rem 0;
-  text-align: center;
-  max-width: 700px;
-  margin: 0 auto; }
-  @media (min-width: 620px) {
-    footer[role="site-footer"] {
-      text-align: left; } }
+  padding: 2rem 0;
+  line-height: 1.5;
+  font-size: 1.44rem;
+  color: #999999;
+  text-align: center; }
+  @media screen and (min-width: 600px) {
+    footer[role="site-footer"] div {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-align-items: center;
+      align-items: center;
+      text-align: left; }
+      footer[role="site-footer"] div nav {
+        -webkit-order: 2;
+        order: 2; }
+      footer[role="site-footer"] div p {
+        -webkit-flex: 1;
+        flex: 1; } }
   footer[role="site-footer"] p {
     margin: 0; }
-
-p.tagline {
-  color: #999;
-  margin: .5rem 0; }
 
 table {
   width: 100%;
   max-width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   border-collapse: collapse;
   border-spacing: 0;
   font-family: "source-code-pro", "Courier New", monospace;
@@ -2583,7 +2571,7 @@ tbody tr:nth-child(even) {
 .btn:hover,
 a .btn:hover,
 .btn.active {
-  color: #fff; }
+  color: #ffffff; }
 
 .btn:hover,
 a .btn:hover,
@@ -2663,7 +2651,7 @@ a.link-amazon {
 
 .hero {
   background-color: #fafafa;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   padding: 1.5rem;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee; }
@@ -2687,7 +2675,8 @@ a.link-amazon {
     column-span: all; }
 
 .book-notes {
-  font-style: italic; }
+  font-style: italic;
+  font-weight: 300; }
   .book-notes .book-note {
     border-bottom: 1px solid #eee;
     padding: 1rem 0; }
@@ -2698,30 +2687,32 @@ a.link-amazon {
   color: #333;
   font-size: 1.2rem; }
 
-.media {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  -ms-align-items: center;
-  -o-align-items: center;
-  align-items: center; }
+@media screen and (min-width: 600px) {
+  .introduction {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex; }
+    .introduction figure {
+      width: 40%;
+      padding-right: 1rem; }
+    .introduction div {
+      padding-left: 1rem;
+      width: 60%;
+      -webkit-flex: 1;
+      flex: 1; } }
 
-.media__item {
-  padding-right: 1rem; }
-
-.media__body {
-  flex: 1;
-  -webkit-flex: 1; }
+.essay {
+  max-width: 700px;
+  margin: 0 auto; }
 
 .content-header {
-  text-align: center;
-  margin: 3rem 0; }
+  text-align: center; }
   .content-header h1, .content-header h2 {
     margin: 0; }
+    .content-header h1 a, .content-header h2 a {
+      color: #222222; }
   .content-header p.meta {
     color: #999999;
     margin: 0; }
@@ -2732,6 +2723,9 @@ a.link-amazon {
     content: "\00a0\2022\00a0";
     color: inherit; }
 
+main {
+  padding: 2rem 0; }
+
 .faqs dt {
   font-weight: bold; }
 .faqs dd {
@@ -2741,48 +2735,54 @@ a.link-amazon {
 .footnotes {
   font-size: 1.4rem; }
 
-.headshot {
-  float: left;
-  margin-right: 2rem; }
-
-#mailchimp {
-  background: #ededed;
-  padding: 2.5rem 2rem;
-  border: 1px solid lightgray; }
-  #mailchimp p {
-    margin-top: 0;
-    font-size: 1.5rem;
-    color: #b3b3b3; }
-
 .mailchimp {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
   -webkit-align-items: center;
-  align-items: center; }
-  .mailchimp label {
-    margin-right: 1rem;
-    color: #999999;
-    font-size: 1.6rem; }
+  align-items: center;
+  margin-left: 0; }
   .mailchimp input[type="email"] {
     -webkit-flex-grow: 1;
     flex-grow: 1;
-    margin-right: 1rem;
-    padding: .5rem; }
+    margin-right: 0;
+    padding: .5rem;
+    border: 1px solid #ededed;
+    border-right: none; }
   .mailchimp .button {
-    background: #428bca;
-    color: white;
+    background: #fafafa;
     text-transform: uppercase;
-    letter-spacing: 1px;
     font-size: 1.4rem;
     font-family: "source-code-pro", "Courier New", monospace;
-    border: none;
-    padding: .5rem 1rem;
-    border-radius: .3rem; }
+    border: 1px solid #ededed;
+    padding: .7rem 1.5rem; }
+    .mailchimp .button:hover {
+      background-color: #428bca;
+      color: white; }
 
-.flex {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-align-items: center;
-  align-items: center; }
+@media screen and (min-width: 600px) {
+  .project-list {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-between;
+    justify-content: space-between; } }
+
+.project {
+  background: #ededed;
+  width: 100%;
+  padding: 1rem; }
+  @media screen and (min-width: 600px) {
+    .project {
+      width: 49%; } }
+  @media screen and (min-width: 1000px) {
+    .project {
+      width: 32%; } }
 
 /*# sourceMappingURL=master.css.map */
