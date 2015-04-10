@@ -13,7 +13,7 @@ body{
   -webkit-font-smoothing:subpixel-antialiased;
   font: {
     size: $base-font-size * .9;
-    family: $font-serif;
+    family: $serif;
   }
   color:$color-text;
   line-height:1.6;
@@ -103,7 +103,7 @@ pre code {
 }
 
 code {
-  font-family: $font-sans;
+  font-family: $sans;
   padding: 2px 4px;
   font-size: 1.4rem;
   color: $color-code;
