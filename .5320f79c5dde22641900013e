@@ -1,12 +1,12 @@
 ---
-time: 1429128036
+time: 1429128151
 inventory:
   /home/index.html:
-    md5: 63f16db1b28c290167b681c61a1b1455
-    time: 1429127989
+    md5: f1265d075f0a78a0e11858edd49066f9
+    time: 1429128142
   /index.html:
-    md5: 63f16db1b28c290167b681c61a1b1455
-    time: 1429127989
+    md5: f1265d075f0a78a0e11858edd49066f9
+    time: 1429128142
   /about/index.html:
     md5: bc1f846e5a816eef65c40e264f5fcb29
     time: 1429127989
@@ -587,8 +587,8 @@ inventory:
     md5: cb10363a3050cd0ff1a6586a7f3b8b2a
     time: 1429128001
   /feed.xml:
-    md5: b4fe69d22e02dc26b1c90e9f2b90a4c7
-    time: 1429128002
+    md5: f6ce6b71780aef109a2c28c4f38e2892
+    time: 1429128151
   /assets/washington-crossing.jpg:
     md5: 550b69d7994859ac55cbb112cc23e1d1
     time: 1407895647
