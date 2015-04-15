@@ -2710,6 +2710,9 @@ a.link-amazon {
 
 .recent-posts article {
   width: 100%; }
+  .recent-posts article time {
+    color: #999999;
+    font-style: italic; }
 @media screen and (min-width: 600px) {
   .recent-posts {
     display: -webkit-box;
@@ -2720,7 +2723,9 @@ a.link-amazon {
     -webkit-justify-content: space-between;
     justify-content: space-between; }
     .recent-posts article {
-      width: 49%; } }
+      width: 32%; }
+      .recent-posts article time {
+        display: block; } }
 
 .essay {
   max-width: 700px;

@@ -17,13 +17,20 @@
 .recent-posts{
   article {
     width:100%;
+    time {
+      color:$color-muted;
+      font-style:italic;
+    }
   }
   @media screen and (min-width: $bp-phablet) {
     @include flexbox;
     -webkit-justify-content: space-between;
     justify-content: space-between;
     article {
-      width:49%;
+      width:32%;
+      time {
+        display:block;
+      }
     }
   }
 
