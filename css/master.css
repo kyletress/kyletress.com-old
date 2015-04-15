@@ -2443,16 +2443,20 @@ header[role="banner"] {
       font-weight: 700; }
   @media screen and (min-width: 750px) {
     header[role="banner"] {
+      width: 90%;
+      max-width: 800px;
+      margin: 0 auto;
       padding: 1.5rem 0;
-      text-align: left; }
-      header[role="banner"] .container {
-        display: -webkit-flex;
-        display: flex;
-        -webkit-align-items: center;
-        align-items: center; }
-        header[role="banner"] .container h1, header[role="banner"] .container p {
-          -webkit-flex: 1;
-          flex: 1; } }
+      text-align: left;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-align-items: center;
+      align-items: center; }
+      header[role="banner"] img {
+        margin-right: 1rem; } }
 
 .navigation {
   font-size: 1.5rem; }
@@ -2462,18 +2466,14 @@ header[role="banner"] {
     padding: 0; }
     .navigation ul li {
       display: inline-block;
-      margin-right: 0.2rem; }
+      margin-right: 1rem; }
       .navigation ul li:last-child {
         padding-right: 0; }
   .navigation li a {
     color: #222222;
-    font-weight: 600;
-    padding: 3px 5px; }
+    font-weight: 600; }
     .navigation li a:hover {
-      color: #428bca;
-      text-decoration: none;
-      background: #fafafa;
-      border-radius: 3px; }
+      color: #428bca; }
 
 nav[role="social-links"] ul {
   list-style: none;
@@ -2710,6 +2710,9 @@ a.link-amazon {
 
 .recent-posts article {
   width: 100%; }
+  .recent-posts article time {
+    color: #999999;
+    font-style: italic; }
 @media screen and (min-width: 600px) {
   .recent-posts {
     display: -webkit-box;
@@ -2720,7 +2723,9 @@ a.link-amazon {
     -webkit-justify-content: space-between;
     justify-content: space-between; }
     .recent-posts article {
-      width: 49%; } }
+      width: 32%; }
+      .recent-posts article time {
+        display: block; } }
 
 .essay {
   max-width: 700px;
