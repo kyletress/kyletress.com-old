@@ -33,17 +33,14 @@ header[role="banner"]{
     }
   }
   @media screen and (min-width: $bp-tablet) {
+    @include container;
     padding:1.5rem 0;
     text-align:left;
-    .container{
-      display:-webkit-flex;
-      display:flex;
-      -webkit-align-items:center;
-      align-items:center;
-      h1, p{
-        -webkit-flex:1;
-        flex:1;
-      }
+    @include flexbox;
+    -webkit-align-items:center;
+    align-items:center;
+    img {
+      margin-right:1rem;
     }
   }
 }

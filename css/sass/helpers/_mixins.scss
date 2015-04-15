@@ -15,6 +15,12 @@
   display: flex;
 }
 
+@mixin container {
+  width:$container-width;
+  max-width:$container-max-width;
+  margin: 0 auto;
+}
+
 @mixin border-radius($radius: 0) {
   @include prefix(border-radius, $radius)
 }

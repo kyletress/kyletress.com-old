@@ -1,16 +1,12 @@
 .navigation {
-  @include inline-navigation(.2rem);
+  @include inline-navigation(1rem);
   font-size:1.5rem;
   li{
     a {
       color: $color-headings;
       font-weight:600;
-      padding:3px 5px;
       &:hover{
         color:$color-links;
-        text-decoration:none;
-        background:lighten($color-borders, 5%);
-        border-radius:3px;
       }
     }
   }
