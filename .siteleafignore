@@ -4,4 +4,4 @@
 README.md
 *.scss
 .sass-cache
-.map
+*.map

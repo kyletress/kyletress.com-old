@@ -13,16 +13,6 @@
   </div>
 </section>
 
-<h3>Recent Posts</h3>
-
-<section class="recent-posts">
-  {% for post in site.pages.essays.posts | limit: 3 %}
-    <article>
-      <time>{{post.date | date: "%B %d, %Y" }}</time> <a href="{{post.url}}">{{post.title}}</a>
-    </article>
-  {% endfor %}
-</section>
-
 {% endcapture %}
 
 {% include 'layouts/default' %}
