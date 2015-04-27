@@ -2,7 +2,7 @@
 
 <header class="content-header">
   <h1>{{ title }}</h1>
-  <p class"meta">{% if meta.subtitle %}{{ meta.subtitle }}{%endif%} <span>by {% for tag in taxonomy.author %}{{tag}}{% unless forloop.last %}, {% endunless %} {% endfor %}</span></p>
+  <p class"meta">{% if meta.subtitle %}{{ meta.subtitle }}{%endif%} <em>by</em> {% for tag in taxonomy.author %}{{tag}}{% unless forloop.last %}, {% endunless %} {% endfor %}</p>
 </header>
 
 {{ body }}
