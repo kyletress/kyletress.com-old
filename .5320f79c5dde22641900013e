@@ -1,660 +1,654 @@
 ---
-time: 1429128151
+time: 1430243538
 inventory:
-  /home/index.html:
-    md5: f1265d075f0a78a0e11858edd49066f9
-    time: 1429128142
-  /index.html:
-    md5: f1265d075f0a78a0e11858edd49066f9
-    time: 1429128142
-  /about/index.html:
-    md5: bc1f846e5a816eef65c40e264f5fcb29
-    time: 1429127989
-  /essays/index.html:
-    md5: 247477935ca8cea891c6b1e8365d9d88
-    time: 1429127989
-  /skeleton/index.html:
-    md5: 14001eb302f099a9ab0ca73eeeaeb08c
-    time: 1429127990
-  /reading/index.html:
-    md5: 5779d840d64361085b52a8b61b7d0188
-    time: 1429127990
-  /reading/resilience/index.html:
-    md5: 1f122326d1e366a059c96a5147a3138e
-    time: 1429127990
-  /reading/becoming-steve-jobs/index.html:
-    md5: 3ab3a0701a4586c25c156256bba206d6
-    time: 1429127990
-  /reading/michael-jackson-inc/index.html:
-    md5: 7d8700319c94db9794c8b19c106a03ef
-    time: 1429127990
-  /reading/letters-from-a-stoic/index.html:
-    md5: 04f4c8acf4cc0d7eccfbf4d5976014c3
-    time: 1429127990
-  /reading/10-percent-happier/index.html:
-    md5: 1378da6346e438ade16cd2855f97ab8e
-    time: 1429127990
-  /reading/the-life-changing-magic-of-tidying-up/index.html:
-    md5: c21c31b174212d2f7057106e4b94419d
-    time: 1429127990
-  /reading/how-to-live/index.html:
-    md5: 8f84374b0dbacec0df5ec6fcfe576965
-    time: 1429127990
-  /reading/discourses/index.html:
-    md5: 7ef9455a5777f6060da86f3f24bf0bb0
-    time: 1429127990
-  /reading/a-short-history-of-nearly-everything/index.html:
-    md5: f40a5102dda612ff74c62d9e772fe16c
-    time: 1429127990
-  /reading/a-guide-to-the-good-life/index.html:
-    md5: 7d2913c4f2047fb6198d0f2d069e1a22
-    time: 1429127990
-  /reading/the-art-of-learning/index.html:
-    md5: 7f7a0639290c8e864e7757a443af4b0b
-    time: 1429127991
-  /reading/superintelligence/index.html:
-    md5: 941b8a052630ba61ba03b0cd5a5accd0
-    time: 1429127991
-  /reading/philosophy-for-life-and-other-dangerous-situations/index.html:
-    md5: f3f0381b1871009fb6a8df5255aaacc9
-    time: 1429127991
-  /reading/the-obstacle-is-the-way/index.html:
-    md5: 3bc60a53ac0af5d6b56aabbefede5354
-    time: 1429127991
-  /reading/meditations/index.html:
-    md5: b3ab521d62ead8fd95d3e4a18842cb2d
-    time: 1429127991
-  /reading/archive/index.html:
-    md5: 412c3ea3daac8e28c9b0848ece53ea5b
-    time: 1429127991
-  /reading/tags/index.html:
-    md5: bf70b8ddc024992afdbca85891e31b70
-    time: 1429127991
-  /reading/tags/business/index.html:
-    md5: ab3dcb661361aba1f92458c3a0790b47
-    time: 1429127991
-  /reading/tags/music/index.html:
-    md5: 20b1886848ab34b841b6e3f91ce7e9fd
-    time: 1429127991
-  /reading/tags/biography/index.html:
-    md5: bbb2ca6fd13f7f1094bcb37f42f4dd7c
-    time: 1429127991
-  /reading/tags/philosophy/index.html:
-    md5: 689b867e38f935450bb13905bc783058
-    time: 1429127991
-  /reading/tags/stoicism/index.html:
-    md5: c2ea8afb5d75889e57f2f902e4c67bd8
-    time: 1429127991
-  /reading/tags/memoir/index.html:
-    md5: f1593f8f3ca20459804e78fbab5654fc
-    time: 1429127991
-  /reading/tags/meditation/index.html:
-    md5: 93a3265f450d4ad4a501b7bc407c8049
-    time: 1429127991
-  /reading/tags/japan/index.html:
-    md5: 78dc1db7b3f7066dd80e3ad3dd2eb7c5
-    time: 1429127991
-  /reading/tags/tidying/index.html:
-    md5: c672e4fdc1921c9fc08d134b9fd0b4d2
-    time: 1429127992
-  /reading/tags/organization/index.html:
-    md5: 72885cbb02a2da0e08fcfa18f195544a
-    time: 1429127992
-  /reading/tags/minimalism/index.html:
-    md5: b3de5b8d1190b4f314f65564863f81d5
-    time: 1429127992
-  /reading/tags/science/index.html:
-    md5: 7170cfd81a64d41c44d70f0e63355d84
-    time: 1429127992
-  /reading/tags/learning/index.html:
-    md5: 0a79ddc13e61075e171399767a3f251b
-    time: 1429127992
-  /reading/tags/chess/index.html:
-    md5: 684fe8535d68bdc3f408ede0ac6e632b
-    time: 1429127992
-  /reading/tags/artificial-intelligence/index.html:
-    md5: 18ac0ab37c3e53966d784a960df03cbb
-    time: 1429127992
-  /reading/tags/singularity/index.html:
-    md5: 0136a8a5d5b56b66be26dbab3339b85a
-    time: 1429127992
-  /reading/tags/futurology/index.html:
-    md5: 0c5b94aef3f2394a4d8eb0c6cc945b4b
-    time: 1429127992
-  /reading/author/index.html:
-    md5: 96e860aea8c1edb4c5f39a14662b1696
-    time: 1429127992
-  /reading/author/eric-greitens/index.html:
-    md5: ae4939573097a91e6c46f8bc0f993f83
-    time: 1429127992
-  /reading/author/zach-omalley-greenburg/index.html:
-    md5: 97a3cdda0adda419716cbabd33700a7b
-    time: 1429127992
-  /reading/author/seneca/index.html:
-    md5: dd62c6162aa0dc5e5ac25c4850b64eaf
-    time: 1429127992
-  /reading/author/dan-harris/index.html:
-    md5: d8ce926f88ae2f2ff53ef2ca44256edd
-    time: 1429127992
-  /reading/author/marie-kondo/index.html:
-    md5: a7ecf79d4157f22713533889d583ba0c
-    time: 1429127992
-  /reading/author/sarah-bakewell/index.html:
-    md5: 43da0044fce337f37abc4b44f007f6a1
-    time: 1429127992
-  /reading/author/epictetus/index.html:
-    md5: aa64e0260469ec0da7fec2bdb53dcf98
-    time: 1429127992
-  /reading/author/bill-bryson/index.html:
-    md5: 7c7fdde810b2435e44a1eaecf1bafbc7
-    time: 1429127992
-  /reading/author/william-b-irvine/index.html:
-    md5: 918a44e3949c4a163b1fd0900f2bdae7
-    time: 1429127993
-  /reading/author/josh-waitzkin/index.html:
-    md5: 47cac6a6f5b423787d0d9bd58925a067
-    time: 1429127993
-  /reading/author/nick-bostrom/index.html:
-    md5: 73a922b904f8d752f0c6cfc02a1e4b47
-    time: 1429127993
-  /reading/author/jules-evans/index.html:
-    md5: 40313de21fe18c66eeb8d1a70dedb630
-    time: 1429127993
-  /reading/author/ryan-holiday/index.html:
-    md5: 9db49ac85b2ea7a50d105e7413975f2c
-    time: 1429127993
-  /reading/author/marcus-aurelius/index.html:
-    md5: c5715e7de5a93a2c0ddcb5ae6c1ec36b
-    time: 1429127993
-  /reading/author/gregory-hays/index.html:
-    md5: d9cf15cadb4c0f114ccb87a7da9846bb
-    time: 1429127993
-  /reading/publisher/index.html:
-    md5: 9dba86cd75db50dbee1c3ce13e52cbdd
-    time: 1429127993
-  /reading/publisher/new-world-library/index.html:
-    md5: faf651733fb8b4e93af978e5f32eeab5
-    time: 1429127993
-  /reading/publisher/penguin-books/index.html:
-    md5: 3e5289fa462d3a8f70ef0316316a5bf3
-    time: 1429127993
-  /reading/publisher/modern-library/index.html:
-    md5: 192462043423c0b293a92bbf18132a6d
-    time: 1429127993
-  /the-setup/index.html:
-    md5: 2dcd14b800e748f7b37a0c8e6f106cf4
-    time: 1429127993
-  /newsletter/index.html:
-    md5: c715c5605f7926614546828bebe5b63d
-    time: 1429127993
-  /now/index.html:
-    md5: 7f7a8ac6c28adc9e42e704d0b150df6b
-    time: 1429127993
-  /about/cv/index.html:
-    md5: e1c11161260b1b3a41cefbaa84eae0c0
-    time: 1429127994
-  /reading/notes/index.html:
-    md5: 884180638fbbbc4901d5dd62de79a353
-    time: 1429127994
-  /reading/notes/resilience-1/index.html:
-    md5: 3ec9b19c05568d4b734e2e804ba17d39
-    time: 1429127994
-  /reading/notes/resilience/index.html:
-    md5: 478237e5502c2f211f6b1961c4e7050c
-    time: 1429127994
-  /reading/notes/becoming-steve-jobs/index.html:
-    md5: 308153de6c8879d506ab150402b666bc
-    time: 1429127994
-  /reading/notes/becoming-steve-jobs-page-28/index.html:
-    md5: 18dcd04049a11eb4f49143a4453bcf1f
-    time: 1429127994
-  /reading/notes/michael-jackson-inc-page/index.html:
-    md5: 1d7912040ebc1b9e53aa4593e4041742
-    time: 1429127994
-  /reading/notes/the-life-changing-magic-of-tidying-up-page/index.html:
-    md5: 6f7fbc044fa7b5c04107d64135b67ff4
-    time: 1429127994
-  /reading/notes/how-to-live-page-1/index.html:
-    md5: 6923a4cad8e284431450d07a673adbc3
-    time: 1429127994
-  /reading/notes/a-short-history-of-nearly-everything-page-10/index.html:
-    md5: 293377449aec53ecf4e055b715a59b15
-    time: 1429127994
-  /reading/notes/a-guide-to-the-good-life-page-256/index.html:
-    md5: 592fca67bf4ea74c1b455ec008307950
-    time: 1429127994
-  /reading/notes/a-guide-to-the-good-life-page-261/index.html:
-    md5: 2006d0a6492d30021fb24497f86801d6
-    time: 1429127994
-  /reading/notes/a-guide-to-the-good-life-page-203/index.html:
-    md5: 2d4d39a452f69330ffd6bbaf8ed25378
-    time: 1429127994
-  /reading/notes/a-guide-to-the-good-life-page-161/index.html:
-    md5: 95c08c8650ca9c7d37efbea0962e6db1
-    time: 1429127994
-  /reading/notes/the-art-of-learning-page-192/index.html:
-    md5: 492224c2d6cb1bff80f1603e88e3bdfe
-    time: 1429127994
-  /reading/notes/the-art-of-learning-page-187/index.html:
-    md5: 8d6b241c5c1cfb90dbd97fed5c218b26
-    time: 1429127994
-  /reading/notes/the-art-of-learning-page-179/index.html:
-    md5: 4d65102d650c09f0ed9e2a425b4ebf99
-    time: 1429127995
-  /reading/notes/the-art-of-learning-page-172/index.html:
-    md5: 8c1fcb6d58314113e9e8fcf3a85e4b40
-    time: 1429127995
-  /reading/notes/the-art-of-learning-page-137/index.html:
-    md5: 280c3e1829687cd8d8a547e69762e3fc
-    time: 1429127995
-  /reading/notes/the-art-of-learning-page-123/index.html:
-    md5: 7f7a4cb0479c13ccf8a40ee88fe17d23
-    time: 1429127995
-  /reading/notes/the-obstacle-is-the-way-page-73/index.html:
-    md5: 20336d470ddbe314825bc9054aa2940a
-    time: 1429127995
-  /reading/notes/the-obstacle-is-the-way-page-67/index.html:
-    md5: 1baec062138e8dd4e5fbc4d03858907a
-    time: 1429127995
-  /reading/notes/the-obstacle-is-the-way-page-56/index.html:
-    md5: 9c83603c50f413db42a7d3266550c797
-    time: 1429127995
-  /reading/notes/the-obstacle-is-the-way-preface/index.html:
-    md5: 02a61731d29a5ec2b4e34c5e344a3437
-    time: 1429127995
-  /reading/notes/if-rudyard-kipling/index.html:
-    md5: 40323abad2327f0357094b209a7401e4
-    time: 1429127995
-  /reading/notes/waste/index.html:
-    md5: 896c6f0ee2d3a1dd9582a2a87775db80
-    time: 1429127995
-  /reading/notes/discourses-books-1-2/index.html:
-    md5: 1b7d4bd44419eda32173bf1846c545c0
-    time: 1429127995
-  /reading/notes/meditations-book-2-chapter-2/index.html:
-    md5: 1cb492961890444cbfad3522cd5dd182
-    time: 1429127995
-  /reading/notes/meditations-book-2-verse-1/index.html:
-    md5: 23abf779ab60b9f3327fd2bba0b9b50f
-    time: 1429127995
-  /reading/notes/archive/index.html:
-    md5: c554ac04f50f706a51cb7b762c4d4209
-    time: 1429127995
-  /reading/notes/tags/index.html:
-    md5: 174250ed2610028e8ec5916126efdf5e
-    time: 1429127995
-  /reading/notes/tags/resilience/index.html:
-    md5: fae1ada9aefa085338bf963ce813b922
-    time: 1429127995
-  /reading/notes/tags/philosophy/index.html:
-    md5: de23146be40246fd2bad354fc6c04980
-    time: 1429127995
-  /reading/notes/tags/education/index.html:
-    md5: 0fe62868ec4b32aeb20028f23049f740
-    time: 1429127995
-  /reading/notes/tags/responsibility/index.html:
-    md5: 0e07ebb2823a22d8ab6ffdbd6d8ac54a
-    time: 1429127995
-  /reading/notes/tags/business/index.html:
-    md5: a3165b55d5d58b3a49a9a7c4031a2f5d
-    time: 1429127995
-  /reading/notes/tags/stories/index.html:
-    md5: e45cddc85dba19039881a16fb5a9d798
-    time: 1429127995
-  /reading/notes/tags/power/index.html:
-    md5: 6115832b459bfa1a12c0be8688c0c571
-    time: 1429127995
-  /reading/notes/tags/projects/index.html:
-    md5: c3b24c10368e76501e22d792f241f692
-    time: 1429127996
-  /reading/notes/tags/work/index.html:
-    md5: ac78eddad7fe9eba1797597cd0754aab
-    time: 1429127996
-  /reading/notes/tags/secrets/index.html:
-    md5: 93d4b1664b73f28c0e37fadad2b0f31a
-    time: 1429127996
-  /reading/notes/tags/japan/index.html:
-    md5: 254656f034d505e7f433ef7fbdfe3e36
-    time: 1429127996
-  /reading/notes/tags/tidying/index.html:
-    md5: 177c6742cb1f36a6c7de645cbe461173
-    time: 1429127996
-  /reading/notes/tags/ego/index.html:
-    md5: f003c19eb58e29c9901f2b0e414a9170
-    time: 1429127996
-  /reading/notes/tags/conceit/index.html:
-    md5: f6bad37eee74882102d62dd1fce79ce3
-    time: 1429127996
-  /reading/notes/tags/universe/index.html:
-    md5: 2d508983e16dd155b8ffb080ecbe9fe9
-    time: 1429127996
-  /reading/notes/tags/science/index.html:
-    md5: 1581fbb8171b2a1ba838189dc489c2f7
-    time: 1429127996
-  /reading/notes/tags/beginnings/index.html:
-    md5: 36f3d7bffeb5cef89d31fc94390541d6
-    time: 1429127996
-  /reading/notes/tags/stoicism/index.html:
-    md5: 53ca69469ce5da5cbf67c65dada7c5f2
-    time: 1429127996
-  /reading/notes/tags/anger/index.html:
-    md5: 6d6893fa3d74deebb85e1855a5600d5b
-    time: 1429127996
-  /reading/notes/tags/competition/index.html:
-    md5: 5319f384131b91fa74498971e3041f20
-    time: 1429127996
-  /reading/notes/tags/nerves/index.html:
-    md5: 37c796b5f344ed08472efb3ef9de4e95
-    time: 1429127996
-  /reading/notes/tags/tolerance/index.html:
-    md5: 0ecf186e5bdcb2718769e1c2a4df4a25
-    time: 1429127996
-  /reading/notes/tags/pride/index.html:
-    md5: 1b2aa061f44d686e31e629c53a63efff
-    time: 1429127997
-  /reading/notes/tags/help/index.html:
-    md5: 368ff70d8ca67cd219ae77a133644f55
-    time: 1429127997
-  /reading/notes/tags/seneca/index.html:
-    md5: dac65be9d6f767f31fc379dda928a769
-    time: 1429127997
-  /reading/notes/tags/performance/index.html:
-    md5: a0b28f4e1e01dc80f9e45fe73e8a047a
-    time: 1429127997
-  /reading/notes/tags/learning/index.html:
-    md5: d3c23ff200fb56ef6aa3105b6ae2ef54
-    time: 1429127997
-  /reading/notes/tags/mastery/index.html:
-    md5: d306889f4018fad55474582bf509085b
-    time: 1429127997
-  /reading/notes/tags/dedication/index.html:
-    md5: 5865d40a739502116bf96c97430bbceb
-    time: 1429127997
-  /reading/notes/tags/effort/index.html:
-    md5: 023ae8a9bc840dfb243619d3b0fe0b1a
-    time: 1429127997
-  /reading/notes/tags/training/index.html:
-    md5: 1704c9baa9813d11148f6ccda4fbe28d
-    time: 1429127997
-  /reading/notes/tags/failure/index.html:
-    md5: c777d195c5199b15c01843b0c983279f
-    time: 1429127997
-  /reading/notes/tags/risk/index.html:
-    md5: a2ab2df1b2e9007fdbfe364e7437a43a
-    time: 1429127997
-  /reading/notes/tags/obstacles/index.html:
-    md5: 46f987455fd04f5c99ea90547f7021b5
-    time: 1429127997
-  /reading/notes/tags/marcus-aurelius/index.html:
-    md5: 9dda69653dfb0184a6db1827842f6423
-    time: 1429127997
-  /reading/notes/tags/life/index.html:
-    md5: ad161b503c78f6709ea08b8f95ecd360
-    time: 1429127997
-  /reading/notes/tags/time/index.html:
-    md5: 4bcadedf4081665f2814a5d30f0784a7
-    time: 1429127997
-  /reading/notes/tags/difficulty/index.html:
-    md5: 31ed82bef768fc078cfdd0013f75b589
-    time: 1429127997
-  /reading/notes/tags/the-olympics/index.html:
-    md5: d69e80cf3d189e28d3a01e112bcd50ae
-    time: 1429127997
-  /reading/notes/book/index.html:
-    md5: bc9da0ae6591fed49b8bc9f3a36ebbc2
-    time: 1429127997
-  /reading/notes/book/resilience/index.html:
-    md5: 15fa0b15947844a4ebfe05cc2a77a9e1
-    time: 1429127997
-  /reading/notes/book/becoming-steve-jobs/index.html:
-    md5: aa6ad1b0afd6501ec79c9de5ebc3a346
-    time: 1429127997
-  /reading/notes/book/michael-jackson-inc/index.html:
-    md5: 4a12716075d6486706ab1f2c9e728b0f
-    time: 1429127997
-  /reading/notes/book/the-life-changing-magic-of-tidying-up/index.html:
-    md5: 180886d6f5cb758d2a2fc9b279b81304
-    time: 1429127998
-  /reading/notes/book/how-to-live/index.html:
-    md5: afc68e268a576d997669d500d98fedbb
-    time: 1429127998
-  /reading/notes/book/a-short-history-of-nearly-everything/index.html:
-    md5: 603da02401c3634ce26b920f7a66ceb0
-    time: 1429127998
-  /reading/notes/book/a-guide-to-the-good-life/index.html:
-    md5: 9513492b58d9de296c88d188609ecbf7
-    time: 1429127998
-  /reading/notes/book/the-art-of-learning/index.html:
-    md5: 954da20265c0f20f53df7bb4e7542de3
-    time: 1429127998
-  /reading/notes/book/the-obstacle-is-the-way/index.html:
-    md5: 25dff2f673dfa332b3b7ff667d3a19ec
-    time: 1429127998
-  /reading/notes/book/on-the-shortness-of-life/index.html:
-    md5: 6cbecbfcf0c5b0a5f266776d6abf91e2
-    time: 1429127998
-  /reading/notes/book/discourses/index.html:
-    md5: f6b7f5fe709d743ff9db143d8a8a269c
-    time: 1429127998
-  /reading/notes/book/meditations/index.html:
-    md5: c13027dd8daece56cc4667a9498d9026
-    time: 1429127998
-  /skeleton/faqs/index.html:
-    md5: 01a36a241f479a021b62f6d8b987c8f7
-    time: 1429127998
-  /skeleton/faqs/how-should-i-prepare-for-skeleton-school/index.html:
-    md5: b51c8ca96a6f2bae2dd1066605ccae93
-    time: 1429127999
-  /skeleton/faqs/how-much-longer-will-you-compete/index.html:
-    md5: 742f97a6c2e102b280e6aeba6bcbd3d7
-    time: 1429127999
-  /skeleton/faqs/what-is-your-best-world-cup-finish/index.html:
-    md5: 797dd63403064209c477f266458fa96a
-    time: 1429127999
-  /skeleton/faqs/when-should-i-buy-my-first-sled/index.html:
-    md5: 6e24a2674195e32535a9372028b84643
-    time: 1429127999
-  /skeleton/faqs/what-kind-of-training-should-i-be-doing/index.html:
-    md5: 91d92e344871c977169ea70ab86e2360
-    time: 1429127999
-  /skeleton/faqs/how-long-before-i-make-the-national-team/index.html:
-    md5: 7dfac63788a650b1b2b72d60f3ee927e
-    time: 1429127999
-  /skeleton/faqs/which-track-is-the-hardest/index.html:
-    md5: 942694dd19ae2f74a247e5f54e689de1
-    time: 1429127999
-  /skeleton/faqs/which-supplements-do-you-take/index.html:
-    md5: 896887aa7e1e8112ec2df837ba995aef
-    time: 1429127999
-  /skeleton/faqs/how-has-skeleton-changed-your-life/index.html:
-    md5: b4285c6aa8b75b8580f082697a149fa6
-    time: 1429127999
-  /skeleton/faqs/what-is-one-thing-that-skeleton-has-taught-you/index.html:
-    md5: f37ba601729340e609fd2cf23ba7f3be
-    time: 1429127999
-  /skeleton/faqs/whats-your-proudest-accomplishment/index.html:
-    md5: 093d1e03fbfaadb8e58405954f0e860e
-    time: 1429127999
-  /skeleton/faqs/what-is-the-combine/index.html:
-    md5: ad44d6367120b4c8f7904c7b3cd7febe
-    time: 1429127999
-  /skeleton/faqs/how-expensive-is-it-to-make-a-track/index.html:
-    md5: d1fb61302c1bc2882ec9f403c9b33f8a
-    time: 1429127999
-  /skeleton/faqs/have-you-competed-on-every-track/index.html:
-    md5: 8c0b77882dc2921b8f698d0129774425
-    time: 1429127999
-  /skeleton/faqs/which-countries-have-skeleton-tracks/index.html:
-    md5: 8a7063cfa8f90516569c6b7394220dfb
-    time: 1429127999
-  /skeleton/faqs/how-do-you-train-in-the-winter/index.html:
-    md5: 556a0ca13e9d6a0ee6bccbd0b4f20be5
-    time: 1429127999
-  /skeleton/faqs/is-skeleton-easy/index.html:
-    md5: be15d39390b0dca7b748c7e515bdf2c3
-    time: 1429127999
-  /skeleton/faqs/how-do-i-get-started/index.html:
-    md5: c53331a4cbf142d24c477fe1aa988a88
-    time: 1429127999
-  /skeleton/faqs/whats-it-like-going-90-miles-per-hour-headfirst/index.html:
-    md5: cf6451ba1551bcdf2843d404416454aa
-    time: 1429128000
-  /skeleton/faqs/did-you-like-your-ugly-opening-ceremonies-sweater/index.html:
-    md5: e97b641ec9972980873d30f62d4ade88
-    time: 1429128000
-  /skeleton/faqs/will-you-be-back-for-the-2018-olympics/index.html:
-    md5: f6a1b474311ea582d63aa2bafb2e7312
-    time: 1429128000
-  /skeleton/faqs/what-was-your-favorite-part-of-the-olympic-games/index.html:
-    md5: a5129c408aac9fb9e2f8cd1850c6162c
-    time: 1429128000
-  /skeleton/faqs/which-runners-should-i-use/index.html:
-    md5: 54f43428012a23e54d1edfc90ff68271
-    time: 1429128000
-  /skeleton/faqs/who-makes-your-sled-and-runners/index.html:
-    md5: 972d6f757cff518c616d8c4b5d9bcbaf
-    time: 1429128000
-  /skeleton/faqs/who-makes-the-best-skeleton-equipment/index.html:
-    md5: b334fa4e3dd5e307680bf0df33056a30
-    time: 1429128000
-  /skeleton/faqs/what-makes-a-great-skeleton-athlete/index.html:
-    md5: 1fe2149a8dbc8895c836e2fe90e979f9
-    time: 1429128000
-  /skeleton/faqs/what-were-the-olympics-like/index.html:
-    md5: ff8044223807323c0a8525dd6df3cedd
-    time: 1429128000
-  /skeleton/faqs/what-can-you-squat-bench-clean/index.html:
-    md5: e57b76c1f3cccb545101abef6e99b386
-    time: 1429128000
-  /skeleton/faqs/training-program/index.html:
-    md5: 167f41150e03bc7cebbd32dde6d3f4fd
-    time: 1429128000
-  /skeleton/faqs/will-i-get-hurt/index.html:
-    md5: de7d78b370495b79a60c10f272af8f59
-    time: 1429128000
-  /skeleton/faqs/whats-the-best-body-type-for-skeleton/index.html:
-    md5: 1b9830c9758340c7854b75546c17b252
-    time: 1429128000
-  /skeleton/faqs/i-want-to-be-an-olympic-skeleton-athlete-what-do-i-need-to-do/index.html:
-    md5: 2f39480d0f2504cf3be44b8d70914a2f
-    time: 1429128000
-  /skeleton/faqs/how-did-you-get-started/index.html:
-    md5: 4f301d7a7a501b485bfccaa4664e7e6b
-    time: 1429128000
-  /skeleton/faqs/are-you-insane/index.html:
-    md5: 7eb919681b040e9cbbbe4f8056cdc350
-    time: 1429128000
-  /skeleton/faqs/have-you-ever-crashed/index.html:
-    md5: 5d361b25b4b7a04f7fba0116d1bc0f07
-    time: 1429128000
-  /skeleton/faqs/whats-the-fastest-youve-ever-gone/index.html:
-    md5: 29f7f4c030bb2d44c38a7916a16289ce
-    time: 1429128000
-  /skeleton/faqs/whats-your-least-favorite-track/index.html:
-    md5: 809e8812b0f66d49161a2565b9fa6ad4
-    time: 1429128000
-  /skeleton/faqs/whats-your-favorite-track/index.html:
-    md5: d2d80aa1b39d31b45bb296b0de74af14
-    time: 1429128000
-  /skeleton/faqs/archive/index.html:
-    md5: d77e3fa1c4e633be78484cb577f236ec
-    time: 1429128001
-  /skeleton/faqs/tags/index.html:
-    md5: 4f6bd9c8fe792e05f4bac7a917700d71
-    time: 1429128001
-  /skeleton/faqs/tags/the-basics/index.html:
-    md5: 2b1566c2e4f4da34523393ba89ca6c31
-    time: 1429128001
-  /skeleton/faqs/tags/sliding/index.html:
-    md5: e4222e0033b2b8e34cf28076ba69f354
-    time: 1429128001
-  /skeleton/faqs/tags/equipment/index.html:
-    md5: 6f4ba74be4e3c55b66f35c97be5dd299
-    time: 1429128001
-  /skeleton/faqs/tags/training/index.html:
-    md5: deb135335d5b85a0cae95bbb746d7faf
-    time: 1429128001
-  /skeleton/faqs/tags/tracks/index.html:
-    md5: 209ffc5f973543d754e8d016022aa870
-    time: 1429128001
-  /skeleton/faqs/tags/the-olympics/index.html:
-    md5: 67d68de1fd5e033edd60b534af631843
-    time: 1429128001
-  /CNAME:
+  "/home/index.html":
+    md5: 4463764ff494913f803df19b72c732f9
+    time: 1430243523
+  "/index.html":
+    md5: 4463764ff494913f803df19b72c732f9
+    time: 1430243523
+  "/about/index.html":
+    md5: 7f977d45452314ce78c2c1304e1f8925
+    time: 1430243523
+  "/essays/index.html":
+    md5: 4ccebfcbfd18e710ecfee6d2cc2b5290
+    time: 1430243523
+  "/skeleton/index.html":
+    md5: 01e9ded346daea56a847abb5740c53b2
+    time: 1430243524
+  "/reading/index.html":
+    md5: 7dbbf57e14e78265923273d9d43fb862
+    time: 1430243524
+  "/reading/becoming-steve-jobs/index.html":
+    md5: 3307ee21e0cf6963d5aa7646eb4c0d34
+    time: 1430243524
+  "/reading/michael-jackson-inc/index.html":
+    md5: 90cb1c86a9c8d4d2e0531259be9fe566
+    time: 1430243524
+  "/reading/letters-from-a-stoic/index.html":
+    md5: 6ba660f85206d29dd82068363a296ff3
+    time: 1430243524
+  "/reading/10-percent-happier/index.html":
+    md5: bb17be2b5922998eb45b0e23c6f0f3b9
+    time: 1430243524
+  "/reading/the-life-changing-magic-of-tidying-up/index.html":
+    md5: 7bf9b6ebe6bd55daf4cb0a4dc17263f1
+    time: 1430243524
+  "/reading/how-to-live/index.html":
+    md5: 27a6b776f07fd5566fcd3756c85c0cf3
+    time: 1430243524
+  "/reading/discourses/index.html":
+    md5: ef86b6e193a602a4580b5480d9d8c58b
+    time: 1430243524
+  "/reading/a-short-history-of-nearly-everything/index.html":
+    md5: 538936085120dc223576aa811c878214
+    time: 1430243524
+  "/reading/a-guide-to-the-good-life/index.html":
+    md5: d290ecaf35391abf959e04a2d8d87b02
+    time: 1430243524
+  "/reading/the-art-of-learning/index.html":
+    md5: 04a48cbc8136e3dad41576b9a3b0aa47
+    time: 1430243524
+  "/reading/superintelligence/index.html":
+    md5: c56f0300c5984e14068e967cc67a6ece
+    time: 1430243524
+  "/reading/philosophy-for-life-and-other-dangerous-situations/index.html":
+    md5: 81a1d9913770bfb85018d9f6a7fa345e
+    time: 1430243524
+  "/reading/the-obstacle-is-the-way/index.html":
+    md5: 0d53307830001ae26e49abb5f55e1e45
+    time: 1430243524
+  "/reading/meditations/index.html":
+    md5: 20309932a66f7c6e284550a56c7754a5
+    time: 1430243524
+  "/reading/archive/index.html":
+    md5: a770f45378597e348526ecd1455c6edc
+    time: 1430243524
+  "/reading/tags/index.html":
+    md5: 76ea5a332031e7733d0d3a360b552bdd
+    time: 1430243524
+  "/reading/tags/business/index.html":
+    md5: 7261f20e26481a6e37557075298f8e2a
+    time: 1430243524
+  "/reading/tags/music/index.html":
+    md5: 26698e31360a7ced8057d105b0e93298
+    time: 1430243524
+  "/reading/tags/biography/index.html":
+    md5: e31838ce14b35d40884eb66742860dea
+    time: 1430243524
+  "/reading/tags/philosophy/index.html":
+    md5: 0ae41b5c49dc59dbe6411b080617050b
+    time: 1430243524
+  "/reading/tags/stoicism/index.html":
+    md5: 4a7d5715dc17ac4028a4c6c7b32d3fa6
+    time: 1430243524
+  "/reading/tags/memoir/index.html":
+    md5: 4b605cca935f8448337ea3fff0602b8c
+    time: 1430243524
+  "/reading/tags/meditation/index.html":
+    md5: f2e607ed9cceebe5877dd50fb9ddcacb
+    time: 1430243525
+  "/reading/tags/japan/index.html":
+    md5: 147e2d363f0125078d2e7955be8b0500
+    time: 1430243525
+  "/reading/tags/tidying/index.html":
+    md5: f46be1dfc569d5bc39067478df7b0dd6
+    time: 1430243525
+  "/reading/tags/organization/index.html":
+    md5: e73e8be35ac511d8a7c54082a31217da
+    time: 1430243525
+  "/reading/tags/minimalism/index.html":
+    md5: 9b04971d0d3884a42bf3caa0a276cbed
+    time: 1430243525
+  "/reading/tags/science/index.html":
+    md5: 6c6618fd223c6c0d38c9f09c48802f77
+    time: 1430243525
+  "/reading/tags/learning/index.html":
+    md5: 39fddf4eafb357b70b949035684c9be2
+    time: 1430243525
+  "/reading/tags/chess/index.html":
+    md5: 4c5f698fb69c5ff43de5872c32ccb54f
+    time: 1430243525
+  "/reading/tags/artificial-intelligence/index.html":
+    md5: 0a62a08b77f20cdc17f1e63b5a86b6af
+    time: 1430243525
+  "/reading/tags/singularity/index.html":
+    md5: a42970a6d23974143a5cb3f2653dad50
+    time: 1430243525
+  "/reading/tags/futurology/index.html":
+    md5: dd75f9e4d7cdcfd327278da25fa00244
+    time: 1430243525
+  "/reading/author/index.html":
+    md5: 4b4c2d55456fcf35ae9558065aa2627f
+    time: 1430243525
+  "/reading/author/zach-omalley-greenburg/index.html":
+    md5: 4998e6733a414978475cde7285083d31
+    time: 1430243525
+  "/reading/author/seneca/index.html":
+    md5: f107fa4fbd0663a1a5985f17184c111c
+    time: 1430243525
+  "/reading/author/dan-harris/index.html":
+    md5: c1047514e95e41cdd1dd2757e5d7097c
+    time: 1430243525
+  "/reading/author/marie-kondo/index.html":
+    md5: 9114f5bc210e37d5a74b4f630f30a28b
+    time: 1430243525
+  "/reading/author/sarah-bakewell/index.html":
+    md5: 852d2e5d4ef2f62ea750e9966e08f81b
+    time: 1430243525
+  "/reading/author/epictetus/index.html":
+    md5: ce7689e80c7279a191259eb336f01f44
+    time: 1430243525
+  "/reading/author/bill-bryson/index.html":
+    md5: dbef93dcd083bb44bd37a740a9d388ce
+    time: 1430243525
+  "/reading/author/william-b-irvine/index.html":
+    md5: 21fad3b5797c27b9ae3a3f273f452fc7
+    time: 1430243525
+  "/reading/author/josh-waitzkin/index.html":
+    md5: 753043831c4523c10227a42e73a2633d
+    time: 1430243525
+  "/reading/author/nick-bostrom/index.html":
+    md5: 34ee593e2b6abdd38856c7b988c2da5f
+    time: 1430243525
+  "/reading/author/jules-evans/index.html":
+    md5: edc96900470a01be91d08e3c944b5555
+    time: 1430243525
+  "/reading/author/ryan-holiday/index.html":
+    md5: 707eaefa64694e64859596ea6f6a53d9
+    time: 1430243525
+  "/reading/author/marcus-aurelius/index.html":
+    md5: f188548d12c965e1e89e15819cdb99ee
+    time: 1430243525
+  "/reading/author/gregory-hays/index.html":
+    md5: 58989e0e337353c137205055de358ac2
+    time: 1430243525
+  "/reading/publisher/index.html":
+    md5: 72376bebedb43c1b1c5afd247461bfbe
+    time: 1430243525
+  "/reading/publisher/new-world-library/index.html":
+    md5: 3e7c0500f3800f455ba240330097aa34
+    time: 1430243525
+  "/reading/publisher/penguin-books/index.html":
+    md5: 46d2e5163367402e1a59c905562b49fe
+    time: 1430243525
+  "/reading/publisher/modern-library/index.html":
+    md5: e73c60cc4fbc40f18c6266004af66552
+    time: 1430243525
+  "/the-setup/index.html":
+    md5: dda2eccb13e0bfd8b0420ae214bec252
+    time: 1430243525
+  "/newsletter/index.html":
+    md5: 5858904c39aa5dffa8f085996eb5b74f
+    time: 1430243525
+  "/now/index.html":
+    md5: e84977099e3b14c659f1f6ce26e8351a
+    time: 1430243525
+  "/about/cv/index.html":
+    md5: 0453d91689cc9f2e0a93f091ebdf7c03
+    time: 1430243525
+  "/reading/notes/index.html":
+    md5: 719bdce64b6a30bd8f5e95097cd4ac12
+    time: 1430243525
+  "/reading/notes/resilience-1/index.html":
+    md5: 656ffba8dcf129f2f39e606254802482
+    time: 1430243525
+  "/reading/notes/resilience/index.html":
+    md5: a7e0e67979280a361378ed1c78fcf227
+    time: 1430243525
+  "/reading/notes/becoming-steve-jobs/index.html":
+    md5: d04e684d90267dbca787630da808851a
+    time: 1430243525
+  "/reading/notes/becoming-steve-jobs-page-28/index.html":
+    md5: ccfd74729a2acd1662129b80b91c767e
+    time: 1430243525
+  "/reading/notes/michael-jackson-inc-page/index.html":
+    md5: f3e2e383765e768f2d07c1ac03012eed
+    time: 1430243525
+  "/reading/notes/the-life-changing-magic-of-tidying-up-page/index.html":
+    md5: bf4276a2f88968a1d0f230f602947433
+    time: 1430243525
+  "/reading/notes/how-to-live-page-1/index.html":
+    md5: fcabc060cf01f19ae9be07af37215f75
+    time: 1430243525
+  "/reading/notes/a-short-history-of-nearly-everything-page-10/index.html":
+    md5: da15969803a836e907deeed6c0ed32f8
+    time: 1430243525
+  "/reading/notes/a-guide-to-the-good-life-page-256/index.html":
+    md5: e02018fc472fccb6d29b47922f03da12
+    time: 1430243525
+  "/reading/notes/a-guide-to-the-good-life-page-261/index.html":
+    md5: 680aa4dd851adfc216f1f67871ee8400
+    time: 1430243525
+  "/reading/notes/a-guide-to-the-good-life-page-203/index.html":
+    md5: b921618ddc9f51ba04a615e2dc524de7
+    time: 1430243525
+  "/reading/notes/a-guide-to-the-good-life-page-161/index.html":
+    md5: 2fd56c583d68f946d69db141ed3d44f0
+    time: 1430243525
+  "/reading/notes/the-art-of-learning-page-192/index.html":
+    md5: 603766a9c8ce35687fee9f2664cc992d
+    time: 1430243525
+  "/reading/notes/the-art-of-learning-page-187/index.html":
+    md5: 3375f6982b30e166e057ef8093dc7546
+    time: 1430243525
+  "/reading/notes/the-art-of-learning-page-179/index.html":
+    md5: 5a5279d3c548116eea50fa55d759a94a
+    time: 1430243526
+  "/reading/notes/the-art-of-learning-page-172/index.html":
+    md5: 5bd188992e1e379bc1116f8633518428
+    time: 1430243526
+  "/reading/notes/the-art-of-learning-page-137/index.html":
+    md5: 2afdb26179a571d9d5bc2af9f85e7a93
+    time: 1430243526
+  "/reading/notes/the-art-of-learning-page-123/index.html":
+    md5: 286f44810ffcb82a5a756ab17ca6e869
+    time: 1430243526
+  "/reading/notes/the-obstacle-is-the-way-page-73/index.html":
+    md5: a57e53cc0ab3fe3b434bd8b8617a53d9
+    time: 1430243526
+  "/reading/notes/the-obstacle-is-the-way-page-67/index.html":
+    md5: d2054787a719dba0b828d6ccf8e96d21
+    time: 1430243526
+  "/reading/notes/the-obstacle-is-the-way-page-56/index.html":
+    md5: 77e584f13fde1c2e9b3483022a33f92f
+    time: 1430243526
+  "/reading/notes/the-obstacle-is-the-way-preface/index.html":
+    md5: 436672199528ee93f4a6f0d9a098cae9
+    time: 1430243526
+  "/reading/notes/if-rudyard-kipling/index.html":
+    md5: 276b197ae9561bda95bcbedaefe17bb0
+    time: 1430243526
+  "/reading/notes/waste/index.html":
+    md5: 11e8d8db6bb97cd3319deea7205d2e80
+    time: 1430243526
+  "/reading/notes/discourses-books-1-2/index.html":
+    md5: 995b6ad0e20d6d146f73252588d2ca61
+    time: 1430243526
+  "/reading/notes/meditations-book-2-chapter-2/index.html":
+    md5: bab785cd159b777e15fea4c08d99695a
+    time: 1430243526
+  "/reading/notes/meditations-book-2-verse-1/index.html":
+    md5: 25ed5127c9d10be533964a374e8eba65
+    time: 1430243526
+  "/reading/notes/archive/index.html":
+    md5: 23f47ab3e7e50d2a7360affb96fb7ebc
+    time: 1430243526
+  "/reading/notes/tags/index.html":
+    md5: cee3de333b0bdae008d217a0c673d705
+    time: 1430243526
+  "/reading/notes/tags/resilience/index.html":
+    md5: 62b387d117f14265f04b3cda6414f416
+    time: 1430243526
+  "/reading/notes/tags/philosophy/index.html":
+    md5: ee02cb80895974dc6421f579b91c740b
+    time: 1430243526
+  "/reading/notes/tags/education/index.html":
+    md5: 96b0b9bc6a014184eacd361bc3fdd627
+    time: 1430243526
+  "/reading/notes/tags/responsibility/index.html":
+    md5: 15f2c02e12bbdf84d9bb2222831635f5
+    time: 1430243526
+  "/reading/notes/tags/business/index.html":
+    md5: d25403cb5f7f94a49831b4f89d00da2c
+    time: 1430243526
+  "/reading/notes/tags/stories/index.html":
+    md5: 34c55fc73090446210f1bd2445ec27e2
+    time: 1430243526
+  "/reading/notes/tags/power/index.html":
+    md5: 41458f1475df20837ffad3f87dafb6b9
+    time: 1430243526
+  "/reading/notes/tags/projects/index.html":
+    md5: ddc008db033c10d333004019bf0bf95b
+    time: 1430243526
+  "/reading/notes/tags/work/index.html":
+    md5: 1e02a20699e52c46858752dee5748bf5
+    time: 1430243526
+  "/reading/notes/tags/secrets/index.html":
+    md5: 1da3856555cd29e73faf24cc2f45ebe3
+    time: 1430243526
+  "/reading/notes/tags/japan/index.html":
+    md5: afa0539ebf9d0b3788ebbb68e2adbc8e
+    time: 1430243526
+  "/reading/notes/tags/tidying/index.html":
+    md5: 59c10824d4f31953b46d4a3a9c0bdc70
+    time: 1430243526
+  "/reading/notes/tags/ego/index.html":
+    md5: 80f53011edcaf903c272103e6356f2a2
+    time: 1430243526
+  "/reading/notes/tags/conceit/index.html":
+    md5: 461dabf19bb2d480a9274b9546ca1aed
+    time: 1430243526
+  "/reading/notes/tags/universe/index.html":
+    md5: 169ebc6c882f77dc0ce3695a2962505b
+    time: 1430243526
+  "/reading/notes/tags/science/index.html":
+    md5: 818090ade019241c182cad968856aa57
+    time: 1430243526
+  "/reading/notes/tags/beginnings/index.html":
+    md5: 3d554cb32c23613bdf6149d90a54936d
+    time: 1430243526
+  "/reading/notes/tags/stoicism/index.html":
+    md5: 06c7cff769e624c0a559730a1381a6e5
+    time: 1430243526
+  "/reading/notes/tags/anger/index.html":
+    md5: acd0f58149267483c893248ac55ae3e2
+    time: 1430243526
+  "/reading/notes/tags/competition/index.html":
+    md5: 475407b2b18e96105fc24b11ebd632cf
+    time: 1430243526
+  "/reading/notes/tags/nerves/index.html":
+    md5: 78d29fd9264ac4cb818ddad0613ec918
+    time: 1430243526
+  "/reading/notes/tags/tolerance/index.html":
+    md5: 6895d3e56375ce3b8ef2d5edcfe4496f
+    time: 1430243526
+  "/reading/notes/tags/pride/index.html":
+    md5: 07132ad135d8007142667943f3a3239d
+    time: 1430243526
+  "/reading/notes/tags/help/index.html":
+    md5: dadc02be13931ba4bcb3ba1a08282035
+    time: 1430243526
+  "/reading/notes/tags/seneca/index.html":
+    md5: 2cabc930cfc2d75c2e2f81e34157feb0
+    time: 1430243526
+  "/reading/notes/tags/performance/index.html":
+    md5: b5fee495ff4ee86fd032876a734ac685
+    time: 1430243527
+  "/reading/notes/tags/learning/index.html":
+    md5: 4c6b0f04bd82afe4de290d1feedf5ad7
+    time: 1430243527
+  "/reading/notes/tags/mastery/index.html":
+    md5: 564474f8801ec1a1291bab007c034cd5
+    time: 1430243527
+  "/reading/notes/tags/dedication/index.html":
+    md5: b9ba4a61eaf5f5e2a5583cf2317bb5dd
+    time: 1430243527
+  "/reading/notes/tags/effort/index.html":
+    md5: 3f2d7f4de8a2084220e057716a40916f
+    time: 1430243527
+  "/reading/notes/tags/training/index.html":
+    md5: 3874261a880acba0ffc141295269cd7a
+    time: 1430243527
+  "/reading/notes/tags/failure/index.html":
+    md5: d18508dd928f3c12881c36f59e21ef75
+    time: 1430243527
+  "/reading/notes/tags/risk/index.html":
+    md5: 2f1c871c77dc77c3bcf17a4592a4e971
+    time: 1430243527
+  "/reading/notes/tags/obstacles/index.html":
+    md5: 2010af9552800248c0a6a2c5c5136f8f
+    time: 1430243527
+  "/reading/notes/tags/marcus-aurelius/index.html":
+    md5: 660c04a9278c7e8d7742c2a18103132d
+    time: 1430243527
+  "/reading/notes/tags/life/index.html":
+    md5: 091cb0c985305a22e92b468bdff222d0
+    time: 1430243527
+  "/reading/notes/tags/time/index.html":
+    md5: 2ddcc67f67ee217ea9185452c318649e
+    time: 1430243527
+  "/reading/notes/tags/difficulty/index.html":
+    md5: 3aace127e2048858a9eee448370b37f1
+    time: 1430243527
+  "/reading/notes/tags/the-olympics/index.html":
+    md5: 74d1da260f8f5dd908d74c31c46452fa
+    time: 1430243527
+  "/reading/notes/book/index.html":
+    md5: 2e4e0ce665a238177e0f579243cff98e
+    time: 1430243527
+  "/reading/notes/book/resilience/index.html":
+    md5: fe817fb5b653dcf0c611ccedabad2f93
+    time: 1430243527
+  "/reading/notes/book/becoming-steve-jobs/index.html":
+    md5: 20bfb35d0e8c4b30b714064e79885a0d
+    time: 1430243527
+  "/reading/notes/book/michael-jackson-inc/index.html":
+    md5: cbe9d8d93e1e87b2221490dfb261330d
+    time: 1430243527
+  "/reading/notes/book/the-life-changing-magic-of-tidying-up/index.html":
+    md5: 6209ceb9833c0285f7164ae8b803ea02
+    time: 1430243527
+  "/reading/notes/book/how-to-live/index.html":
+    md5: 4b8f423d8bcdeab85c99807b276d33fc
+    time: 1430243527
+  "/reading/notes/book/a-short-history-of-nearly-everything/index.html":
+    md5: 2b0a791b5edd356a957dc108d9c443ff
+    time: 1430243527
+  "/reading/notes/book/a-guide-to-the-good-life/index.html":
+    md5: 0747a066bc629206ee3c313e2e1b08f1
+    time: 1430243527
+  "/reading/notes/book/the-art-of-learning/index.html":
+    md5: c5e5f2d157ed73a1767fc6cce93649b9
+    time: 1430243527
+  "/reading/notes/book/the-obstacle-is-the-way/index.html":
+    md5: 56fe79ba8b0fc31f8d984d78e66877d0
+    time: 1430243527
+  "/reading/notes/book/on-the-shortness-of-life/index.html":
+    md5: 0b15ee74b3bf696432980e333830831b
+    time: 1430243527
+  "/reading/notes/book/discourses/index.html":
+    md5: e5b6e3be3173ccaf31cbec2e9921172f
+    time: 1430243527
+  "/reading/notes/book/meditations/index.html":
+    md5: 408d88f1db8519c97ab9f9033e763605
+    time: 1430243527
+  "/skeleton/faqs/index.html":
+    md5: 76cece5280cc549c4452ddc9b1666b3d
+    time: 1430243527
+  "/skeleton/faqs/how-should-i-prepare-for-skeleton-school/index.html":
+    md5: 7a7d258e9d9f50a9d761a72fadee62fb
+    time: 1430243527
+  "/skeleton/faqs/how-much-longer-will-you-compete/index.html":
+    md5: d994c763090d7ad571e1520e232c7bc5
+    time: 1430243527
+  "/skeleton/faqs/what-is-your-best-world-cup-finish/index.html":
+    md5: 0b4a5df115f35e69155f52a3b6ae4cc1
+    time: 1430243527
+  "/skeleton/faqs/when-should-i-buy-my-first-sled/index.html":
+    md5: 7e433b4e759ea8ac68c80ad8290f7e5b
+    time: 1430243527
+  "/skeleton/faqs/what-kind-of-training-should-i-be-doing/index.html":
+    md5: 7339f911244b46ab7a668edda8290da8
+    time: 1430243527
+  "/skeleton/faqs/how-long-before-i-make-the-national-team/index.html":
+    md5: 89e7dae03e1d21ca4c83eadc69857602
+    time: 1430243527
+  "/skeleton/faqs/which-track-is-the-hardest/index.html":
+    md5: 6f170bbfd67c68a25b7ffa6828a03ddc
+    time: 1430243527
+  "/skeleton/faqs/which-supplements-do-you-take/index.html":
+    md5: 662ad88aac54f1e8fdaf1d40d3916151
+    time: 1430243527
+  "/skeleton/faqs/how-has-skeleton-changed-your-life/index.html":
+    md5: af11cc09b4b06dcd3327582ac427b2a4
+    time: 1430243527
+  "/skeleton/faqs/what-is-one-thing-that-skeleton-has-taught-you/index.html":
+    md5: 714c40b7f1f5b5be1980d9720b9ccd4a
+    time: 1430243527
+  "/skeleton/faqs/whats-your-proudest-accomplishment/index.html":
+    md5: dc9eaa7da6f9639e23874607d87e3b1b
+    time: 1430243527
+  "/skeleton/faqs/what-is-the-combine/index.html":
+    md5: f01f4781e4702b9f8889b8c3705ca66c
+    time: 1430243527
+  "/skeleton/faqs/how-expensive-is-it-to-make-a-track/index.html":
+    md5: 272fa4a6cb0ab7f9de0ab6ebcd03401d
+    time: 1430243527
+  "/skeleton/faqs/have-you-competed-on-every-track/index.html":
+    md5: aa6781c53eec554000f8daf0be27df66
+    time: 1430243527
+  "/skeleton/faqs/which-countries-have-skeleton-tracks/index.html":
+    md5: 34a2922862321fe741a294bcece6a545
+    time: 1430243527
+  "/skeleton/faqs/how-do-you-train-in-the-winter/index.html":
+    md5: c1ba27c9e4200ff1d1c3eb8980091e0b
+    time: 1430243527
+  "/skeleton/faqs/is-skeleton-easy/index.html":
+    md5: 34d4f9f284dc3de530d15a1a642045f9
+    time: 1430243527
+  "/skeleton/faqs/how-do-i-get-started/index.html":
+    md5: 9982a735f599be456d0c7dd725bcca22
+    time: 1430243527
+  "/skeleton/faqs/whats-it-like-going-90-miles-per-hour-headfirst/index.html":
+    md5: 5c0c0ec424e987d52846f001afceed26
+    time: 1430243528
+  "/skeleton/faqs/did-you-like-your-ugly-opening-ceremonies-sweater/index.html":
+    md5: 8d41b48420fe2f7ee7ef675f92527b0c
+    time: 1430243528
+  "/skeleton/faqs/will-you-be-back-for-the-2018-olympics/index.html":
+    md5: 0e47a1fcc52da0f3911be4c6c44160ec
+    time: 1430243528
+  "/skeleton/faqs/what-was-your-favorite-part-of-the-olympic-games/index.html":
+    md5: 1d54efad32cae2a04163a697d264f685
+    time: 1430243528
+  "/skeleton/faqs/which-runners-should-i-use/index.html":
+    md5: cf1c3a121b3c5ed7300172cabf5aa5d2
+    time: 1430243528
+  "/skeleton/faqs/who-makes-your-sled-and-runners/index.html":
+    md5: 20d6945c494a39e2b9c0c6137c1462d2
+    time: 1430243528
+  "/skeleton/faqs/who-makes-the-best-skeleton-equipment/index.html":
+    md5: 444a599868f9beae5f9ad321b9fe0252
+    time: 1430243528
+  "/skeleton/faqs/what-makes-a-great-skeleton-athlete/index.html":
+    md5: 950b7fa6cb60726ef3f6612cecc3ad7e
+    time: 1430243528
+  "/skeleton/faqs/what-were-the-olympics-like/index.html":
+    md5: 81b42dd5d531a75ed2ec9cca451526da
+    time: 1430243528
+  "/skeleton/faqs/what-can-you-squat-bench-clean/index.html":
+    md5: 640c471c9e54b8225544f4913b2c528c
+    time: 1430243528
+  "/skeleton/faqs/training-program/index.html":
+    md5: 92f0618bf698754f130f916ec7916259
+    time: 1430243528
+  "/skeleton/faqs/will-i-get-hurt/index.html":
+    md5: 8e010da285056c4a82ffe7069f5ed232
+    time: 1430243528
+  "/skeleton/faqs/whats-the-best-body-type-for-skeleton/index.html":
+    md5: cea9b7600bdce49f7a7e4a029676f1bd
+    time: 1430243528
+  "/skeleton/faqs/i-want-to-be-an-olympic-skeleton-athlete-what-do-i-need-to-do/index.html":
+    md5: 4b83cb81becfcb50ca42841de0d9f79e
+    time: 1430243528
+  "/skeleton/faqs/how-did-you-get-started/index.html":
+    md5: 8584801d50a48653ab3b2b7396d8ba65
+    time: 1430243528
+  "/skeleton/faqs/are-you-insane/index.html":
+    md5: 8ffae417f887af71dbe4ea64e8091eea
+    time: 1430243528
+  "/skeleton/faqs/have-you-ever-crashed/index.html":
+    md5: 0034f25031cf9ae15961a2b3f3cc599f
+    time: 1430243528
+  "/skeleton/faqs/whats-the-fastest-youve-ever-gone/index.html":
+    md5: 9209962058520bd25728cef76f75d0b7
+    time: 1430243528
+  "/skeleton/faqs/whats-your-least-favorite-track/index.html":
+    md5: 14365162931864e52f5544aba6542ece
+    time: 1430243528
+  "/skeleton/faqs/whats-your-favorite-track/index.html":
+    md5: 0d88a8764a89bebfcd20c05fdba05a2f
+    time: 1430243528
+  "/skeleton/faqs/archive/index.html":
+    md5: 2a2cedbd6a9d9974db4cf9fc9496809e
+    time: 1430243528
+  "/skeleton/faqs/tags/index.html":
+    md5: a0d3b8a84e9be9cf62884be9cf43a7a6
+    time: 1430243528
+  "/skeleton/faqs/tags/the-basics/index.html":
+    md5: 9deea2439bc5d2787aec5b3493d945df
+    time: 1430243528
+  "/skeleton/faqs/tags/sliding/index.html":
+    md5: 943ace7705486d17eeec1e0434ab4a2c
+    time: 1430243528
+  "/skeleton/faqs/tags/equipment/index.html":
+    md5: eb24f5a371515456366c9759e41441cf
+    time: 1430243528
+  "/skeleton/faqs/tags/training/index.html":
+    md5: f537a0be47fd3fcd29c7ac0edad0c143
+    time: 1430243528
+  "/skeleton/faqs/tags/tracks/index.html":
+    md5: 3649332e85b75c88015f148941690e20
+    time: 1430243528
+  "/skeleton/faqs/tags/the-olympics/index.html":
+    md5: 1175a3ad63e0f1a533a63431d789762b
+    time: 1430243528
+  "/CNAME":
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
-  /sitemap.xml:
-    md5: cb10363a3050cd0ff1a6586a7f3b8b2a
-    time: 1429128001
-  /feed.xml:
-    md5: f6ce6b71780aef109a2c28c4f38e2892
-    time: 1429128151
-  /assets/washington-crossing.jpg:
+  "/sitemap.xml":
+    md5: 4ec0300e2f16d41e7c979c793f493c03
+    time: 1430243528
+  "/feed.xml":
+    md5: 272349eb3798b94961f8d56e6ba6cbab
+    time: 1430243528
+  "/assets/washington-crossing.jpg":
     md5: 550b69d7994859ac55cbb112cc23e1d1
     time: 1407895647
-  /assets/the-banner:
+  "/assets/the-banner":
     md5: 2c25891460364caa02cc40a9ca70fd3b
     time: 1407895647
-  /assets/kyletress_sochi_getty1-1.jpg:
+  "/assets/kyletress_sochi_getty1-1.jpg":
     md5: 6c93a902a689f9c4ab7cfff843f31c91
     time: 1407895653
-  /assets/image-1.jpg:
+  "/assets/image-1.jpg":
     md5: 96d37f3473f4d8950010e68c84b6cc73
     time: 1407895648
-  /assets/only-humans-cartoon.jpg:
+  "/assets/only-humans-cartoon.jpg":
     md5: 59f569649c3358e56c3abd34aca128ab
     time: 1407895649
-  /favicon.ico:
+  "/favicon.ico":
     md5: a0a6c3b4759d9c47237a9d2e2172d1d6
     time: 1407895650
-  /js/fluidvids.min.js:
+  "/js/fluidvids.min.js":
     md5: ccb883115b7d96b092b825e5501f8b96
     time: 1407895650
-  /assets/tress-olympics.jpg:
+  "/assets/tress-olympics.jpg":
     md5: 0685ccb3a30c19ffc8813d3bb9f6bfe7
     time: 1407895654
-  /assets/wpid-ALeqM5jbaPKNJeK4p3YStnyO8i4zsuO1ig.jpg:
+  "/assets/wpid-ALeqM5jbaPKNJeK4p3YStnyO8i4zsuO1ig.jpg":
     md5: 0e065adf961d61f21eea227753ac4f5c
     time: 1407895653
-  /assets/20140126-201043.jpg:
+  "/assets/20140126-201043.jpg":
     md5: d2f62ed812c25b35b2c6f8001aaba83f
     time: 1407895653
-  /assets/20140127-201151.jpg:
+  "/assets/20140127-201151.jpg":
     md5: 1cc92c9b8897236e6d009d9e59a84de5
     time: 1407895653
-  /assets/obama.jpg:
+  "/assets/obama.jpg":
     md5: 83cf1a385ed333c4bd4680fa807296e7
     time: 1409542334
-  /404.html:
+  "/404.html":
     md5: 6023ea646fac8212d61a90f55c871faa
     time: 1409542335
-  /assets/2014-01-30-olympic-skeleton-team-photo-small-size.jpg:
+  "/assets/2014-01-30-olympic-skeleton-team-photo-small-size.jpg":
     md5: 9048e382b0b0d61b193e17ddbcf3d258
     time: 1410059523
-  /assets/leaf-1.png:
+  "/assets/leaf-1.png":
     md5: 9d4b4dde4fa0edfdf5f5c8310d060a20
     time: 1417227744
-  /assets/Screen Shot 2015-04-05 at 1.30.27 PM.png:
+  "/assets/Screen Shot 2015-04-05 at 1.30.27 PM.png":
     md5: 610c608ccf98ec6c693ba449d449db41
     time: 1428377699
-  /css/master.css:
-    md5: 8c49e02bb858916165dfa984cf6f5d73
-    time: 1429128002
-  /css/master.css.map:
+  "/css/master.css.map":
     md5: 659b69ecfba881291bc1044f690be754
     time: 1429128002
-  /assets/leaf-2.png:
+  "/css/master.css":
+    md5: 9857512880d1ec65f4c2f16dd91b8848
+    time: 1430243528
+  "/assets/leaf-2.png":
     md5: 442e53088436fc9933a30891888c8778
     time: 1417227745
-  /assets/headshot.png:
+  "/assets/headshot.png":
     md5: fce3becef4b88d39549634de2539a171
     time: 1428377700
-  /assets/tress.jpg:
+  "/assets/tress.jpg":
     md5: 5dd5c18db71a84c611a588736ff3ba35
     time: 1407895654
-  /assets/iPhone 6 Black 4.7 Inch Form Factor.png:
+  "/assets/iPhone 6 Black 4.7 Inch Form Factor.png":
     md5: 72fb1143ddc9d2c2e20e0c1952e1b333
     time: 1417227745
-  /assets/headshot.jpg:
+  "/assets/headshot.jpg":
     md5: e9c5c6f8ec5d8109007f07547b537ebc
     time: 1428377700
