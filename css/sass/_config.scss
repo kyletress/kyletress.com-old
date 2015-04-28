@@ -1,8 +1,10 @@
 // Color Palette
 $color-background: #ffffff;
+$color-header: #2c3e50;
+$color-header-links:#7f8c8d;
 $color-text: #333;
 $color-headings: #222222;
-$color-links: #428bca;
+$color-links: #2980b9;
 $color-borders: #ededed;
 $color-muted: #999999;
 $color-code: #c7254e;
@@ -16,14 +18,14 @@ $color-goodreads: #553b08;
 
 // Fonts
 $sans: "source-code-pro", "Courier New", monospace;
-$serif: "freight-text-pro", Georgia, serif;
+$serif: "ff-tisa-web-pro","freight-text-pro", Georgia, serif;
 
 // Container
 $container-width: 90%;
-$container-max-width: 800px;
+$container-max-width: 650px;
 
 // Font Sizing
-$base-font-size: 1.8rem;
+$base-font-size: 1.6rem;
 
 // Breakpoints
 $bp-mobile: 400px;

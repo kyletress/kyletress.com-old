@@ -2322,28 +2322,28 @@ html {
 body {
   background: #ffffff;
   -webkit-font-smoothing: subpixel-antialiased;
-  font-size: 1.62rem;
-  font-family: "freight-text-pro", Georgia, serif;
+  font-size: 1.44rem;
+  font-family: "ff-tisa-web-pro", "freight-text-pro", Georgia, serif;
   color: #333;
   line-height: 1.6; }
   @media screen and (min-width: 750px) {
     body {
-      font-size: 1.8rem; } }
+      font-size: 1.6rem; } }
 
 .container {
   width: 90%;
-  max-width: 800px;
+  max-width: 650px;
   margin: 0 auto; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #222222; }
 
 a {
-  color: #428bca;
+  color: #2980b9;
   transition: color .3s ease;
   text-decoration: none; }
   a:hover {
-    color: #2a6496;
+    color: #1b557a;
     text-decoration: underline; }
 
 p.lead {
@@ -2352,7 +2352,7 @@ p.lead {
 
 blockquote {
   font-style: italic;
-  font-size: 1.62rem;
+  font-size: 1.44rem;
   color: gray;
   border-left: 1px solid #ededed;
   margin-left: 0;
@@ -2362,7 +2362,7 @@ figure {
   margin: 2rem 0; }
 
 figcaption {
-  font-size: 1.44rem;
+  font-size: 1.28rem;
   color: #999999;
   text-align: left; }
 
@@ -2416,50 +2416,40 @@ code {
       color: #999999; }
 
 header[role="banner"] {
-  background: rgba(255, 255, 255, 0.97);
   width: 100%;
-  border-bottom: 1px solid #ededed;
   padding: 1rem 0;
   text-align: center;
-  font-size: 1.5rem; }
-  header[role="banner"] .container {
-    -webkit-animation-duration: .3s;
-    animation-duration: .3s; }
+  font-size: 1.5rem;
+  border-bottom: 1px solid #ededed; }
   header[role="banner"] h1 {
-    font-size: 1.6rem;
-    margin: 0; }
+    font-size: 1.8rem;
+    padding: 0;
+    margin: 0;
+    font-weight: 400; }
     header[role="banner"] h1 a {
       color: #222222; }
-      header[role="banner"] h1 a:hover {
-        color: #428bca;
-        text-decoration: none; }
-    header[role="banner"] h1 span {
-      color: #999999;
-      font-size: 1.4rem;
-      font-weight: normal; }
-  header[role="banner"] p {
-    margin: 0; }
-    header[role="banner"] p a {
-      font-weight: 700; }
-  @media screen and (min-width: 750px) {
+  @media screen and (min-width: 400px) {
     header[role="banner"] {
       width: 90%;
-      max-width: 800px;
+      max-width: 650px;
       margin: 0 auto;
-      padding: 1.5rem 0;
-      text-align: left;
       display: -webkit-box;
       display: -moz-box;
       display: -ms-flexbox;
       display: -webkit-flex;
       display: flex;
+      text-align: left;
       -webkit-align-items: center;
-      align-items: center; }
-      header[role="banner"] img {
-        margin-right: 1rem; } }
+      align-items: center; } }
 
 .navigation {
-  font-size: 1.5rem; }
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: right;
+  width: 100%;
+  flex: 1;
+  -webkit-flex: 1; }
   .navigation ul {
     list-style: none;
     margin: 0;
@@ -2470,39 +2460,14 @@ header[role="banner"] {
       .navigation ul li:last-child {
         padding-right: 0; }
   .navigation li a {
-    color: #222222;
-    font-weight: 600; }
+    color: #2980b9; }
     .navigation li a:hover {
-      color: #428bca; }
-
-nav[role="social-links"] ul {
-  list-style: none;
-  margin: 0;
-  padding: 0; }
-  nav[role="social-links"] ul li {
-    display: inline-block;
-    margin-right: 0.5rem; }
-    nav[role="social-links"] ul li:last-child {
-      padding-right: 0; }
-nav[role="social-links"] a {
-  color: #999999; }
-  nav[role="social-links"] a:hover {
-    text-decoration: none; }
-nav[role="social-links"] a[href*="http://www.youtube.com"]:hover {
-  color: #b31217; }
-nav[role="social-links"] a[href*="http://www.instagram.com"]:hover {
-  color: #3f729b; }
-nav[role="social-links"] a[href*="http://www.goodreads.com"]:hover {
-  color: #553b08; }
-nav[role="social-links"] a[href*="http://www.twitter.com"]:hover {
-  color: #55acee; }
-nav[role="social-links"] a[href*="http://www.github.com"]:hover {
-  color: #4183c4; }
+      color: #2980b9; }
 
 footer[role="site-footer"] {
   padding: 2rem 0;
   line-height: 1.5;
-  font-size: 1.44rem;
+  font-size: 1.28rem;
   color: #999999;
   text-align: center; }
   @media screen and (min-width: 750px) {
@@ -2564,7 +2529,7 @@ tbody tr:nth-child(even) {
 
 .btn {
   display: inline-block;
-  background-color: #428bca;
+  background-color: #2980b9;
   padding: 8px 11px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -2581,7 +2546,7 @@ a .btn:hover,
 .btn:hover,
 a .btn:hover,
 .btn.active {
-  background-color: #2a6496;
+  background-color: #1b557a;
   text-decoration: none; }
 
 a.link-twitter {
@@ -2631,7 +2596,7 @@ a.link-amazon {
 
 .img {
   border: 1px solid #ededed;
-  padding: 9px;
+  padding: 2px;
   background: white; }
 
 .img-photo {
@@ -2748,7 +2713,7 @@ a.link-amazon {
     color: inherit; }
 
 main {
-  padding: 2rem 0; }
+  padding: 3rem 0; }
 
 .faqs dt {
   font-weight: bold; }
@@ -2783,7 +2748,7 @@ main {
     border: 1px solid #ededed;
     padding: .7rem 1.5rem; }
     .mailchimp .button:hover {
-      background-color: #428bca;
+      background-color: #2980b9;
       color: white; }
 
 @media screen and (min-width: 600px) {

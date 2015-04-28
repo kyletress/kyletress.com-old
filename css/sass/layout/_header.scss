@@ -1,46 +1,25 @@
 header[role="banner"]{
-  background: rgba($color-background, .97);
   width:100%;
-  border-bottom: 1px solid $color-borders;
   padding: 1rem 0;
   text-align:center;
   font-size:1.5rem;
-  .container{
-    -webkit-animation-duration:.3s;
-    animation-duration:.3s;
-  }
+  border-bottom:1px solid $color-borders;
 
   h1 {
-    font-size:1.6rem;
+    font-size:1.8rem;
+    padding:0;
     margin:0;
-    a {
-      color:$color-headings;
-      &:hover {
-        color:$color-links;
-        text-decoration:none;
-      }
-    }
-    span {
-      color:$color-muted;
-      font-size:1.4rem;
-      font-weight:normal;
+    font-weight:400;
+    a{
+      color: $color-headings;
     }
   }
-  p {
-    margin: 0;
-    a {
-      font-weight:700;
-    }
-  }
-  @media screen and (min-width: $bp-tablet) {
+
+  @media screen and (min-width: $bp-mobile) {
     @include container;
-    padding:1.5rem 0;
-    text-align:left;
     @include flexbox;
+    text-align:left;
     -webkit-align-items:center;
     align-items:center;
-    img {
-      margin-right:1rem;
-    }
   }
 }

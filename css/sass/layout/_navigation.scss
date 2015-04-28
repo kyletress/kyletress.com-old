@@ -1,34 +1,19 @@
 .navigation {
   @include inline-navigation(1rem);
-  font-size:1.5rem;
+  font-size:1.2rem;
+  text-transform: uppercase;
+  letter-spacing:1px;
+  text-align:right;
+  width:100%;
+  flex:1;
+  -webkit-flex:1;
   li{
     a {
-      color: $color-headings;
-      font-weight:600;
+      color: $color-links;
       &:hover{
         color:$color-links;
       }
     }
   }
 
-}
-
-nav[role="social-links"] {
-  @include inline-navigation(.5rem);
-  a {
-    color: $color-muted;
-    &:hover{
-      text-decoration:none;
-    }
-  }
-  a[href*="http://www.youtube.com"]:hover {
-    color:$color-youtube;}
-  a[href*="http://www.instagram.com"]:hover {
-    color: $color-instagram; }
-  a[href*="http://www.goodreads.com"]:hover {
-    color: $color-goodreads; }
-  a[href*="http://www.twitter.com"]:hover {
-    color: $color-twitter; }
-  a[href*="http://www.github.com"]:hover {
-    color: $color-github; }
 }
