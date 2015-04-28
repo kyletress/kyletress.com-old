@@ -2428,7 +2428,7 @@ header[role="banner"] {
     font-weight: 400; }
     header[role="banner"] h1 a {
       color: #222222; }
-  @media screen and (min-width: 400px) {
+  @media screen and (min-width: 600px) {
     header[role="banner"] {
       width: 90%;
       max-width: 650px;
@@ -2438,7 +2438,6 @@ header[role="banner"] {
       display: -ms-flexbox;
       display: -webkit-flex;
       display: flex;
-      text-align: left;
       -webkit-align-items: center;
       align-items: center; } }
 
@@ -2446,7 +2445,7 @@ header[role="banner"] {
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: 1px;
-  text-align: right;
+  text-align: center;
   width: 100%;
   flex: 1;
   -webkit-flex: 1; }
@@ -2459,6 +2458,9 @@ header[role="banner"] {
       margin-right: 1rem; }
       .navigation ul li:last-child {
         padding-right: 0; }
+  @media screen and (min-width: 600px) {
+    .navigation {
+      text-align: right; } }
   .navigation li a {
     color: #2980b9; }
     .navigation li a:hover {
