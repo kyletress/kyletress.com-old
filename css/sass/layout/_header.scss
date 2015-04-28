@@ -15,10 +15,9 @@ header[role="banner"]{
     }
   }
 
-  @media screen and (min-width: $bp-mobile) {
+  @media screen and (min-width: $bp-phablet) {
     @include container;
     @include flexbox;
-    text-align:left;
     -webkit-align-items:center;
     align-items:center;
   }
