@@ -1,12 +1,12 @@
 ---
-time: 1430291367
+time: 1430422953
 inventory:
   "/home/index.html":
-    md5: 184e493e3af996551fe053a724d43ac2
-    time: 1430248507
+    md5: a08fc45cf1fcf5ac28c6549f8d104b9c
+    time: 1430422945
   "/index.html":
-    md5: 184e493e3af996551fe053a724d43ac2
-    time: 1430248507
+    md5: a08fc45cf1fcf5ac28c6549f8d104b9c
+    time: 1430422945
   "/about/index.html":
     md5: bdefdc36802acadfcbe6111bc3a009b3
     time: 1430291362
@@ -17,8 +17,8 @@ inventory:
     md5: 6363e066ed3ac5c4608d4a84241f04a8
     time: 1430248507
   "/reading/index.html":
-    md5: e4ef971e754b12944613372f4a9f0076
-    time: 1430248507
+    md5: b2c6ebab1bdf8192a40452b3e0725511
+    time: 1430422945
   "/reading/becoming-steve-jobs/index.html":
     md5: b2d23988214805baf4046a6724d8a52a
     time: 1430248507
@@ -179,8 +179,8 @@ inventory:
     md5: c738fb625f0d6ddceaeb9bc5a262be8f
     time: 1430248509
   "/newsletter/index.html":
-    md5: edb6effdd73ffb0c2bf2ac31b48f6570
-    time: 1430248509
+    md5: 2a13b891e56d3c3aa9e01a16177e39ca
+    time: 1430422947
   "/now/index.html":
     md5: 9d80b6745bebcb3b84240127e25129d5
     time: 1430248509
@@ -578,11 +578,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   "/sitemap.xml":
-    md5: b852d41a58b0b63334a3ce309206709b
-    time: 1430291367
+    md5: de7ecb7a69430919d42b75d9e90ef9ad
+    time: 1430422952
   "/feed.xml":
-    md5: 34e5dea3a6583369229987f4a57f46e8
-    time: 1430291367
+    md5: f80b679e5b2408fea67396767d56a224
+    time: 1430422953
   "/assets/washington-crossing.jpg":
     md5: 550b69d7994859ac55cbb112cc23e1d1
     time: 1407895647
@@ -635,8 +635,8 @@ inventory:
     md5: 659b69ecfba881291bc1044f690be754
     time: 1429128002
   "/css/master.css":
-    md5: 6fa4d1a406a540ba1d0ee7b857e39330
-    time: 1430249796
+    md5: 61bbbc017dd25a52b04943b75a24d290
+    time: 1430422953
   "/assets/leaf-2.png":
     md5: 442e53088436fc9933a30891888c8778
     time: 1417227745

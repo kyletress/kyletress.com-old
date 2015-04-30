@@ -610,7 +610,7 @@ main {
 .footnotes {
   font-size: 1.4rem; }
 
-.mailchimp {
+.tinyletter {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -619,21 +619,21 @@ main {
   -webkit-align-items: center;
   align-items: center;
   margin-left: 0; }
-  .mailchimp input[type="email"] {
+  .tinyletter input[type="email"] {
     -webkit-flex-grow: 1;
     flex-grow: 1;
     margin-right: 0;
     padding: .5rem;
     border: 1px solid #ededed;
     border-right: none; }
-  .mailchimp .button {
+  .tinyletter .button {
     background: #fafafa;
     text-transform: uppercase;
     font-size: 1.4rem;
     font-family: "source-code-pro", "Courier New", monospace;
     border: 1px solid #ededed;
     padding: .7rem 1.5rem; }
-    .mailchimp .button:hover {
+    .tinyletter .button:hover {
       background-color: #2980b9;
       color: white; }
 
