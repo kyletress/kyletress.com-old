@@ -303,15 +303,7 @@ header[role="banner"] {
   width: 100%;
   padding: 1rem 0;
   text-align: center;
-  font-size: 1.5rem;
   border-bottom: 1px solid #ededed; }
-  header[role="banner"] h1 {
-    font-size: 1.8rem;
-    padding: 0;
-    margin: 0;
-    font-weight: 400; }
-    header[role="banner"] h1 a {
-      color: #222222; }
   @media screen and (min-width: 600px) {
     header[role="banner"] {
       width: 90%;
@@ -323,12 +315,12 @@ header[role="banner"] {
       display: -webkit-flex;
       display: flex;
       -webkit-align-items: center;
-      align-items: center; } }
+      align-items: center; }
+      header[role="banner"] img {
+        margin-right: 1rem; } }
 
 .navigation {
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  font-size: 1.4rem;
   text-align: center;
   width: 100%;
   flex: 1;
@@ -344,9 +336,9 @@ header[role="banner"] {
         padding-right: 0; }
   @media screen and (min-width: 600px) {
     .navigation {
-      text-align: right; } }
+      text-align: left; } }
   .navigation li a {
-    color: #2980b9; }
+    color: #222222; }
     .navigation li a:hover {
       color: #2980b9; }
 
