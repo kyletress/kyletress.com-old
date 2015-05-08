@@ -37,11 +37,6 @@ a {
   }
 }
 
-p.lead {
-  font-size:2.1rem;
-  font-weight:300;
-}
-
 blockquote {
   font-style:italic;
   font-size:$base-font-size * .9;
@@ -71,9 +66,11 @@ img{
 }
 
 hr {
-  border: 0;
-  height: 1px;
   background:#eee;
+  border: 0;
+  width: 15%;
+  height: 3px;
+  margin: 5rem auto;
 }
 
 pre {
@@ -97,7 +94,7 @@ pre code {
 }
 
 code {
-  font-family: $sans;
+  font-family: $code;
   padding: 2px 4px;
   font-size: 1.4rem;
   color: $color-code;

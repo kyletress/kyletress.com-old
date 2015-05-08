@@ -1,7 +1,5 @@
 // Color Palette
 $color-background: #ffffff;
-$color-header: #2c3e50;
-$color-header-links:#7f8c8d;
 $color-text: #333;
 $color-headings: #222222;
 $color-links: #1496bb;
@@ -9,22 +7,15 @@ $color-borders: #ededed;
 $color-muted: #999999;
 $color-code: #c7254e;
 
-// Social Colors
-$color-youtube: #b31217;
-$color-instagram: #3f729b;
-$color-github: #4183c4;
-$color-twitter: #55acee;
-$color-goodreads: #553b08;
-
 // Fonts
-$sans: "source-code-pro", "Courier New", monospace;
 $serif: "freight-text-pro","ff-tisa-web-pro", Georgia, serif;
-$alt: "omnes-pro", helvetica;
+$sans: "omnes-pro", helvetica;
+$code: "source-code-pro", "Courier New", monospace;
 
 // Container
 $container-width: 90%;
 $container-max-width: 720px;
-$container-hd-max-width: 900px;
+$container-hd-max-width: 950px;
 
 // Font Sizing
 $base-font-size: 1.6rem;

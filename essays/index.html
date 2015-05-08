@@ -1,11 +1,17 @@
 {% capture content %}
-<header>
-  <h1>{{ title }}</h1>
-</header>
 
 {{ body }}
 
-{% include 'includes/post_list' %}
+<section class="recent-posts">
+  <ul>
+    {% for post in posts %}
+    <li>
+      <a href="{{post.url}}">{{post.title}}</a><br>
+      {{ post.meta.summary }}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
 
 {% endcapture %}
 
