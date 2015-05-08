@@ -15,10 +15,20 @@
   display: flex;
 }
 
+@mixin align-items($alignment: stretch) {
+  -webkit-align-items: $alignment;
+  -moz-align-items: $alignment;
+  -ms-align-items: $alignment;
+  align-items: $alignment;
+}
+
 @mixin container {
-  width:$container-width;
-  max-width:$container-max-width;
+  width:$container-width; // 90%
   margin: 0 auto;
+  max-width:$container-max-width;
+  @media screen and (min-width: $bp-hd) {
+    max-width: $container-hd-max-width;
+  }
 }
 
 @mixin border-radius($radius: 0) {

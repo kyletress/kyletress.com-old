@@ -4,7 +4,7 @@ $color-header: #2c3e50;
 $color-header-links:#7f8c8d;
 $color-text: #333;
 $color-headings: #222222;
-$color-links: #2980b9;
+$color-links: #1496bb;
 $color-borders: #ededed;
 $color-muted: #999999;
 $color-code: #c7254e;
@@ -18,11 +18,13 @@ $color-goodreads: #553b08;
 
 // Fonts
 $sans: "source-code-pro", "Courier New", monospace;
-$serif: "ff-tisa-web-pro", Georgia, serif;
+$serif: "freight-text-pro","ff-tisa-web-pro", Georgia, serif;
+$alt: "omnes-pro", helvetica;
 
 // Container
 $container-width: 90%;
-$container-max-width: 650px;
+$container-max-width: 720px;
+$container-hd-max-width: 900px;
 
 // Font Sizing
 $base-font-size: 1.6rem;

@@ -3,21 +3,6 @@
   <article role="article" class="essay">
     <header class="content-header">
       <h1>{{ title }}</h1>
-      <p class="meta">
-        <time class="entry-date" datetime="">
-          {% assign d = date | date: "%-d" %}
-          {{ date | date: "%B" }}
-          {% case d %}
-            {% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %},
-          {{ date | date: "%Y" }}
-        </time>
-        <span class="category">
-          {% for tag in taxonomy.category %}
-          <a href="{{ tag.url }}">{{ tag.value }}</a>
-          {% endfor %}
-        </span>
-        <span class="reading-time">{{ reading_time }}</span>
-      </p>
     </header>
     <div class="content-body">
       {{ body }}
