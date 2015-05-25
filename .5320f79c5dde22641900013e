@@ -1,5 +1,5 @@
 ---
-time: 1432585858
+time: 1432585873
 inventory:
   "/home/index.html":
     md5: 653695abe8aa94e2c4a36b1084936998
@@ -166,6 +166,9 @@ inventory:
   "/projects/gems/simpleform/index.html":
     md5: dfad8acd9a88f58cc19701532a091962
     time: 1432585786
+  "/the-setup/index.html":
+    md5: 21d5649b8a3d9ced60560bede848e429
+    time: 1432585870
   "/newsletter/index.html":
     md5: 9eb99196656043fbcb557d95208b3005
     time: 1432585855
@@ -317,11 +320,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   "/sitemap.xml":
-    md5: 2394eeb2165a133b75019522a6da0769
-    time: 1432585858
+    md5: ae962b52cfaa258e336891993a8fcd27
+    time: 1432585873
   "/feed.xml":
-    md5: 1418842e82312b404ad9f87199bc9f81
-    time: 1432585858
+    md5: b87fd9a9c3207fed332d2d50827a4804
+    time: 1432585873
   "/assets/washington-crossing.jpg":
     md5: 550b69d7994859ac55cbb112cc23e1d1
     time: 1407895647
