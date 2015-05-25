@@ -1,10 +1,10 @@
 body{
   font-size:$base-font-size;
-  @media screen and (min-width: $bp-tablet) {
-    font-size: 2rem;
+  @include breakpoint(phablet) {
+    font-size: 1.8rem;
   }
-  @media screen and (min-width: $bp-hd) {
-    font-size: 2.2rem;
+  @include breakpoint(hd) {
+    font-size: 2rem;
   }
 }
 
@@ -13,15 +13,16 @@ body{
 }
 
 .introduction {
+  margin-bottom:2rem;
   @media screen and (min-width: $bp-phablet) {
     @include flexbox;
     figure {
-      width:45%;
+      width:50%;
       padding-right:1rem;
     }
     div {
       padding-left:1rem;
-      width:55%;
+      width:50%;
       -webkit-flex:1;
       flex:1;
     }
@@ -29,7 +30,6 @@ body{
 }
 
 h1 {
-  font-weight: 400;
   font-size:3.2rem;
   line-height:1.2;
   @media screen and (min-width: $bp-hd) {
@@ -38,7 +38,7 @@ h1 {
 }
 
 h1.title {
-  font-weight:300;
+  font-weight:$font-weight-light;
   margin-top:0;
   font-size:2.2rem;
   text-align:center;
@@ -61,8 +61,8 @@ h1.title {
 .recent-posts{
   ul {
     list-style:none;
-    padding-left:0;
-    margin-left:0;
+    padding:0;
+    margin:0;
   }
   li {
     margin-bottom:3rem;
@@ -86,9 +86,8 @@ h1.title {
   }
   h1 {
     margin:0;
-    font-weight: 300;
     @media screen and (min-width: $bp-hd) {
-      font-size:5.6rem;
+      font-size:4.2rem;
       letter-spacing:-1px;
     }
     a {
@@ -96,7 +95,7 @@ h1.title {
     }
   }
   p.meta {
-    font-family: $sans;
+    font-family: $font-family-display;
     text-transform:uppercase;
     color: $color-muted;
     margin:0;
@@ -105,21 +104,13 @@ h1.title {
       color: $color-muted;
     }
   }
-  .category:before,
-  .reading-time:before {
-    content: "\00a0\2022\00a0";
-    color: inherit;
-  }
-
 }
 
 main {
-  //padding:3rem 0;
 }
 
 .faqs {
   dt {
-    font-weight:bold;
     margin-bottom:0;
   }
   dd {
@@ -132,32 +123,41 @@ main {
 }
 
 .footnotes {
-  font-size:1.4rem;
+  font-size:1.6rem;
+  font-family: $font-sans;
+  color:$color-muted;
 }
 
 .mailchimp {
+  font-size:1.4rem;
   @include flexbox;
   -webkit-align-items:center;
   align-items:center;
-  margin-left:0;
   input[type="email"] {
     -webkit-flex-grow: 1;
+    font-size:2rem;
     flex-grow:1;
-    margin-right:0;
+    margin-right:.5rem;
     padding: .5rem;
-    border:1px solid $color-borders;
-    border-right:none;
+    padding-left:1rem;
+    border:1px solid darken($color-borders, 10%);
+    border-radius:3px;
+    outline:none;
+    &:focus {
+      // if you want focus styles
+    }
   }
   .button{
     background: $color-links;
     color:white;
     text-transform:uppercase;
-    font-size:1.4rem;
-    font-family:$sans;
+    font-family:$font-family-display;
     border:1px solid $color-borders;
-    padding:.9rem 1.5rem;
+    border-radius:3px;
+    padding: 1rem;
+    transition: background-color .3s ease;
     &:hover{
-      background-color:darken($color-links, 10%);
+      background-color:darken($color-links, 15%);
     }
   }
 }
@@ -184,6 +184,29 @@ main {
   }
 }
 
+.logo{
+  background:rgba(255,255,255,.2);
+  padding:.3rem;
+  &:hover {
+    background:rgba(255,255,255,.25);
+  }
+}
+
 .rings {
   text-align: center;
 }
+
+.flex{
+  @include flexbox;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.shot{
+  width:49%;
+}
+
+a[href*="www.twitter.com"]:hover { color: $color-twitter; }
+a[href*="tumblr.kyletress.com"]:hover { color: $color-tumblr; }
+a[href*="www.instagram.com"]:hover { color: $color-instagram; }
+a[href*="www.github.com"]:hover { color: $color-github; }

@@ -1,12 +1,47 @@
-// PREFIXING
-@mixin prefix($property, $value) {
-  -webkit-#{$property}: #{$value};
-  -moz-#{$property}: #{$value};
-  -ms-#{$property}: #{$value};
-  -o-#{$property}: #{$value};
-  #{$property}: #{$value};
+// Prefix
+//@mixin prefix($property, $value) {
+  //-webkit-#{$property}: #{$value};
+  //-moz-#{$property}: #{$value};
+  //-ms-#{$property}: #{$value};
+  //-o-#{$property}: #{$value};
+  //#{$property}: #{$value};
+//}
+
+@mixin prefix($map, $vendors: webkit moz ms o) {
+  @each $prop, $value in $map {
+    @if $vendors {
+      @each $vendor in $vendors {
+        #{"-" + $vendor + "-" + $prop}: #{$value};
+      }
+    }
+    #{$prop}: #{$value};
+  }
 }
 
+// Breakpoints
+@mixin breakpoint($value) {
+  @if $value == phablet {
+    @media (min-width:600px) { @content; }
+  }
+
+  @else if $value == tablet {
+    @media (min-width: 768px ) { @content; }
+  }
+
+  @else if $value == desktop {
+    @media (min-width: 992px) { @content; }
+  }
+
+  @else if $value == hd {
+    @media (min-width: 1200px ) { @content; }
+  }
+
+  @else {
+    @warn "Breakpoint mixin supports: phablet, tablet, desktop, or hd";
+  }
+}
+
+// Flexbox
 @mixin flexbox {
   display: -webkit-box;
   display: -moz-box;
@@ -15,12 +50,19 @@
   display: flex;
 }
 
-@mixin align-items($alignment: stretch) {
-  -webkit-align-items: $alignment;
-  -moz-align-items: $alignment;
-  -ms-align-items: $alignment;
-  align-items: $alignment;
+@mixin align-items($value: stretch) {
+  @include prefix((align-items: $value));
 }
+
+@mixin order($int) {
+  @include prefix((order: $int));
+}
+
+@mixin flex($int) {
+  @include prefix((flex: $int));
+}
+
+// Layout
 
 @mixin container {
   width:$container-width; // 90%
@@ -32,7 +74,7 @@
 }
 
 @mixin border-radius($radius: 0) {
-  @include prefix(border-radius, $radius)
+  @include prefix((border-radius: $radius));
 }
 
 @mixin inline-navigation($margin) {

@@ -1,20 +1,18 @@
 footer[role="site-footer"] {
-  font-family: $sans;
+  font-family: $font-family-display;
   text-transform:uppercase;
-  @include container;
   padding:2rem 0;
   line-height:1.5;
-  font-size:$base-font-size * .9;
+  font-size:1.2rem;
   color:$color-muted;
   text-align:center;
   p {
     margin:0;
   }
-  @media screen and (min-width: $bp-phablet) {
+  @include breakpoint(phablet) {
     @include flexbox;
+    @include align-items(center);
     text-align:left;
-    -webkit-align-items:center;
-    align-items:center;
     nav {
       -webkit-flex:1;
       flex:1;
@@ -29,9 +27,9 @@ footer[role="site-footer"] {
     a {
       color: $color-muted;
       text-decoration:underline;
-      &:hover {
-        color: darken($color-muted, 25%);
-      }
+    //  &:hover {
+    //    color: darken($color-muted, 25%);
+    //  }
     }
   }
 }

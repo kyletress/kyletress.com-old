@@ -1,18 +1,16 @@
 {% capture content %}
 
-{{body}}
+{{ body }}
 
-<section class="project-list">
-  {% for project in posts %}
-
-<figure class="project">
-  <img src="" alt="">
-  <h3><a href="{{project.url}}">{{project.title}}</a></h3>
-  <figcaption>A database of skeleton timesheets dating back to 2004. Built on Ruby on Rails.</figcaption>
-</figure>
-
-{% endfor %}
-
+<section class="recent-posts">
+  <ul>
+    {% for post in posts %}
+    <li>
+      <a href="{{post.url}}">{{post.title}}</a><br>
+      {{ post.meta.description }}
+    </li>
+    {% endfor %}
+  </ul>
 </section>
 
 {% endcapture %}

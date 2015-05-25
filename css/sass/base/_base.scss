@@ -13,10 +13,10 @@ body{
   -webkit-font-smoothing:subpixel-antialiased;
   font: {
     size: $base-font-size * .9;
-    family: $serif;
+    family: $font-family-text;
   }
   color:$color-text;
-  line-height:1.5;
+  line-height:1.6;
   @media screen and (min-width: $bp-tablet) {
     font-size:$base-font-size;
   }
@@ -24,6 +24,7 @@ body{
 
 h1, h2, h3, h4, h5, h6 {
   color:$color-headings;
+  font-family: $font-family-display;
 }
 
 a {
@@ -58,6 +59,9 @@ figcaption{
 
 mark{
   background:rgba(248,231,28,.20);
+  a {
+    color:$color-code;
+  }
 }
 
 img{
@@ -70,7 +74,7 @@ hr {
   border: 0;
   width: 15%;
   height: 3px;
-  margin: 5rem auto;
+  margin: 3rem auto;
 }
 
 pre {
@@ -88,18 +92,22 @@ pre {
     font-weight: 500;
   }
 }
-/* line 73, ../sass/_text.sass */
+
 pre code {
   color: $color-muted;
 }
 
 code {
-  font-family: $code;
+  font-family: $font-family-code;
   padding: 2px 4px;
   font-size: 1.4rem;
   color: $color-code;
   //white-space: nowrap;
   background-color: #f9f2f4;
+}
+
+dt {
+  font-weight:bold;
 }
 
 .dl {
