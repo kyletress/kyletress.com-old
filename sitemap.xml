@@ -23,6 +23,127 @@
   
 
   <url>
+    <loc>http://kyletress.com/reading</loc>
+    <lastmod>2015-05-25T20:34:48+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/reading/sapiens</loc>
+    <lastmod>2015-05-24T04:41:12+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/reading/the-wright-brothers</loc>
+    <lastmod>2015-05-22T03:20:34+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/reading/how-adam-smith-can-change-your-life</loc>
+    <lastmod>2015-05-14T18:37:47+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/reading/zero-to-one</loc>
+    <lastmod>2015-05-14T18:36:39+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/reading/resilience</loc>
+    <lastmod>2015-05-25T20:41:13+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/reading/becoming-steve-jobs</loc>
+    <lastmod>2015-03-25T18:15:43+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/reading/michael-jackson-inc</loc>
+    <lastmod>2014-12-27T00:32:55+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/reading/letters-from-a-stoic</loc>
+    <lastmod>2014-11-29T20:26:43+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/reading/10-percent-happier</loc>
+    <lastmod>2014-11-02T16:06:26+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/reading/the-life-changing-magic-of-tidying-up</loc>
+    <lastmod>2014-10-25T19:37:16+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/reading/how-to-live</loc>
+    <lastmod>2014-10-18T03:09:31+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/reading/discourses</loc>
+    <lastmod>2014-10-18T03:01:16+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/reading/a-short-history-of-nearly-everything</loc>
+    <lastmod>2014-10-10T04:39:14+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/reading/a-guide-to-the-good-life</loc>
+    <lastmod>2014-10-18T03:06:48+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/reading/the-art-of-learning</loc>
+    <lastmod>2014-09-28T04:07:26+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/reading/superintelligence</loc>
+    <lastmod>2014-09-01T03:14:42+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/reading/philosophy-for-life-and-other-dangerous-situations</loc>
+    <lastmod>2014-09-01T03:20:51+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/reading/the-obstacle-is-the-way</loc>
+    <lastmod>2014-09-01T03:23:26+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/reading/meditations</loc>
+    <lastmod>2015-03-27T21:18:44+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+
+  <url>
     <loc>http://kyletress.com/projects</loc>
     <lastmod>2015-05-25T20:28:18+00:00</lastmod>
     <priority>1.0</priority>

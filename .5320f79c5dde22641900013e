@@ -1,5 +1,5 @@
 ---
-time: 1432586062
+time: 1432586484
 inventory:
   "/home/index.html":
     md5: 653695abe8aa94e2c4a36b1084936998
@@ -13,6 +13,198 @@ inventory:
   "/skeleton/index.html":
     md5: bf93d48c9c4fcdf688d5e99c2307a04e
     time: 1432585643
+  "/reading/index.html":
+    md5: 7b233e6eac33a484c7d7f6e2ec50505b
+    time: 1432586477
+  "/reading/sapiens/index.html":
+    md5: 1baaacc420e17c0c41661e69a037e3f3
+    time: 1432586477
+  "/reading/the-wright-brothers/index.html":
+    md5: 93a0dd209c4c32e8ac6c7735fbdacc86
+    time: 1432586477
+  "/reading/how-adam-smith-can-change-your-life/index.html":
+    md5: 3a1b51a3bd481005b2324d0c8f5733b0
+    time: 1432586477
+  "/reading/zero-to-one/index.html":
+    md5: 365bd638b53cd6216c3a714d832bbe8a
+    time: 1432586477
+  "/reading/resilience/index.html":
+    md5: 1cd325e783003a0fe825440a45521348
+    time: 1432586477
+  "/reading/becoming-steve-jobs/index.html":
+    md5: 90f1036b8ce088c7dbd6b06698a0bb88
+    time: 1432586477
+  "/reading/michael-jackson-inc/index.html":
+    md5: d8fd3afc3ebb56a2a9d37a8401cd3c70
+    time: 1432586477
+  "/reading/letters-from-a-stoic/index.html":
+    md5: 21f4fdb5ea74c5294958e9e249dd34ff
+    time: 1432586477
+  "/reading/10-percent-happier/index.html":
+    md5: 0fb0c435b45290e59fa04c5b6fcf5670
+    time: 1432586477
+  "/reading/the-life-changing-magic-of-tidying-up/index.html":
+    md5: a105e87759575502b2fac4b1d394d337
+    time: 1432586477
+  "/reading/how-to-live/index.html":
+    md5: c3a4c5ca22362d7caa56eece5b77ff3e
+    time: 1432586477
+  "/reading/discourses/index.html":
+    md5: 081e7f1e8843fd236e05676c81183412
+    time: 1432586477
+  "/reading/a-short-history-of-nearly-everything/index.html":
+    md5: 5a1e6e4b0e45fc9d446ba404100a36c1
+    time: 1432586477
+  "/reading/a-guide-to-the-good-life/index.html":
+    md5: b499b1f0f9cff80b1044cdb4305456b4
+    time: 1432586477
+  "/reading/the-art-of-learning/index.html":
+    md5: e575754b5e70d28ccb5ef6a41efed257
+    time: 1432586477
+  "/reading/superintelligence/index.html":
+    md5: a1513ac3f8e14ac76eecf6ca3ac77925
+    time: 1432586478
+  "/reading/philosophy-for-life-and-other-dangerous-situations/index.html":
+    md5: 06a21d78bbaccf167096d8599b9dd759
+    time: 1432586478
+  "/reading/the-obstacle-is-the-way/index.html":
+    md5: 05fc8e7643e1c49d3475c21556ad213c
+    time: 1432586478
+  "/reading/meditations/index.html":
+    md5: 11ece8a6fa34b1065aad1f3853c9ef8c
+    time: 1432586478
+  "/reading/archive/index.html":
+    md5: 7bd35e33fa0d5008d858aede4856ca44
+    time: 1432586478
+  "/reading/tags/index.html":
+    md5: 084f11ae135405ec0bdc8050350a7742
+    time: 1432586478
+  "/reading/tags/aviation/index.html":
+    md5: 5e9cfafe2e11e3d9e7535ab60b063a5d
+    time: 1432586478
+  "/reading/tags/business/index.html":
+    md5: 66b526aea79bdc31e627f305f6be0e8a
+    time: 1432586478
+  "/reading/tags/music/index.html":
+    md5: 9adfa3e5e0f6eb0da6ce66cd698f573b
+    time: 1432586478
+  "/reading/tags/biography/index.html":
+    md5: e3b778da6c62b5c2b9d9f1db3cdac564
+    time: 1432586478
+  "/reading/tags/philosophy/index.html":
+    md5: 5e5b5d559e3fe9243baff91e927bc99c
+    time: 1432586478
+  "/reading/tags/stoicism/index.html":
+    md5: 51374e62ab5d835ff20d13e978787e12
+    time: 1432586478
+  "/reading/tags/memoir/index.html":
+    md5: a678626ee76e692b5271e0b0576f30a8
+    time: 1432586478
+  "/reading/tags/meditation/index.html":
+    md5: d0c9762ac1e74a2566727095ef68a948
+    time: 1432586478
+  "/reading/tags/japan/index.html":
+    md5: be421dd192f6946c02a8c62b96ebbf45
+    time: 1432586478
+  "/reading/tags/tidying/index.html":
+    md5: 4a4f5af55a25902a2a8265d3b914b772
+    time: 1432586478
+  "/reading/tags/organization/index.html":
+    md5: 0e697f32e0a2800ca41635f9525d7ca0
+    time: 1432586478
+  "/reading/tags/minimalism/index.html":
+    md5: c924bf22700527b8d48e7c8f0bdd2582
+    time: 1432586478
+  "/reading/tags/science/index.html":
+    md5: 9c07dfe01e7f5a42fa321516e14e1ee6
+    time: 1432586478
+  "/reading/tags/learning/index.html":
+    md5: 610b51ea53fc47579f3473aab088cbcd
+    time: 1432586478
+  "/reading/tags/chess/index.html":
+    md5: e2d849486b5e85440ca177430abb334b
+    time: 1432586478
+  "/reading/tags/artificial-intelligence/index.html":
+    md5: 8ae578251cadb5ca43fc0e39d5bf3c30
+    time: 1432586478
+  "/reading/tags/singularity/index.html":
+    md5: 7b914c72f401f1026e36e4a7d95828bd
+    time: 1432586478
+  "/reading/tags/futurology/index.html":
+    md5: d30f33022c8e92804781a615decc4375
+    time: 1432586478
+  "/reading/author/index.html":
+    md5: f0d09a288d349b41385efe43ab9fb3b2
+    time: 1432586478
+  "/reading/author/yuval-noah-hasari/index.html":
+    md5: ae3b7be7db3eaa215102b10b409a40eb
+    time: 1432586478
+  "/reading/author/david-mccullough/index.html":
+    md5: db8bd49d1dae787d49ba8f67c23cae3e
+    time: 1432586478
+  "/reading/author/russ-roberts/index.html":
+    md5: 09b506894cd49b8c73f66b64d8c49d49
+    time: 1432586478
+  "/reading/author/peter-theil/index.html":
+    md5: a93da26bb0ff87b0dde868a93ba6e097
+    time: 1432586478
+  "/reading/author/eric-greitens/index.html":
+    md5: b7c9f7867f7c8a00f7678092560b8673
+    time: 1432586478
+  "/reading/author/zach-omalley-greenburg/index.html":
+    md5: d86214149499d724693d0d0e2301f1c0
+    time: 1432586478
+  "/reading/author/seneca/index.html":
+    md5: 78c520d5d2a3f744642d39093c4c1190
+    time: 1432586478
+  "/reading/author/dan-harris/index.html":
+    md5: 3a32f614be21eb8cf30ec2b0de68b23b
+    time: 1432586478
+  "/reading/author/marie-kondo/index.html":
+    md5: a5b227480d3ae6d6bfb05893f2086452
+    time: 1432586478
+  "/reading/author/sarah-bakewell/index.html":
+    md5: a32e9f25514a8b03b02d82a668914f81
+    time: 1432586478
+  "/reading/author/epictetus/index.html":
+    md5: a5bd088f4e5923650a70ecc89400cbc0
+    time: 1432586478
+  "/reading/author/bill-bryson/index.html":
+    md5: 61a684bfc55cdd2bee279365a499e0e8
+    time: 1432586478
+  "/reading/author/william-b-irvine/index.html":
+    md5: 23578f2d288dcf72f0eeb955a708c88d
+    time: 1432586478
+  "/reading/author/josh-waitzkin/index.html":
+    md5: f857cfdefc7586d3c1ae16252c980d7d
+    time: 1432586478
+  "/reading/author/nick-bostrom/index.html":
+    md5: 00e5d87a90c18da7dee3453f827b196d
+    time: 1432586478
+  "/reading/author/jules-evans/index.html":
+    md5: 14e8f4c53a000a34380c83c16eea4c29
+    time: 1432586478
+  "/reading/author/ryan-holiday/index.html":
+    md5: 2820de38fca242058bc3d6e6c3f57f4f
+    time: 1432586478
+  "/reading/author/marcus-aurelius/index.html":
+    md5: b3f4100731f979835bfcc6e95fabceac
+    time: 1432586478
+  "/reading/author/gregory-hays/index.html":
+    md5: f7841c294f862425eabde43ac42b8d39
+    time: 1432586478
+  "/reading/publisher/index.html":
+    md5: 2bef5be23c4bcc7a70e93bd3b82029cb
+    time: 1432586478
+  "/reading/publisher/new-world-library/index.html":
+    md5: 6376de3084accacd820b3c55f8149054
+    time: 1432586478
+  "/reading/publisher/penguin-books/index.html":
+    md5: 65e087bb92f30b44fbff1a8a1b652696
+    time: 1432586478
+  "/reading/publisher/modern-library/index.html":
+    md5: 24a92efabe48ad1e19154ff6e92a3b5a
+    time: 1432586478
   "/projects/index.html":
     md5: b17c7b779ef5a28c5aa4d58f9166cb1d
     time: 1432586058
@@ -203,11 +395,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   "/sitemap.xml":
-    md5: b181ebfd187a391fc2b1b1ae96a6defb
-    time: 1432586062
+    md5: 6e9ca683675e4af08103f179c4b4cc97
+    time: 1432586481
   "/feed.xml":
-    md5: 1c29cc5d4e199f06693a19fc00245677
-    time: 1432586062
+    md5: 49d2e23da60a0325a5252303d101f898
+    time: 1432586481
   "/assets/washington-crossing.jpg":
     md5: 550b69d7994859ac55cbb112cc23e1d1
     time: 1407895647
@@ -259,9 +451,6 @@ inventory:
   "/css/master.css.map":
     md5: 659b69ecfba881291bc1044f690be754
     time: 1429128002
-  "/assets/IMG_1065.JPG":
-    md5: 83fe3b2e821dbdfa62ad5623f0000cf8
-    time: 1432585586
   "/assets/rings.svg":
     md5: 36267ea2b035dbe6a3c4efb92e3b2cd8
     time: 1432585586
