@@ -1,0 +1,110 @@
+
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="The personal website of Olympic skeleton athlete Kyle Tress">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Kyle Tress - Sledsheet</title>
+
+  <link rel="icon" href="/favicon.ico" type="image/ico">
+  <link rel="stylesheet" href="/css/master.css">
+
+  <script src="//use.typekit.net/oia2txu.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+</head>
+
+<body class="Projects container">
+  <header role="banner">
+  <img src="/assets/headshot.png" width="65" height="65" alt="" class="img-rounded">
+  <nav class="navigation">
+    <p>Kyle Tress &mdash; Olympian. Writer. Developer.</p>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/skeleton">Skeleton</a></li>
+      <li><a href="/reading">Reading</a></li>
+      <li><a href="/projects">work</a></li>
+      <li><a href="/newsletter">Newsletter</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <main>
+    
+<header class="content-header">
+  <h1>Sledsheet</h1>
+</header>
+<p>Sledsheet is a timesheet analysis application and a database of skeleton results dating back to 1999. I built the app in Ruby on Rails, and I am responsible for its design, development, and maintenance. The <a href="http://www.github.com/kyletress/sledsheet4">source code</a> is on GitHub and you can view the site at <a href="http://www.sledsheet.com">www.sledsheet.com</a>. </p>
+
+<div class="flex">
+<figure class="shot">
+<img src="/assets/sledsheet-timesheet-index.png"> 
+<figcaption>The Timesheet#Index page is the center of the app</figcaption>
+</figure>
+<figure class="shot">
+<img src="/assets/sledsheet-timesheet-show.png"> 
+<figcaption>The Timesheet#Show page with race results</figcaption>
+</figure>
+</div>
+
+<h2>History</h2>
+
+<p>In 2007 I co-created a small social network and satirical news site for the skeleton community called <a href="https://web.archive.org/web/20070224151037/http://sliderguide.com/">SliderGuide</a>. I was primarily responsible for the visual design, content, and front-end development of that site. My cofounder Chris built the back-end with Ruby on Rails, which was my introduction to the framework. As a designer, I was impressed with the readability of Ruby. I decided to learn Rails so I could build some personal projects.  </p>
+
+<p>Sledsheet was my first production app. Initially built on Rails 2, I re-wrote it for Rails 3.1 and again for Rails 4, mostly as an exercise in improving my skills and learning the new features of each release.</p>
+
+<h2>The Problem</h2>
+
+<p>I specifically learned Rails to build <em>this</em> app. I wanted an easy way to analyze my training timesheets, which are typically delivered as PDF files. As a sled travels down the track, we trigger a series of 6 timing eyes from start to the finish. The PDF shows the <em>split time</em> recorded at each timing eye, as well as an athlete’s <em>position</em> at that eye. While useful, there is additional data that can be extracted using simple math. For instance, by subtracting the split times between two eyes, you can see how long it took to travel a particular distance. This is called the <em>intermediate time</em>, and it’s useful for determining where an athlete gained or lost time on the track. Another useful calculation is the <em>difference</em> between two athletes (one usually being the fastest sled of the heat). </p>
+
+<div class="flex">
+<figure class="shot">
+<img src="/assets/intermediates.png"> 
+<figcaption>The Intermediates</figcaption>
+</figure>
+<figure class="shot">
+<img src="/assets/tracks.png"> 
+<figcaption>A Track page with historical data</figcaption>
+</figure>
+</div>
+
+<p>What makes Sledsheet useful is that you don’t have to calculate these numbers manually, and the analysis isn’t limited to a specific day. It’s just as easy (and far more useful) to compare to a different day with similar weather conditions, or perhaps to the fastest run ever on that track. </p>
+
+<h2>Technology and Features</h2>
+
+<p>Sledsheet supports manual entry of timesheet information, or automated entry from the <a href="http://www.fibt.com">fibt.com</a> website. Using a custom Nokogiri script I was able to import almost 10,000 runs spanning 10 competitive seasons in just a few minutes. As a run is saved, the intermediates are calculated and stored, and the differences are calculated on the fly. Rank is calculated at the database level with Postgres. Run data can be graphed for a visual representation of how each athlete performed compared to the rest of the field. </p>
+
+<p>The official track PDF timesheet can be uploaded to Amazon Web Services, or the user can export a timesheet with specific athletes and data (not yet available on the current release).</p>
+
+<p>The site is hosted on Heroku.  </p>
+
+<h2>The Data Model</h2>
+
+<p>Sledsheet revolves around the <code>Timesheet</code> model. A Timesheet <code>has_many</code> entries. An <code>Entry</code> is a collection of runs on a given day for a particular <code>Athlete</code>. Each Entry <code>has_many</code> runs. A <code>Run</code> holds the actual split data for one trip down the track. There are additional models for things like <code>Season</code>, <code>Track</code>, and <code>Circuit</code>.    </p>
+
+<h2>The Future</h2>
+
+<p>I’m currently building a JSON API with basic authentication to act as the backend to an iOS app. Presently my plan is to release the app purely as a database of historical race records, but in time I’d like to add a live timing feature. Ultimately, I think the analysis and management features are best suited to a mobile app rather than a web app, so I’ll probably build a second app for that.</p>
+
+
+  </main>
+  <footer role="site-footer">
+  <div class="rings"><img src="/assets/rings4.svg" width="64"></div>
+  <nav>
+    <p>&copy; 2007 &ndash; 2015 Kyle Tress. Mens sana in corpore sano.</p>
+    <ul>
+      <li><a href="http://www.twitter.com/kyletress">Twitter</a></li>
+      <li><a href="http://www.instagram.com/kyletress">Instagram</a></li>
+      <li><a href="http://www.github.com/kyletress">GitHub</a></li>
+      <li><a href="http://kyletress.tumblr.com">Tumblr</a></li>
+      <li><a href="mailto:kyle@kyletress.com">Email</a></li>
+    </ul>
+  </nav>
+</footer>
+
+  </body>
+</html>
+
