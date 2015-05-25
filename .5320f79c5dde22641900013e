@@ -1,5 +1,5 @@
 ---
-time: 1432585591
+time: 1432585644
 inventory:
   "/home/index.html":
     md5: 653695abe8aa94e2c4a36b1084936998
@@ -10,159 +10,21 @@ inventory:
   "/about/index.html":
     md5: f19fc3caa911a85445f8fe2f3099ce0d
     time: 1432585583
+  "/skeleton/index.html":
+    md5: bf93d48c9c4fcdf688d5e99c2307a04e
+    time: 1432585643
   "/about/cv/index.html":
     md5: 5d48c389ef6a4912d4201b623a4a67fe
     time: 1432585583
-  "/skeleton/faqs/index.html":
-    md5: 77ca33ac3d1dadb27bcba71cf60e2fce
-    time: 1432585584
-  "/skeleton/faqs/how-should-i-prepare-for-skeleton-school/index.html":
-    md5: f1531d33888fcd5a3042149434293331
-    time: 1432585584
-  "/skeleton/faqs/how-much-longer-will-you-compete/index.html":
-    md5: 072f4ae3e7b8d2c3b9c39240e7cca2de
-    time: 1432585584
-  "/skeleton/faqs/what-is-your-best-world-cup-finish/index.html":
-    md5: cc6f61ce8025103bf008ea64a9e4ff44
-    time: 1432585584
-  "/skeleton/faqs/when-should-i-buy-my-first-sled/index.html":
-    md5: 4c0b5d452839cfd21c62309ad84a8155
-    time: 1432585584
-  "/skeleton/faqs/what-kind-of-training-should-i-be-doing/index.html":
-    md5: 5fe4dce9c324f0bce99587573ad14c08
-    time: 1432585584
-  "/skeleton/faqs/how-long-before-i-make-the-national-team/index.html":
-    md5: 530f6112101efd74b0d399ef464d0903
-    time: 1432585584
-  "/skeleton/faqs/which-track-is-the-hardest/index.html":
-    md5: d90d7a9d3e54912559c7fd1bc069e555
-    time: 1432585584
-  "/skeleton/faqs/which-supplements-do-you-take/index.html":
-    md5: 3a3fc682185a50ca0f323f75e041f6f2
-    time: 1432585584
-  "/skeleton/faqs/how-has-skeleton-changed-your-life/index.html":
-    md5: 0e4ec664d1948d6a0a7ee7d700639445
-    time: 1432585584
-  "/skeleton/faqs/what-is-one-thing-that-skeleton-has-taught-you/index.html":
-    md5: 620fb4291b8f7bf140e50a83459e9fc0
-    time: 1432585584
-  "/skeleton/faqs/whats-your-proudest-accomplishment/index.html":
-    md5: ef2fa809811e8e9f7d8779a5b525bdb5
-    time: 1432585584
-  "/skeleton/faqs/what-is-the-combine/index.html":
-    md5: d8e2f1bcd19079f4c67cddd45c6c5a74
-    time: 1432585584
-  "/skeleton/faqs/how-expensive-is-it-to-make-a-track/index.html":
-    md5: 747dde23465f60a9e92ed1a546064282
-    time: 1432585584
-  "/skeleton/faqs/have-you-competed-on-every-track/index.html":
-    md5: 3bb029988b0e131fc7990b7b838e67bd
-    time: 1432585584
-  "/skeleton/faqs/which-countries-have-skeleton-tracks/index.html":
-    md5: f3893063ce45be17b19b45008531e83a
-    time: 1432585584
-  "/skeleton/faqs/how-do-you-train-in-the-winter/index.html":
-    md5: fc1af66030eeeaa8f7664fa6dff7943f
-    time: 1432585584
-  "/skeleton/faqs/is-skeleton-easy/index.html":
-    md5: cc90054fc2cef12828700ddece37b8f5
-    time: 1432585585
-  "/skeleton/faqs/how-do-i-get-started/index.html":
-    md5: 366ad637dacdcbaf0989f9e995fd123d
-    time: 1432585585
-  "/skeleton/faqs/whats-it-like-going-90-miles-per-hour-headfirst/index.html":
-    md5: 0a1a7e3595cded279cb7bc9d61848bc2
-    time: 1432585585
-  "/skeleton/faqs/did-you-like-your-ugly-opening-ceremonies-sweater/index.html":
-    md5: 6a545a800d7e9ef225890828ae09cb99
-    time: 1432585585
-  "/skeleton/faqs/will-you-be-back-for-the-2018-olympics/index.html":
-    md5: 3a11aed96b2725af54b79d2bc61b3129
-    time: 1432585585
-  "/skeleton/faqs/what-was-your-favorite-part-of-the-olympic-games/index.html":
-    md5: aca82fa20ed079eb7284521bca71b3c2
-    time: 1432585585
-  "/skeleton/faqs/which-runners-should-i-use/index.html":
-    md5: 0205d92267f3392bed438c2fdfe68512
-    time: 1432585585
-  "/skeleton/faqs/who-makes-your-sled-and-runners/index.html":
-    md5: 240e3dfcafe1c400ae0c123d0b25acd8
-    time: 1432585585
-  "/skeleton/faqs/who-makes-the-best-skeleton-equipment/index.html":
-    md5: 4a7ce46a2774ea722923bc8ce2dc83e2
-    time: 1432585585
-  "/skeleton/faqs/what-makes-a-great-skeleton-athlete/index.html":
-    md5: 9209698c3d788d435ce6322c67e9ffbe
-    time: 1432585585
-  "/skeleton/faqs/what-were-the-olympics-like/index.html":
-    md5: 84ea44f7c887b0ce34a829fad031b8c5
-    time: 1432585585
-  "/skeleton/faqs/what-can-you-squat-bench-clean/index.html":
-    md5: 1f3684b6c9dcdde731659d752920096d
-    time: 1432585585
-  "/skeleton/faqs/training-program/index.html":
-    md5: ea33c81a6125d1d19fa3599f68af2658
-    time: 1432585585
-  "/skeleton/faqs/will-i-get-hurt/index.html":
-    md5: 1d69ebd466819792fbcfee52cd37f3fa
-    time: 1432585585
-  "/skeleton/faqs/whats-the-best-body-type-for-skeleton/index.html":
-    md5: 0d29f6f5082540cac0da8b6b886753a9
-    time: 1432585585
-  "/skeleton/faqs/i-want-to-be-an-olympic-skeleton-athlete-what-do-i-need-to-do/index.html":
-    md5: 85fa810938959804da1f8689c41a0079
-    time: 1432585585
-  "/skeleton/faqs/how-did-you-get-started/index.html":
-    md5: c03e2548c79a379f0b5faa26928b1aea
-    time: 1432585585
-  "/skeleton/faqs/are-you-insane/index.html":
-    md5: 0f33f3cbe1f2f226fa8ca981fa24e6c5
-    time: 1432585585
-  "/skeleton/faqs/have-you-ever-crashed/index.html":
-    md5: d3f406c934f4e302ea04e7e83289419f
-    time: 1432585585
-  "/skeleton/faqs/whats-the-fastest-youve-ever-gone/index.html":
-    md5: 7c53607024ffbdf55b92d32f7aa2dcaf
-    time: 1432585585
-  "/skeleton/faqs/whats-your-least-favorite-track/index.html":
-    md5: 63352b6e0fff24192abfa3f9ba66de97
-    time: 1432585586
-  "/skeleton/faqs/whats-your-favorite-track/index.html":
-    md5: 98bf1d2cdff60fddfec3ca809efd2971
-    time: 1432585586
-  "/skeleton/faqs/archive/index.html":
-    md5: 642d3fa8f895c32be36624f9679e9355
-    time: 1432585586
-  "/skeleton/faqs/tags/index.html":
-    md5: 63def95ad8b57b819e6882309cfde508
-    time: 1432585586
-  "/skeleton/faqs/tags/the-basics/index.html":
-    md5: c3cb34ca3ddcac58b99ec785879aa83b
-    time: 1432585586
-  "/skeleton/faqs/tags/sliding/index.html":
-    md5: 376386bc57b948eb4dac09029ca0ddec
-    time: 1432585586
-  "/skeleton/faqs/tags/equipment/index.html":
-    md5: 9cdeb95bf02e4b542e9f9e13452fbd48
-    time: 1432585586
-  "/skeleton/faqs/tags/training/index.html":
-    md5: 492a942e0365904b205e135727dca5f0
-    time: 1432585586
-  "/skeleton/faqs/tags/tracks/index.html":
-    md5: e5c721de250b0f28ee4578b1700bc427
-    time: 1432585586
-  "/skeleton/faqs/tags/the-olympics/index.html":
-    md5: 1f1a43867202cb4cbfb2428abf40bd73
-    time: 1432585586
   "/CNAME":
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   "/sitemap.xml":
-    md5: c4566585b644ea6daedd0b3b526dbd99
-    time: 1432585586
+    md5: f8b66cae0298fc4f2cbe046ccc6fe0c8
+    time: 1432585644
   "/feed.xml":
-    md5: 353dc0c8f75c80081e21943954edb0a4
-    time: 1432585586
+    md5: 766f5eb95778f1008ce26e2c0b5ebb1b
+    time: 1432585644
   "/assets/washington-crossing.jpg":
     md5: 550b69d7994859ac55cbb112cc23e1d1
     time: 1407895647
