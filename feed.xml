@@ -3,7 +3,89 @@
   <channel>
     <title>Kyle Tress</title>
     <link>http://kyletress.com</link>
-    <pubDate>Mon, 29 Jun 2015 16:11:52 -0400</pubDate>
+    <pubDate>Tue, 30 Jun 2015 18:21:02 -0400</pubDate>
+    
+    <item>
+      <title>A workflow for updating USADA</title>
+      <link>http://kyletress.com/essays/usada-workflow</link>
+      <pubDate>Tue, 30 Jun 2015 16:13:00 -0400</pubDate>
+      <author>Kyle Tress</author>
+      <guid>http://kyletress.com/essays/usada-workflow</guid>
+      <description>&lt;p&gt;As an Olympian, I&amp;rsquo;m subject to frequent random drug testing by the &lt;a href=&quot;http://www.usada.org&quot;&gt;United States Anti-Doping Administration&lt;/a&gt;. I&amp;rsquo;m in the &lt;em&gt;International Testing Pool&lt;/em&gt;, which means I&amp;rsquo;m required to provide USADA with a daily 60-minute time slot. Though technically I can be tested at any time, I &lt;em&gt;must&lt;/em&gt; be at my designated location during this 60-minute window or I&amp;rsquo;ll receive a missed test. Three missed tests in a 12-month period could result in a ban, so it&amp;rsquo;s important that I&amp;rsquo;m diligent with my updates. The problem is I&amp;rsquo;m not always diligent, and I imagine other athletes aren&amp;rsquo;t either. &lt;/p&gt;
+
+&lt;p&gt;There are lots of ways to update USADA, but by far the easiest is to send an email to &lt;a href=&quot;mailto:update@usada.org&quot;&gt;update@usada.org&lt;/a&gt;. Most of my teammates set a blanket 60-minute time slot for the entire quarter, then update via email as their plans change. This is simple and easy, but not without its inconveniences. First, it&amp;rsquo;s annoying to have to write the same email every time. Second, I might not have the address at my location. As a developer, I saw an opportunity to remove some of the headache and repetition for myself and other athletes. &lt;/p&gt;
+
+&lt;p&gt;USADA has a mobile app, but it frequently crashes and it&amp;rsquo;s hard to use&lt;sup id=&quot;fnref1&quot;&gt;&lt;a href=&quot;#fn1&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. Their website isn&amp;rsquo;t much better. There&amp;rsquo;s no public API, so I couldn&amp;rsquo;t create my own app. I wanted the simplicity of email updates with the convenience of a &amp;lsquo;native&amp;rsquo; mobile app. Enter &lt;a href=&quot;https://workflow.is&quot;&gt;Workflow&lt;/a&gt;.   &lt;/p&gt;
+
+&lt;h2&gt;Workflow App&lt;/h2&gt;
+
+&lt;p&gt;Workflow is an app that bills itself as &amp;lsquo;powerful automation made simple&amp;rsquo;. Federico Viticci of MacStories.net wrote &lt;a href=&quot;http://www.macstories.net/reviews/workflow-review-integrated-automation-for-ios-8/&quot;&gt;a terrific review of Workflow&lt;/a&gt;, so I won&amp;rsquo;t retread that ground here. Suffice it to say, Workflow makes it possible to automate repetitive tasks by taking advantage of native iOS functionality. A workflow can be saved on the home screen of your device and act as its own little native app. &lt;/p&gt;
+
+&lt;h3&gt;Update USADA Workflow&lt;/h3&gt;
+
+&lt;p&gt;Given my requirements, setting up the workflow was easy. Here&amp;rsquo;s how it works:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Get the current location and save it as a variable &lt;code&gt;location&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Ask the user for a 60-minute time slot, and save it as &lt;code&gt;timeslot&lt;/code&gt;. &lt;/li&gt;
+&lt;li&gt;Create an email to &lt;a href=&quot;mailto:update@usada.org&quot;&gt;update@usada.org&lt;/a&gt; with the &lt;code&gt;location&lt;/code&gt; and &lt;code&gt;timeslot&lt;/code&gt; pre-populated in the body. &lt;/li&gt;
+&lt;li&gt;Send the email.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/assets/workflow-1.png&quot;&gt; 
+  &lt;figcaption&gt;Creating the workflow&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/assets/workflow-2.png&quot;&gt; 
+  &lt;figcaption&gt;Entering a 60-minute window&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;/assets/workflow-3.png&quot;&gt; 
+&lt;figcaption&gt;The compose sheet if more info is necessary&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;/assets/workflow-7.png&quot;&gt; 
+&lt;figcaption&gt;Putting the &amp;lsquo;app&amp;rsquo; on the home screen&lt;/figcaption&gt;
+&lt;/figure&gt;
+ 
+
+&lt;p&gt;That&amp;rsquo;s it. With one tap from my iPhone or iPad, I can instantly update USADA with my current whereabouts and a new 60-minute time slot, all without writing an email or opening Maps. If I need to add additional details, I can choose to show the &amp;lsquo;Compose Sheet&amp;rsquo;, but I normally just let Workflow send the email instantly.&lt;/p&gt;
+
+&lt;p&gt;Updating is even easier on the Apple Watch. I open Workflow, press the &amp;lsquo;Update USADA&amp;rsquo; button, and I&amp;rsquo;m done. &lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;/assets/worklow-4.jpg&quot;&gt; 
+&lt;figcaption&gt;Launching from Apple Watch&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;shot&quot;&gt;
+&lt;img src=&quot;/assets/workflow-5.jpg&quot;&gt; 
+&lt;figcaption&gt;Getting the location&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;shot&quot;&gt;
+&lt;img src=&quot;/assets/workflow-6.jpg&quot;&gt; 
+&lt;figcaption&gt;Sending the email&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Are you a USADA athlete with an iOS device? &lt;a href=&quot;https://workflow.is/workflows/a63ae7a9649f48dda111b2c4d917198c&quot;&gt;Download my &lt;em&gt;Update USADA&lt;/em&gt; workflow&lt;/a&gt;. You&amp;rsquo;ll need the Workflow app to use it.  &lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+
+&lt;li id=&quot;fn1&quot;&gt;
+&lt;p&gt;My biggest criticism of the app is that it was clearly built with a cross-platform solution such as &lt;a href=&quot;http://xamarin.com&quot;&gt;Xamarin&lt;/a&gt; to make it available for Android and iOS. The proposed benefit is a single codebase that works on both platforms, but the result is often a mess that isn&amp;rsquo;t optimized for either. The resulting crashes and conflicts with the &lt;a href=&quot;https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/&quot;&gt;iOS Human Interface Guidelines&lt;/a&gt; demonstrate the latter.&amp;nbsp;&lt;a href=&quot;#fnref1&quot; rev=&quot;footnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Sapiens</title>
@@ -203,18 +285,6 @@
       <description>&lt;p&gt;I advise people to wait at least &lt;em&gt;one full season&lt;/em&gt; before purchasing equipment. Most people ignore this advice.&lt;/p&gt;
 
 &lt;p&gt;The reason I recommend you wait is because you won&amp;rsquo;t have any clue what you&amp;rsquo;re doing your first year. You&amp;rsquo;ll probably have 2-3 months of time on the track, and you might take 10-15 runs per week. This time should be dedicated to building awareness, perfecting your form, getting a feel for the track, and soaking up as much knowledge as you can from the coaches. Messing around with equipment to try and go faster isn&amp;rsquo;t a priority yet. Plus, any sled you buy will likely be too sensitive for your abilities. The same goes with runners.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>What kind of training should I be doing?</title>
-      <link>http://kyletress.com/skeleton/faqs/what-kind-of-training-should-i-be-doing</link>
-      <pubDate>Sun, 10 Aug 2014 17:02:00 -0400</pubDate>
-      <author>Kyle Tress</author>
-      <guid>http://kyletress.com/skeleton/faqs/what-kind-of-training-should-i-be-doing</guid>
-      <description>&lt;p&gt;I recommend you find a good sprint coach, as speed development is probably the most important training for skeleton. If you&amp;rsquo;re in high school, join the track team. Otherwise, ask around at local colleges and find a coach you can train with once or twice per week.&lt;/p&gt;
-
-&lt;p&gt;Strength is important too. You will need to focus on major lifts like squats and presses. Familiarizing yourself with the Olympic lifts (like the power clean) and get help if necessary. Proper form is important. &lt;/p&gt;
 </description>
     </item>
     

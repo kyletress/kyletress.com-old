@@ -1,5 +1,5 @@
 ---
-time: 1435702785
+time: 1435702868
 inventory:
   "/home/index.html":
     md5: 653695abe8aa94e2c4a36b1084936998
@@ -10,6 +10,36 @@ inventory:
   "/about/index.html":
     md5: f19fc3caa911a85445f8fe2f3099ce0d
     time: 1432585583
+  "/essays/index.html":
+    md5: d9f98206e3903fe7f0a4b8f854ffe0db
+    time: 1435702856
+  "/essays/usada-workflow/index.html":
+    md5: aeb559218eb5e8efd602ca042eb18196
+    time: 1435702856
+  "/essays/archive/index.html":
+    md5: dd3db362f50c4807dea9e76ba34e207f
+    time: 1435702856
+  "/essays/tags/index.html":
+    md5: b3a7d30a65be274973f4dd2a291875c0
+    time: 1435702856
+  "/essays/tags/usada/index.html":
+    md5: 662e7fe46cba46af0a2af0fa4b6b859d
+    time: 1435702856
+  "/essays/tags/workflow/index.html":
+    md5: 1f3abe86ff3615c5bc257d5042da71c9
+    time: 1435702856
+  "/essays/tags/apps/index.html":
+    md5: 1e87f7a10498f0faf6d48413abb138cc
+    time: 1435702856
+  "/essays/tags/ios/index.html":
+    md5: 9770baae00aef9a3070d23bc239f0f04
+    time: 1435702856
+  "/essays/category/index.html":
+    md5: cb75507626ed8303473b9df89c1733b3
+    time: 1435702856
+  "/essays/category/technology/index.html":
+    md5: 0340e293a576c2d304139cfca8e2410d
+    time: 1435702857
   "/skeleton/index.html":
     md5: bf93d48c9c4fcdf688d5e99c2307a04e
     time: 1432585643
@@ -395,11 +425,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   "/sitemap.xml":
-    md5: c725d064c061803476dd388065630988
-    time: 1435608712
+    md5: dedddf1eebc54cf7e4e6e73a5bd9f34c
+    time: 1435702862
   "/feed.xml":
-    md5: 9e8b143b33c52e1dd0252eb1c622907f
-    time: 1435608713
+    md5: 2b5f8480cebf6887cd0d8999226e0046
+    time: 1435702863
   "/assets/washington-crossing.jpg":
     md5: 550b69d7994859ac55cbb112cc23e1d1
     time: 1407895647

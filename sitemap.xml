@@ -16,6 +16,19 @@
   
 
   <url>
+    <loc>http://kyletress.com/essays</loc>
+    <lastmod>2015-06-30T22:20:54+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/essays/usada-workflow</loc>
+    <lastmod>2015-06-30T22:20:15+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+
+  <url>
     <loc>http://kyletress.com/skeleton</loc>
     <lastmod>2015-05-25T20:27:14+00:00</lastmod>
     <priority>1.0</priority>
