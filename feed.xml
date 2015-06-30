@@ -3,7 +3,7 @@
   <channel>
     <title>Kyle Tress</title>
     <link>http://kyletress.com</link>
-    <pubDate>Tue, 30 Jun 2015 18:21:02 -0400</pubDate>
+    <pubDate>Tue, 30 Jun 2015 18:27:33 -0400</pubDate>
     
     <item>
       <title>A workflow for updating USADA</title>
@@ -21,7 +21,7 @@
 
 &lt;p&gt;Workflow is an app that bills itself as &amp;lsquo;powerful automation made simple&amp;rsquo;. Federico Viticci of MacStories.net wrote &lt;a href=&quot;http://www.macstories.net/reviews/workflow-review-integrated-automation-for-ios-8/&quot;&gt;a terrific review of Workflow&lt;/a&gt;, so I won&amp;rsquo;t retread that ground here. Suffice it to say, Workflow makes it possible to automate repetitive tasks by taking advantage of native iOS functionality. A workflow can be saved on the home screen of your device and act as its own little native app. &lt;/p&gt;
 
-&lt;h3&gt;Update USADA Workflow&lt;/h3&gt;
+&lt;h3&gt;The Update USADA Workflow&lt;/h3&gt;
 
 &lt;p&gt;Given my requirements, setting up the workflow was easy. Here&amp;rsquo;s how it works:&lt;/p&gt;
 
@@ -51,9 +51,10 @@
 &lt;img src=&quot;/assets/workflow-7.png&quot;&gt; 
 &lt;figcaption&gt;Putting the &amp;lsquo;app&amp;rsquo; on the home screen&lt;/figcaption&gt;
 &lt;/figure&gt;
- 
 
-&lt;p&gt;That&amp;rsquo;s it. With one tap from my iPhone or iPad, I can instantly update USADA with my current whereabouts and a new 60-minute time slot, all without writing an email or opening Maps. If I need to add additional details, I can choose to show the &amp;lsquo;Compose Sheet&amp;rsquo;, but I normally just let Workflow send the email instantly.&lt;/p&gt;
+&lt;h2&gt;How to use it.&lt;/h2&gt;
+
+&lt;p&gt;With one tap from my iPhone or iPad, I can now instantly update USADA with my current whereabouts and a new 60-minute time slot, all without writing an email or opening Maps. I tap on the icon, add my 60 minute window from the picker, and the rest happens automatically. If I need to add additional details to the email, I can adjust the workflow to show the &amp;lsquo;Compose Sheet&amp;rsquo;, but I normally just let Workflow send the email instantly.&lt;/p&gt;
 
 &lt;p&gt;Updating is even easier on the Apple Watch. I open Workflow, press the &amp;lsquo;Update USADA&amp;rsquo; button, and I&amp;rsquo;m done. &lt;/p&gt;
 

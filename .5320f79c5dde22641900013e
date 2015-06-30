@@ -1,5 +1,5 @@
 ---
-time: 1435702868
+time: 1435703255
 inventory:
   "/home/index.html":
     md5: 653695abe8aa94e2c4a36b1084936998
@@ -14,8 +14,8 @@ inventory:
     md5: d9f98206e3903fe7f0a4b8f854ffe0db
     time: 1435702856
   "/essays/usada-workflow/index.html":
-    md5: aeb559218eb5e8efd602ca042eb18196
-    time: 1435702856
+    md5: 9bd803a5311ba291489bae6c9c6449cb
+    time: 1435703247
   "/essays/archive/index.html":
     md5: dd3db362f50c4807dea9e76ba34e207f
     time: 1435702856
@@ -425,11 +425,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   "/sitemap.xml":
-    md5: dedddf1eebc54cf7e4e6e73a5bd9f34c
-    time: 1435702862
+    md5: bfb5b6b7a39563e03a7c46d995a4962c
+    time: 1435703253
   "/feed.xml":
-    md5: 2b5f8480cebf6887cd0d8999226e0046
-    time: 1435702863
+    md5: 070cfc6d37cd1110f2e345b24889053e
+    time: 1435703254
   "/assets/washington-crossing.jpg":
     md5: 550b69d7994859ac55cbb112cc23e1d1
     time: 1407895647
