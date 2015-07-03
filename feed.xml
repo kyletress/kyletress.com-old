@@ -3,7 +3,7 @@
   <channel>
     <title>Kyle Tress</title>
     <link>http://kyletress.com</link>
-    <pubDate>Tue, 30 Jun 2015 18:27:33 -0400</pubDate>
+    <pubDate>Fri, 03 Jul 2015 18:29:04 -0400</pubDate>
     
     <item>
       <title>A workflow for updating USADA</title>
@@ -21,7 +21,7 @@
 
 &lt;p&gt;Workflow is an app that bills itself as &amp;lsquo;powerful automation made simple&amp;rsquo;. Federico Viticci of MacStories.net wrote &lt;a href=&quot;http://www.macstories.net/reviews/workflow-review-integrated-automation-for-ios-8/&quot;&gt;a terrific review of Workflow&lt;/a&gt;, so I won&amp;rsquo;t retread that ground here. Suffice it to say, Workflow makes it possible to automate repetitive tasks by taking advantage of native iOS functionality. A workflow can be saved on the home screen of your device and act as its own little native app. &lt;/p&gt;
 
-&lt;h3&gt;The Update USADA Workflow&lt;/h3&gt;
+&lt;h2&gt;The Update USADA Workflow&lt;/h2&gt;
 
 &lt;p&gt;Given my requirements, setting up the workflow was easy. Here&amp;rsquo;s how it works:&lt;/p&gt;
 
