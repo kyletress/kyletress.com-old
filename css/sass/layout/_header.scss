@@ -1,28 +1,30 @@
 header[role="banner"]{
-  text-transform: uppercase;
-  color:$color-muted;
-  font-family: $font-family-display;
-  width:100%;
-  padding: 4rem 0;
-  text-align:center;
-  font-size:1.2rem;
-  p { margin:0; }
-  @include breakpoint(phablet) {
-    @include flexbox;
-    @include align-items(center);
-    font-size: 1.4rem;
-    img {
-      @include order(2);
-    }
+  @include flexbox;
+  margin-bottom:4rem;
+  img {
+    margin-right:1rem;
+  }
+  p {
+    margin:0;
+    color: $color-muted;
   }
 }
 
 .navigation {
-  @include inline-navigation(.7rem);
-  text-align:center;
+  @include inline-navigation(1rem);
+  text-align:left;
   width:100%;
-  @include breakpoint(phablet) {
-    @include flex(1);
-    text-align: left;
+  font-size:1.6rem;
+  text-transform: uppercase;
+  a {
+    color: $color-links;
+    text-decoration:none;
+    &:hover {
+      text-decoration:underline;
+    }
+  }
+  .brand {
+    font-weight:bold;
+    color:#000;
   }
 }

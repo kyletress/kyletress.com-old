@@ -1,9 +1,8 @@
 footer[role="site-footer"] {
-  font-family: $font-family-display;
-  text-transform:uppercase;
+  font-family: $font-family-text;
   padding:2rem 0;
   line-height:1.5;
-  font-size:1.2rem;
+  font-size:1.4rem;
   color:$color-muted;
   text-align:center;
   p {
@@ -27,9 +26,6 @@ footer[role="site-footer"] {
     a {
       color: $color-muted;
       text-decoration:underline;
-    //  &:hover {
-    //    color: darken($color-muted, 25%);
-    //  }
     }
   }
 }

@@ -15,11 +15,10 @@
 </head>
 
 <body class="{% if parent %}{{ parent.title }}{% else %}{{ slug }}{% endif %} container">
-  {% include 'includes/banner' %}
-  {% include 'includes/header' %}
   <main>
     {{content}}
   </main>
+  {% include 'includes/header' %}
   {% include 'includes/footer' %}
   </body>
 </html>

@@ -1,17 +1,11 @@
 {% capture content %}
-
-<section class="introduction">
-  <figure>
-    <img src="{{assets.first.url}}" alt="">
-    <figcaption>
-    {{assets.first.meta.caption}}
-    </figcaption>
-  </figure>
-  <div class="intro-text">
-    {{ body }}
-  </div>
-</section>
-
+{{body}}
+<h2>Recent Posts</h2>
+<ul>
+{% for post in site.pages.essays.posts %}
+  <li><a href="{{post.url}}">{{ post.title }}</a>
+{% endfor %}
+</ul>
 {% endcapture %}
 
 {% include 'layouts/default' %}

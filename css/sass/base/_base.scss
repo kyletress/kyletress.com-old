@@ -12,14 +12,11 @@ body{
   background: $color-background;
   -webkit-font-smoothing:subpixel-antialiased;
   font: {
-    size: $base-font-size * .9;
+    size: $base-font-size;
     family: $font-family-text;
   }
   color:$color-text;
-  line-height:1.6;
-  @media screen and (min-width: $bp-tablet) {
-    font-size:$base-font-size;
-  }
+  line-height:1.5;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,10 +24,20 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $font-family-display;
 }
 
+h1 {
+  font-size:2.8rem;
+  font-weight: $font-weight-normal;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: $font-weight-bold;
+}
+
 a {
-  color:$color-links;
+  color: $color-text;
   transition: color .3s ease;
-  text-decoration:none;
+  text-decoration:underline;
 
   &:hover {
     color: darken($color-links, 15%);
@@ -88,13 +95,10 @@ pre {
   white-space: pre-wrap;
   border-radius: 3px;
   code{
+    color: $color-muted;
     background-color:inherit;
     font-weight: 500;
   }
-}
-
-pre code {
-  color: $color-muted;
 }
 
 code {

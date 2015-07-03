@@ -1,40 +1,16 @@
 body{
   font-size:$base-font-size;
-  @include breakpoint(phablet) {
-    font-size: 1.8rem;
-  }
-  @include breakpoint(hd) {
-    font-size: 2rem;
-  }
-}
-
-.container {
-  @include container;
-}
-
-.introduction {
-  margin-bottom:2rem;
-  @media screen and (min-width: $bp-phablet) {
-    @include flexbox;
-    figure {
-      width:50%;
-      padding-right:1rem;
-    }
-    div {
-      padding-left:1rem;
-      width:50%;
-      -webkit-flex:1;
-      flex:1;
-    }
-  }
+  padding: 5%;
+  font-size:2rem;
 }
 
 h1 {
-  font-size:3.2rem;
+  font-size:2.8rem;
   line-height:1.2;
   @media screen and (min-width: $bp-hd) {
     font-size:4.2rem;
   }
+  font-weight: $font-weight-normal;
 }
 
 h1.title {
@@ -75,7 +51,7 @@ h1.title {
 }
 
 .content-body {
-  max-width: 700px;
+  max-width: 600px;
 }
 
 .content-header {
@@ -87,8 +63,7 @@ h1.title {
   h1 {
     margin:0;
     @media screen and (min-width: $bp-hd) {
-      font-size:4.2rem;
-      letter-spacing:-1px;
+      font-size:2.8rem;
     }
     a {
       color:$color-headings;
@@ -107,6 +82,7 @@ h1.title {
 }
 
 main {
+  max-width:60rem;
 }
 
 .faqs {
@@ -124,7 +100,6 @@ main {
 
 .footnotes {
   font-size:1.6rem;
-  font-family: $font-sans;
   color:$color-muted;
 }
 
@@ -204,6 +179,17 @@ main {
 
 .shot{
   width:49%;
+}
+
+.banner {
+  color:red;
+  font-size:1.4rem;
+  a {
+    color: red;
+    &:hover{
+      color:darken(red, 20%);
+    }
+  }
 }
 
 a[href*="www.twitter.com"]:hover { color: $color-twitter; }

@@ -206,22 +206,27 @@ html {
 body {
   background: #ffffff;
   -webkit-font-smoothing: subpixel-antialiased;
-  font-size: 1.44rem;
-  font-family: "ff-tisa-web-pro", Georgia, serif;
+  font-size: 1.6rem;
+  font-family: "freight-text-pro", Georgia, serif;
   color: #333;
-  line-height: 1.6; }
-  @media screen and (min-width: 750px) {
-    body {
-      font-size: 1.6rem; } }
+  line-height: 1.5; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #222;
-  font-family: "ff-tisa-sans-web-pro", helvetica; }
+  font-family: "freight-text-pro", Georgia, serif; }
+
+h1 {
+  font-size: 2.8rem;
+  font-weight: 400; }
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600; }
 
 a {
-  color: #1496bb;
+  color: #333;
   transition: color .3s ease;
-  text-decoration: none; }
+  text-decoration: underline; }
   a:hover {
     color: #0d5f76;
     text-decoration: underline; }
@@ -269,11 +274,9 @@ pre {
   white-space: pre-wrap;
   border-radius: 3px; }
   pre code {
+    color: #888;
     background-color: inherit;
     font-weight: 500; }
-
-pre code {
-  color: #888; }
 
 code {
   font-family: "source-code-pro", "Courier New", monospace;
@@ -298,62 +301,46 @@ dt {
       color: #888; }
 
 header[role="banner"] {
-  text-transform: uppercase;
-  color: #888;
-  font-family: "ff-tisa-sans-web-pro", helvetica;
-  width: 100%;
-  padding: 4rem 0;
-  text-align: center;
-  font-size: 1.2rem; }
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  margin-bottom: 4rem; }
+  header[role="banner"] img {
+    margin-right: 1rem; }
   header[role="banner"] p {
-    margin: 0; }
-  @media (min-width: 600px) {
-    header[role="banner"] {
-      display: -webkit-box;
-      display: -moz-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-align-items: center;
-      -moz-align-items: center;
-      -ms-align-items: center;
-      -o-align-items: center;
-      align-items: center;
-      font-size: 1.4rem; }
-      header[role="banner"] img {
-        -webkit-order: 2;
-        -moz-order: 2;
-        -ms-order: 2;
-        -o-order: 2;
-        order: 2; } }
+    margin: 0;
+    color: #888; }
 
 .navigation {
-  text-align: center;
-  width: 100%; }
+  text-align: left;
+  width: 100%;
+  font-size: 1.6rem;
+  text-transform: uppercase; }
   .navigation ul {
     list-style: none;
     margin: 0;
     padding: 0; }
     .navigation ul li {
       display: inline-block;
-      margin-right: 0.7rem; }
+      margin-right: 1rem; }
       .navigation ul li:last-child {
         padding-right: 0; }
-  @media (min-width: 600px) {
-    .navigation {
-      -webkit-flex: 1;
-      -moz-flex: 1;
-      -ms-flex: 1;
-      -o-flex: 1;
-      flex: 1;
-      text-align: left; } }
+  .navigation a {
+    color: #1496bb;
+    text-decoration: none; }
+    .navigation a:hover {
+      text-decoration: underline; }
+  .navigation .brand {
+    font-weight: bold;
+    color: #000; }
 
 footer[role="site-footer"] {
-  font-family: "ff-tisa-sans-web-pro", helvetica;
-  text-transform: uppercase;
+  font-family: "freight-text-pro", Georgia, serif;
   padding: 2rem 0;
   line-height: 1.5;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: #888;
   text-align: center; }
   footer[role="site-footer"] p {
@@ -396,9 +383,9 @@ table {
   margin-bottom: 2rem;
   border-collapse: collapse;
   border-spacing: 0;
-  font-family: "ff-tisa-sans-web-pro", helvetica;
-  font-size: 14px;
-  font-size: 1.4rem; }
+  font-family: "freight-text-pro", Georgia, serif;
+  font-size: 16px;
+  font-size: 1.6rem; }
 
 th,
 td {
@@ -483,7 +470,7 @@ a.link-github {
 a.link-linkedin {
   color: #0073b2; }
   a.link-linkedin:hover {
-    color: #002132; }
+    color: #002133; }
 
 a.link-tumblr {
   color: #35465c; }
@@ -559,43 +546,14 @@ a.link-amazon {
   font-size: 1.4rem; }
 
 body {
-  font-size: 1.6rem; }
-  @media (min-width: 600px) {
-    body {
-      font-size: 1.8rem; } }
-  @media (min-width: 1200px) {
-    body {
-      font-size: 2rem; } }
-
-.container {
-  width: 90%;
-  margin: 0 auto;
-  max-width: 700px; }
-  @media screen and (min-width: 1200px) {
-    .container {
-      max-width: 950px; } }
-
-.introduction {
-  margin-bottom: 2rem; }
-  @media screen and (min-width: 600px) {
-    .introduction {
-      display: -webkit-box;
-      display: -moz-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex; }
-      .introduction figure {
-        width: 50%;
-        padding-right: 1rem; }
-      .introduction div {
-        padding-left: 1rem;
-        width: 50%;
-        -webkit-flex: 1;
-        flex: 1; } }
+  font-size: 1.6rem;
+  padding: 5%;
+  font-size: 2rem; }
 
 h1 {
-  font-size: 3.2rem;
-  line-height: 1.2; }
+  font-size: 2.8rem;
+  line-height: 1.2;
+  font-weight: 400; }
   @media screen and (min-width: 1200px) {
     h1 {
       font-size: 4.2rem; } }
@@ -631,7 +589,7 @@ h1.title {
   font-weight: bold; }
 
 .content-body {
-  max-width: 700px; }
+  max-width: 600px; }
 
 .content-header {
   text-align: center;
@@ -643,18 +601,20 @@ h1.title {
     margin: 0; }
     @media screen and (min-width: 1200px) {
       .content-header h1 {
-        font-size: 4.2rem;
-        letter-spacing: -1px; } }
+        font-size: 2.8rem; } }
     .content-header h1 a {
       color: #222; }
   .content-header p.meta {
-    font-family: "ff-tisa-sans-web-pro", helvetica;
+    font-family: "freight-text-pro", Georgia, serif;
     text-transform: uppercase;
     color: #888;
     margin: 0;
     font-size: 1.4rem; }
     .content-header p.meta a {
       color: #888; }
+
+main {
+  max-width: 60rem; }
 
 .faqs dt {
   margin-bottom: 0; }
@@ -666,7 +626,6 @@ h1.title {
 
 .footnotes {
   font-size: 1.6rem;
-  font-family: "ff-tisa-sans-web-pro", helvetica;
   color: #888; }
 
 .mailchimp {
@@ -685,14 +644,14 @@ h1.title {
     margin-right: .5rem;
     padding: .5rem;
     padding-left: 1rem;
-    border: 1px solid lightgray;
+    border: 1px solid #d4d4d4;
     border-radius: 3px;
     outline: none; }
   .mailchimp .button {
     background: #1496bb;
     color: white;
     text-transform: uppercase;
-    font-family: "ff-tisa-sans-web-pro", helvetica;
+    font-family: "freight-text-pro", Georgia, serif;
     border: 1px solid #ededed;
     border-radius: 3px;
     padding: 1rem;
@@ -743,6 +702,14 @@ h1.title {
 
 .shot {
   width: 49%; }
+
+.banner {
+  color: red;
+  font-size: 1.4rem; }
+  .banner a {
+    color: red; }
+    .banner a:hover {
+      color: #990000; }
 
 a[href*="www.twitter.com"]:hover {
   color: #55acee; }
