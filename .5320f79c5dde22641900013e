@@ -1,18 +1,21 @@
 ---
-time: 1435962666
+time: 1435974401
 inventory:
   "/home/index.html":
-    md5: 7e48690eff1b294a9964d5377b928bb7
-    time: 1435962539
+    md5: 25b5732c0600e307d820f557455067a9
+    time: 1435974393
   "/index.html":
-    md5: 7e48690eff1b294a9964d5377b928bb7
-    time: 1435962539
+    md5: 25b5732c0600e307d820f557455067a9
+    time: 1435974393
   "/about/index.html":
     md5: 094aa1bdd29fc7356467f8a2259b7468
     time: 1435962539
   "/essays/index.html":
-    md5: d648cea0f6e70694d6b044f72ccebefc
-    time: 1435962539
+    md5: 9af63e0d586641ea1079b2e6a50c0615
+    time: 1435974393
+  "/essays/how-i-use-apple-watch/index.html":
+    md5: 033c3afd2c3f3bb68c5f87bbdf8bc019
+    time: 1435974393
   "/essays/usada-workflow/index.html":
     md5: ac6371635c857134ce63bbd19b7a4841
     time: 1435962539
@@ -431,11 +434,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   "/sitemap.xml":
-    md5: 554d5d4779a799e5c1c92be41ae18322
-    time: 1435962664
+    md5: 40edceb0ae77e82069c875ab042d3ac8
+    time: 1435974398
   "/feed.xml":
-    md5: e56ed48b9ce39f7ce7d76c16e57919a0
-    time: 1435962664
+    md5: ad476dc18829deee899d4e1ef3fbbb27
+    time: 1435974398
   "/assets/washington-crossing.jpg":
     md5: 550b69d7994859ac55cbb112cc23e1d1
     time: 1407895647
