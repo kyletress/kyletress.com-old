@@ -5,3 +5,5 @@ README.md
 *.scss
 .sass-cache
 *.map
+.ruby-version
+.ruby-gemset
