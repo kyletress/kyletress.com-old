@@ -1,5 +1,5 @@
 ---
-time: 1437598660
+time: 1437598995
 inventory:
   "/home/index.html":
     md5: 2126caa35ef0c8ec38f41d43ab75a06d
@@ -284,8 +284,8 @@ inventory:
     md5: b615044a25775ff12ec9f90dec19cec0
     time: 1437598597
   "/support/index.html":
-    md5: 2a593ea3dd61a490c3ef60e2cca071ad
-    time: 1437598597
+    md5: 9f75c6fed71fd47dd8e048909e7b09ca
+    time: 1437598991
   "/the-setup/index.html":
     md5: 4f10c76193009eb248a5aa5b1da56b02
     time: 1437598597
@@ -443,11 +443,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   "/sitemap.xml":
-    md5: 6b9efcb88b83769ac721118c4203fbca
-    time: 1437598599
+    md5: 1cee30f5c5e86da17d4a1416300a7b4b
+    time: 1437598993
   "/feed.xml":
-    md5: 185fbde17d40ca253af5b5d75d2442ee
-    time: 1437598599
+    md5: 80fa80e4936f5af9031c2ed8fab151ef
+    time: 1437598993
   "/assets/washington-crossing.jpg":
     md5: 550b69d7994859ac55cbb112cc23e1d1
     time: 1407895647
