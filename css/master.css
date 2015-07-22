@@ -314,7 +314,8 @@ header[role="banner"] {
     margin: 0; }
   header[role="banner"] p {
     margin: 0;
-    color: #888; }
+    color: #888;
+    font-family: "freight-text-pro", Georgia, serif; }
 
 .navigation {
   text-align: left;
