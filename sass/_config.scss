@@ -14,13 +14,14 @@ $color-instagram: #3f729b;
 $color-github: #4183c4;
 $color-twitter: #55acee;
 $color-tumblr: #35465c;
+$color-amazon: #ff9900;
 
 // Fonts
 $font-serif: "freight-text-pro", Georgia, serif;
-$font-sans: helvetica;
+$font-sans: "source-sans-pro", helvetica;
 $font-code: "source-code-pro", "Courier New", monospace;
 
-$font-family-text: $font-serif;
+$font-family-text: $font-sans;
 $font-family-display: $font-serif;
 $font-family-code: $font-code;
 
@@ -30,7 +31,7 @@ $font-weight-bold: 600;
 
 // Container
 $container-width: 90%;
-$container-max-width: 700px;
+$container-max-width: 650px;
 $container-hd-max-width: 950px;
 
 // Font Sizing

@@ -1,31 +1,11 @@
 footer[role="site-footer"] {
   font-family: $font-family-text;
   padding:2rem 0;
-  line-height:1.5;
   font-size:1.4rem;
   color:$color-muted;
   text-align:center;
   p {
     margin:0;
-  }
-  @include breakpoint(phablet) {
-    @include flexbox;
-    @include align-items(center);
-    text-align:left;
-    nav {
-      -webkit-flex:1;
-      flex:1;
-    }
-    .rings {
-      -webkit-order:2;
-      order:2;
-    }
-  }
-  nav {
-    @include inline-navigation(1rem);
-    a {
-      color: $color-muted;
-      text-decoration:underline;
-    }
+    margin-bottom:1rem;
   }
 }

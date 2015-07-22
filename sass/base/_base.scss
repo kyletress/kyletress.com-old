@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+.container {
+  width: $container-width;
+  max-width: $container-max-width;
+  margin: 0 auto; //if you want it centered
+}
+
 html{
   font-size:62.5%;
 }
@@ -40,7 +46,8 @@ a {
   text-decoration:underline;
 
   &:hover {
-    color: darken($color-links, 15%);
+    //color: darken($color-links, 15%);
+    color: $color-links;
     text-decoration: underline;
   }
 }

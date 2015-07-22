@@ -1,17 +1,12 @@
 {% capture content %}
-
 {{ body }}
-
 {% if posts %}
   {% include 'includes/post_list' %}
 {% endif %}
-
 {% if parent %}
   <p><a href="{{parent.url}}">&larr; Return to {{parent.title}}</a></p>
 {% else %}
   <p><a href="/">&larr; Return home</a></p>
 {% endif %}
-
 {% endcapture %}
-
 {% include 'layouts/default' %}

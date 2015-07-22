@@ -1,9 +1,15 @@
 {% capture content %}
 {{body}}
-<h2>Recent Posts</h2>
+<h3>Stream:</h3>
+<ul>
+{% for post in posts %}
+  <li><span class="meta">{{post.date | date: '%b %-d'}}</span> &ndash; <a href="{{post.url}}">{{ post.body | remove: '<p>' | remove: '</p>' }}</a></li>
+{% endfor %}
+</ul>
+<h3>Recent:</h3>
 <ul>
 {% for post in site.pages.essays.posts %}
-  <li><a href="{{post.url}}">{{ post.title }}</a>
+  <li><span class="meta">{{post.date | date: '%b %-d'}}</span> &ndash; <a href="{{post.url}}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
 {% endcapture %}
