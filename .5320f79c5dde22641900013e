@@ -1,5 +1,5 @@
 ---
-time: 1437758104
+time: 1437781575
 inventory:
   "/home/index.html":
     md5: c7f8de92686ab49f6c94fdcf1952050a
@@ -296,8 +296,8 @@ inventory:
     md5: 2287461acb4fcd6561067ea9212ddd3b
     time: 1437758042
   "/about/cv/index.html":
-    md5: 619346bd595f746de0f90e7169525222
-    time: 1437758042
+    md5: ec1f3f96b2f02d5a3694631a3a2cd8c0
+    time: 1437781572
   "/skeleton/faqs/index.html":
     md5: 178494e0f1bd2e991dae2c5656694e40
     time: 1437758042
@@ -446,8 +446,8 @@ inventory:
     md5: 1cee30f5c5e86da17d4a1416300a7b4b
     time: 1437598993
   "/feed.xml":
-    md5: 3166dcf1caccf616b822aeb6a0c6e793
-    time: 1437758044
+    md5: 25d0bfdd9b2df169a241a1b916f2c8a9
+    time: 1437781574
   "/assets/washington-crossing.jpg":
     md5: 550b69d7994859ac55cbb112cc23e1d1
     time: 1407895647
