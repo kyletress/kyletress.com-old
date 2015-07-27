@@ -1,18 +1,21 @@
 ---
-time: 1437781575
+time: 1437974722
 inventory:
   "/home/index.html":
-    md5: c7f8de92686ab49f6c94fdcf1952050a
-    time: 1437758039
+    md5: ee061d18a3b7c4c83940c05b053ade2a
+    time: 1437974715
   "/index.html":
-    md5: c7f8de92686ab49f6c94fdcf1952050a
-    time: 1437758039
+    md5: ee061d18a3b7c4c83940c05b053ade2a
+    time: 1437974715
+  "/home/hamlet/index.html":
+    md5: 4aa63d775e66c4ffa07a5875fd56207d
+    time: 1437974715
   "/home/raid-the-arcade-playlist/index.html":
     md5: ab633e6d6b5c3d4b99d3cf084c26a253
     time: 1437758039
   "/home/archive/index.html":
-    md5: b053c75ac7772ee6141a39e9eeef5c25
-    time: 1437758039
+    md5: 211743adefea72ccccbe7189fa13a73f
+    time: 1437974715
   "/home/tags/index.html":
     md5: 7b8b33bebd0d48ac42ed59a3bd030e00
     time: 1437758039
@@ -295,6 +298,9 @@ inventory:
   "/now/index.html":
     md5: 2287461acb4fcd6561067ea9212ddd3b
     time: 1437758042
+  "/d3/index.html":
+    md5: 4f2b611c3a296d4c3613c49685b2c5f2
+    time: 1437974718
   "/about/cv/index.html":
     md5: ec1f3f96b2f02d5a3694631a3a2cd8c0
     time: 1437781572
@@ -443,11 +449,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   "/sitemap.xml":
-    md5: 1cee30f5c5e86da17d4a1416300a7b4b
-    time: 1437598993
+    md5: 1e77b021042a99d6d2cf9edc1d7b9b28
+    time: 1437974719
   "/feed.xml":
-    md5: 25d0bfdd9b2df169a241a1b916f2c8a9
-    time: 1437781574
+    md5: 4bc90ebf7c9bef67381ce9eb3b8317ee
+    time: 1437974719
   "/assets/washington-crossing.jpg":
     md5: 550b69d7994859ac55cbb112cc23e1d1
     time: 1407895647

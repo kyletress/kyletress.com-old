@@ -3,7 +3,17 @@
   <channel>
     <title>Kyle Tress</title>
     <link>http://kyletress.com</link>
-    <pubDate>Fri, 24 Jul 2015 19:46:14 -0400</pubDate>
+    <pubDate>Mon, 27 Jul 2015 01:25:19 -0400</pubDate>
+    
+    <item>
+      <title>Hamlet</title>
+      <link>http://kyletress.com/home/hamlet</link>
+      <pubDate>Mon, 27 Jul 2015 01:23:00 -0400</pubDate>
+      <author>Kyle Tress</author>
+      <guid>http://kyletress.com/home/hamlet</guid>
+      <description>&lt;p&gt;&lt;a href=&quot;http://shakespeare.mit.edu/hamlet/full.html&quot;&gt;There is nothing either good or bad, but thinking makes it so&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Raid the Arcade Playlist</title>
@@ -304,16 +314,6 @@ The crew says the flight is going to be 2 hours and 30 minutes. Sounds great. Wh
       <author>Kyle Tress</author>
       <guid>http://kyletress.com/reading/the-art-of-learning</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>How much longer will you compete?</title>
-      <link>http://kyletress.com/skeleton/faqs/how-much-longer-will-you-compete</link>
-      <pubDate>Tue, 12 Aug 2014 20:58:00 -0400</pubDate>
-      <author>Kyle Tress</author>
-      <guid>http://kyletress.com/skeleton/faqs/how-much-longer-will-you-compete</guid>
-      <description>&lt;p&gt;The best answer I can give is &lt;em&gt;at least through 2018&lt;/em&gt;. Skeleton athletes can be competitive into their 40s. I&amp;rsquo;m &lt;em&gt;not&lt;/em&gt; saying I will be, but it&amp;rsquo;s possible. &lt;/p&gt;
-</description>
     </item>
     
   </channel>
