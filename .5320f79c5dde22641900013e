@@ -1,5 +1,5 @@
 ---
-time: 1439058629
+time: 1439059110
 inventory:
   "/home/index.html":
     md5: d33c64f39193928b6233cae8287fb91b
@@ -56,17 +56,17 @@ inventory:
     md5: 4ab23d7616b5be7d43e45a2a17f60124
     time: 1439004726
   "/skeleton/index.html":
-    md5: e4a7674847a12fd8ce788548b8b03b93
-    time: 1439004726
+    md5: 8dff90890188f6aa244a3bb117f7a478
+    time: 1439059102
   "/reading/index.html":
-    md5: a497f8d5738386dcd7fb68f6267b9c8e
-    time: 1439058621
+    md5: 0f6e6e912eeeb1622013965d5f20c4c1
+    time: 1439059102
   "/reading/crooked/index.html":
     md5: 9f0fb330045e35113088aee07336b35a
     time: 1439058621
   "/reading/armada/index.html":
-    md5: b87ebe034d02af2af68a52d2c773d429
-    time: 1439058621
+    md5: 6bced764e81a9b3185071c2cd49c31bc
+    time: 1439059102
   "/reading/sapiens/index.html":
     md5: 04f6a41f4808f69274a0ae5fdc67789c
     time: 1439004726
@@ -74,8 +74,8 @@ inventory:
     md5: 5abc71d8343158b33aa59a4975f47253
     time: 1439004726
   "/reading/how-adam-smith-can-change-your-life/index.html":
-    md5: 092a700dc5021f1a3e2a1d3f8376bdcb
-    time: 1439004726
+    md5: 649cba67f751c972aa4e7fa878ddc54e
+    time: 1439059102
   "/reading/zero-to-one/index.html":
     md5: b448a5e6a2fa566059101dfc4255f28e
     time: 1439004726
@@ -443,11 +443,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   "/sitemap.xml":
-    md5: 44a0617345c1f37d3a351438879baa5b
-    time: 1439058626
+    md5: c699a3b6bfe64c7985ea0d3052916937
+    time: 1439059107
   "/feed.xml":
-    md5: d2120fb0b602e9221b49d5c127398393
-    time: 1439058626
+    md5: 1d06ce198f3810548bc75d954276bea3
+    time: 1439059107
   "/assets/washington-crossing.jpg":
     md5: 550b69d7994859ac55cbb112cc23e1d1
     time: 1407895647
@@ -471,6 +471,9 @@ inventory:
     time: 1407895650
   "/assets/tress-olympics.jpg":
     md5: 0685ccb3a30c19ffc8813d3bb9f6bfe7
+    time: 1407895654
+  "/assets/tress.jpg":
+    md5: 5dd5c18db71a84c611a588736ff3ba35
     time: 1407895654
   "/assets/wpid-ALeqM5jbaPKNJeK4p3YStnyO8i4zsuO1ig.jpg":
     md5: 0e065adf961d61f21eea227753ac4f5c
@@ -538,9 +541,9 @@ inventory:
   "/assets/workflow-1.png":
     md5: ed60c77a09041e889e0feeb027236e1d
     time: 1435702781
-  "/assets/tress.jpg":
-    md5: 5dd5c18db71a84c611a588736ff3ba35
-    time: 1407895654
+  "/assets/image-2.jpg":
+    md5: 58f5b70fd0822316483e15345b3ec8a0
+    time: 1439059107
   "/assets/iPhone 6 Black 4.7 Inch Form Factor.png":
     md5: 72fb1143ddc9d2c2e20e0c1952e1b333
     time: 1417227745
