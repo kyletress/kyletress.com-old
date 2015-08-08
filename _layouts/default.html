@@ -11,9 +11,9 @@
   <script>try{Typekit.load();}catch(e){}</script>
 </head>
 
-<body class="{% if parent %}{{ parent.title }}{% else %}{{ slug }}{% endif %} container">
+<body class="{% if parent %}{{ parent.title }}{% else %}{{ slug }}{% endif %}">
   {% include 'includes/header' %}
-  <main>
+  <main class="container">
     {{content}}
   </main>
   {% include 'includes/footer' %}

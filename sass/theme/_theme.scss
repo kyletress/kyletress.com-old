@@ -2,7 +2,24 @@
   text-align:center;
 }
 
-.faqs {
+.center {
+  text-align:center;
+}
+
+.book{
+  h4{
+    margin-bottom:0;
+    font-weight:$font-weight-normal;
+    a {
+      font-weight: $font-weight-bold;
+    }
+  }
+  p{
+    margin-top:0;
+  }
+}
+
+.faqs{
   dt {
     margin-bottom:0;
   }
