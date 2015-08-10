@@ -37,7 +37,11 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  font-weight: $font-weight-bold;
+  font-weight: $font-weight-normal;
+}
+
+h3 {
+  font-weight:normal;
 }
 
 a {
@@ -135,4 +139,8 @@ dt {
       color:$color-muted;
     }
   }
+}
+
+main {
+  padding: 4rem 0;
 }

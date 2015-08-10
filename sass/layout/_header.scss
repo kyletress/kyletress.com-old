@@ -1,7 +1,12 @@
 header[role="banner"]{
-  //text-align:center;
+  display: -webkit-flex;
+  display:flex;
+  -webkit-align-items: center;
+  align-items:center;
   padding:2rem 0;
-  font-size:1.4rem;
+  font-size:1.6rem;
+  font-family: $font-sans;
+  border-bottom:1px solid $color-borders;
   img {
     margin-right:1rem;
   }
@@ -11,7 +16,6 @@ header[role="banner"]{
   p {
     margin:0;
     color: $color-muted;
-    font-family:$font-serif;
   }
 }
 
@@ -19,10 +23,15 @@ header[role="banner"]{
   @include inline-navigation(1rem);
   text-align:left;
   width:100%;
-  font-size:1.6rem;
-  //text-transform: uppercase;
+  font-size:1.4rem;
+  text-transform: uppercase;
+  font-weight:600;
+  p {
+    font-weight:400;
+    letter-spacing:1px;
+  }
   a {
-    color: $color-links;
+    color: $color-headings;
     text-decoration:none;
     &:hover {
       text-decoration:underline;
@@ -31,48 +40,6 @@ header[role="banner"]{
   .brand {
     font-weight:bold;
     color:#000;
+    letter-spacing:0;
   }
-}
-
-/* entire container, keeps perspective */
-.flip-container {
-	perspective: 1000;
-}
-	/* flip the pane when hovered */
-	.flip-container:hover .flipper, .flip-container.hover .flipper {
-		transform: rotateY(180deg);
-	}
-
-.flip-container, .front, .back {
-	width: 100px;
-	height: 100px;
-}
-
-/* flip speed goes here */
-.flipper {
-	transition: 0.6s;
-	transform-style: preserve-3d;
-
-	position: relative;
-}
-
-/* hide back of pane during swap */
-.front, .back {
-	backface-visibility: hidden;
-
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-/* front pane, placed above back */
-.front {
-	z-index: 2;
-	/* for firefox 31 */
-	transform: rotateY(0deg);
-}
-
-/* back, initially hidden pane */
-.back {
-	transform: rotateY(180deg);
 }

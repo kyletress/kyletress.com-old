@@ -1,5 +1,7 @@
 footer[role="site-footer"] {
-  font-family: $font-family-text;
+  font-family: $font-sans;
+  text-transform: uppercase;
+  letter-spacing:1px;
   padding:2rem 0;
   font-size:1.4rem;
   color:$color-muted;

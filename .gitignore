@@ -2,3 +2,5 @@
 config.ru
 Archive.zip
 .sass-cache
+.sass-cache/*
+*.map

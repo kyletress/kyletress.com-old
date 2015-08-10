@@ -17,12 +17,12 @@ $color-tumblr: #35465c;
 $color-amazon: #ff9900;
 
 // Fonts
-$font-serif: "freight-text-pro", Georgia, serif;
-$font-sans: "source-sans-pro", helvetica;
+$font-serif: Georgia, serif;
+$font-sans: "omnes-pro", "source-sans-pro", helvetica;
 $font-code: "source-code-pro", "Courier New", monospace;
 
 $font-family-text: $font-serif;
-$font-family-display: $font-serif;
+$font-family-display: $font-sans;
 $font-family-code: $font-code;
 
 $font-weight-light: 300;
@@ -31,11 +31,11 @@ $font-weight-bold: 600;
 
 // Container
 $container-width: 90%;
-$container-max-width: 650px;
+$container-max-width: 700px;
 $container-hd-max-width: 950px;
 
 // Font Sizing
-$base-font-size: 1.6rem;
+$base-font-size: 1.8rem;
 
 // Breakpoints
 $bp-mobile: 400px;
