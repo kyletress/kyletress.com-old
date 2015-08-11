@@ -333,9 +333,15 @@ main {
       padding: 1.5rem 0; } }
   @media (min-width: 75rem) {
     .navbar {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
       display: -webkit-flex;
       display: flex;
       -webkit-align-items: center;
+      -moz-align-items: center;
+      -ms-align-items: center;
+      -o-align-items: center;
       align-items: center;
       text-align: left;
       font-size: 1.6rem; } }
@@ -347,34 +353,35 @@ main {
     .navbar .brand:hover {
       text-decoration: underline; }
   .navbar nav {
-    margin: 0;
     -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    -o-flex: 1;
     flex: 1;
+    margin: 0;
     text-align: center; }
+    .navbar nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+      .navbar nav ul li {
+        display: inline-block;
+        margin-right: 1.5rem; }
+        .navbar nav ul li:last-child {
+          margin-right: 0; }
     @media (min-width: 75rem) {
       .navbar nav {
         text-align: right; } }
+    .navbar nav a {
+      text-decoration: none; }
+      .navbar nav a:hover {
+        text-decoration: underline; }
   .navbar p {
     margin: 0;
     color: #888; }
   .navbar span {
     font-size: 1.2rem;
     font-style: italic; }
-
-.navigation ul {
-  list-style: none;
-  margin: 0;
-  padding: 0; }
-  .navigation ul li {
-    display: inline-block;
-    margin-right: 1.5rem; }
-    .navigation ul li:last-child {
-      margin-right: 0; }
-.navigation a {
-  color: #4682b4;
-  text-decoration: none; }
-  .navigation a:hover {
-    text-decoration: underline; }
 
 footer[role="site-footer"] {
   font-family: "freight-sans-pro", "omnes-pro", "source-sans-pro", helvetica;
@@ -413,6 +420,52 @@ footer[role="site-footer"] {
   margin-bottom: 4rem; }
   .faqs dd p {
     margin-top: 0; }
+
+.page-header {
+  text-align: center; }
+  @media (min-width: 75rem) {
+    .page-header {
+      text-align: left; } }
+
+.introduction {
+  text-align: center; }
+  @media (min-width: 40rem) {
+    .introduction {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-align-items: flex-start;
+      -moz-align-items: flex-start;
+      -ms-align-items: flex-start;
+      -o-align-items: flex-start;
+      align-items: flex-start;
+      padding: 2rem 0;
+      text-align: left; }
+      .introduction p {
+        -webkit-flex: 1;
+        -moz-flex: 1;
+        -ms-flex: 1;
+        -o-flex: 1;
+        flex: 1; }
+      .introduction .headshot {
+        margin-right: 1rem; } }
+
+.book h4 {
+  font-family: "freight-text-pro", Georgia, serif;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-style: italic; }
+  .book h4 a {
+    font-family: "freight-sans-pro", "omnes-pro", "source-sans-pro", helvetica;
+    font-weight: 700;
+    font-style: normal; }
+.book p {
+  margin-top: 0; }
+
+.center {
+  text-align: center; }
 
 a[href*="www.twitter.com"]:hover {
   color: #55acee; }

@@ -15,6 +15,50 @@
   }
 }
 
+.page-header{
+  text-align:center;
+  @media(min-width: $md) {
+    text-align:left;
+  }
+}
+
+.introduction {
+  text-align:center;
+  @media(min-width: $xs){
+    @include flexbox;
+    @include align-items(flex-start);
+    padding: 2rem 0;
+    text-align:left;
+    p {
+      @include flex(1);
+    }
+    .headshot {
+      margin-right:1rem;
+    }
+  }
+}
+
+.book{
+  h4{
+    font-family: $font-serif;
+    margin-bottom:0;
+    font-weight:$font-weight-normal;
+    font-style:italic;
+    a {
+      font-family: $font-sans;
+      font-weight: $font-weight-bold;
+      font-style:normal;
+    }
+  }
+  p{
+    margin-top:0;
+  }
+}
+
+.center {
+  text-align:center;
+}
+
 
 a[href*="www.twitter.com"]:hover { color: $color-twitter; }
 a[href*="tumblr.kyletress.com"]:hover { color: $color-tumblr; }
