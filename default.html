@@ -3,8 +3,13 @@
     <h1 class="page-header">{{ title }}</h1>
     {{ body }}
   </article>
-{% if posts %}
 
+{% if posts %}
+<ul>
+  {% for post in posts %}
+  <li><a href="{{post.url}}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
 {% endif %}
 
 {% if parent %}

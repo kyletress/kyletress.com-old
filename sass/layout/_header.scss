@@ -1,45 +1,51 @@
-header[role="banner"]{
-  display: -webkit-flex;
-  display:flex;
-  -webkit-align-items: center;
-  align-items:center;
-  padding:2rem 0;
-  font-size:1.6rem;
+.navbar {
+  padding:1rem 0;
+  border-bottom: 1px solid $color-borders;
+  font-size: 1.3rem;
+  text-align:center;
+  width:100%;
+  font-weight:500;
+  //text-transform: uppercase;
   font-family: $font-sans;
-  border-bottom:1px solid $color-borders;
-  img {
-    margin-right:1rem;
+  @media(min-width: $sm) {
+    font-size:1.4rem;
+    padding:1.5rem 0;
+  }
+  @media(min-width: $md) {
+    display: -webkit-flex;
+    display:flex;
+    -webkit-align-items: center;
+    align-items:center;
+    text-align:left;
+    font-size:1.6rem;
+  }
+  .brand {
+    text-decoration:none;
+    color:$color-headings;
+    font-weight:$font-weight-semi-bold;
+    &:hover { text-decoration: underline;}
+    font-size:1.8rem;
   }
   nav {
-    margin:0;
+    margin: 0;
+    -webkit-flex: 1;
+    flex:1;
+    text-align:center;
+    @media(min-width: $md) {
+      text-align:right;
+    }
   }
-  p {
-    margin:0;
-    color: $color-muted;
-  }
+  p { margin:0; color:$color-muted;}
+  span {font-size:1.2rem;font-style:italic;}
 }
 
 .navigation {
-  @include inline-navigation(1rem);
-  text-align:left;
-  width:100%;
-  font-size:1.4rem;
-  text-transform: uppercase;
-  font-weight:600;
-  p {
-    font-weight:400;
-    letter-spacing:1px;
-  }
+  @include inline-navigation(1.5rem);
   a {
-    color: $color-headings;
+    color: $color-links;
     text-decoration:none;
     &:hover {
       text-decoration:underline;
     }
-  }
-  .brand {
-    font-weight:bold;
-    color:#000;
-    letter-spacing:0;
   }
 }
