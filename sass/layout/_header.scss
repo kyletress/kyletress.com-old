@@ -1,32 +1,41 @@
-header[role="banner"]{
-  font-size:1.4rem;
-  background: rgba(0,0,0,.8);
+.navbar {
+  padding:1rem 0;
+  border-bottom: 1px solid $color-borders;
+  font-size: 1.3rem;
+  text-align:center;
   width:100%;
-  padding:.3rem 0;
-  margin-bottom:4rem;
-  div {
-    @include flexbox;
-    -webkit-align-items:center;
+  font-weight:500;
+  font-family: $font-sans;
+  @media(min-width: $sm) {
+    font-size:1.4rem;
+    padding:1.5rem 0;
   }
-  img {
-    margin-right:1rem;
-    width:38px;
-    height:38px;
-    padding:2px;
-    background:rgba(255,255,255,.05);
+  @media(min-width: $md) {
+    @include flexbox;
+    @include align-items(center);
+    text-align:left;
+    font-size:1.6rem;
+  }
+  .brand {
+    text-decoration:none;
+    color:$color-headings;
+    font-weight:$font-weight-semi-bold;
+    &:hover { text-decoration: underline;}
+    font-size:1.8rem;
   }
   nav {
-    @include inline-navigation(1.6rem);
-    a{
-      font-weight:600;
-      color:white;
-      text-decoration: none;
-      text-transform: uppercase;
-      font-size:1.3rem;
-      letter-spacing: 1px;
+    @include flex(1);
+    @include inline-navigation(1.5rem);
+    margin: 0;
+    text-align:center;
+    @media(min-width: $md) { text-align:right;}
+    a {
+      text-decoration:none;
       &:hover {
-        color: rgba(255,255,255,.5);
+        text-decoration:underline;
       }
     }
   }
+  p { margin:0; color:$color-muted;}
+  span {font-size:1.2rem;font-style:italic;}
 }

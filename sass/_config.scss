@@ -1,6 +1,6 @@
 // Colors
 $color-background: #ffffff;
-$color-text: #333;
+$color-text: hsl(0, 0%, 29%); // #4a4a4a
 $color-headings: #222;
 $color-links: #4682b4;
 $color-borders: #ededed;
@@ -18,26 +18,31 @@ $color-amazon: #ff9900;
 
 // Fonts
 $font-serif: "freight-text-pro", Georgia, serif;
-$font-sans: "source-sans-pro", helvetica;
+$font-sans: "freight-sans-pro", "omnes-pro", "source-sans-pro", helvetica;
 $font-code: "source-code-pro", "Courier New", monospace;
 
-$font-family-text: $font-sans;
-$font-family-display: $font-serif;
+$font-family-text: $font-serif;
+$font-family-display: $font-sans;
 $font-family-code: $font-code;
 
 $font-weight-light: 300;
 $font-weight-normal: 400;
-$font-weight-bold: 600;
+$font-weight-medium: 500;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
 
 // Container
 $container-width: 90%;
-$container-max-width: 650px;
+$container-max-width: 700px;
 $container-hd-max-width: 950px;
 
 // Font Sizing
 $base-font-size: 1.6rem;
 
 // Breakpoints
+$xs: 40rem;
+$sm: 60rem;
+$md: 75rem;
 $bp-mobile: 400px;
 $bp-phablet: 600px;
 $bp-tablet: 750px;

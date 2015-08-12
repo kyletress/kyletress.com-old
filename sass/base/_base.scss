@@ -10,34 +10,30 @@
   margin: 0 auto; //if you want it centered
 }
 
+
 html{
   font-size:62.5%;
 }
 
-body{
+body {
   background: $color-background;
   -webkit-font-smoothing:subpixel-antialiased;
-  font: {
-    size: $base-font-size;
-    family: $font-family-text;
-  }
+  font-size: $base-font-size * .9; // 14px
+  font-family: $font-family-text;
   color:$color-text;
-  line-height:1.5;
+  line-height:1.4;
+  @media(min-width:$sm) {
+    font-size: $base-font-size; // 16 px
+  }
+  @media(min-width: $md) {
+    font-size: $base-font-size * 1.1; // 18px
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
   color:$color-headings;
   font-family: $font-family-display;
-}
-
-h1 {
-  font-size:2.8rem;
-  font-weight: $font-weight-normal;
-}
-
-h2 {
-  font-size: 2rem;
-  font-weight: $font-weight-bold;
+  font-weight: $font-weight-semi-bold;
 }
 
 a {
@@ -46,8 +42,7 @@ a {
   text-decoration:underline;
 
   &:hover {
-    //color: darken($color-links, 15%);
-    color: $color-links;
+    color: darken($color-links, 15%);
     text-decoration: underline;
   }
 }
@@ -115,4 +110,28 @@ code {
   color: $color-code;
   //white-space: nowrap;
   background-color: #f9f2f4;
+}
+
+dt {
+  font-weight:bold;
+}
+
+.dl {
+  margin-left:1rem;
+  p {
+    margin-bottom:0;
+  }
+  dd {
+    padding:0;
+    margin:0;
+    &.meta {
+      font-size:1.2rem;
+      font-style:italic;
+      color:$color-muted;
+    }
+  }
+}
+
+main {
+  padding: 2rem 0;
 }

@@ -7,13 +7,12 @@
   <title>{{ site.title }} - {{ current.title }}</title>
   <link rel="icon" href="/favicon.ico" type="image/ico">
   <link rel="stylesheet" href="/css/master.css">
-  <script src="//use.typekit.net/{{site.meta.typekit_id}}.js"></script>
-  <script>try{Typekit.load();}catch(e){}</script>
+  {% include 'includes/typekit' %}
 </head>
 
-<body class="{% if parent %}{{ parent.title }}{% else %}{{ slug }}{% endif %}">
+<body class="container">
   {% include 'includes/header' %}
-  <main class="container">
+  <main>
     {{content}}
   </main>
   {% include 'includes/footer' %}
