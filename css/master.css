@@ -212,15 +212,15 @@ body {
   background: #ffffff;
   -webkit-font-smoothing: subpixel-antialiased;
   font-size: 1.44rem;
-  font-family: "freight-text-pro", Georgia, serif;
+  font-family: "adobe-text-pro", "freight-text-pro", Georgia, serif;
   color: #4a4a4a;
-  line-height: 1.4; }
+  line-height: 1.6; }
   @media (min-width: 60rem) {
     body {
       font-size: 1.6rem; } }
   @media (min-width: 75rem) {
     body {
-      font-size: 1.76rem; } }
+      font-size: 1.6rem; } }
 
 h1, h2, h3, h4, h5, h6 {
   color: #222;
@@ -228,11 +228,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600; }
 
 a {
-  color: #4682b4;
+  color: #369;
   transition: color .3s ease;
   text-decoration: underline; }
   a:hover {
-    color: #315a7d;
+    color: #204060;
     text-decoration: underline; }
 
 blockquote {
@@ -284,6 +284,7 @@ pre {
 
 code {
   font-family: "source-code-pro", "Courier New", monospace;
+  font-weight: 400;
   padding: 2px 4px;
   font-size: 1.4rem;
   color: #c7254e;
@@ -305,49 +306,21 @@ dt {
       color: #888; }
 
 main {
-  padding: 2rem 0; }
+  padding: 0; }
 
 .navbar {
   padding: 1rem 0;
-  border-bottom: 1px solid #ededed;
-  font-size: 1.3rem;
+  background: rgba(0, 0, 0, 0.95);
+  font-size: 1.2rem;
   text-align: center;
+  border-bottom: 1px solid #ededed;
   width: 100%;
-  font-weight: 500;
-  font-family: "freight-sans-pro", "omnes-pro", "source-sans-pro", helvetica; }
-  @media (min-width: 60rem) {
-    .navbar {
-      font-size: 1.4rem;
-      padding: 1.5rem 0; } }
-  @media (min-width: 75rem) {
-    .navbar {
-      display: -webkit-box;
-      display: -moz-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-align-items: center;
-      -moz-align-items: center;
-      -ms-align-items: center;
-      -o-align-items: center;
-      align-items: center;
-      text-align: left;
-      font-size: 1.6rem; } }
-  .navbar .brand {
-    text-decoration: none;
-    color: #222;
-    font-weight: 600;
-    font-size: 1.8rem; }
-    .navbar .brand:hover {
-      text-decoration: underline; }
+  font-weight: 400;
+  font-family: "muli";
+  text-transform: uppercase; }
   .navbar nav {
-    -webkit-flex: 1;
-    -moz-flex: 1;
-    -ms-flex: 1;
-    -o-flex: 1;
-    flex: 1;
-    margin: 0;
-    text-align: center; }
+    padding: .8rem 0;
+    text-align: left; }
     .navbar nav ul {
       list-style: none;
       margin: 0;
@@ -359,17 +332,12 @@ main {
           margin-right: 0; }
     @media (min-width: 75rem) {
       .navbar nav {
-        text-align: right; } }
+        text-align: left; } }
     .navbar nav a {
+      color: white;
       text-decoration: none; }
       .navbar nav a:hover {
         text-decoration: underline; }
-  .navbar p {
-    margin: 0;
-    color: #888; }
-  .navbar span {
-    font-size: 1.2rem;
-    font-style: italic; }
 
 footer[role="site-footer"] {
   font-family: "freight-sans-pro", "omnes-pro", "source-sans-pro", helvetica;
@@ -453,12 +421,11 @@ footer[role="site-footer"] {
         margin-right: 1rem; } }
 
 .book h4 {
-  font-family: "freight-text-pro", Georgia, serif;
+  font-family: "adobe-text-pro", "freight-text-pro", Georgia, serif;
   margin-bottom: 0;
   font-weight: 400;
   font-style: italic; }
   .book h4 a {
-    font-family: "freight-sans-pro", "omnes-pro", "source-sans-pro", helvetica;
     font-weight: 700;
     font-style: normal; }
 .book p {

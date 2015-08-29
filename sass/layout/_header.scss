@@ -1,41 +1,24 @@
 .navbar {
   padding:1rem 0;
-  border-bottom: 1px solid $color-borders;
-  font-size: 1.3rem;
+  background: rgba(0,0,0,.95);
+  font-size: 1.2rem;
   text-align:center;
+  border-bottom: 1px solid $color-borders;
   width:100%;
-  font-weight:500;
-  font-family: $font-sans;
-  @media(min-width: $sm) {
-    font-size:1.4rem;
-    padding:1.5rem 0;
-  }
-  @media(min-width: $md) {
-    @include flexbox;
-    @include align-items(center);
-    text-align:left;
-    font-size:1.6rem;
-  }
-  .brand {
-    text-decoration:none;
-    color:$color-headings;
-    font-weight:$font-weight-semi-bold;
-    &:hover { text-decoration: underline;}
-    font-size:1.8rem;
-  }
+  font-weight:400;
+  font-family: "muli";
+  text-transform: uppercase;
   nav {
-    @include flex(1);
+    padding: .8rem 0;
     @include inline-navigation(1.5rem);
-    margin: 0;
-    text-align:center;
-    @media(min-width: $md) { text-align:right;}
+    text-align:left;
+    @media(min-width: $md) { text-align:left;}
     a {
+      color:white;
       text-decoration:none;
       &:hover {
         text-decoration:underline;
       }
     }
   }
-  p { margin:0; color:$color-muted;}
-  span {font-size:1.2rem;font-style:italic;}
 }
