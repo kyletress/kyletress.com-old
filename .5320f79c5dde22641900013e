@@ -1,5 +1,5 @@
 ---
-time: 1440963509
+time: 1440968988
 inventory:
   "/home/index.html":
     md5: bd20140ca9988acc9c7f51511e94968a
@@ -47,8 +47,8 @@ inventory:
     md5: 5db14d9c2ddeca002ebd9c4f57e6b20e
     time: 1440906586
   "/reading/index.html":
-    md5: fafaca523f97da68bc5fafb7c6e135e5
-    time: 1440963498
+    md5: 7621d1c1829b8c26d45b5ac95b60a8a8
+    time: 1440968982
   "/reading/elon-musk/index.html":
     md5: 05ab57232473a2ff5908291546dc1930
     time: 1440963498
@@ -307,9 +307,6 @@ inventory:
   "/now/index.html":
     md5: 75c5550227ce61e36a20ab5b6275190c
     time: 1440906589
-  "/d3/index.html":
-    md5: 61793454efb307517f2142398b2c186d
-    time: 1440906590
   "/musings/index.html":
     md5: 32879bbfbe1966fbb8da785931fdd38b
     time: 1440906590
@@ -482,11 +479,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   "/sitemap.xml":
-    md5: 4371b87b668528d92f08fe5cd68498ad
-    time: 1440963503
+    md5: fea97ce6ab961c30b293f7550311f8fc
+    time: 1440968987
   "/feed.xml":
-    md5: 8eb32902ada9622fb2020df7c175f764
-    time: 1440963503
+    md5: 8cde4d24116f823d932ee5a16a1a36e5
+    time: 1440968987
   "/assets/washington-crossing.jpg":
     md5: 550b69d7994859ac55cbb112cc23e1d1
     time: 1407895647
