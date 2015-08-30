@@ -1,13 +1,18 @@
 footer[role="site-footer"] {
-  font-family: $font-sans;
-  text-transform: uppercase;
-  letter-spacing:1px;
-  padding:2rem 0;
-  font-size:1.3rem;
+  //font-family: $font-sans;
+  padding:3rem 0;
+  margin-top:4rem;
+  font-size:1.1rem;
   color:$color-muted;
   text-align:center;
+  border-top: 1px solid $color-borders;
   p {
     margin:0;
-    margin-bottom:1rem;
+    margin-bottom:.5rem;
+  }
+  nav {
+    @include inline-navigation(.5rem);
+    text-transform: uppercase;
+    margin-bottom: .5rem;
   }
 }

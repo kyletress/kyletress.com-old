@@ -1,9 +1,4 @@
 {% capture content %}
-  <div class="introduction">
-    {% include 'includes/headshot' %}
-    {{ meta.introduction | markdownify }}
-  </div>
-  {{body}}
+{{body}}
 {% endcapture %}
-
 {% include 'layouts/default' %}

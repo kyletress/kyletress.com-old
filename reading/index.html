@@ -4,20 +4,15 @@
 
 {% assign books_by_year = posts | group_by: "year" %}
 
-<section class="reading-list multi">
+<section class="reading-list">
 <h1>What I'm Reading</h1>
 {% for year in books_by_year %}
-  <h2 class="center">{{ year.name }}</h2>
-  {% assign books_by_month = year.items | group_by: "month" %}
-  {% for month in books_by_month %}
-    <h3>{{ month.items.first.date | date: "%B"}}</h3>
-      {% for book in month.items %}
-        <article class="book">
-          <h4><a href="{{book.meta.link}}">{{book.title}}</a> by {{book.meta.authors}}</h4>
-          {{book.body}}
-        </article>
-      {% endfor %}
-  {% endfor %}
+  <h2>{{ year.name }}</h2>
+  <ul>
+    {% for book in year.items %}
+    <li><em><a href="{{book.meta.link}}">{{book.title}}</a></em> by {{book.meta.authors}} {% include 'includes/rating' %}</li>
+    {% endfor %}
+  </ul>
 {% endfor %}
 </section>
 

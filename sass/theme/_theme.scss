@@ -6,6 +6,17 @@
   text-align:center;
 }
 
+.flex {
+  @include flexbox;
+  .content{
+    -webkit-flex: 1;
+    padding-left:1rem;
+  }
+  .photos {
+    -webkit-flex: 1;
+  }
+}
+
 .book{
   h4{
     margin-bottom:0;
@@ -74,6 +85,17 @@
 
 .center {
   text-align:center;
+}
+
+.reading-list{
+  font-size: 1.4rem;
+  ul {
+    list-style:none;
+    padding-left: 0;
+  }
+  li {
+    margin:1rem 0;
+  }
 }
 
 

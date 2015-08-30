@@ -5,9 +5,12 @@
 }
 
 .container {
-  width: $container-width;
-  max-width: $container-max-width;
-  margin: 0 auto; //if you want it centered
+  margin: 0 auto;
+  width: 90%;
+  @media(min-width: $md) {
+    margin: 0 auto;
+    max-width:680px;
+  }
 }
 
 
@@ -25,9 +28,6 @@ body {
   @media(min-width:$sm) {
     font-size: $base-font-size; // 16 px
   }
-  @media(min-width: $md) {
-    font-size: $base-font-size * 1; // 18px
-  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -37,13 +37,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: $color-links;
+  color: $color-text;
   transition: color .3s ease;
   text-decoration:underline;
 
   &:hover {
-    color: darken($color-links, 15%);
-    text-decoration: underline;
+    color: $color-links;
+    text-decoration: none;
   }
 }
 
@@ -131,8 +131,4 @@ dt {
       color:$color-muted;
     }
   }
-}
-
-main {
-  padding: 0;
 }
