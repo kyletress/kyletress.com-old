@@ -1,5 +1,5 @@
 ---
-time: 1440906793
+time: 1440963509
 inventory:
   "/home/index.html":
     md5: bd20140ca9988acc9c7f51511e94968a
@@ -47,8 +47,17 @@ inventory:
     md5: 5db14d9c2ddeca002ebd9c4f57e6b20e
     time: 1440906586
   "/reading/index.html":
-    md5: 3c4eb8282422e780b4ed9e1e0577d464
-    time: 1440906587
+    md5: fafaca523f97da68bc5fafb7c6e135e5
+    time: 1440963498
+  "/reading/elon-musk/index.html":
+    md5: 05ab57232473a2ff5908291546dc1930
+    time: 1440963498
+  "/reading/a-man-on-the-moon/index.html":
+    md5: a6a24b119f7276f354ad77832594b5a8
+    time: 1440963498
+  "/reading/the-right-stuff/index.html":
+    md5: d16bc86271e3ad413b3e0493b1f1ad15
+    time: 1440963498
   "/reading/the-case-for-mars/index.html":
     md5: cece6d23f91aa9294adfd3f70502bd10
     time: 1440906587
@@ -119,11 +128,32 @@ inventory:
     md5: ee4bcea50cc42e4ea2b1b54dee03ec5b
     time: 1440906588
   "/reading/archive/index.html":
-    md5: 76dc6423fedac9fe9c34d86fc4938822
-    time: 1440906588
+    md5: 75d716c2ffb3dca4e4c5f52825994d9d
+    time: 1440963499
   "/reading/tags/index.html":
     md5: 9895dcdc25890ffe9c8bf50cddf13632
     time: 1440906588
+  "/reading/tags/biography/index.html":
+    md5: 6c7ecae951c72650596cb6b91cc3829e
+    time: 1440963499
+  "/reading/tags/technology/index.html":
+    md5: c5c0f6ee7c25ce22a13f7b1a083bc1af
+    time: 1440963499
+  "/reading/tags/space/index.html":
+    md5: a50d48205212c7e9bbe68e28423b45e8
+    time: 1440963499
+  "/reading/tags/science/index.html":
+    md5: bb4608c41cbcde51b09cd76b27d8d072
+    time: 1440963499
+  "/reading/tags/mars/index.html":
+    md5: 6f93908746bf9882dadcbaca081e4c8c
+    time: 1440963499
+  "/reading/tags/sci-fi/index.html":
+    md5: 99513a1f59f0ee66daefc66f87da1f20
+    time: 1440963499
+  "/reading/tags/fiction/index.html":
+    md5: 19b1d4ab1ee827a32b86c85bb7d26bb2
+    time: 1440963499
   "/reading/tags/aviation/index.html":
     md5: 1290974eaaa21e52280c78e5fe2143e7
     time: 1440906588
@@ -132,9 +162,6 @@ inventory:
     time: 1440906588
   "/reading/tags/music/index.html":
     md5: e8e22b02aaea2d41880e272a7df4a23e
-    time: 1440906588
-  "/reading/tags/biography/index.html":
-    md5: 7054c82aa8b5e7223714f4ce4bd6a283
     time: 1440906588
   "/reading/tags/philosophy/index.html":
     md5: a5e390162ca88ee52871b33b5335b6d8
@@ -159,9 +186,6 @@ inventory:
     time: 1440906588
   "/reading/tags/minimalism/index.html":
     md5: be7bbf769ebd89b6e439b37d4dd8619b
-    time: 1440906588
-  "/reading/tags/science/index.html":
-    md5: 0fe822ca57d5b4b30ddb7f17c86ced70
     time: 1440906588
   "/reading/tags/learning/index.html":
     md5: 11779e0b1bcf6a6a9f729da396c21f8b
@@ -458,11 +482,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   "/sitemap.xml":
-    md5: 4958c0f84c9a3cf8cabf61b41934e8c4
-    time: 1440906791
+    md5: 4371b87b668528d92f08fe5cd68498ad
+    time: 1440963503
   "/feed.xml":
-    md5: a90fb89aec5faf5ab5167852f09dd7f1
-    time: 1440906792
+    md5: 8eb32902ada9622fb2020df7c175f764
+    time: 1440963503
   "/assets/washington-crossing.jpg":
     md5: 550b69d7994859ac55cbb112cc23e1d1
     time: 1407895647

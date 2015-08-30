@@ -3,7 +3,34 @@
   <channel>
     <title>Kyle Tress</title>
     <link>http://kyletress.com</link>
-    <pubDate>Sat, 29 Aug 2015 23:53:11 -0400</pubDate>
+    <pubDate>Sun, 30 Aug 2015 15:38:23 -0400</pubDate>
+    
+    <item>
+      <title>Elon Musk</title>
+      <link>http://kyletress.com/reading/elon-musk</link>
+      <pubDate>Sun, 30 Aug 2015 15:35:00 -0400</pubDate>
+      <author>Kyle Tress</author>
+      <guid>http://kyletress.com/reading/elon-musk</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Man on the Moon</title>
+      <link>http://kyletress.com/reading/a-man-on-the-moon</link>
+      <pubDate>Sun, 30 Aug 2015 15:34:00 -0400</pubDate>
+      <author>Kyle Tress</author>
+      <guid>http://kyletress.com/reading/a-man-on-the-moon</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Right Stuff</title>
+      <link>http://kyletress.com/reading/the-right-stuff</link>
+      <pubDate>Sun, 30 Aug 2015 15:34:00 -0400</pubDate>
+      <author>Kyle Tress</author>
+      <guid>http://kyletress.com/reading/the-right-stuff</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>SpaceX</title>
@@ -274,34 +301,6 @@ The crew says the flight is going to be 2 hours and 30 minutes. Sounds great. Wh
       <author>Kyle Tress</author>
       <guid>http://kyletress.com/reading/the-life-changing-magic-of-tidying-up</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>How to Live</title>
-      <link>http://kyletress.com/reading/how-to-live</link>
-      <pubDate>Fri, 17 Oct 2014 23:07:00 -0400</pubDate>
-      <author>Kyle Tress</author>
-      <guid>http://kyletress.com/reading/how-to-live</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Discourses</title>
-      <link>http://kyletress.com/reading/discourses</link>
-      <pubDate>Fri, 17 Oct 2014 23:00:00 -0400</pubDate>
-      <author>Kyle Tress</author>
-      <guid>http://kyletress.com/reading/discourses</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Short History of Nearly Everything</title>
-      <link>http://kyletress.com/reading/a-short-history-of-nearly-everything</link>
-      <pubDate>Fri, 10 Oct 2014 00:37:00 -0400</pubDate>
-      <author>Kyle Tress</author>
-      <guid>http://kyletress.com/reading/a-short-history-of-nearly-everything</guid>
-      <description>&lt;p&gt;A classic from one of my all-time favorite writers.&lt;/p&gt;
-</description>
     </item>
     
   </channel>
