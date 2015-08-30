@@ -1,5 +1,5 @@
 ---
-time: 1440906654
+time: 1440906793
 inventory:
   "/home/index.html":
     md5: bd20140ca9988acc9c7f51511e94968a
@@ -293,8 +293,8 @@ inventory:
     md5: 1380a24d185a9db0dac3988257ff4d0c
     time: 1440906590
   "/musings/we-choose-to-go-to-the-moon/index.html":
-    md5: 61a41d7c3f9c406907aea3207b9882f3
-    time: 1440906590
+    md5: 8c739f6041df6856672d32e9245ffeec
+    time: 1440906789
   "/musings/archive/index.html":
     md5: 7b17a7b371f63c873ebb2128cfd33497
     time: 1440906590
@@ -458,11 +458,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   "/sitemap.xml":
-    md5: e56b4f37a5190468e5ca695ba40fd247
-    time: 1440906592
+    md5: 4958c0f84c9a3cf8cabf61b41934e8c4
+    time: 1440906791
   "/feed.xml":
-    md5: 5f6a8202c5018e2c9e5b2d347e0ebf34
-    time: 1440906592
+    md5: a90fb89aec5faf5ab5167852f09dd7f1
+    time: 1440906792
   "/assets/washington-crossing.jpg":
     md5: 550b69d7994859ac55cbb112cc23e1d1
     time: 1407895647
