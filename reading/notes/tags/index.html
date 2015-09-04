@@ -1,0 +1,11 @@
+{% capture content %}
+<h1>Reading notes</h1>
+{{body}}
+
+{% assign sorted_tags = tags | sort:'value' %}
+  {% for tag in sorted_tags %}
+    <a href="{{tag.url}}">{{tag.value}}</a>{% unless forloop.last %}, {% endunless %}
+  {% endfor %}
+{% endcapture %}
+
+{% include 'layouts/default' %}

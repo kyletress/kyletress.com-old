@@ -1,0 +1,16 @@
+{% capture content %}
+<h1>{{title}}</h1>
+{{body}}
+
+{% assign sorted_tags = site.pages['reading'].pages['notes'].taxonomy.tags | sort:'value' %}
+{% for tag in sorted_tags %}
+  <a href="{{tag.url}}">{{tag.value}}</a>,
+{% endfor %}
+{% if parent %}
+<p>
+  <a href="{{parent.url}}">&larr; Return to Reading</a>
+</p>
+{% endif %}
+{% endcapture %}
+
+{% include 'layouts/default' %}

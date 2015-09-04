@@ -459,6 +459,9 @@ footer[role="site-footer"] {
   .reading-list li {
     margin: 1rem 0; }
 
+.book-notes {
+  font-size: 1.2rem; }
+
 a[href*="www.twitter.com"]:hover {
   color: #55acee; }
 

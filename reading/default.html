@@ -1,0 +1,21 @@
+{% capture content %}
+  <h1>{{ title }}</h1>
+  <p class"meta">{% if meta.subtitle %}{{ meta.subtitle }}{%endif%} <em>by</em> {{ meta.authors }}</p>
+
+{{ body }}
+
+<section class="book-notes">
+  <h3>Notes</h3>
+{% for note in parent.pages['notes'].taxonomy['book'][slug].posts %}
+<section class="book-note">
+  {{ note.body }}
+  <div class="note-meta">
+  {% if note.meta.page %}page {{ note.meta.page }}{%  endif %}
+  </div>
+</section>
+{% endfor %}
+</section>
+
+{% endcapture %}
+
+{% include 'layouts/default' %}

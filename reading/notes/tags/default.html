@@ -1,0 +1,23 @@
+{% capture content %}
+<h1>{{ title }}</h1>
+
+<section class="book-notes">
+{% for post in posts %}
+<section class="book-note">
+{{ post.body }}
+<div class="note-meta">
+  <a href="/reading/{{post.taxonomy['book'].first.slug}}">{{ post.taxonomy['book'].first }}</a> {% if post.meta.page %}&mdash; page {{ post.meta.page }} {% endif %}
+</div>
+</section>
+{% endfor %}
+</section>
+
+{% if parent %}
+<p>
+  <a href="{{parent.url}}">&larr;  Go Back</a>
+</p>
+{% endif %}
+
+{% endcapture %}
+
+{% include 'layouts/default' %}
