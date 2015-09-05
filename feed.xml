@@ -3,7 +3,19 @@
   <channel>
     <title>Kyle Tress</title>
     <link>http://kyletress.com</link>
-    <pubDate>Thu, 03 Sep 2015 22:31:11 -0400</pubDate>
+    <pubDate>Sat, 05 Sep 2015 00:39:03 -0400</pubDate>
+    
+    <item>
+      <title>Elon Musk</title>
+      <link>http://kyletress.com/reading/notes/elon-musk-2</link>
+      <pubDate>Sat, 05 Sep 2015 00:36:00 -0400</pubDate>
+      <author>Kyle Tress</author>
+      <guid>http://kyletress.com/reading/notes/elon-musk-2</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Musk fell into the classic self-taught coder trap of writing what developers call hairballs – big, monolithic hunks of code for mysterious reasons. &lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
     
     <item>
       <title>Elon Musk</title>
@@ -298,15 +310,6 @@ The crew says the flight is going to be 2 hours and 30 minutes. Sounds great. Wh
       <guid>http://kyletress.com/reading/michael-jackson-inc</guid>
       <description>&lt;p&gt;One of the best business books I read in 2014. I came away with a new appreciation for Michael Jackson, particularly his business sense. Since his death in 2009, his estate has brought in hundreds of millions of dollars, largely in music licensing deals he negotiated throughout his career.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Letters from a Stoic</title>
-      <link>http://kyletress.com/reading/letters-from-a-stoic</link>
-      <pubDate>Sat, 29 Nov 2014 15:26:00 -0500</pubDate>
-      <author>Kyle Tress</author>
-      <guid>http://kyletress.com/reading/letters-from-a-stoic</guid>
-      <description></description>
     </item>
     
   </channel>
