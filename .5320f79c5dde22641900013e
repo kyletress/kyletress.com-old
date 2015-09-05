@@ -1,5 +1,5 @@
 ---
-time: 1441427946
+time: 1441428032
 inventory:
   "/home/index.html":
     md5: bd20140ca9988acc9c7f51511e94968a
@@ -50,8 +50,8 @@ inventory:
     md5: 6e0f08bd63c568d4dc458a45e8899361
     time: 1441333865
   "/reading/elon-musk/index.html":
-    md5: fbc0faeb555516042f31b7ab7147cdf9
-    time: 1441427937
+    md5: b3d538bc03ae9e3cadfcbc0010369ee2
+    time: 1441428024
   "/reading/a-man-on-the-moon/index.html":
     md5: 87ef5865582b723d60cc90142213d537
     time: 1441333678
@@ -338,8 +338,8 @@ inventory:
     md5: dbe74c9e9349a67ed2ade181f81e5cbc
     time: 1441427940
   "/reading/notes/elon-musk-2/index.html":
-    md5: f357f183db675c66697b16140d4db06a
-    time: 1441427940
+    md5: fe6b07a2612a1d54b8ea04d0abd021d3
+    time: 1441428027
   "/reading/notes/elon-musk-1/index.html":
     md5: 0d22b83df15117799247e1d1c4758519
     time: 1441333681
@@ -353,11 +353,11 @@ inventory:
     md5: f98928f025ae8b6d262704d1e236782b
     time: 1441427940
   "/reading/notes/tags/programming/index.html":
-    md5: ec842ceca9d1f36410ceae500997d6c4
-    time: 1441427940
+    md5: 0e3bebbb6909e1b5290356db67f8c4ad
+    time: 1441428027
   "/reading/notes/tags/self-taught/index.html":
-    md5: 381fcf3faf32d3bc7a89667412bebb11
-    time: 1441427941
+    md5: e219e5e668926e80d50a227050d1c173
+    time: 1441428027
   "/reading/notes/tags/focus/index.html":
     md5: ad776e7f6949e8ed9cfcfa79bdfdea5f
     time: 1441333681
@@ -530,8 +530,8 @@ inventory:
     md5: 8a89564460c7392fbf4e17383010f381
     time: 1441333871
   "/feed.xml":
-    md5: 70fc90c41dd23bafc94a388e01d707d3
-    time: 1441427943
+    md5: c8adbc7154478baeb0ca6af4ef041ae4
+    time: 1441428029
   "/assets/washington-crossing.jpg":
     md5: 550b69d7994859ac55cbb112cc23e1d1
     time: 1407895647
