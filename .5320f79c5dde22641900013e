@@ -1,5 +1,5 @@
 ---
-time: 1441563955
+time: 1441564025
 inventory:
   "/home/index.html":
     md5: bd20140ca9988acc9c7f51511e94968a
@@ -50,8 +50,8 @@ inventory:
     md5: 6e0f08bd63c568d4dc458a45e8899361
     time: 1441333865
   "/reading/elon-musk/index.html":
-    md5: e86519ba86333a5d3dc41a93d3846e6f
-    time: 1441563946
+    md5: 05b96716151f281e39845d7d69f2c5b6
+    time: 1441564017
   "/reading/a-man-on-the-moon/index.html":
     md5: 87ef5865582b723d60cc90142213d537
     time: 1441333678
@@ -401,14 +401,14 @@ inventory:
     md5: 24a8cda94583bc558120af38863b89e8
     time: 1441333681
   "/reading/notes/tags/intelligence/index.html":
-    md5: a614c5d059da649b389a6ebf676633ea
-    time: 1441333681
+    md5: 7fc4f88091a52957f1bd5f0b06b020fc
+    time: 1441564021
   "/reading/notes/tags/pursuit/index.html":
-    md5: dd34aaeebf1cdd11e0e1ca86ce714b76
-    time: 1441333681
+    md5: a1914842fc386b3a22e87f05c494b114
+    time: 1441564021
   "/reading/notes/tags/innovation/index.html":
-    md5: f75a78b0b6e364bed5fb3265eb423624
-    time: 1441333681
+    md5: 82cf9bfd189a40e7d9ab9b83088f7cf0
+    time: 1441564021
   "/reading/notes/book/index.html":
     md5: 3d4850bbb5a1b1f8a05415d604a61387
     time: 1441333681
@@ -563,8 +563,8 @@ inventory:
     md5: 8a89564460c7392fbf4e17383010f381
     time: 1441333871
   "/feed.xml":
-    md5: b969e1a91c325e053569cd3efacb9478
-    time: 1441563952
+    md5: 751884527dfb3bb9b0f2e14fcf36b1b8
+    time: 1441564023
   "/assets/washington-crossing.jpg":
     md5: 550b69d7994859ac55cbb112cc23e1d1
     time: 1407895647
