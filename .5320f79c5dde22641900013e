@@ -1,12 +1,12 @@
 ---
-time: 1442129221
+time: 1442594885
 inventory:
   "/home/index.html":
-    md5: 06ba92a5f8e9caf9b099ae6e727dda53
-    time: 1441676648
+    md5: 544abdbecba6b4ab8cb1080ae94490c4
+    time: 1442594873
   "/index.html":
-    md5: 06ba92a5f8e9caf9b099ae6e727dda53
-    time: 1441676648
+    md5: 544abdbecba6b4ab8cb1080ae94490c4
+    time: 1442594873
   "/about/index.html":
     md5: 2d8512ba931311d4c85e2a4a46561b72
     time: 1441676648
@@ -47,8 +47,8 @@ inventory:
     md5: c9482560df88ec5455f4521cf1d0ef9a
     time: 1441676649
   "/reading/index.html":
-    md5: 9bf73bab6fc79b358d2059bff9f5fd76
-    time: 1442129213
+    md5: 1ed91e1c22d83cbee9fa99ee4f8f6190
+    time: 1442594874
   "/reading/how-apollo-flew-to-the-moon/index.html":
     md5: 15582910ad15d999f35839cb5b104f4a
     time: 1442129213
@@ -311,8 +311,32 @@ inventory:
     md5: 7ea78b00a9dd87c3332612755bfb5f4a
     time: 1441676652
   "/newsletter/index.html":
-    md5: a34388f4b43e2638ee8473c4d6bdc78b
-    time: 1441676652
+    md5: 5188363f34ac78c44a6e235d1ea3d3a0
+    time: 1442594877
+  "/newsletter/september-2015/index.html":
+    md5: cd637e2b991562027fe94b3cf602b9cf
+    time: 1442594877
+  "/newsletter/august-2015/index.html":
+    md5: 433a492c6a240e7b3fca708e8a9d4b88
+    time: 1442594877
+  "/newsletter/july-2015/index.html":
+    md5: 77f483a2f1f36fd09e28111713eeaf04
+    time: 1442594877
+  "/newsletter/june-2015/index.html":
+    md5: 074bb43eb34c906a435ef719c9dc6258
+    time: 1442594877
+  "/newsletter/may-2015/index.html":
+    md5: 73b2a4bbd24c63f46ea9db8b905ff817
+    time: 1442594877
+  "/newsletter/april-2015/index.html":
+    md5: 40ce0e2080978e5294279e6eef610655
+    time: 1442594877
+  "/newsletter/archive/index.html":
+    md5: 9189b8a4fe3e15ab0d41ffceca9d6a65
+    time: 1442594877
+  "/newsletter/tags/index.html":
+    md5: 122de9ca2a4a5abc8b4fad009f5ba912
+    time: 1442594877
   "/now/index.html":
     md5: 507def81c96edbc57cec5fd8ab8f44bf
     time: 1441676652
@@ -545,11 +569,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   "/sitemap.xml":
-    md5: a8adf98e1af8e044797003175cbb3034
-    time: 1442129218
+    md5: 4b54f67e8c18ea26b0b725367b400938
+    time: 1442594880
   "/feed.xml":
-    md5: aaf750ae293633fa02b14916616c89fa
-    time: 1442129218
+    md5: c7938c1a29c7008af86fbec253e74bcc
+    time: 1442594880
   "/assets/washington-crossing.jpg":
     md5: 550b69d7994859ac55cbb112cc23e1d1
     time: 1407895647
