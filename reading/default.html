@@ -1,9 +1,17 @@
 {% capture content %}
+<header>
   <h1>{{ title }}</h1>
-  <p class"meta">{% if meta.subtitle %}{{ meta.subtitle }}{%endif%} <em>by</em> {{ meta.authors }}</p>
+  {% if meta.subtitle %}
+    <h2>{{ meta.subtitle }}</h2>
+  {% endif %}
+  {% if meta.authors %}
+    <p class"meta">{{ meta.authors }}</p>
+  {% endif %}
+</header>
 
 {{ body }}
 
+{% if type == 'post' %}
 <section class="book-notes">
   <h3>Notes</h3>
 {% for note in parent.pages['notes'].taxonomy['book'][slug].posts %}
@@ -15,6 +23,7 @@
 </section>
 {% endfor %}
 </section>
+{% endif %}
 
 {% endcapture %}
 
