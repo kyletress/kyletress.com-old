@@ -1,573 +1,573 @@
 ---
-time: 1443891630
+time: 1443893618
 inventory:
   "/home/index.html":
-    md5: 544abdbecba6b4ab8cb1080ae94490c4
-    time: 1442594873
+    md5: 84022fe9cd0d4929fcf2c22b735aebae
+    time: 1443893533
   "/index.html":
-    md5: 544abdbecba6b4ab8cb1080ae94490c4
-    time: 1442594873
+    md5: 84022fe9cd0d4929fcf2c22b735aebae
+    time: 1443893533
   "/about/index.html":
-    md5: 2d8512ba931311d4c85e2a4a46561b72
-    time: 1441676648
+    md5: d25e110d97b9ae5d1c5b0c29ab5b1a95
+    time: 1443893533
   "/essays/index.html":
-    md5: 594920bfd996288c5d6c3a46400d4dfb
-    time: 1441676648
+    md5: 035698af898df0bdbe6f5924661d3d7a
+    time: 1443893533
   "/essays/how-i-use-apple-watch/index.html":
-    md5: 8dda2226b0ce02b4421ae8de0ec49a76
-    time: 1441676649
+    md5: 6a4f93ced41826ecc1ed77ad8cce6858
+    time: 1443893533
   "/essays/usada-workflow/index.html":
-    md5: b1561f575b24fc18597f779d49ca0a4e
-    time: 1441676649
+    md5: ba2c54b94dd6968181f6f3c15a41b44c
+    time: 1443893533
   "/essays/archive/index.html":
-    md5: eb1b3070f89ce4ae5bff21ab7d583efb
-    time: 1441676649
+    md5: b8d5e99759a56b6d45536b739344470a
+    time: 1443893533
   "/essays/tags/index.html":
-    md5: d890b1813e39128d31713183c3c72541
-    time: 1441676649
+    md5: bd42064816f85bdfd57721b78c156657
+    time: 1443893533
   "/essays/tags/usada/index.html":
-    md5: db818e358cca8265e5660ddaeff0aae4
-    time: 1441676649
+    md5: c9268ded1c215a8587be1be5751808d8
+    time: 1443893533
   "/essays/tags/workflow/index.html":
-    md5: 0ebdaba61c898ca3ce5c80e2495c9c3b
-    time: 1441676649
+    md5: 0157c297b57279956d19a539db042714
+    time: 1443893533
   "/essays/tags/apps/index.html":
-    md5: c03f9a8895ebd4b5e9ebb305f385942f
-    time: 1441676649
+    md5: d597d17e9aa209514187a641a89ab380
+    time: 1443893533
   "/essays/tags/ios/index.html":
-    md5: 17ae2725b38763a3ee4b97bb81d4caaa
-    time: 1441676649
+    md5: b368b913caf9f7771822f24a6da03346
+    time: 1443893533
   "/essays/category/index.html":
-    md5: 1d395e6e73ba02d4bf7251c3d0c6e395
-    time: 1441676649
+    md5: 79efe6e91fe8e8c31ced55190bf882a1
+    time: 1443893533
   "/essays/category/technology/index.html":
-    md5: 07bf231fda8e994a4d3c616c10cf3e43
-    time: 1441676649
+    md5: 853dc9a0501cbf15b4369f34073fb4b9
+    time: 1443893533
   "/skeleton/index.html":
-    md5: c9482560df88ec5455f4521cf1d0ef9a
-    time: 1441676649
+    md5: c906ae68eaf9fccea8e09ee1883fb46b
+    time: 1443893533
   "/reading/index.html":
-    md5: 685407ebd50a32bdf8e639c45830a230
-    time: 1443891549
+    md5: e8486705ce8f2dfb3eab7376c6fcbae6
+    time: 1443893533
   "/reading/how-apollo-flew-to-the-moon/index.html":
-    md5: 9ce087165a7996077dc267b162ec94da
-    time: 1442594964
+    md5: 03d968027babdeb805bc864a86c73f9a
+    time: 1443893533
   "/reading/elon-musk/index.html":
-    md5: 93e0a2ed0fdadd95509788e4d169f2ae
-    time: 1442594964
+    md5: 08b3ba4c17734137ea259bf1ffe46b15
+    time: 1443893533
   "/reading/a-man-on-the-moon/index.html":
-    md5: c952cbc6f9e7f2aa836f2a242dccc471
-    time: 1442594964
+    md5: fda4b34c268464cbc03ddc3afe753c84
+    time: 1443893533
   "/reading/the-right-stuff/index.html":
-    md5: 0346dbb288ae969dd94e814909735670
-    time: 1442594964
+    md5: 36d8b3a634ecc5b6b3c0fac2eeffaf3b
+    time: 1443893533
   "/reading/the-case-for-mars/index.html":
-    md5: eae759d7c49e6bd0f113367224e550b5
-    time: 1442594964
+    md5: ad6413d7570a7956b3cb46e8d8a3b43a
+    time: 1443893534
   "/reading/crooked/index.html":
-    md5: 5358b9d61f5934e58756e7ed95957dc6
-    time: 1442594965
+    md5: ea16711d9c194fed7a3f6af21ad0b967
+    time: 1443893534
   "/reading/armada/index.html":
-    md5: 363886941b87086bf1e8d7774e401640
-    time: 1442594965
+    md5: f82833c1b513c4b224a5162cc4f70d9a
+    time: 1443893534
   "/reading/sapiens/index.html":
-    md5: 05fc3450138a4b92abeabf165f0f2c98
-    time: 1442594965
+    md5: 5b8bc166c0f410f9a19df9a0a303053b
+    time: 1443893534
   "/reading/the-wright-brothers/index.html":
-    md5: 41b360b71802c84faca1a88e3c5ec43c
-    time: 1442594965
+    md5: eb020d4697cb411b1e31a4aa4b529448
+    time: 1443893534
   "/reading/how-adam-smith-can-change-your-life/index.html":
-    md5: cd9369f3af620425753b993a309ab949
-    time: 1442594965
+    md5: e8403198c58b6190dbbda7d55ccefae2
+    time: 1443893534
   "/reading/zero-to-one/index.html":
-    md5: c8c395cae4b9ddc019bdbc66f6856230
-    time: 1442594965
+    md5: 1b1b801866f87310d3325b03f7070e0e
+    time: 1443893534
   "/reading/resilience/index.html":
-    md5: a273926067840e768c2a514f5a43d775
-    time: 1442594965
+    md5: fd1624612684ce6b3a10ff753b6f5136
+    time: 1443893534
   "/reading/becoming-steve-jobs/index.html":
-    md5: 55565850eabef79ab8fafbe9d6714566
-    time: 1442594965
+    md5: 98d49edb600c71670b48e31e8a93de98
+    time: 1443893534
   "/reading/michael-jackson-inc/index.html":
-    md5: b63703b312342a0d5e28f2decda5432a
-    time: 1442594965
+    md5: b384297afbc50135767e63149d4abd15
+    time: 1443893534
   "/reading/letters-from-a-stoic/index.html":
-    md5: d9215b4209a99d1f16752898a2fd7d68
-    time: 1442594965
+    md5: 4c94de991c67cc7c51d723e9525dfcd1
+    time: 1443893534
   "/reading/10-percent-happier/index.html":
-    md5: 40810719c45b74a6fb2d53c02293124d
-    time: 1442594965
+    md5: 711185f5a3e1adc851d468c29e67e91b
+    time: 1443893534
   "/reading/the-life-changing-magic-of-tidying-up/index.html":
-    md5: 4526684dbf118a6a4643b0fd37995918
-    time: 1442594965
+    md5: 74b20788841548f5d0d83c47205fcf3a
+    time: 1443893534
   "/reading/how-to-live/index.html":
-    md5: 46cee1bd0f280d020a2dfa3e14b4dd4f
-    time: 1442594965
+    md5: 76bc46f0449f3c76ede74f63d322ac84
+    time: 1443893534
   "/reading/discourses/index.html":
-    md5: 8be1b395ee193cb57fb7443e022d81bc
-    time: 1442594965
+    md5: 63f847abc139e78571487a967f0dc05f
+    time: 1443893534
   "/reading/a-short-history-of-nearly-everything/index.html":
-    md5: 6c20b096817dbe8cabdf8974741a7fe3
-    time: 1442594965
+    md5: 5cf2598815f1cfadb69bbb4ea7ef3594
+    time: 1443893534
   "/reading/a-guide-to-the-good-life/index.html":
-    md5: bfc2a100512e5614102b9a5236fce467
-    time: 1442594965
+    md5: a23c30367e1afc2b3cba4c95faa8d0c4
+    time: 1443893534
   "/reading/the-art-of-learning/index.html":
-    md5: 475b441bdb3ec1171202d8eb441e8c2b
-    time: 1442594965
+    md5: 80f9c48fc90762047fde0caed0007c44
+    time: 1443893534
   "/reading/superintelligence/index.html":
-    md5: 82621efe85d3052395a8bf15cccc979e
-    time: 1442594965
+    md5: a95bfda88b03bb0cc981202fbd7fbcc4
+    time: 1443893534
   "/reading/philosophy-for-life-and-other-dangerous-situations/index.html":
-    md5: eb306fad6efb1dbb5b126fa37446f883
-    time: 1442594965
+    md5: 13a0aa75dcefdac995b7dbea856ee9f2
+    time: 1443893534
   "/reading/the-obstacle-is-the-way/index.html":
-    md5: 45d2184cb897ebd9facbe24b1b04a7d0
-    time: 1442594965
+    md5: a7667e3d2b8985b26f73ad1fa4668605
+    time: 1443893534
   "/reading/the-martian/index.html":
-    md5: c3d35147c62d291541a9ec523175097e
-    time: 1442594965
+    md5: 397d8ca8e99ffe4ca9e54d7508434636
+    time: 1443893534
   "/reading/meditations/index.html":
-    md5: b1fa567f514b7d7f1e3aa974d85f395b
-    time: 1442594965
+    md5: f8fd0e2378cec11130d08e5ae168ccbc
+    time: 1443893534
   "/reading/archive/index.html":
-    md5: 8386d9f7611f04566a0960c528ea13c0
-    time: 1442594965
+    md5: 97b3b10e269b3c57fe0b0b164aa8063d
+    time: 1443893534
   "/reading/tags/index.html":
-    md5: ef56355678411904eb836e4c4ef8e06b
-    time: 1442594965
+    md5: 1573793518ad7464af8291df11c0fad7
+    time: 1443893534
   "/reading/tags/space/index.html":
-    md5: 0f0e6db5598262f08b9507ef03ddd4af
-    time: 1442594965
+    md5: aa405f62d6214e6696d941697d13be1f
+    time: 1443893534
   "/reading/tags/apollo/index.html":
-    md5: 78f9d15f81bbe50a8169810e3d6ca6c6
-    time: 1442594965
+    md5: e7f0d705b6d08cdef48c49fae05c16ea
+    time: 1443893534
   "/reading/tags/nasa/index.html":
-    md5: e42b6060a545e6e86065cb5417afa835
-    time: 1442594965
+    md5: 92c59efbe2ca10108ca65bb5b394161d
+    time: 1443893535
   "/reading/tags/biography/index.html":
-    md5: ef1ac699c736260e3d9cfd23cdf47671
-    time: 1442594965
+    md5: 12888ebb1f18159dd5b5d9b22cb5afc5
+    time: 1443893535
   "/reading/tags/technology/index.html":
-    md5: 52b130cd058362fcd2753fcd8da137e4
-    time: 1442594965
+    md5: 08210388416b3741246448e91e1066f1
+    time: 1443893535
   "/reading/tags/science/index.html":
-    md5: 9e971ea3cc097e158142e2f636573499
-    time: 1442594965
+    md5: 2d28d7186ce8aaa502c5a9c04f06ee7d
+    time: 1443893535
   "/reading/tags/mars/index.html":
-    md5: a9efccb5720981ed066e595bcf917fb9
-    time: 1442594965
+    md5: fc356c92070097dc65cd9346ec76f23e
+    time: 1443893535
   "/reading/tags/sci-fi/index.html":
-    md5: d5041c7851b9ebedffc462fc489e43c7
-    time: 1442594966
+    md5: 1d9f792dfbf5737f14bfac58027f81e9
+    time: 1443893535
   "/reading/tags/fiction/index.html":
-    md5: 5b58181a657684804e4aa7f0d28b58ba
-    time: 1442594966
+    md5: fd236f9d91dd5b4f72b4c0d9a965da4b
+    time: 1443893535
   "/reading/tags/aviation/index.html":
-    md5: 4481c03058891695a3cb10988f9ad2ef
-    time: 1442594966
+    md5: c385530538a09a068390cfcf1a62080f
+    time: 1443893535
   "/reading/tags/business/index.html":
-    md5: 3f106cdb825cb9925fe37918f749ca5b
-    time: 1442594966
+    md5: 4909b9bc8abdec448d99b2441635067c
+    time: 1443893535
   "/reading/tags/music/index.html":
-    md5: 95f20fbd142fbc6bc90713ea7972464f
-    time: 1442594966
+    md5: b50c63c098a0ea1477745546da1582f1
+    time: 1443893535
   "/reading/tags/philosophy/index.html":
-    md5: 6b056d299b72f0031c385b21122fa916
-    time: 1442594966
+    md5: a2de08a621249b0d460351de529d1f6a
+    time: 1443893535
   "/reading/tags/stoicism/index.html":
-    md5: 77ed8bd68939e3dd49a5ca68222b4f92
-    time: 1442594966
+    md5: bb16ef5a0348f8f809136a9a7ab7a354
+    time: 1443893535
   "/reading/tags/memoir/index.html":
-    md5: 7c78777971550787ff8af0df35397762
-    time: 1442594966
+    md5: c5703480f23ae815b6c811de6ac40178
+    time: 1443893535
   "/reading/tags/meditation/index.html":
-    md5: cde0c26c58bd13caa5f85d0859610b86
-    time: 1442594966
+    md5: 5b51d0b28c4f4e94c1fd88bc0056e8ff
+    time: 1443893535
   "/reading/tags/japan/index.html":
-    md5: 2fbed451b8257ad184aa380ebb44f4f9
-    time: 1442594966
+    md5: 4de63c95e7c995471d445cd645248e1f
+    time: 1443893535
   "/reading/tags/tidying/index.html":
-    md5: 044731322fb4715167db2f371d448f69
-    time: 1442594966
+    md5: c42824a98da07cbad707a703dd076c13
+    time: 1443893535
   "/reading/tags/organization/index.html":
-    md5: 5ffb053436e2e7069cba9f1d73ba8d35
-    time: 1442594966
+    md5: 0b9a3d9803b4571190361e0b473e352b
+    time: 1443893535
   "/reading/tags/minimalism/index.html":
-    md5: 13dec949739590bb91d3c3ecdae1a8a8
-    time: 1442594966
+    md5: ceba8067896665e9a5872391d6e04df6
+    time: 1443893535
   "/reading/tags/learning/index.html":
-    md5: deeae0c97d3d311d4f9c8cd4693e8d25
-    time: 1442594966
+    md5: 8c30ad988b0ecf26095eb08710d955ed
+    time: 1443893535
   "/reading/tags/chess/index.html":
-    md5: f07dabcc24870c3007f3a37909b453d6
-    time: 1442594966
+    md5: 8ea679106f7ef9acc24dfc3f24d3654a
+    time: 1443893535
   "/reading/tags/artificial-intelligence/index.html":
-    md5: 85dd12ac0fd93309bf94026f90742576
-    time: 1442594966
+    md5: ceb327bf6128e1157c2c01488ee9d6a1
+    time: 1443893535
   "/reading/tags/singularity/index.html":
-    md5: 4c2e7245d8a678d40c329a33bec8ce6f
-    time: 1442594966
+    md5: 145d56ed9502be51ec9fce140b164793
+    time: 1443893535
   "/reading/tags/futurology/index.html":
-    md5: f6276bc380ae25082feaabc467ae3775
-    time: 1442594966
+    md5: c3eaa8146f0e86d06c9293fca5c31e3a
+    time: 1443893535
   "/reading/author/index.html":
-    md5: c2f80ee2516d24a5b461a67ab3fb3d7b
-    time: 1442594966
+    md5: 3b8c5539557decd334b128f51e162686
+    time: 1443893535
   "/reading/author/david-mccullough/index.html":
-    md5: 0d392c4d9426b564d3e4d665f596ab0b
-    time: 1442594966
+    md5: 3a74bbc518d2040980c574280e848333
+    time: 1443893535
   "/reading/author/zach-omalley-greenburg/index.html":
-    md5: 97a339aedd569c31f3da2a78fe41854b
-    time: 1442594966
+    md5: a7a0eaa6908874205ad4b77bb0981930
+    time: 1443893535
   "/reading/author/dan-harris/index.html":
-    md5: ea526ec7fb68f161eb3b74460f173c86
-    time: 1442594966
+    md5: a3c87d7bf7c7430780098a2258721715
+    time: 1443893535
   "/reading/author/marie-kondo/index.html":
-    md5: 9f3939a2f741c1d0f09b5d553327a1d8
-    time: 1442594966
+    md5: 20cae4962661793969c4f4e997853ef0
+    time: 1443893535
   "/reading/author/sarah-bakewell/index.html":
-    md5: edb3b23160bdbdbbcd4425c1845c22c7
-    time: 1442594966
+    md5: d6fcf8c61cd112609688397ad5354d38
+    time: 1443893535
   "/reading/author/epictetus/index.html":
-    md5: 84f94f0af62d1e4c8a10cc68a1d6c3f7
-    time: 1442594966
+    md5: b7e799c07061dc44a3aef50fdc442fd5
+    time: 1443893535
   "/reading/author/bill-bryson/index.html":
-    md5: 37f2b3e4958ef872543df3941b8f43d7
-    time: 1442594966
+    md5: c442c61a69e4108a6708bc6943fbe914
+    time: 1443893535
   "/reading/author/william-b-irvine/index.html":
-    md5: 1e9dccbf024365df8468138e53e9146f
-    time: 1442594966
+    md5: 9f4b3a64fd52070292f990e9173702af
+    time: 1443893535
   "/reading/author/josh-waitzkin/index.html":
-    md5: c517e1b0404b48feb5f1ff850a6d2f7f
-    time: 1442594966
+    md5: 4ffee2f556bb4eae9d58495d344b3ef2
+    time: 1443893535
   "/reading/author/nick-bostrom/index.html":
-    md5: 02e29764789c8ab4b20089727a8b8307
-    time: 1442594966
+    md5: 89c049bb21a066f2a850d6965ce2d193
+    time: 1443893536
   "/reading/author/jules-evans/index.html":
-    md5: b263cd74410f1f97afb691afef8a0305
-    time: 1442594966
+    md5: ab4502c9d659d3bafcddc168e09ef08a
+    time: 1443893536
   "/reading/author/ryan-holiday/index.html":
-    md5: 6e63382620eba44d6dd664bf4009c0d3
-    time: 1442594966
+    md5: 5b03389a67ac21206582d4fec42e706c
+    time: 1443893536
   "/reading/author/marcus-aurelius/index.html":
-    md5: 66450a3ec721f903827e1f50d7f6725e
-    time: 1442594966
+    md5: c2a7dd25ae73c2e26c0df6e02fdc2e7d
+    time: 1443893536
   "/reading/author/gregory-hays/index.html":
-    md5: 03fe0b9e1d3078e51f650f4b41c936a7
-    time: 1442594966
+    md5: e38ed2ca7315b3d45d3605f3b75dfb99
+    time: 1443893536
   "/reading/publisher/index.html":
-    md5: 083ccaf5f81ee76f3d42ffabc4480866
-    time: 1442594966
+    md5: d765a6d90d882bf0850c43c03157d633
+    time: 1443893536
   "/reading/publisher/new-world-library/index.html":
-    md5: 57183e9ad4e61f29cd5b2513d2a1cd1b
-    time: 1442594966
+    md5: 541a086a836dcbe0957bef2aece4b565
+    time: 1443893536
   "/reading/publisher/penguin-books/index.html":
-    md5: 0c58c5e1890c40ffbf701f3601064533
-    time: 1442594966
+    md5: 4b8e0f641b723a073e5008638bdae61d
+    time: 1443893536
   "/reading/publisher/modern-library/index.html":
-    md5: a8a91c4c2a8fe4fa746f2599ebaf8d8a
-    time: 1442594966
+    md5: d7aa3a85914c1fc94edfe0e204188b1c
+    time: 1443893536
   "/projects/index.html":
-    md5: 1209b6dfc3f2a461576abefbd7bc8730
-    time: 1441676651
+    md5: b72b56069dd0e8e00d739d8ae23a1b93
+    time: 1443893536
   "/projects/sledsheet/index.html":
-    md5: fd09e3823e05cfaab675a39d626c371e
-    time: 1441676651
+    md5: ff45e59928e190b2d81115ff0202e5ff
+    time: 1443893536
   "/projects/moodboard/index.html":
-    md5: 20068692a8ac2c6cca6612e08ae406a1
-    time: 1441676651
+    md5: ca6cc2276d2744593e6811d2d9b247f2
+    time: 1443893536
   "/projects/kyletress/index.html":
-    md5: a1a1222b4ca9bc1e35d026a0ba7a04fe
-    time: 1441676651
+    md5: 714558e8026f5d5484adbc95f2b82e37
+    time: 1443893536
   "/projects/nature-of-speed/index.html":
-    md5: eb52a8445ed8a5d3c3d5aaf6d61dd196
-    time: 1441676651
+    md5: 833a00075389ed6e33a52f25e8812d35
+    time: 1443893536
   "/projects/sledleague/index.html":
-    md5: d009ea28e575d7ff80fd46062c40e156
-    time: 1441676651
+    md5: 46202930342df4d8eb239dca883c7da6
+    time: 1443893536
   "/projects/archive/index.html":
-    md5: facf8e69e33a89a7ff76ea097102eba9
-    time: 1441676652
+    md5: 37e91e19889958fb62d529d10377f7e4
+    time: 1443893536
   "/projects/tags/index.html":
-    md5: 2bdedfe4bdd135c48ff390d41f4617ec
-    time: 1441676652
+    md5: 23996701e4853c5dab3115faf3e7e6f2
+    time: 1443893536
   "/projects/roles/index.html":
-    md5: 0bb95ba042fb3ba53c707c023a32663d
-    time: 1441676652
+    md5: 6c2ee4acc1dd77e2a4ba57bf51e2e2d3
+    time: 1443893536
   "/projects/technology/index.html":
-    md5: bfd3edc9c3940fc98647f2562cd34ff3
-    time: 1441676652
+    md5: bcfa78775a0e83d381f5a0729eed6904
+    time: 1443893536
   "/projects/technology-stack/index.html":
-    md5: 97ce24a8d590b8bfacdb255a20adef94
-    time: 1441676652
+    md5: d5f098e2031fe743f11c0a65e8a932ce
+    time: 1443893536
   "/projects/gems/index.html":
-    md5: 144b4497f2a88d506fd58f865751ef7e
-    time: 1441676652
+    md5: 8864fbde0f0b9c03ac41346553675988
+    time: 1443893536
   "/support/index.html":
-    md5: a44dedbea3f70b9f5684452df88dab2a
-    time: 1441676652
+    md5: c2db8172185cfda5fe80a06250269889
+    time: 1443893536
   "/the-setup/index.html":
-    md5: 7ea78b00a9dd87c3332612755bfb5f4a
-    time: 1441676652
+    md5: f0bf2028d8e269ad1fd23576a1fceb3d
+    time: 1443893536
   "/newsletter/index.html":
-    md5: ea63518ce2366a28ce8211bb53f365b3
-    time: 1442594967
+    md5: 7e6280549441b4bde2e26c08a9642245
+    time: 1443893536
   "/newsletter/september-2015/index.html":
-    md5: b9308a613467833af1c61532399723dc
-    time: 1443635801
+    md5: 6b866684deb04bc9dfedd81909ad9f45
+    time: 1443893536
   "/newsletter/august-2015/index.html":
-    md5: 433a492c6a240e7b3fca708e8a9d4b88
-    time: 1442594877
+    md5: b878833e7da1e14910e28244e6588a7f
+    time: 1443893536
   "/newsletter/july-2015/index.html":
-    md5: 77f483a2f1f36fd09e28111713eeaf04
-    time: 1442594877
+    md5: 952288d94e50845d86877501562d508b
+    time: 1443893536
   "/newsletter/june-2015/index.html":
-    md5: 074bb43eb34c906a435ef719c9dc6258
-    time: 1442594877
+    md5: 9d8229ad12f8975de7cfea97fd203b5d
+    time: 1443893536
   "/newsletter/may-2015/index.html":
-    md5: 73b2a4bbd24c63f46ea9db8b905ff817
-    time: 1442594877
+    md5: 5dccec7a90f235fcd486fc4e3258a382
+    time: 1443893536
   "/newsletter/april-2015/index.html":
-    md5: 40ce0e2080978e5294279e6eef610655
-    time: 1442594877
+    md5: 1369d20a9f02e0f709ccb66046f23319
+    time: 1443893537
   "/newsletter/archive/index.html":
-    md5: 9189b8a4fe3e15ab0d41ffceca9d6a65
-    time: 1442594877
+    md5: 6a18434e005528d7a292ebaaf7c2d5bc
+    time: 1443893537
   "/newsletter/tags/index.html":
-    md5: 122de9ca2a4a5abc8b4fad009f5ba912
-    time: 1442594877
+    md5: 11b20cb0a72338c5e99eeecc761c1697
+    time: 1443893537
   "/now/index.html":
-    md5: 507def81c96edbc57cec5fd8ab8f44bf
-    time: 1441676652
+    md5: fe29a8ec9a62e897bf6a763f626eeb0b
+    time: 1443893537
   "/about/cv/index.html":
-    md5: 03d712e97371047e6d9983f4651b73a0
-    time: 1441676652
+    md5: c8817417da6555fc79adb5282a31f997
+    time: 1443893537
   "/reading/biography/index.html":
-    md5: 70bc35c553e51b85402a56fb80e0b5ff
-    time: 1443891626
+    md5: 33b42c6347e22dfeee00ee75d6d7059b
+    time: 1443893537
   "/reading/notes/index.html":
-    md5: 1973c52ceee7db0a2da69df6874e5e36
-    time: 1441676652
+    md5: 76affa4c925062a93e3b5d365e98cda2
+    time: 1443893537
   "/reading/notes/elon-musk-5/index.html":
-    md5: f42764478361be85fa43de0e836a857b
-    time: 1442594968
+    md5: 4962736015f60a52b24d0756152ff0c2
+    time: 1443893537
   "/reading/notes/elon-musk-4/index.html":
-    md5: 4e8d2aa9c1772dc1c3a7d9f770f9bc45
-    time: 1442594968
+    md5: cde76a031dfa93240a1d459f170404d2
+    time: 1443893537
   "/reading/notes/elon-musk-3/index.html":
-    md5: 5786ce08b30008c47b8474dd0b246c89
-    time: 1442594968
+    md5: 623a9af1c39188fcce4cc23610cacfd7
+    time: 1443893537
   "/reading/notes/elon-musk-2/index.html":
-    md5: 1897fdf0bd9a10c67de17372fd0f561c
-    time: 1442594968
+    md5: 58d70bed400cb5fe190545ef1c86139e
+    time: 1443893537
   "/reading/notes/elon-musk-1/index.html":
-    md5: 2f6f20cecc9b17c85d3bbd82b0d8c644
-    time: 1442594968
+    md5: 27da8ae75089a022410fcead11f3bc6d
+    time: 1443893537
   "/reading/notes/elon-musk/index.html":
-    md5: e2aa6be460bb613ce7bd7bac4e2c7daa
-    time: 1442594968
+    md5: 207a122d2226d271e9681c921553d34d
+    time: 1443893537
   "/reading/notes/archive/index.html":
-    md5: 3e5759f4eb61607f6649313afedc4015
-    time: 1442594968
+    md5: 948d72bbde96585add8058b6a2685ac1
+    time: 1443893537
   "/reading/notes/tags/index.html":
-    md5: a0ccc924353e7d15d941a133a86d84fb
-    time: 1441676652
+    md5: 3c05fe99d1cbbae25eb7e678e679a0a1
+    time: 1443893537
   "/reading/notes/tags/tesla/index.html":
-    md5: db5e1e0cea1e79df6c1320700c2c2d46
-    time: 1441676652
+    md5: ffe9d57bad898af990adb10872621188
+    time: 1443893537
   "/reading/notes/tags/experience/index.html":
-    md5: b5038657e46233c1d398e397171e0887
-    time: 1441676652
+    md5: c8e59e5808048576eee4d3421f497324
+    time: 1443893537
   "/reading/notes/tags/russia/index.html":
-    md5: 5bcfc1d9e61053c0ece78b3269a2775b
-    time: 1441676652
+    md5: 8cbd223ab769fe8754126b937a16a8b9
+    time: 1443893537
   "/reading/notes/tags/moscow/index.html":
-    md5: 6e237c5073735c843d46813738156dd7
-    time: 1441676652
+    md5: 76b2d98e9b0b0c6735b72d0b52178861
+    time: 1443893537
   "/reading/notes/tags/flying/index.html":
-    md5: 9c619ab309f36a0bad8af6929862fee2
-    time: 1441676652
+    md5: 6f9512a45ac744aaabff547f04ea0638
+    time: 1443893537
   "/reading/notes/tags/mars/index.html":
-    md5: f3185d0a3ca857ac53a4e54fc8586092
-    time: 1441676652
+    md5: 433005ed2fc4a4293bf9535a5eea7bcc
+    time: 1443893537
   "/reading/notes/tags/aeronautics/index.html":
-    md5: 71fd592be6b034e5b70fc07ed041b431
-    time: 1441676652
+    md5: 4ea147d72c41fdf1eefca8e25df965ac
+    time: 1443893537
   "/reading/notes/tags/space/index.html":
-    md5: 0639be4f1a46d9c6fa9f87fe6935af49
-    time: 1441676653
+    md5: 839a62f0457c0a681a8d14666f53e9b8
+    time: 1443893537
   "/reading/notes/tags/programming/index.html":
-    md5: 34ce0521c974754663f2079a8e052a5f
-    time: 1441676653
+    md5: d9ac97af173a56f163a356d34f7d43de
+    time: 1443893537
   "/reading/notes/tags/self-taught/index.html":
-    md5: b63ecbcbd821f8797e4d0855b428c930
-    time: 1441676653
+    md5: e10f26b60f92484e10b0dce0c7a67368
+    time: 1443893537
   "/reading/notes/tags/focus/index.html":
-    md5: ace918f59beef61a188cf93eced0ce47
-    time: 1441676653
+    md5: 8ce95a58cdd8b9f832ae71a62827c902
+    time: 1443893537
   "/reading/notes/tags/attention/index.html":
-    md5: febb853319b67a53649abb07fdeaf020
-    time: 1441676653
+    md5: 7b213c5b7924a4eb8b47894c807b8046
+    time: 1443893538
   "/reading/notes/tags/interest/index.html":
-    md5: a2b1ba04f4c489e9d6c661a9938e5ee0
-    time: 1441676653
+    md5: 5188ca40a419782e04ba6e70eabe5e4f
+    time: 1443893538
   "/reading/notes/tags/intelligence/index.html":
-    md5: fc179b31dc0405b211dbb3294481b44c
-    time: 1441676653
+    md5: c689ccb4253af809276ec167fcb9df7c
+    time: 1443893538
   "/reading/notes/tags/pursuit/index.html":
-    md5: b680dcd63f6f6905aa46dbb289acbf2f
-    time: 1441676653
+    md5: e0b56f3d984455cfd7fe1c4fba3c210f
+    time: 1443893538
   "/reading/notes/tags/innovation/index.html":
-    md5: cec4c70cabc4d6f2a87f708ed2f2cf84
-    time: 1441676653
+    md5: 4652f057fff295bff039ea96e1dc7338
+    time: 1443893538
   "/reading/notes/book/index.html":
-    md5: 9eeab6dc857bf2a8b0c2f8d4776f3be4
-    time: 1442594968
+    md5: b84540dd10c26b0ac9251bdd2f207d8b
+    time: 1443893538
   "/reading/notes/book/elon-musk/index.html":
-    md5: b405df44f2532ecd59beba26d0fd2977
-    time: 1442594968
+    md5: 0db3ebc1b2e81d7e7f9616632d97b2fe
+    time: 1443893538
   "/skeleton/faqs/index.html":
-    md5: a8f5715b60f09ef93f41765f7f16043d
-    time: 1441676653
+    md5: a3f83edc08032a90e4b7541fed35271a
+    time: 1443893538
   "/skeleton/faqs/how-should-i-prepare-for-skeleton-school/index.html":
-    md5: 49dddf771337d26a352ebd516e2aeb91
-    time: 1441676653
+    md5: 4ba74497ab2fdb9afa65219df30eb2ed
+    time: 1443893538
   "/skeleton/faqs/how-much-longer-will-you-compete/index.html":
-    md5: 97c82a87bb01ff642ce7a0ac87418f2c
-    time: 1441676653
+    md5: 9618477aed40831008f9bbd69d7443af
+    time: 1443893538
   "/skeleton/faqs/what-is-your-best-world-cup-finish/index.html":
-    md5: 70ddc2ce49cbfff44753eb4e5086615e
-    time: 1441676653
+    md5: bd906533cbe4b9770f34ec6590235862
+    time: 1443893538
   "/skeleton/faqs/when-should-i-buy-my-first-sled/index.html":
-    md5: 822bc49dc472d45718d95fd791ad3b40
-    time: 1441676653
+    md5: 74d7fe31c88cb2ad4ae1719cde9488d8
+    time: 1443893538
   "/skeleton/faqs/what-kind-of-training-should-i-be-doing/index.html":
-    md5: 8e8b067c4e9f6ac349d51c16a0a7c7a6
-    time: 1441676653
+    md5: a3821a6e7318d0be8e4e48eadbd548ba
+    time: 1443893538
   "/skeleton/faqs/how-long-before-i-make-the-national-team/index.html":
-    md5: caf1db9010161c1a2486c504c1ff3faa
-    time: 1441676653
+    md5: 9d875e24b1f2f540cd3edb656b1c4d8a
+    time: 1443893538
   "/skeleton/faqs/which-track-is-the-hardest/index.html":
-    md5: 59837e2c375435949a7c0701370032f7
-    time: 1441676653
+    md5: f2d5501b80d250a42bfc66c1a535587f
+    time: 1443893538
   "/skeleton/faqs/which-supplements-do-you-take/index.html":
-    md5: c96863fcffbea61a69ecdd4bde896e8a
-    time: 1441676653
+    md5: 06fbfd70552d1c17887a8aa55e991449
+    time: 1443893538
   "/skeleton/faqs/how-has-skeleton-changed-your-life/index.html":
-    md5: 27d3742a1ba4c08c5f68091eac94f462
-    time: 1441676653
+    md5: 90996006c3741983802b841c3e941ea4
+    time: 1443893538
   "/skeleton/faqs/what-is-one-thing-that-skeleton-has-taught-you/index.html":
-    md5: 676f901fd64743ea78613854c17c500f
-    time: 1441676653
+    md5: 4445c28afe8924263c1797f18006af86
+    time: 1443893538
   "/skeleton/faqs/whats-your-proudest-accomplishment/index.html":
-    md5: 15cea0087873a5441436c9433a058174
-    time: 1441676653
+    md5: e804c552ddb168462832397cb5f5a899
+    time: 1443893538
   "/skeleton/faqs/what-is-the-combine/index.html":
-    md5: 136f0d05ae3d07c060a50526a041db96
-    time: 1441676653
+    md5: 5ee3a616d11ce1a38109a76185fc05cd
+    time: 1443893538
   "/skeleton/faqs/how-expensive-is-it-to-make-a-track/index.html":
-    md5: 826a5a6967a8db340678ff9e8a6572f9
-    time: 1441676653
+    md5: 2046b3888d5e30fee0ebf195b60d8882
+    time: 1443893538
   "/skeleton/faqs/have-you-competed-on-every-track/index.html":
-    md5: 1b795edfe386d7f35e5e599267e25c72
-    time: 1441676654
+    md5: 231c87ba126f0f886191e92b841e9d15
+    time: 1443893538
   "/skeleton/faqs/which-countries-have-skeleton-tracks/index.html":
-    md5: f40ede534b882d05aa1e586cecd3e879
-    time: 1441676654
+    md5: c2bc3116d8461f7e2c0a27679684b007
+    time: 1443893538
   "/skeleton/faqs/how-do-you-train-in-the-winter/index.html":
-    md5: c04f2de646b2e33e92d2cf01b47978bd
-    time: 1441676654
+    md5: 1c13a8ec4345c6944ab1105a28431184
+    time: 1443893539
   "/skeleton/faqs/is-skeleton-easy/index.html":
-    md5: 9782b62892de65bdf9e64a76fb8db300
-    time: 1441676654
+    md5: 5864f80938407cc325ce2cfaba485397
+    time: 1443893539
   "/skeleton/faqs/how-do-i-get-started/index.html":
-    md5: a5004ca63039927808de31327720169c
-    time: 1441676654
+    md5: 72ba63a4c3a69a12602795f0fff611f3
+    time: 1443893539
   "/skeleton/faqs/whats-it-like-going-90-miles-per-hour-headfirst/index.html":
-    md5: 1288651bbaaab300675923e58c9da212
-    time: 1441676654
+    md5: d3e5ebd18581bbbf5086e27301e998ba
+    time: 1443893539
   "/skeleton/faqs/did-you-like-your-ugly-opening-ceremonies-sweater/index.html":
-    md5: b77cc74a60ccf1e476bab04abcf7c641
-    time: 1441676654
+    md5: d74d21603427a8736b64838a1a2171fc
+    time: 1443893539
   "/skeleton/faqs/will-you-be-back-for-the-2018-olympics/index.html":
-    md5: c0dd100c928642ef6eb2222de10cf332
-    time: 1441676654
+    md5: a7feb4a76d690c8a5817b0e637575f03
+    time: 1443893539
   "/skeleton/faqs/what-was-your-favorite-part-of-the-olympic-games/index.html":
-    md5: 0d2cc2a29645574c0d9438bf9095ee10
-    time: 1441676654
+    md5: 42386292577afffa657fc4f93a915563
+    time: 1443893539
   "/skeleton/faqs/which-runners-should-i-use/index.html":
-    md5: 284c0acfa653baef423206943f6988c0
-    time: 1441676654
+    md5: 19c38de502314365d4b5e19115d4692a
+    time: 1443893539
   "/skeleton/faqs/who-makes-your-sled-and-runners/index.html":
-    md5: e8ae7e1732e9ca31825dabf129135072
-    time: 1441676654
+    md5: be15d65f0582931fd480431f2472f6d0
+    time: 1443893539
   "/skeleton/faqs/who-makes-the-best-skeleton-equipment/index.html":
-    md5: 3556fd071bab279a0500a4f2e9af21bd
-    time: 1441676654
+    md5: 3c5be210f807f1dd196cb1533894bd55
+    time: 1443893539
   "/skeleton/faqs/what-makes-a-great-skeleton-athlete/index.html":
-    md5: 78ec3bd612dbbf3fd09100d13b689105
-    time: 1441676654
+    md5: 29dac47edc4edbfa06af27d6fecba5ff
+    time: 1443893539
   "/skeleton/faqs/what-were-the-olympics-like/index.html":
-    md5: fdb4931750e1a81e32d76fc70f506893
-    time: 1441676654
+    md5: 3fc5434468b33de7d4664fc5a071e113
+    time: 1443893539
   "/skeleton/faqs/what-can-you-squat-bench-clean/index.html":
-    md5: 0134157211e576d8b2a24c649be45a11
-    time: 1441676654
+    md5: 14c85d7b49f9ce55fa91d4f9a07ad2a9
+    time: 1443893539
   "/skeleton/faqs/training-program/index.html":
-    md5: 3b88bd117c9e01a4ab71789b168c0e39
-    time: 1441676654
+    md5: 0ecc9206972ce31637225622c03579b9
+    time: 1443893539
   "/skeleton/faqs/will-i-get-hurt/index.html":
-    md5: b50c4e8839a971de9a80d9e50ec950ee
-    time: 1441676654
+    md5: 0a996dddafcfea2900cce31f816c46bc
+    time: 1443893539
   "/skeleton/faqs/whats-the-best-body-type-for-skeleton/index.html":
-    md5: 6a8f6f4a196ad997663314b96aa27147
-    time: 1441676654
+    md5: 35adc2a604816d97bab0fc577fdfc6b9
+    time: 1443893539
   "/skeleton/faqs/i-want-to-be-an-olympic-skeleton-athlete-what-do-i-need-to-do/index.html":
-    md5: c97191fb22b02e30baecf87cbf155fce
-    time: 1441676654
+    md5: 73f177d79243515b2e46273f2188160d
+    time: 1443893539
   "/skeleton/faqs/how-did-you-get-started/index.html":
-    md5: 6e865e498e8b575d3f53a77cd976e37f
-    time: 1441676654
+    md5: 2cd2b1443bcd2e1ab2948b9954781a93
+    time: 1443893539
   "/skeleton/faqs/are-you-insane/index.html":
-    md5: 30687fbbdab7ae98aee0257de7f387d8
-    time: 1441676654
+    md5: b24a3f649d24aad420c4e162d16f0d65
+    time: 1443893539
   "/skeleton/faqs/have-you-ever-crashed/index.html":
-    md5: 96bbdb20dd2f3fb6c6735731af7d440d
-    time: 1441676654
+    md5: bc3f01e2f60b12bd53422ceaf5d971e7
+    time: 1443893539
   "/skeleton/faqs/whats-the-fastest-youve-ever-gone/index.html":
-    md5: 9428333eefbf7113fd6ff4584097156e
-    time: 1441676654
+    md5: 6f0a15fffedb9c7759e1f035f1a61db5
+    time: 1443893539
   "/skeleton/faqs/whats-your-least-favorite-track/index.html":
-    md5: da01fffc16dfb5986086589737b66386
-    time: 1441676654
+    md5: 85a55362552cf64d64758f2642447256
+    time: 1443893539
   "/skeleton/faqs/whats-your-favorite-track/index.html":
-    md5: 891c266c5d48e151b242681ba7924c67
-    time: 1441676654
+    md5: c597d3048d933d504244e8814f9b5be4
+    time: 1443893539
   "/skeleton/faqs/archive/index.html":
-    md5: 3ec027c1d66c6b661d347554aef917bf
-    time: 1441676654
+    md5: c67bff426b2ebe90144329bb1cc6249d
+    time: 1443893539
   "/skeleton/faqs/tags/index.html":
-    md5: ae13d532a00c57d7d9a99947d87e3962
-    time: 1441676654
+    md5: 1b7ec6dc93175411fc4623bec347f6e2
+    time: 1443893539
   "/skeleton/faqs/tags/the-basics/index.html":
-    md5: 0103733efae73c3a92aebdd66bcd973f
-    time: 1441676654
+    md5: 04efa2b0190b19f6b137e4b7c868b223
+    time: 1443893539
   "/skeleton/faqs/tags/sliding/index.html":
-    md5: 811537c3f4d805eded4e373c05748f97
-    time: 1441676655
+    md5: 25f51739ca396158f7109e6e873f8ba2
+    time: 1443893539
   "/skeleton/faqs/tags/equipment/index.html":
-    md5: db2754abc379854e422201cbbb3d9218
-    time: 1441676655
+    md5: 60c5fdc285e9a91469df2ff284dd9f6d
+    time: 1443893540
   "/skeleton/faqs/tags/training/index.html":
-    md5: ff4f76e04207b9602d3265c34c063976
-    time: 1441676655
+    md5: bb4890adb7a3f0f83b15038b36e9e34f
+    time: 1443893540
   "/skeleton/faqs/tags/tracks/index.html":
-    md5: 609b3238feec83ffb1be9245b5249bc8
-    time: 1441676655
+    md5: c9ee4f69476fc3303946ff3f7a42899a
+    time: 1443893540
   "/skeleton/faqs/tags/the-olympics/index.html":
-    md5: ec2e4e1047319e5bf2bec41d5a942716
-    time: 1441676655
+    md5: 147b487ea2bb28accea9fb86dd32b0f0
+    time: 1443893540
   "/CNAME":
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
@@ -575,8 +575,8 @@ inventory:
     md5: 72be0cd6a915f8302ab09af50e35f1f5
     time: 1443891556
   "/feed.xml":
-    md5: d4b9217e0662c385d0c0a0811265e5e5
-    time: 1443891629
+    md5: f6eb6a35b04d45c2c9543074749f1860
+    time: 1443893540
   "/assets/washington-crossing.jpg":
     md5: 550b69d7994859ac55cbb112cc23e1d1
     time: 1407895647
@@ -655,6 +655,9 @@ inventory:
   "/css/master.css":
     md5: 55c0915a457caeff59c37772ee52ddc3
     time: 1441333683
+  "/assets/headshot.jpg":
+    md5: 227cff2d7a6efa6b8f535bc0007acf28
+    time: 1443893540
   "/assets/leaf-2.png":
     md5: 442e53088436fc9933a30891888c8778
     time: 1417227745
