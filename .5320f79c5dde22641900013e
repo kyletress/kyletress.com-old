@@ -1,5 +1,5 @@
 ---
-time: 1443635806
+time: 1443891382
 inventory:
   "/home/index.html":
     md5: 544abdbecba6b4ab8cb1080ae94490c4
@@ -47,8 +47,8 @@ inventory:
     md5: c9482560df88ec5455f4521cf1d0ef9a
     time: 1441676649
   "/reading/index.html":
-    md5: 1ed91e1c22d83cbee9fa99ee4f8f6190
-    time: 1442594874
+    md5: 48dde1666ad791a630786b6e204995ff
+    time: 1443891374
   "/reading/how-apollo-flew-to-the-moon/index.html":
     md5: 9ce087165a7996077dc267b162ec94da
     time: 1442594964
@@ -569,11 +569,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   "/sitemap.xml":
-    md5: 3e66e52a913468abb3f40fd0b7a24ed2
-    time: 1443635804
+    md5: 7bedd12719dcc193a7dfcd22a05790d2
+    time: 1443891380
   "/feed.xml":
-    md5: 857b563deb61cb274da5e0e99d981fd8
-    time: 1443635804
+    md5: f5316878481f4a15ede0fa88f99d6e6c
+    time: 1443891380
   "/assets/washington-crossing.jpg":
     md5: 550b69d7994859ac55cbb112cc23e1d1
     time: 1407895647
