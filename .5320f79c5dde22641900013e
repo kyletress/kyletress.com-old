@@ -1,5 +1,5 @@
 ---
-time: 1443893618
+time: 1445012216
 inventory:
   "/home/index.html":
     md5: 84022fe9cd0d4929fcf2c22b735aebae
@@ -658,6 +658,9 @@ inventory:
   "/assets/headshot.jpg":
     md5: 227cff2d7a6efa6b8f535bc0007acf28
     time: 1443893540
+  "/assets/bernie.jpg":
+    md5: ad920fc189bc0246c76f5593f354552b
+    time: 1445012215
   "/assets/leaf-2.png":
     md5: 442e53088436fc9933a30891888c8778
     time: 1417227745
