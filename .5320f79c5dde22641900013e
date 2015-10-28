@@ -1,5 +1,5 @@
 ---
-time: 1446049192
+time: 1446049765
 inventory:
   "/home/index.html":
     md5: f3761e1b9b2d84d4e5ac647c8bda5646
@@ -44,8 +44,8 @@ inventory:
     md5: 00faefcd5a70fbb7f99dd3f053c19bd8
     time: 1445012235
   "/skeleton/index.html":
-    md5: 3165b96f36963a73d826c458e5ef67ed
-    time: 1446049188
+    md5: dee7982aa8002f62399fa4fcfc72cb51
+    time: 1446049760
   "/reading/index.html":
     md5: 17d3dbc61346aeca384db0c548b582e8
     time: 1445012235
@@ -572,11 +572,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   "/sitemap.xml":
-    md5: 878971193134639fef3bc5648f226e9b
-    time: 1446049190
+    md5: 030b5a164c74f04fd869be74dec1394a
+    time: 1446049763
   "/feed.xml":
-    md5: 32f9bb2c34b432b18feb2b6ac4f19f3d
-    time: 1446049190
+    md5: 17b5327a618b25204ce752a467734eae
+    time: 1446049763
   "/assets/washington-crossing.jpg":
     md5: 550b69d7994859ac55cbb112cc23e1d1
     time: 1407895647
@@ -652,15 +652,15 @@ inventory:
   "/assets/workflow-6.jpg":
     md5: b8bad7627f51aa97ec2b7febc1cc25ec
     time: 1435702781
-  "/css/master.css":
-    md5: 55c0915a457caeff59c37772ee52ddc3
-    time: 1441333683
   "/assets/headshot.jpg":
     md5: 227cff2d7a6efa6b8f535bc0007acf28
     time: 1443893540
   "/assets/bernie.jpg":
     md5: ad920fc189bc0246c76f5593f354552b
     time: 1445012215
+  "/css/master.css":
+    md5: a530de2fae1f8815ee4db4e6a67885d2
+    time: 1446049763
   "/assets/leaf-2.png":
     md5: 442e53088436fc9933a30891888c8778
     time: 1417227745
