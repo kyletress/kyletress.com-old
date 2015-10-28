@@ -465,6 +465,7 @@ footer[role="site-footer"] {
 img + em {
   color: #888;
   text-align: right;
+  display: block;
   font-size: 1.2rem;
   font-style: normal; }
   img + em a {
