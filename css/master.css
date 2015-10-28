@@ -468,7 +468,8 @@ img + em {
   font-size: 1.2rem;
   font-style: normal; }
   img + em a {
-    color: #626262; }
+    color: #626262;
+    text-decoration: none; }
 
 a[href*="www.twitter.com"]:hover {
   color: #55acee; }

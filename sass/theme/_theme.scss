@@ -110,6 +110,7 @@ img + em {
   font-style:normal;
   a {
     color:darken($color-muted, 15%);
+    text-decoration:none;
   }
 }
 
