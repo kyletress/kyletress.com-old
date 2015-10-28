@@ -102,6 +102,17 @@
   font-size:1.2rem;
 }
 
+// Photo credit text
+img + em {
+  color: $color-muted;
+  text-align:right;
+  font-size:1.2rem;
+  font-style:normal;
+  a {
+    color:darken($color-muted, 15%);
+  }
+}
+
 
 a[href*="www.twitter.com"]:hover { color: $color-twitter; }
 a[href*="tumblr.kyletress.com"]:hover { color: $color-tumblr; }
