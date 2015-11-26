@@ -1,0 +1,24 @@
+# Site navigation links
+- title: Home
+  url: /
+  
+- title: About
+  url: /about
+
+- title: Skeleton
+  url: /skeleton
+
+- title: Posts
+  url: /posts
+
+- title: Reading
+  url: /reading
+
+- title: Projects
+  url: /projects
+
+- title: Support
+  url: /support
+
+- title: Newsletter
+  url: /newsletter

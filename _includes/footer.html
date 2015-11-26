@@ -1,17 +1,12 @@
 <footer role="site-footer">
   <nav>
     <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/about">About</a></li>
-      <li><a href="/skeleton">Skeleton</a></li>
-      <li><a href="/essays">Articles</a></li>
-      <li><a href="/reading">Reading</a></li>
-      <li><a href="/projects">Projects</a></li>
-      <li><a href="/support">Support</a></li>
-      <li><a href="/newsletter">Newsletter</a></li>
+      {% for nav_item in site.data.navigation %}
+      <li><a href="{{nav_item.url}}">{{nav_item.title}}</a></li>
+      {% endfor %}
     </ul>
   </nav>
-    <p>&copy; {{ site.time | date: '%Y' }}, Kyle Tress. {{ site.meta.quote }}</p>
-    <div class="rings"><img src="/assets/rings4.svg" width="45"></div>
-    <div><a href="http://www.berniesanders.com"><img src="/assets/bernie.jpg" alt="Bernie 2016" width="75" height="75"></a></div>
+    <p>&copy; {{ site.time | date: '%Y' }}, Kyle Tress. {{ site.quote }}</p>
+    <div class="rings"><img src="/uploads/rings4.svg" width="45"></div>
+    <div><a href="http://www.berniesanders.com"><img src="/uploads/bernie.jpg" alt="Bernie 2016" width="75" height="75"></a></div>
 </footer>

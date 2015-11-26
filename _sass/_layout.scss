@@ -1,0 +1,42 @@
+.navbar {
+  text-align:center;
+  font-size:1.4rem;
+  @media (min-width: $md) {
+    text-align:left;
+    @include flexbox;
+    @include align-items(flex-start);
+  }
+  padding: 4rem 0;
+  img {
+    @media (min-width: 600px) {
+      margin-right:1rem;
+    }
+  }
+  p {
+    -webkit-flex: 1;
+    flex: 1;
+    margin:0;
+    -webkit-align-self:center;
+    align-self:center;
+    color: $color-muted;
+  }
+}
+
+footer[role="site-footer"] {
+  //font-family: $font-sans;
+  padding:3rem 0;
+  margin-top:4rem;
+  font-size:1.1rem;
+  color:$color-muted;
+  text-align:center;
+  border-top: 1px solid $color-borders;
+  p {
+    margin:0;
+    margin-bottom:.5rem;
+  }
+  nav {
+    @include inline-navigation(.5rem);
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+  }
+}

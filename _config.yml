@@ -1,0 +1,62 @@
+---
+title: Kyle Tress
+description: The personal website of Olympic skeleton athlete Kyle Tress
+url: http://www.kyletress.com
+timezone: America/New_York
+collections:
+  books:
+    title: Books
+    output: true
+  faqs:
+    title: Skeleton Faqs
+  newsletters:
+    title: Newsletters
+    output: true
+    permalink: "/newsletters/:title"
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: default
+    permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: default
+- scope:
+    path: ''
+    type: books
+  values:
+    layout: book
+    permalink: "/reading/:title"
+- scope:
+    path: ''
+    type: newsletters
+  values:
+    layout: default
+    permalink: "/newsletters/:title/"
+permalinks: pretty
+username: kyletress
+email: kyle@kyletress.com
+ga: UA-1619676-7
+quote: Mens sana in corpore sano
+typekit_id: oia2txu
+youtube: jktress
+sass:
+  style: compressed
+markdown: redcarpet
+redcarpet:
+  extensions:
+  - autolink
+  - fenced_code_blocks
+  - lax_spacing
+  - strikethrough
+  - superscript
+  - tables
+  - footnotes
+  - highlight

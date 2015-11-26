@@ -1,0 +1,28 @@
+---
+title: September 2015
+date: 2015-09-18 13:33:00 Z
+---
+
+As promised, no space books this month despite news that [scientists have discovered liquid water on the surface of Mars](http://www.nasa.gov/press-release/nasa-confirms-evidence-that-liquid-water-flows-on-today-s-mars). Where there's water, there's usually life. See Oxford philosopher (and author of the excellent book *[SuperIntelligence](http://amzn.to/1FERxdZ)*) Nick Bostrom’s [essay](http://www.nickbostrom.com/extraterrestrial.pdf) on why life on Mars might not be a good thing. 
+
+September was a slow reading month. That's normal as I prepare for the upcoming skeleton season. I read some junk, a bunch of *meh*, so I thought it would be best to revisit some old favorites this month. 
+
+**[The Historian](http://amzn.to/1FERGxM)** by *Elizabeth Kostova*
+
+I can't resist reading a few scary books around Halloween, but *The Historian* is special. It's a true literary work, not just another vampire novel or historical thriller (though at times it's both), but an intelligent and suspenseful book with excellent depth. It's the best book about Dracula since, well, *[Dracula](http://amzn.to/1O8fFZ2)*. If you like vampire lore, clues hidden in mysterious books, and traipses through ancient cities, you'll love *The Historian*.
+
+**[Performing Under Pressure](http://amzn.to/1FERRt9)** by *Hendrie Weisinger*
+
+We all know what pressure feels like, and we envy those rare people who seem to excel when it's on - the clutch athlete who hits the game winning home run. The pilot who lands the plane in bad weather. The surgeon who saves a life with seconds to spare. But the science shows that these people, like everyone else, actually perform *worse* under these conditions. This book debunks the myth of the clutch performer while providing actionable tips for making the most of high pressure situations. 
+
+**[Steve Jobs](http://amzn.to/1GhC9yN)** by *Walter Isaacson*
+
+Isaacson is among my favorite biographers, but his take on Steve Jobs is controversial. I think that’s appropriate given his subject. I loved it, and I’m eager to see Aaron Sorkin’s treatment (as well as Michael Fassbender’s portrayal of Jobs) this month when the film adaptation hits theaters. It’s been four years since Steve died, and Apple hasn’t floundered in his absence. The reason is revealed in one of my favorite passages from the book — Apple itself was Steve’s greatest invention. If you enjoy Isaacson’s writing, check out *[Benjamin Franklin](http://amzn.to/1O8fvkp)* and *[Einstein: His Life and Universe](http://amzn.to/1FESdQk)*.
+
+By the time next month’s newsletter arrives, we’ll be a few weeks into the skeleton season. It’s hard to believe. I started this newsletter back in April, and it’s grown to nearly 30 subscribers. My goal is to reach 100 by the end of the year. If you know someone who might enjoy it, please forward it along. 
+
+Thanks for sticking with me! As always, you can reply to this email with your thoughts, likes/dislikes, and recommendations. I’ll have plenty of time over the coming months to discover and read new books. 
+
+See you next month, 
+
+Kyle
