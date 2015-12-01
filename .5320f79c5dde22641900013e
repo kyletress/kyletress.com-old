@@ -1,5 +1,5 @@
 ---
-time: 1447864871
+time: 1448976857
 inventory:
   "/home/index.html":
     md5: f3761e1b9b2d84d4e5ac647c8bda5646
@@ -311,8 +311,11 @@ inventory:
     md5: 51ef2b87d1f05b1b8bb4306c9c261592
     time: 1445012238
   "/newsletter/index.html":
-    md5: 1e446415d4115daa0c1810f4a48a785d
-    time: 1446355715
+    md5: c0599906f701035fd1cfad22a9419af4
+    time: 1448976853
+  "/newsletter/november-2015/index.html":
+    md5: e7c16b85cb92a495bb4add4ad6f9f8ec
+    time: 1448976853
   "/newsletter/october-2015/index.html":
     md5: 011fee82abe59113bf1750b1eb27cad9
     time: 1446355715
@@ -335,8 +338,8 @@ inventory:
     md5: 13f57f55f701510359122790a97e6236
     time: 1445012239
   "/newsletter/archive/index.html":
-    md5: 2ff1836d3da7edac69aee433a42985f0
-    time: 1446355715
+    md5: 0f54c8f2b5eca84d5494fb8b5f45c72f
+    time: 1448976853
   "/newsletter/tags/index.html":
     md5: 628ffa84bd140b57b513ac260cb32043
     time: 1445012239
@@ -575,11 +578,11 @@ inventory:
     md5: 64bc9cedc303e4dd6ad9987bd148c6e2
     time: 1407895644
   "/sitemap.xml":
-    md5: 45e62600c0fb48c02feb9860fa51bb6b
-    time: 1447864869
+    md5: 07cc5970848c1fd87173f802b90c78bf
+    time: 1448976855
   "/feed.xml":
-    md5: 89af266af1142683842417dd1cd87ba1
-    time: 1447864869
+    md5: f26037d23a0fdae126c92a9178227011
+    time: 1448976855
   "/assets/washington-crossing.jpg":
     md5: 550b69d7994859ac55cbb112cc23e1d1
     time: 1407895647
