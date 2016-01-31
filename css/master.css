@@ -327,9 +327,11 @@ dt {
       margin-right: 1rem; } }
   .navbar p {
     -webkit-flex: 1;
+    -moz-flex: 1;
     flex: 1;
     margin: 0;
     -webkit-align-self: center;
+    -moz-align-self: center;
     align-self: center;
     color: #888; }
 
@@ -471,6 +473,31 @@ img + em {
   img + em a {
     color: #626262;
     text-decoration: none; }
+
+progress[value] {
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  appearance: none; }
+
+progress[value]::-webkit-progress-bar {
+  background-color: #eee; }
+
+progress[value]::-webkit-progress-value {
+  background-image: -webkit-linear-gradient(-45deg, transparent 33%, rgba(0, 0, 0, 0.1) 33%, rgba(0, 0, 0, 0.1) 66%, transparent 66%), -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.25));
+  border-radius: 2px;
+  background-size: 35px 20px, 100% 100%, 100% 100%; }
+
+progress[value]::-moz-progress-bar {
+  background-image: -moz-linear-gradient(135deg, transparent 33%, rgba(0, 0, 0, 0.1) 33%, rgba(0, 0, 0, 0.1) 66%, transparent 66%), -moz-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.25));
+  border-radius: 2px;
+  background-size: 35px 20px, 100% 100%, 100% 100%; }
+
+.progress-label {
+  color: #888;
+  font-size: 1.2rem;
+  font-style: italic; }
 
 a[href*="www.twitter.com"]:hover {
   color: #55acee; }

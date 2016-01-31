@@ -115,6 +115,54 @@ img + em {
   }
 }
 
+progress[value] {
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border:none;
+  appearance: none;
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: #eee;
+}
+
+progress[value]::-webkit-progress-value {
+  background-image:
+	   -webkit-linear-gradient(-45deg,
+	                           transparent 33%, rgba(0, 0, 0, .1) 33%,
+	                           rgba(0,0, 0, .1) 66%, transparent 66%),
+	   -webkit-linear-gradient(top,
+	                           rgba(255, 255, 255, .25),
+	                           rgba(0, 0, 0, .25));
+
+    border-radius: 2px;
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+progress[value]::-moz-progress-bar {
+  background-image:
+  -moz-linear-gradient(
+    135deg,
+    transparent 33%,
+    rgba(0, 0, 0, 0.1) 33%,
+    rgba(0, 0, 0, 0.1) 66%,
+    transparent 66%
+  ),
+  -moz-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0.25),
+    rgba(0, 0, 0, 0.25)
+  );
+  border-radius: 2px;
+  background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+.progress-label {
+  color: $color-muted;
+  font-size:1.2rem;
+  font-style:italic;
+}
 
 a[href*="www.twitter.com"]:hover { color: $color-twitter; }
 a[href*="tumblr.kyletress.com"]:hover { color: $color-tumblr; }

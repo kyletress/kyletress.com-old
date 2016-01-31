@@ -1,0 +1,14 @@
+{% capture content %}
+<h1>{{ title }}</h1>
+
+<progress max="100" value="4">
+
+</progress>
+<span class="progress-label">4 out of 100 books completed</span>
+
+
+{{ body }}
+
+{% endcapture %}
+
+{% include 'layouts/default' %}
