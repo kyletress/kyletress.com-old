@@ -1,3 +1,12 @@
+.container {
+  margin: 0 auto;
+  width: 90%;
+  @media(min-width: $md) {
+    margin: 0 auto;
+    max-width:680px;
+  }
+}
+
 .navbar {
   text-align:center;
   font-size:1.4rem;
@@ -29,7 +38,7 @@ footer[role="site-footer"] {
   font-size:1.1rem;
   color:$color-muted;
   text-align:center;
-  border-top: 1px solid $color-borders;
+  border-top: 1px solid $color-subtle;
   p {
     margin:0;
     margin-bottom:.5rem;

@@ -1,0 +1,147 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+  font-size:62.5%;
+}
+
+body {
+  background-color: $color-background;
+  font-size: $base-font-size * 0.875;
+  font-family: $font-family-text;
+  color: $color-text;
+  margin: 0;
+  line-height: $line-height;
+  @media(min-width:$sm) {
+    font-size: $base-font-size; // 16 px
+  }
+}
+
+iframe {
+  border: 0;
+}
+main {
+  display: block;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+li {
+  display: block;
+}
+dl {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+dt {
+  font-weight:bold;
+}
+dd {
+  margin-left: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: inherit;
+  color: $color-headings;
+  font-family: $font-family-headings;
+}
+blockquote {
+  margin: 0;
+  padding: 0;
+  padding-left: 2rem;
+  font-style: italic;
+  color: $color-muted;
+  border-left: 1px solid $color-subtle;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+sup {
+  position: relative;
+  top: -.5em;
+  vertical-align: baseline;
+  font-size: 75%;
+  line-height: 0;
+}
+strong {
+  font-weight: bold;
+}
+figure {
+  margin: 2rem 0;
+}
+figcaption {
+  font-size:$base-font-size * .9;
+  color:$color-muted;
+  text-align:left;
+}
+mark{
+  background:rgba(248,231,28,.20);
+  a {
+  }
+}
+
+hr {
+  margin: 20px 0 25px 0;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 20px;
+  color: $color-subtle;
+  border: none;
+  &:before {
+    content: '\2022 \2022 \2022 \2022 \2022';
+  }
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: inherit; // $color-text;
+  transition: color .3s ease;
+  text-decoration: underline;
+  &:hover {
+    color: $color-accent;
+  }
+}
+
+button {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  text-align: inherit;
+  text-transform: inherit;
+  font: inherit;
+  -webkit-font-smoothing: inherit;
+  letter-spacing: inherit;
+  background: none;
+  cursor: pointer;
+  overflow: visible;
+}
+
+::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}

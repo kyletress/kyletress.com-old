@@ -1,12 +1,11 @@
 // Colors
 $color-background: #ffffff;
-$color-text: hsl(0, 0%, 29%); // #4a4a4a
 $color-headings: #000;
-$color-links: #369;
-$color-borders: #ededed;
-$color-muted: #888; // base this on color text
-$color-code: $color-text;
-$color-alt: #cd3e01;
+$color-text: hsl(0, 0%, 29%); // #4a4a4a
+$color-accent:#369; // #cd3e01
+
+$color-muted: lighten($color-text, 24%); // #878787
+$color-subtle: lighten($color-text, 64%); // #ededed
 
 // Social Colors
 $color-youtube: #b31217;
@@ -20,9 +19,10 @@ $color-amazon: #ff9900;
 $font-serif: "ff-meta-serif-web-pro", Georgia, serif;
 $font-sans: $font-serif;
 $font-code: "source-code-pro", "Courier New", monospace;
+$line-height: 1.6;
 
 $font-family-text: $font-serif;
-$font-family-display: $font-sans;
+$font-family-headings: $font-sans;
 $font-family-code: $font-code;
 
 $font-weight-light: 300;
