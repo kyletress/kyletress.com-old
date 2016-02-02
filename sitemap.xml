@@ -3,7 +3,7 @@
 
   <url>
     <loc>http://kyletress.com/</loc>
-    <lastmod>2015-10-13T16:26:19+00:00</lastmod>
+    <lastmod>2016-02-02T01:02:10+00:00</lastmod>
     <priority>1.0</priority>
   </url>
   
@@ -265,6 +265,12 @@
     <loc>http://kyletress.com/newsletter</loc>
     <lastmod>2015-09-18T13:58:26+00:00</lastmod>
     <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://kyletress.com/newsletter/january-2016</loc>
+    <lastmod>2016-02-02T01:02:00+00:00</lastmod>
+    <priority>0.5</priority>
   </url>
   
   <url>

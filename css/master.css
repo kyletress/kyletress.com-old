@@ -391,6 +391,16 @@ footer[role="site-footer"] {
   .flex .photos {
     -webkit-flex: 1; }
 
+.recommended {
+  background-color: #333;
+  padding: .3rem;
+  color: white;
+  font-size: 1.3rem;
+  text-align: center;
+  width: 100%; }
+  .recommended a {
+    color: #d9d9d9; }
+
 .book h4 {
   margin-bottom: 0;
   font-weight: 400; }
