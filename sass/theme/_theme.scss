@@ -17,6 +17,18 @@
   }
 }
 
+.recommended {
+  background-color: #333;
+  padding:.3rem;
+  color:white;
+  font-size: 1.3rem;
+  text-align:center;
+  width:100%;
+  a {
+    color: darken(white, 15%);
+  }
+}
+
 .book{
   h4{
     margin-bottom:0;
