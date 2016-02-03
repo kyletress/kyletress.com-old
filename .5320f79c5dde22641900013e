@@ -1,5 +1,5 @@
 ---
-time: 1454375016
+time: 1454484194
 inventory:
   "/home/index.html":
     md5: 372049f6c738007b41a5b25b7e3f5de6
@@ -673,6 +673,9 @@ inventory:
   "/css/master.css":
     md5: ab8a541d6cf5687969777f5ad7fad620
     time: 1454374937
+  "/assets/image.jpeg":
+    md5: 68bf1f25c410cb24e568e1ba5688c65e
+    time: 1454484194
   "/assets/leaf-2.png":
     md5: 442e53088436fc9933a30891888c8778
     time: 1417227745
