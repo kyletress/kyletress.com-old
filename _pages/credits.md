@@ -1,6 +1,6 @@
 ---
 title: Site Credits
-permalink: /credits/
+permalink: "/credits/"
 ---
 
 ## Site Credits

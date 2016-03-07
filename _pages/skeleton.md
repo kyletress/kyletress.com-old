@@ -1,7 +1,7 @@
 ---
 title: Skeleton
+permalink: "/skeleton/"
 layout: page
-permalink: /skeleton/
 ---
 
 *Are you interested in learning more about skeleton? Check out my [frequently asked questions](/skeleton/faqs)*.

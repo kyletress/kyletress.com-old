@@ -1,7 +1,7 @@
 ---
 title: The Setup
+permalink: "/the-setup/"
 layout: page
-permalink: /the-setup/
 ---
 
 ==See the toolbox for a complete breakdown==

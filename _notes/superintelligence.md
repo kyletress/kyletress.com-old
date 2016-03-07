@@ -1,10 +1,11 @@
 ---
-book: Superintelligence
 title: Doesn't matter
-page: 102
+date: 2016-03-06 19:05:04.838000000 -05:00
 tags:
-  - Future
-  - Intelligence
+- Future
+- Intelligence
+book: Superintelligence
+page: 102
 ---
 
 > This is the actual quote.

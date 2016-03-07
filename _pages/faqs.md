@@ -1,7 +1,7 @@
 ---
 title: Skeleton FAQs
+permalink: "/skeleton/faqs/"
 layout: faqs
-permalink: /skeleton/faqs/
 ---
 
 ==Updated September 28, 2014==

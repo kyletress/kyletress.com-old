@@ -1,11 +1,12 @@
 ---
-book: Superintelligence
 title: Doesn't matter 2
-page: 140
+date: 2016-03-06 19:05:04.838000000 -05:00
 tags:
-  - Future
-  - Intelligence
-  - Brains
+- Future
+- Intelligence
+- Brains
+book: Superintelligence
+page: 140
 ---
 
 > This is the actual quote 2.

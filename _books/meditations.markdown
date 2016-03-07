@@ -1,13 +1,13 @@
 ---
 title: Meditations
-date: 2013-04-26 19:02:00 Z
+date: 2013-04-26 15:02:00 -04:00
+tags:
+- philosophy
+- stoicism
 subtitle: A New Translation
 link: 
 rating: '5'
 authors: Marcus Aurelius, Translation by Gregory Hays
-tags:
-- philosophy
-- stoicism
 Author:
 - Marcus Aurelius
 - Gregory Hays

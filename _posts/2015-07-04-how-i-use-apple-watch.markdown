@@ -1,6 +1,6 @@
 ---
 title: How I use Apple Watch
-date: 2015-07-04 00:11:00 Z
+date: 2015-07-03 20:11:00 -04:00
 ---
 
 I bought an Apple Watch on launch day, and since then I've gotten a lot of questions about it. Besides the battery life (which is way better than expected), the most common question is "what does it do?". People want to know how the Apple Watch would fit into their lives. Inspired by [this post by Dmitir Bilgier](https://medium.com/@dmitribilgere/things-i-have-done-with-my-apple-watch-d7d31b289972), I wanted to write about the main ways I've used my Apple Watch so far.

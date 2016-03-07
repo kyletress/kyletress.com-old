@@ -1,6 +1,6 @@
 ---
 title: CV
-permalink: /about/cv/
+permalink: "/about/cv/"
 layout: default
 ---
 

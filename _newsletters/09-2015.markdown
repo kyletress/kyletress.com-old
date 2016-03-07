@@ -1,6 +1,6 @@
 ---
 title: September 2015
-date: 2015-09-18 13:33:00 Z
+date: 2015-09-18 09:33:00 -04:00
 ---
 
 As promised, no space books this month despite news that [scientists have discovered liquid water on the surface of Mars](http://www.nasa.gov/press-release/nasa-confirms-evidence-that-liquid-water-flows-on-today-s-mars). Where there's water, there's usually life. See Oxford philosopher (and author of the excellent book *[SuperIntelligence](http://amzn.to/1FERxdZ)*) Nick Bostrom’s [essay](http://www.nickbostrom.com/extraterrestrial.pdf) on why life on Mars might not be a good thing. 

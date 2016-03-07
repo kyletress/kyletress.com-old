@@ -1,12 +1,14 @@
 ---
 title: A workflow for updating USADA
-date: 2015-06-30 20:13:00 Z
-summary: 
+date: 2015-06-30 16:13:00 -04:00
+categories:
+- technology
 tags:
 - usada
 - workflow
 - apps
 - ios
+summary: 
 category:
 - technology
 ---

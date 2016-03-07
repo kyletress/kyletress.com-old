@@ -1,6 +1,6 @@
 ---
 title: Commonplace Book
-permalink: /cp/
+permalink: "/cp/"
 ---
 
 My commonplace book, sorted alphabetically by tags. Want to create your own [jekyll-powered commonplace book](http://www.github.com)?

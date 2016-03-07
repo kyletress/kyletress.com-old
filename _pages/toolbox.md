@@ -1,6 +1,6 @@
 ---
 title: Toolbox
-permalink: /toolbox/
+permalink: "/toolbox/"
 ---
 
 These are the tools I use everyday. Inspired by [Sawyer Hollenshead](). You can also checkout [the setup](/the-setup), a writeup of how I work.
