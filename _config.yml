@@ -1,7 +1,7 @@
 ---
 title: Kyle Tress
 description: The personal website of Olympic skeleton athlete Kyle Tress
-url: http://www.kyletress.com
+url: https://tress.siteleaf.net
 timezone: America/New_York
 include: ['_pages']
 collections:
