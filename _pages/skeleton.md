@@ -1,6 +1,6 @@
 ---
 title: Skeleton
-layout: default
+layout: page
 permalink: /skeleton/
 ---
 

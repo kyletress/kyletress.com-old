@@ -1,6 +1,6 @@
 ---
 title: What I'm Doing Now
-layout: default
+layout: page
 permalink: /now/
 ---
 

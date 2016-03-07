@@ -1,7 +1,10 @@
 ---
 title: Favorite biographies
-permalink: /reading/biography
+permalink: /reading/biography/
+layout: page
 ---
+
+## Favorite biographies
 
 ==updated September 18^th, 2015==
 

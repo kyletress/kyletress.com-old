@@ -1,6 +1,10 @@
 ---
 title: The Setup
+layout: page
+permalink: /the-setup/
 ---
+
+==See the toolbox for a complete breakdown==
 
 I'm Kyle Tress, an Olympic skeleton athlete and software developer. I race headfirst down a mountain of ice at 90 miles per hour.
 

@@ -33,10 +33,12 @@
 .faqs{
   dt {
     margin-bottom:0;
+    font-weight:bold;
+    //font-family: $font-serif;
   }
   dd {
     margin-left:0;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     p {
       margin-top:0;
     }
@@ -131,9 +133,106 @@ img + em {
   @include border-radius(50%);
 }
 
+.headshot {
+  padding: .3rem;
+  border: 1px solid #ddd;
+  &:hover {
+    background: #ddd;
+  }
+}
+
 
 a[href*="www.twitter.com"]:hover { color: $color-twitter; }
 a[href*="tumblr.kyletress.com"]:hover { color: $color-tumblr; }
 a[href*="www.instagram.com"]:hover { color: $color-instagram; }
 a[href*="www.github.com"]:hover { color: $color-github; }
 a[href*="www.amazon.com"]:hover { color: $color-amazon; }
+
+.site-nav {
+  nav {
+    @include inline-navigation(.5rem);
+  }
+}
+
+.footnotes {
+  color: $color-muted;
+  font-size: 1.2rem;
+}
+
+.olympic-header {
+  height:.2rem;
+  width:100%;
+  background-image:
+  linear-gradient(
+    to right,
+    $olympic-blue,
+    $olympic-blue 20%,
+    $olympic-yellow 20%,
+    $olympic-yellow 40%,
+    $olympic-black 40%,
+    $olympic-black 60%,
+    $olympic-green 60%,
+    $olympic-green 80%,
+    $olympic-red 80%
+  );
+}
+
+.apple-header {
+  height:.2rem;
+  width:100%;
+  background-image:
+  linear-gradient(
+    to right,
+    $apple-green,
+    $apple-yellow 16.67%,
+    $apple-orange 33.33%,
+    $apple-red 50%,
+    $apple-purple 66.67%,
+    $apple-blue 83.34%
+  );
+}
+
+.newsletter {
+  background: #fafafa;
+  padding:2rem;
+  h3 {
+    font-size:1.6rem;
+    letter-spacing:0;
+    margin-bottom:1rem;
+  }
+  p {
+    color: $color-muted;
+  }
+}
+
+.subtitle {
+  color: #046b99;
+  text-transform: uppercase;
+  font-size:1.4rem;
+  letter-spacing: 1px;
+}
+
+.highlight {
+  font-size:1.4rem;
+  blockquote {
+    // font-style: normal;
+    color: $color-text;
+    border-left: none;
+    padding-left: 0;
+    font-weight: normal;
+    background: #fafafa;
+    padding: 2rem;
+  }
+}
+
+.amazon{
+  background: #5b616b;
+  color: white;
+  text-decoration: none;
+  border-radius: .3rem;
+  padding: .2rem .7rem;
+  &:hover {
+    background: $color-amazon;
+    color:white;
+  }
+}

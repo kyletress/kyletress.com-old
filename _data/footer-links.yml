@@ -1,4 +1,3 @@
-# Site navigation links
 - title: Home
   url: /
 
@@ -13,3 +12,12 @@
 
 - title: Projects
   url: /projects
+
+- title: Skeleton
+  url: /Skeleton
+
+- title: Newsletter
+  url: /newsletter
+
+- title: Faqs
+  url: /skeleton/faqs

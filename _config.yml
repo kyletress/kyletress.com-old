@@ -3,9 +3,14 @@ title: Kyle Tress
 description: The personal website of Olympic skeleton athlete Kyle Tress
 url: http://www.kyletress.com
 timezone: America/New_York
+include: ['_pages']
 collections:
   books:
     title: Books
+    output: true
+    layout: book
+  notes:
+    title: Notes
     output: true
   faqs:
     title: Skeleton Faqs
@@ -13,15 +18,19 @@ collections:
     title: Newsletters
     output: true
     permalink: "/newsletters/:title"
+    layout: newsletter
   uploads:
     title: Uploads
+    output: true
+  highlights:
+    title: Highlights
     output: true
 defaults:
 - scope:
     path: ''
     type: posts
   values:
-    layout: default
+    layout: post
     permalink: "/posts/:title/"
 - scope:
     path: ''
@@ -38,9 +47,9 @@ defaults:
     path: ''
     type: newsletters
   values:
-    layout: default
+    layout: newsletter
     permalink: "/newsletters/:title/"
-permalinks: pretty
+permalink: /:title/
 username: kyletress
 email: kyle@kyletress.com
 ga: UA-1619676-7

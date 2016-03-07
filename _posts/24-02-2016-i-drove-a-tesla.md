@@ -1,0 +1,27 @@
+---
+title: Test Driving a Tesla Model S
+subtitle: The car of the future is here, and it's incredible
+---
+
+I've been following news of the development of the Tesla Model 3 for a while. Since leasing my current car, a Chevy Equinox, I've realized I never want to drive a gasoline-powered car again. Not only because gas is volatile, but because it isn't the future. I think electric cars are the future, and they are here, perhaps not equally distributed.
+
+> The future is here. It's just not equally distributed.
+
+I intend to put $1000 down next month when the Tesla preorders open up. I might even drive down to my local Tesla store and do it in person to get a closer spot in line. But after having driven the Model S, I'm tempted to look more closely into that model instead.
+
+The Tesla dealership in Salt Lake City is just off Interstate 80. It was a rainy day, but we arrived 15 minutes early and immediatley got into the car. It's a beautiful car. The pictures on the internet don't really do it justice. You have to starnd in front of it to appreciate its sleek lines and aerodynamic profile. It's beatiful. When getting in, the craziest thing is the car is *silent*. When launching, particulary with ludicrous mode enabled, you hear the whine of the electric motors, but little else. The car is remarkable in its silence, and the acceleration is like being launched in a roller coaster.
+
+### Autopilot
+When I scheduled the test drive, Tesla sent me an email questionnaire. One of the questions was 'what most interests you about the Tesla Model S'?. The options included things like never buying gas again (check), the safety rating (yep), and autopilot. As a proponent of AI and the importance of its role in our future, I really wanted to select this option. But I needed to test it for myself first. So I selected the obstensible reason, never buying gas again, and waiting to see autopilot for myself. It didn't disappoint.
+
+Firstly, if it's your first time using it, be warned: it's *uncomfortable*. Every part of my reptilian brain was screaming "Danger! Take the wheel!", and it's hard to resist the urge to stay alive. But the car drives, by itself, with unbelievable accuracy and skill. It's incredible. Enablig autopilot is as simple as clicking forward twice on the cruise control. On the dash, directly in front of you, is a respresetation of the road ahead and the cars surrouding you. When the lane lines go grey, autopilot can be enabled. Although it's really only recommended for highway driving, I see several videos on YouTube of people using it on more rural (and city) roads. Anywhere there are clear lane markings, autopilot can be used.
+
+The autopilot adjusts its speed to keep itself an appropriate distance from the car in front of it, which is an adjustable setting. When you want to change lanes, you just turn on your indicator, and the car will change lanes if it's safe to do so, or wait until an appropriate time. It's pretty magical. It takes curves smoothly, and it gives audioble feedback if it's about to turn itself off. This only happened once during our test drive when the road was not well maintened, and the lane markings disapperaed. The autopilot beeped twice, and the Tesla employee who was driving at the time simply put his hands on the wheel and took over. As mentioned early It's important that the driver is not asleep at the wheel. You still ahve the responsiblily to monitor the system.
+
+Speaking of sleeping at the wheel, the car nudges you every few minutes to place your hands on the wheel regardless. It's a built in safety feature to make sure you really aren't asleep. You simply place your hands on the wheel, and the car detects the pressure and continues with autopilot. If you don't, it will notify you again, then switch off.
+
+### Parking
+The car can park itself, including backing into a spot between two cars. We tested this in a parking lot. The driving pulled perpendicular to the open spot, enabled the autopark feature, and the Model S backed in without any trouble.
+
+### Implications
+Tesla is careful to call this 'autopilot' and not 'autonomous driving'. While the car does indeed drive itself, it is meant to be monitoring (closely) at all times. Elon Musk likens it to an airplane. Though autopilot might be responsible for a large portion of your flight, there is always a pilot in command, monitoring the aircraft.
