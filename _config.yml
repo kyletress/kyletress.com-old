@@ -1,29 +1,31 @@
 ---
 title: Kyle Tress
-description: The personal website of Olympic skeleton athlete Kyle Tress
-url: https://tress.siteleaf.net
+url: http://tress.siteleaf.net
 timezone: America/New_York
-include: ['_pages']
 collections:
   books:
     title: Books
     output: true
     layout: book
-  notes:
-    title: Notes
+  highlights:
+    title: Highlights
     output: true
-  faqs:
-    title: Skeleton Faqs
   newsletters:
     title: Newsletters
     output: true
     permalink: "/newsletters/:title"
     layout: newsletter
+  notes:
+    title: Notes
+    output: true
+  posts:
+    title: Posts
+    output: true
+  faqs:
+    title: Skeleton Faqs
+    output: false
   uploads:
     title: Uploads
-    output: true
-  highlights:
-    title: Highlights
     output: true
 defaults:
 - scope:
@@ -49,7 +51,10 @@ defaults:
   values:
     layout: newsletter
     permalink: "/newsletters/:title/"
-permalink: /:title/
+description: The personal website of Olympic skeleton athlete Kyle Tress
+include:
+- _pages
+permalink: "/:title/"
 username: kyletress
 email: kyle@kyletress.com
 ga: UA-1619676-7

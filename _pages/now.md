@@ -1,7 +1,7 @@
 ---
 title: What I'm Doing Now
+permalink: "/now/"
 layout: page
-permalink: /now/
 ---
 
 After 13 seasons of skeleton, [I'm taking a much-needed break from competition](http://go.teamusa.org/1MRhE2r). This season I'll be coaching, testing new equipment, and preparing for next year.  

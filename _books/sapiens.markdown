@@ -1,6 +1,6 @@
 ---
 title: Sapiens
-date: 2015-05-24 04:40:00 Z
+date: 2015-05-24 00:40:00 -04:00
 link: http://amzn.to/1KwxjQO
 authors: Yuval Noah Hasari
 rating: '4'

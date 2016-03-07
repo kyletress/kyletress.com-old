@@ -1,6 +1,6 @@
 ---
 title: Favorite biographies
-permalink: /reading/biography/
+permalink: "/reading/biography/"
 layout: page
 ---
 

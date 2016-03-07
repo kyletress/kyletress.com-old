@@ -1,6 +1,6 @@
 ---
 title: Archive
-permalink: /archive/
+permalink: "/archive/"
 ---
 
 ## Archive

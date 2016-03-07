@@ -1,7 +1,7 @@
 ---
 title: Presidential Reading List
+permalink: "/reading/presidents/"
 layout: page
-permalink: /reading/presidents/
 ---
 
 ## Presidential Reading List
