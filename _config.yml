@@ -63,16 +63,5 @@ typekit_id: oia2txu
 youtube: jktress
 sass:
   style: compressed
-markdown: redcarpet
-redcarpet:
-  extensions:
-  - autolink
-  - fenced_code_blocks
-  - lax_spacing
-  - strikethrough
-  - superscript
-  - tables
-  - footnotes
-  - highlight
 gems:
   - jekyll-coffeescript
