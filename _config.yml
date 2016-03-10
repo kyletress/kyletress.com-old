@@ -74,3 +74,5 @@ redcarpet:
   - tables
   - footnotes
   - highlight
+gems:
+  - jekyll-coffeescript

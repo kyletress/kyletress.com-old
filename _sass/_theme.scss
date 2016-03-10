@@ -136,8 +136,10 @@ img + em {
 .headshot {
   padding: .3rem;
   border: 1px solid #ddd;
+  transition: all 0.1s ease;
   &:hover {
     background: #ddd;
+    transform: rotate(7deg);
   }
 }
 

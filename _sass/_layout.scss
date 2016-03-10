@@ -1,3 +1,15 @@
+// sticker footer
+body {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  -webkit-flex: 1;
+}
+
 .container {
   margin: 0 auto;
   width: 90%;
@@ -7,37 +19,7 @@
   }
 }
 
-.site-navigation {
-  @include flexbox;
-  @include inline-navigation(1rem);
-  text-transform: uppercase;
-  //margin-bottom: .5rem;
-  background: $us-blue;
-  //padding: .9rem;
-  width: 100%;
-  ul {
-    width:700px;
-    max-width: 700px;
-    margin: 0 auto;
-    li {
-      padding: .9rem 1.2rem;
-      &:hover {
-        background: darken($us-blue, 3%);
-      }
-    }
-    li.twitter a {
-      color: $color-twitter;
-    }
-  }
-  a {
-    color:white;
-    text-transform: uppercase;
-    font-size: 1.3rem;
-    text-decoration: none;
-  }
-}
-
-.navbar {
+.masthead {
   background: #fafafa;
   text-align:center;
   font-size:1.4rem;
