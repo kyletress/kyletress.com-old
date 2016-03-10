@@ -20,7 +20,7 @@ main {
 }
 
 .masthead {
-  background: #fafafa;
+  background: #f1f1f1;
   text-align:center;
   font-size:1.4rem;
   margin-bottom: 2rem;
@@ -29,7 +29,7 @@ main {
     text-align:center;
     margin: 0 auto;
     padding: 1.6rem 0;
-    @media (min-width: $md) {
+    @media (min-width: 768px) {
       padding:3rem 0;
       width: 700px;
       text-align:left;
@@ -37,7 +37,7 @@ main {
       @include align-items(flex-start);
     }
     img {
-      @media (min-width: 600px) {
+      @media (min-width: 768px) {
         margin-right:1rem;
       }
     }
