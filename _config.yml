@@ -61,7 +61,12 @@ ga: UA-1619676-7
 quote: Mens sana in corpore sano
 typekit_id: oia2txu
 youtube: jktress
+markdown: kramdown
+highlighter: rouge
 sass:
   style: compressed
 gems:
   - jekyll-coffeescript
+assets:
+  autoprefixer:
+    browsers: ["last 2 versions","> 5%","IE 9"]

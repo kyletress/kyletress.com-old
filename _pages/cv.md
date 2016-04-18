@@ -30,10 +30,11 @@ layout: default
 * Multiple international medals (North American Cup, Europa Cup, Intercontinental Cup).
 
 ## Personal Projects
-#### [Sledsheet.com](http://www.sledsheet.com)
+
+#### Sledsheet ([www.sledsheet.com](http://www.sledsheet.com))
 * A Ruby on Rails application for skeleton athletes and their fans. It's a race database, data visualization and analysis tool, and a new way for athletes to connect with their fans.  
 
-### GridKings
+#### GridKings
 * A Ruby on Rails fantasy formula one game, sold in 2011.
 
 ## Skills

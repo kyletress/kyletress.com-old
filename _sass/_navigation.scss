@@ -21,6 +21,7 @@ $button-transistion-duration: 0.1s;
     list-style: none;
     padding-left: 0;
     margin: 0;
+    text-align: center;
     @media(min-width: 768px) {
       position: relative;
       display: -webkit-flex;
@@ -61,39 +62,6 @@ $button-transistion-duration: 0.1s;
     }
   }
 }
-
-//.site-navigation ul.is-active {display:block;}
-
-// .site-navigation {
-//   @include flexbox;
-//   @include inline-navigation(1rem);
-//   text-transform: uppercase;
-//   //margin-bottom: .5rem;
-//   background: $us-blue;
-//   width: 100%;
-//   ul {
-//     display:none;
-//     @media(min-width:768px) {display:block;}
-//     width:700px;
-//     max-width: 700px;
-//     margin: 0 auto;
-//     li {
-//       padding: .9rem 1.2rem;
-//       &:hover {
-//         background: darken($us-blue, 3%);
-//       }
-//     }
-//     li.twitter a {
-//       color: $color-twitter;
-//     }
-//   }
-//   a {
-//     color:white;
-//     text-transform: uppercase;
-//     font-size: 1.3rem;
-//     text-decoration: none;
-//   }
-// }
 
 .hamburger {
   background: inherit;
