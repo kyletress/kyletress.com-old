@@ -4,12 +4,12 @@ permalink: "/now/"
 layout: page
 ---
 
-After 13 seasons of skeleton, [I'm taking a much-needed break from competition](http://go.teamusa.org/1MRhE2r). This season I'll be coaching, testing new equipment, and preparing for next year.  
+At the moment, I am:
 
-At the moment, the rest of my time is devoted to:
+- Moving across the country. 
 - Training for the 2018 Winter Olympic Games.
 - Working for [Instaviser.com](http://www.instaviser.com).
-- Personal programming projects like [sledsheet.com](http://www.sledsheet.com).
+- Building [sledsheet.com](http://www.sledsheet.com).
 - Chairing the Athlete Advisory Council of the USABS.
 - Reading and recommending books.
 

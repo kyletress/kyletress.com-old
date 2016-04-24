@@ -1,12 +1,5 @@
-<div class="apple-header"></div>
-<nav class="site-navigation">
-  <button class="hamburger">
-    <span>Menu</span>
-  </button>
-  <ul class="topnav">
-    {% for nav_item in site.data.navigation %}
-    <li><a href="{{nav_item.url}}">{{nav_item.title}}</a></li>
-    {% endfor %}
-    <li class="twitter"><a href="https://www.twitter.com/{{site.data.author.twitter}}">@{{site.data.author.twitter}}</a></li>
-  </ul>
-</nav>
+<header>
+  <h1 class="brand">Kyle Tress</h1>
+  <p>Olympic athlete and software developer.</p>
+  <p><a href="mailto:kyle@kyletress.com">kyle@kyletress.com</a> &bull; <a href="https://www.twitter.com/kyletress">@kyletress</a></p>
+</header>

@@ -2,19 +2,10 @@
 <html lang="en">
 {% include head.html %}
 <body class="site">
-  {% include header.html %}
-  {% include masthead.html %}
   <main class="container">
+    {% include header.html %}
     {{ content }}
-    <i class="fa fa-facebook" aria-hidden="true"></i>
-    <i class="fa fa-instagram" aria-hidden="true"></i>
-    <i class="fa fa-github" aria-hidden="true"></i>
-    <i class="fa fa-twitter" aria-hidden="true"></i>
-
-
-
+    {% include footer.html %}
   </main>
-  {% include footer.html %}
-  <script src="/js/master.js"></script>
 </body>
 </html>
