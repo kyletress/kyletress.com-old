@@ -3,7 +3,8 @@ title: Home
 layout: page
 ---
 
-I'm an Olympic athlete in the sport of [skeleton](/skeleton). When I'm not racing headfirst down a mountain of ice at 90 miles per hour, I like to read, write, and code. This website is a experiment in [minimal personal web design]().
+
+I'm an Olympic athlete in the sport of [skeleton](/skeleton), a software developer at [Instaviser](http://www.instaviser.com), and an avid reader. This is my personal website and an experiment in minimalism.
 
 ### Start here
 

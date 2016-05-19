@@ -36,8 +36,8 @@ $us-blue: #112e51;
 $us-red: #e31c3d;
 
 // Fonts
-$font-size: 1.6em; // prevent rem bug on body in Chrome
-$font-serif: "Source Serif Pro", "Merriweather", Georgia, serif;
+$font-size: 1.4em; // prevent rem bug on body in Chrome
+$font-serif: Courier, "Source Serif Pro", "Merriweather", Georgia, serif;
 $font-sans: "Source Sans Pro", "Helvetica Neue", sans-serif;
 $font-code: "source-code-pro", "Courier New", monospace;
 $line-height: 1.6;
@@ -56,7 +56,7 @@ $font-weight-header: $font-weight-bold;
 
 // Container
 $container-width: 90%;
-$container-max-width: 700px;
+$container-max-width: 650px;
 $container-hd-max-width: 950px;
 
 // Font Sizing

@@ -62,6 +62,8 @@ quote: Mens sana in corpore sano
 typekit_id: oia2txu
 youtube: jktress
 markdown: kramdown
+kramdown:
+  parse_block_html: true
 highlighter: rouge
 sass:
   style: compressed
