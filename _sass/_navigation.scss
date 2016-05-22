@@ -2,6 +2,7 @@ header {
   .brand {
     color: black;
     font-weight: bold;
+    font-family: $font-serif;
   }
   p {
     margin-bottom: 0;
@@ -14,5 +15,12 @@ header {
 nav {
   a {
     margin-right: .5rem;
+  }
+}
+
+.site-nav {
+  font-family: $font-serif;
+  a {
+    text-decoration: none;
   }
 }
