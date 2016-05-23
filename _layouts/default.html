@@ -1,20 +1,15 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="description" content="{{site.meta.description}}">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ site.title }} - {{ current.title }}</title>
-  <link rel="icon" href="/favicon.ico" type="image/ico">
-  <link rel="stylesheet" href="/css/master.css">
-  {% include 'includes/typekit' %}
-</head>
+{% include head.html %}
 <body>
-  <div class="recommended">Looking for a good book? <a href="/newsletter">Here are some recommendations</a></div>
+  <div class="container">
+    {% include header.html %}
+  </div>
   <main class="container">
-    {% include 'includes/header' %}
-    {{content}}
+    {{ content }}
   </main>
-  {% include 'includes/footer' %}
+  <div class="container">
+    {% include footer.html %}
+  </div>
 </body>
 </html>

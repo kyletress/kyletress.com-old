@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<header>
+  <h2>{{ page.title }}</h2>
+  {% if page.subtitle %}
+    <h2>{{ page.subtitle }}</h2>
+  {% endif %}
+  {% if page.authors %}
+    <p class"meta">{{ page.authors }}</p>
+  {% endif %}
+  {% if page.amazon %}
+    <a href="{{ page.amazon }}" class="amazon">Buy on Amazon</a>
+  {% endif %}
+</header>
+
+{{ content }}
+
+<h3>Highlights</h3>
+{% assign book = page %}
+{% assign highlights = site.highlights | where:"book", book.title %}
+
+{% assign sorted_highlights = highlights %}
+<div class="book">
+  {% for highlight in sorted_highlights %}
+  <article class="highlight">
+    <blockquote>
+      {{ highlight.content }}
+    </blockquote>
+    {% if highlight.comment %}
+      {{ highlight.comment }}
+    {% endif %}
+    {% if highlight.tags %}
+      {% for tag in highlight.tags %}
+        <a href="{{tag.url}}">{{ tag }}</a>
+      {% endfor %}
+    {% endif %}
+  </article>
+  {% endfor %}
+</div>

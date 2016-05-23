@@ -1,0 +1,74 @@
+---
+title: Kyle Tress
+url: http://tress.siteleaf.net
+timezone: America/New_York
+collections:
+  books:
+    title: Books
+    output: true
+    layout: book
+  highlights:
+    title: Highlights
+    output: true
+  newsletters:
+    title: Newsletters
+    output: true
+    permalink: "/newsletters/:title"
+    layout: newsletter
+  notes:
+    title: Notes
+    output: true
+  posts:
+    title: Posts
+    output: true
+  faqs:
+    title: Skeleton Faqs
+    output: false
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: default
+- scope:
+    path: ''
+    type: books
+  values:
+    layout: book
+    permalink: "/reading/:title"
+- scope:
+    path: ''
+    type: newsletters
+  values:
+    layout: newsletter
+    permalink: "/newsletters/:title/"
+description: The personal website of Olympic skeleton athlete Kyle Tress
+include:
+- _pages
+permalink: "/:title/"
+username: kyletress
+email: kyle@kyletress.com
+ga: UA-1619676-7
+quote: Mens sana in corpore sano
+typekit_id: oia2txu
+youtube: jktress
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+highlighter: rouge
+sass:
+  style: compressed
+gems:
+  - jekyll-coffeescript
+assets:
+  autoprefixer:
+    browsers: ["last 2 versions","> 5%","IE 9"]

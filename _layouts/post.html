@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<div class="page">
+  <h2>{{page.title}}</h2>
+  {% if page.subtitle %}<p class="subtitle">{{ page.subtitle }}</p>{% endif %}
+  {{ content }}
+</div>
+
+{% include newsletter.html %}

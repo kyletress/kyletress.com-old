@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{% assign books_by_year = site.books | group_by: "year" %}
+
+<section class="reading-list">
+<h1>What I'm Reading</h1>
+{% for year in books_by_year %}
+  <h2>{{ year.name }}</h2>
+  <ul>
+    {% for book in year.items %}
+    <li><em><a href="{{book.meta.link}}">{{book.title}}</a></em> by {{book.meta.authors}} {% include rating.html %}</li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+</section>

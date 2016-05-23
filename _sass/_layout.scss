@@ -1,0 +1,62 @@
+// sticker footer
+
+main {
+  flex: 1;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  @media(min-width: $breakpoint) {
+    max-width:$container-max-width;
+    width: 100%;
+  }
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: $font-serif;
+  font-size: 1.2rem;
+  //margin-bottom: 4rem;
+  color: $color-muted;
+  padding: 4rem 0;
+  img {
+    margin-right: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    @media(min-width: $breakpoint) {
+      margin-bottom: 0;
+    }
+  }
+  div {
+    flex: 1;
+  }
+  p {
+    margin: 0 0 .5rem 0;
+  }
+  @media(min-width: $breakpoint) {
+    flex-direction: row;
+    text-align: left;
+  }
+}
+
+footer {
+  padding: 4rem 0;
+  font-size: 1.2rem;
+  color: $color-muted;
+  p {
+    margin: 0;
+  }
+}
+
+nav a {
+  margin-right: .2rem;
+  color: black;
+}
+
+.brand {
+  font-weight: bold;
+}

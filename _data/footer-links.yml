@@ -1,0 +1,23 @@
+- title: Home
+  url: /
+
+- title: About
+  url: /about
+
+- title: Writing
+  url: /writing
+
+- title: Reading
+  url: /reading
+
+- title: Projects
+  url: /projects
+
+- title: Skeleton
+  url: /Skeleton
+
+- title: Newsletter
+  url: /newsletter
+
+- title: Faqs
+  url: /skeleton/faqs

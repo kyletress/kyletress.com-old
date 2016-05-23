@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<ul>
+  {% for newsletter in site.newsletters %}
+  <li><a href="{{newsletter.url}}">{{newsletter.title}}</a></li>
+  {% endfor %}
+</ul>
