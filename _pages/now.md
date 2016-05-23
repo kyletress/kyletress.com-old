@@ -6,7 +6,7 @@ layout: page
 
 At the moment, I am:
 
-- Moving across the country. 
+- ~~Moving across the country~~. 
 - Training for the 2018 Winter Olympic Games.
 - Working for [Instaviser.com](http://www.instaviser.com).
 - Building [sledsheet.com](http://www.sledsheet.com).

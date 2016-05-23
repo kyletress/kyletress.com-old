@@ -1,69 +1,62 @@
 // sticker footer
-body {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: column;
-  min-height: 100vh;
-}
 
 main {
-  -webkit-flex: 1;
+  flex: 1;
 }
 
 .container {
-  margin: 7.5%;
+  margin: 0 auto;
   padding-top: 43px;
   width: 90%;
-  @media(min-width: $md) {
-    max-width:600px;
+  @media(min-width: $breakpoint) {
+    max-width:$container-max-width;
+    width: 100%;
   }
 }
 
-.masthead {
-  text-align:center;
-  font-size:1.4rem;
-  margin-bottom: 2rem;
-  .inner {
-    width:100%;
-    text-align:center;
-    margin: 0 auto;
-    padding: 0;
-    @media (min-width: 768px) {
-      padding:3rem 0;
-      width: 700px;
-      text-align:left;
-      @include flexbox;
-      @include align-items(flex-start);
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: $font-serif;
+  font-size: 1.2rem;
+  margin-bottom: 4rem;
+  color: $color-muted;
+  img {
+    margin-right: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    @media(min-width: $breakpoint) {
+      margin-bottom: 0;
     }
-    img {
-      @media (min-width: 768px) {
-        margin-right:1rem;
-      }
-    }
-    p {
-      -webkit-flex: 1;
-      flex: 1;
-      margin:0;
-      -webkit-align-self:center;
-      align-self:center;
-      color: $color-muted;
-    }
+  }
+  div {
+    flex: 1;
+  }
+  p {
+    margin: 0 0 .5rem 0;
+  }
+  @media(min-width: $breakpoint) {
+    flex-direction: row;
+    text-align: left;
   }
 }
 
-footer[role="site-footer"] {
-  padding:3rem 0;
-  margin-top:4rem;
-  color:$color-muted;
-  border-top: 1px solid #f1f1f1;
-  nav {
-    @include inline-navigation(.3rem);
+footer {
+  padding: 2rem 0 5rem 0;
+  font-size: 1.2rem;
+  color: $color-muted;
+  p {
+    margin: 0;
   }
-  p {margin: 0;}
-  a {
-    color: #5b616b;
-    &:hover {
-      color:darken(#5b616b, 25%);
-    }
-  }
+}
+
+nav a {
+  margin-right: .2rem;
+  color: black;
+}
+
+.brand {
+  font-weight: bold;
 }

@@ -1,10 +1,8 @@
-<footer role="site-footer">
+<footer>
   <nav>
-    <ul>
       {% for nav_item in site.data.footer-links %}
-      <li><a href="{{nav_item.url}}">{{nav_item.title}}</a></li>
+        <a href="{{nav_item.url}}">{{nav_item.title}}</a>
       {% endfor %}
-    </ul>
   </nav>
     <p>&copy; 2007 &mdash; {{ site.time | date: '%Y' }}, {{site.data.author.name}}. {{ site.quote }}. Jekyll + GitHub Pages.</p>
 </footer>

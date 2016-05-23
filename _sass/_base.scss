@@ -2,19 +2,21 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
 }
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 body {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   color: $color-text;
-  font-family: $font-family-text;
+  font-family: $font-serif;
   font-size: $font-size;
-  font-weight: $font-weight-body;
+  font-weight: normal;
   line-height: $line-height;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
+  min-height: 100vh;
 }
 
 img {
@@ -22,4 +24,25 @@ img {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: $font-serif;
+	color: $color-headings;
+  letter-spacing: -1px;
+}
+
+a {
+  color: $color-links;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 0;
 }

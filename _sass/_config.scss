@@ -1,43 +1,23 @@
 // Colors
-$color-background: #ffffff;
 $color-headings: #212121;
 $color-text: #323a45;
 $color-accent:#369; // #cd3e01
+$color-links: $color-accent;
 
-$color-muted: #aeb0b5;
+$color-muted: #999;
 $color-subtle: lighten($color-text, 64%); // #ededed
 
 // Social Colors
-$color-youtube: #b31217;
-$color-instagram: #3f729b;
-$color-github: #4183c4;
 $color-twitter: #55acee;
-$color-tumblr: #35465c;
 $color-amazon: #ff9900;
-
-// Olympic colors
-$olympic-blue: #0885C2;
-$olympic-red: #ED334E;
-$olympic-yellow: #FBB132;
-$olympic-green: #1C8B3C;
-$olympic-black: #1a1a1a;
-
-// Apple colors
-
-$apple-green: #4BCB50;
-$apple-yellow:#FFC500;
-$apple-orange:#F58900;
-$apple-red:#FC383B;
-$apple-purple:#B740AD;
-$apple-blue:#00AFEB;
 
 // American colors
 $us-blue: #112e51;
 $us-red: #e31c3d;
 
 // Fonts
-$font-size: 1.4em; // prevent rem bug on body in Chrome
-$font-serif: "Source Serif Pro", "Merriweather", Georgia, serif;
+$font-size: 1.5em; // prevent rem bug on body in Chrome
+$font-serif: "Source Serif Pro", Georgia, serif;
 $font-sans: "Source Sans Pro", "Helvetica Neue", sans-serif;
 $font-code: "source-code-pro", "Courier New", monospace;
 $line-height: 1.6;
@@ -46,28 +26,11 @@ $font-family-text: $font-sans;
 $font-family-headings: $font-serif;
 $font-family-code: $font-code;
 
-$font-weight-light: 300;
-$font-weight-normal: 400;
-$font-weight-medium: 500;
-$font-weight-semi-bold: 600;
-$font-weight-bold: 700;
-$font-weight-body: $font-weight-normal;
-$font-weight-header: $font-weight-bold;
-
 // Container
 $container-width: 90%;
-$container-max-width: 650px;
+$container-max-width: 700px;
 $container-hd-max-width: 950px;
 
-// Font Sizing
-$base-font-size: 1.6rem;
 
-// Breakpoints
-$xs: 40rem;
-$sm: 60rem;
-$md: 75rem;
-$bp-mobile: 400px;
-$bp-phablet: 600px;
-$bp-tablet: 750px;
-$bp-desktop: 1000px;
-$bp-hd: 1200px;
+// Breakpoint
+$breakpoint: 75rem;

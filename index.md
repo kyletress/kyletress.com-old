@@ -3,9 +3,6 @@ title: Home
 layout: page
 ---
 
-
-I'm an Olympic athlete in the sport of [skeleton](/skeleton), a software developer at [Instaviser](http://www.instaviser.com), and an avid reader. This is my personal website and an experiment in minimalism.
-
 ### Start here
 
 - [What I'm doing now](/now) (priorities, common questions, etc.)
@@ -27,10 +24,3 @@ I'm an Olympic athlete in the sport of [skeleton](/skeleton), a software develop
 - [@kyletress on Twitter](http://www.twitter.com/kyletress)
 - [kyletress on Instagram](http://www.instagram.com/kyletress)
 - [Sledsheet](http://www.sledsheet.com/athletes/1) (skeleton results)
-
-
-<ul>
-{% for page in site.pages %}
-<li>{{ page.title }}</li>
-{% endfor %}
-</ul>
