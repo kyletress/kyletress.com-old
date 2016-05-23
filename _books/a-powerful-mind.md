@@ -1,13 +1,13 @@
 ---
 title: A Powerful Mind
-subtitle: The Self-Education of George Washington
-date: 2016-04-16
+date: 2016-04-16 00:00:00 -04:00
 tags:
 - books
 - reading
 - presidents
 - George Washington
-link:
+subtitle: The Self-Education of George Washington
+link: 
 authors:
 - Adrienne Harrison
 rating: '4'

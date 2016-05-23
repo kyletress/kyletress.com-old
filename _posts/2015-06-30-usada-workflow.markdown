@@ -8,9 +8,7 @@ tags:
 - workflow
 - apps
 - ios
-summary:
-category:
-- technology
+summary: 
 ---
 
 As an Olympian, I'm subject to frequent random drug testing by the [United States Anti-Doping Administration](http://www.usada.org). I'm in the *International Testing Pool*, which means I'm required to provide USADA with a daily 60-minute time slot. Though technically I can be tested at any time, I *must* be at my designated location during this 60-minute window or I'll receive a missed test. Three missed tests in a 12-month period could result in a ban, so it's important that I'm diligent with my updates. The problem is I'm not always diligent, and I imagine other athletes aren't either.

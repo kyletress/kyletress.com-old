@@ -5,7 +5,7 @@ tags:
 - philosophy
 - stoicism
 subtitle: A New Translation
-link:
+link: 
 rating: '5'
 authors: Marcus Aurelius, Translation by Gregory Hays
 Author:

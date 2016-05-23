@@ -3,7 +3,6 @@ title: Russia owes me an Olympic skeleton run
 date: 2016-05-22 00:00:00 -04:00
 categories:
 - skeleton
-category: skeleton
 ---
 
 If the doping allegations against Russia prove true, they owe me an Olympic skeleton run. I consider myself lucky. They owe my teammates much more.

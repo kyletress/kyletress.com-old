@@ -1,6 +1,5 @@
 ---
 title: Kyle Tress
-url: http://tress.siteleaf.net
 timezone: America/New_York
 collections:
   books:
@@ -51,6 +50,7 @@ defaults:
   values:
     layout: newsletter
     permalink: "/newsletters/:title/"
+url: http://tress.siteleaf.net
 description: The personal website of Olympic skeleton athlete Kyle Tress
 include:
 - _pages
@@ -68,7 +68,10 @@ highlighter: rouge
 sass:
   style: compressed
 gems:
-  - jekyll-coffeescript
+- jekyll-coffeescript
 assets:
   autoprefixer:
-    browsers: ["last 2 versions","> 5%","IE 9"]
+    browsers:
+    - last 2 versions
+    - "> 5%"
+    - IE 9
