@@ -6,7 +6,6 @@ main {
 
 .container {
   margin: 0 auto;
-  padding-top: 43px;
   width: 90%;
   @media(min-width: $breakpoint) {
     max-width:$container-max-width;
@@ -21,8 +20,9 @@ header {
   text-align: center;
   font-family: $font-serif;
   font-size: 1.2rem;
-  margin-bottom: 4rem;
+  //margin-bottom: 4rem;
   color: $color-muted;
+  padding: 4rem 0;
   img {
     margin-right: 1rem;
     border-radius: 4px;
@@ -44,7 +44,7 @@ header {
 }
 
 footer {
-  padding: 2rem 0 5rem 0;
+  padding: 4rem 0;
   font-size: 1.2rem;
   color: $color-muted;
   p {
