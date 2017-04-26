@@ -2,7 +2,6 @@ kyletress.com
 =============
 
 The source code for my personal website [kyletress.com](http://www.kyletress.com).
->>>>>>> redesign2
 
 ### Inspiraton
 * [Derek Sivers](http://www.sivers.org)
